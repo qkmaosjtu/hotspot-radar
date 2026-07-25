@@ -10,7 +10,7 @@
     <meta name="theme-color" content="#f5f5f7" />
     <title>热点雷达 · 每日视频选题</title>
     <link rel="icon" href="./assets/shu-boshi.png" />
-    <link rel="stylesheet" href="./styles.css?v=20260725-3" />
+    <link rel="stylesheet" href="./styles.css?v=20260725-4" />
   </head>
   <body>
     <svg class="icon-sprite" aria-hidden="true">
@@ -55,16 +55,23 @@
           <button class="nav-item" data-jump="topics">创作精选</button>
         </nav>
 
-        <div class="update-meta">
-          <span class="status-dot" id="globalStatusDot"></span>
-          <span>
-            <small>数据更新时间</small>
-            <strong id="updatedAt">正在读取</strong>
-          </span>
-          <button class="icon-button" id="refreshButton" type="button" title="重新读取每日数据">
-            <svg><use href="#icon-refresh"></use></svg>
-            <span class="sr-only">刷新数据</span>
+        <div class="topbar-actions">
+          <button class="support-button" id="supportButton" type="button">
+            <span class="support-label-full">支持维护</span>
+            <span class="support-label-short">支持</span>
           </button>
+
+          <div class="update-meta">
+            <span class="status-dot" id="globalStatusDot"></span>
+            <span>
+              <small>数据更新时间</small>
+              <strong id="updatedAt">正在读取</strong>
+            </span>
+            <button class="icon-button" id="refreshButton" type="button" title="重新读取每日数据">
+              <svg><use href="#icon-refresh"></use></svg>
+              <span class="sr-only">刷新数据</span>
+            </button>
+          </div>
         </div>
       </header>
 
@@ -202,7 +209,34 @@
       <div class="dialog-body" id="dialogBody"></div>
     </dialog>
 
+    <dialog class="support-dialog" id="supportDialog" aria-labelledby="supportTitle">
+      <div class="dialog-header">
+        <div>
+          <p class="eyebrow">SUPPORT MAINTENANCE</p>
+          <h2 id="supportTitle">支持热点雷达持续维护</h2>
+        </div>
+        <button class="icon-button" id="closeSupportButton" type="button" title="关闭">
+          <svg><use href="#icon-x"></use></svg>
+          <span class="sr-only">关闭</span>
+        </button>
+      </div>
+      <div class="support-body">
+        <p>赞助将用于服务器、数据整理与功能维护。感谢你的自愿支持。</p>
+        <figure>
+          <img
+            src="./assets/support-alipay.png"
+            alt="支付宝赞助二维码"
+            width="1182"
+            height="1772"
+            loading="lazy"
+            decoding="async"
+          />
+        </figure>
+        <small>请使用支付宝扫码，支付前确认收款信息。</small>
+      </div>
+    </dialog>
+
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
-    <script type="module" src="./app.js?v=20260725-3"></script>
+    <script type="module" src="./app.js?v=20260725-4"></script>
   </body>
 </html>

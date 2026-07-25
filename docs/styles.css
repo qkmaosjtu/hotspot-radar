@@ -173,6 +173,33 @@ svg {
   color: var(--mint);
 }
 
+.topbar-actions {
+  display: flex;
+  align-items: center;
+  justify-self: end;
+  gap: 18px;
+}
+
+.support-button {
+  min-width: 104px;
+  min-height: 36px;
+  padding: 0 16px;
+  border: 1px solid var(--mint);
+  border-radius: 4px;
+  background: var(--bg-elevated);
+  color: var(--mint);
+  font-size: 12px;
+  font-weight: 750;
+}
+
+.support-button:hover {
+  background: var(--panel-strong);
+}
+
+.support-label-short {
+  display: none;
+}
+
 .update-meta {
   display: flex;
   align-items: center;
@@ -926,6 +953,45 @@ dialog::backdrop {
   overflow-y: auto;
 }
 
+.support-dialog {
+  width: min(440px, calc(100% - 28px));
+}
+
+.support-body {
+  display: grid;
+  max-height: calc(100vh - 150px);
+  gap: 14px;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.support-body p {
+  margin: 0;
+  color: var(--text-2);
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+.support-body figure {
+  width: min(100%, 350px);
+  margin: 0;
+  justify-self: center;
+  border: 1px solid var(--line);
+  background: #ffffff;
+}
+
+.support-body img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.support-body small {
+  color: var(--text-3);
+  font-size: 11px;
+  text-align: center;
+}
+
 .detail-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1100,6 +1166,27 @@ dialog::backdrop {
 
   .brand-copy small {
     display: none;
+  }
+
+  .topbar-actions {
+    gap: 8px;
+  }
+
+  .support-button {
+    min-width: 48px;
+    padding: 0 10px;
+  }
+
+  .support-label-full {
+    display: none;
+  }
+
+  .support-label-short {
+    display: inline;
+  }
+
+  .update-meta {
+    gap: 6px;
   }
 
   .update-meta > span:not(.status-dot) {

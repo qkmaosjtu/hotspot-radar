@@ -57,6 +57,9 @@ const elements = {
   dialogTitle: document.querySelector("#dialogTitle"),
   dialogBody: document.querySelector("#dialogBody"),
   closeDialogButton: document.querySelector("#closeDialogButton"),
+  supportButton: document.querySelector("#supportButton"),
+  supportDialog: document.querySelector("#supportDialog"),
+  closeSupportButton: document.querySelector("#closeSupportButton"),
   footerMeta: document.querySelector("#footerMeta"),
   toast: document.querySelector("#toast"),
 };
@@ -570,6 +573,8 @@ function bindEvents() {
   });
 
   elements.closeDialogButton.addEventListener("click", () => elements.topicDialog.close());
+  elements.supportButton.addEventListener("click", () => elements.supportDialog.showModal());
+  elements.closeSupportButton.addEventListener("click", () => elements.supportDialog.close());
 
   document.querySelectorAll("[data-jump]").forEach((button) => {
     button.addEventListener("click", () => {
@@ -580,8 +585,10 @@ function bindEvents() {
     });
   });
 
-  elements.topicDialog.addEventListener("click", (event) => {
-    if (event.target === elements.topicDialog) elements.topicDialog.close();
+  [elements.topicDialog, elements.supportDialog].forEach((dialog) => {
+    dialog.addEventListener("click", (event) => {
+      if (event.target === dialog) dialog.close();
+    });
   });
 }
 
