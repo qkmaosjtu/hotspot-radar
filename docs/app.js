@@ -48,9 +48,6 @@ const elements = {
   reportDate: document.querySelector("#reportDate"),
   globalStatusDot: document.querySelector("#globalStatusDot"),
   refreshButton: document.querySelector("#refreshButton"),
-  trendLegend: document.querySelector("#trendLegend"),
-  trendChart: document.querySelector("#trendChart"),
-  chartAxis: document.querySelector("#chartAxis"),
   sourceList: document.querySelector("#sourceList"),
   rawPlatformTabs: document.querySelector("#rawPlatformTabs"),
   rawSearch: document.querySelector("#rawSearch"),
@@ -211,12 +208,9 @@ function renderAll() {
   renderHeader();
   renderRawHotlist();
   renderSources();
-  renderLegend();
-  renderChartAxis();
   renderCategories();
   renderTopics();
   renderAssistantMode();
-  drawTrendChart();
 }
 
 function renderHeader() {
@@ -394,96 +388,6 @@ function renderRawHotlist() {
       `;
     })
     .join("");
-}
-
-function renderLegend() {
-  const ids = Object.keys(state.data.trendHistory.series);
-  elements.trendLegend.innerHTML = ids
-    .map((id) => {
-      const meta = PLATFORM_META[id] || {name: id, color: "#92959f"};
-      return `
-        <span class="legend-item">
-          <i class="legend-swatch" style="--legend-color:${meta.color}"></i>
-          ${escapeHtml(meta.name)}
-        </span>
-      `;
-    })
-    .join("");
-}
-
-function renderChartAxis() {
-  const times = state.data.trendHistory.times;
-  elements.chartAxis.classList.toggle("is-single-point", times.length === 1);
-  elements.chartAxis.innerHTML =
-    times.length === 1
-      ? `<span class="axis-note">首个真实采集点</span><span>${escapeHtml(times[0])}</span>`
-      : times.map((time) => `<span>${escapeHtml(time)}</span>`).join("");
-}
-
-function drawTrendChart() {
-  if (!state.data) return;
-  const canvas = elements.trendChart;
-  const rect = canvas.getBoundingClientRect();
-  if (!rect.width || !rect.height) return;
-
-  const ratio = Math.min(window.devicePixelRatio || 1, 2);
-  canvas.width = Math.round(rect.width * ratio);
-  canvas.height = Math.round(rect.height * ratio);
-  const context = canvas.getContext("2d");
-  context.setTransform(ratio, 0, 0, ratio, 0, 0);
-  context.clearRect(0, 0, rect.width, rect.height);
-
-  const padding = {top: 12, right: 12, bottom: 10, left: 28};
-  const width = rect.width - padding.left - padding.right;
-  const height = rect.height - padding.top - padding.bottom;
-  const times = state.data.trendHistory.times;
-  const series = state.data.trendHistory.series;
-
-  context.lineWidth = 1;
-  context.font = '9px "SFMono-Regular", monospace';
-  context.textAlign = "right";
-  context.textBaseline = "middle";
-
-  for (let index = 0; index <= 4; index += 1) {
-    const value = 100 - index * 25;
-    const y = padding.top + (height * index) / 4;
-    context.strokeStyle = "#ececf0";
-    context.beginPath();
-    context.moveTo(padding.left, y);
-    context.lineTo(padding.left + width, y);
-    context.stroke();
-    context.fillStyle = "#92959f";
-    context.fillText(String(value), padding.left - 8, y);
-  }
-
-  Object.entries(series).forEach(([id, values]) => {
-    const meta = PLATFORM_META[id] || {color: "#92959f"};
-    context.strokeStyle = meta.color;
-    context.lineWidth = id === "douyin" || id === "weibo" ? 2.2 : 1.35;
-    context.globalAlpha = id === "douyin" || id === "weibo" ? 1 : 0.72;
-    context.beginPath();
-
-    values.forEach((rawValue, index) => {
-      const value = clamp(rawValue, 0, 100);
-      const x =
-        times.length === 1
-          ? padding.left + width
-          : padding.left + (width * index) / (times.length - 1);
-      const y = padding.top + height - (height * value) / 100;
-      if (index === 0) context.moveTo(x, y);
-      else context.lineTo(x, y);
-    });
-    context.stroke();
-
-    const lastValue = clamp(values.at(-1), 0, 100);
-    const lastX = padding.left + width;
-    const lastY = padding.top + height - (height * lastValue) / 100;
-    context.fillStyle = meta.color;
-    context.beginPath();
-    context.arc(lastX, lastY, 3, 0, Math.PI * 2);
-    context.fill();
-  });
-  context.globalAlpha = 1;
 }
 
 function renderCategories() {
@@ -1287,7 +1191,6 @@ function bindEvents() {
     });
   });
 
-  window.addEventListener("resize", drawTrendChart, {passive: true});
 }
 
 bindEvents();
