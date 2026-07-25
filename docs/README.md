@@ -38,18 +38,10 @@ docs/data/daily-hotspots.json
 6. 热榜只用于发现需求；事实内容必须写入 `sources` 并标记 `factStatus`。
 7. 两个文件都先写临时文件并通过 JSON 校验后再原子替换正式文件。
 
-## 模型问答
+## 安全边界
 
-默认模式完全在浏览器本地运行，不需要 API Key。
-
-模型增强模式支持：
-
-- OpenRouter 免费模型路由：`openrouter/free`
-- 自定义 OpenAI 兼容接口
-
-GitHub Pages 无法安全保存共享密钥。当前实现采用 BYOK，密钥只保存在
-`sessionStorage`，关闭标签页后自动清除。面向公众开放时，应将模型调用迁移到
-Cloudflare Worker、Vercel Function 或其他具有速率限制的服务端代理。
+公开站点不提供运行时模型调用，也不接收或保存任何模型密钥。每日创作精选由
+本地 Codex 定时任务预先生成并写入静态 JSON，浏览器只负责读取和展示结果。
 
 ## 发布
 

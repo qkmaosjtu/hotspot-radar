@@ -5,33 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="跨平台热点雷达：聚合抖音、微博、知乎、小红书、百度和 B 站热点，为内容创作者生成每日视频选题。"
+      content="跨平台热点雷达：聚合抖音、微博、知乎、小红书、百度和 B 站热点，整理每日视频选题。"
     />
     <meta name="theme-color" content="#f5f5f7" />
     <title>热点雷达 · 每日视频选题</title>
     <link rel="icon" href="./assets/shu-boshi.png" />
-    <link rel="stylesheet" href="./styles.css?v=20260725-2" />
+    <link rel="stylesheet" href="./styles.css?v=20260725-3" />
   </head>
   <body>
     <svg class="icon-sprite" aria-hidden="true">
-      <symbol id="icon-activity" viewBox="0 0 24 24">
-        <path d="M3 12h4l3-8 4 16 3-8h4" />
-      </symbol>
       <symbol id="icon-refresh" viewBox="0 0 24 24">
         <path d="M20 11a8.1 8.1 0 0 0-15.5-2M4 4v5h5M4 13a8.1 8.1 0 0 0 15.5 2M20 20v-5h-5" />
       </symbol>
       <symbol id="icon-search" viewBox="0 0 24 24">
         <circle cx="11" cy="11" r="7" />
         <path d="m20 20-4-4" />
-      </symbol>
-      <symbol id="icon-sparkles" viewBox="0 0 24 24">
-        <path d="m12 3-1.2 3.8L7 8l3.8 1.2L12 13l1.2-3.8L17 8l-3.8-1.2L12 3Z" />
-        <path d="m5 14-.8 2.2L2 17l2.2.8L5 20l.8-2.2L8 17l-2.2-.8L5 14Z" />
-        <path d="m19 13-.8 2.2L16 16l2.2.8L19 19l.8-2.2L22 16l-2.2-.8L19 13Z" />
-      </symbol>
-      <symbol id="icon-settings" viewBox="0 0 24 24">
-        <circle cx="12" cy="12" r="3" />
-        <path d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1-2.8 2.8-.1-.1a1.7 1.7 0 0 0-1.9-.3 1.7 1.7 0 0 0-1 1.6v.2h-4V21a1.7 1.7 0 0 0-1-1.6 1.7 1.7 0 0 0-1.9.3l-.1.1L4.2 17l.1-.1a1.7 1.7 0 0 0 .3-1.9A1.7 1.7 0 0 0 3 14H2.8v-4H3a1.7 1.7 0 0 0 1.6-1 1.7 1.7 0 0 0-.3-1.9L4.2 7 7 4.2l.1.1a1.7 1.7 0 0 0 1.9.3A1.7 1.7 0 0 0 10 3V2.8h4V3a1.7 1.7 0 0 0 1 1.6 1.7 1.7 0 0 0 1.9-.3l.1-.1L19.8 7l-.1.1a1.7 1.7 0 0 0-.3 1.9 1.7 1.7 0 0 0 1.6 1h.2v4H21a1.7 1.7 0 0 0-1.6 1Z" />
       </symbol>
       <symbol id="icon-clock" viewBox="0 0 24 24">
         <circle cx="12" cy="12" r="9" />
@@ -47,16 +35,8 @@
       <symbol id="icon-chevron" viewBox="0 0 24 24">
         <path d="m9 18 6-6-6-6" />
       </symbol>
-      <symbol id="icon-send" viewBox="0 0 24 24">
-        <path d="m22 2-7 20-4-9-9-4 20-7Z" />
-        <path d="M22 2 11 13" />
-      </symbol>
       <symbol id="icon-x" viewBox="0 0 24 24">
         <path d="m6 6 12 12M18 6 6 18" />
-      </symbol>
-      <symbol id="icon-key" viewBox="0 0 24 24">
-        <circle cx="8" cy="15" r="4" />
-        <path d="m11 12 9-9M15 8l3 3M17 6l3 3" />
       </symbol>
     </svg>
 
@@ -73,7 +53,6 @@
         <nav class="primary-nav" aria-label="主要区域">
           <button class="nav-item is-active" data-jump="hotlists">综合热点</button>
           <button class="nav-item" data-jump="topics">创作精选</button>
-          <button class="nav-item" data-jump="assistant">AI 选题台</button>
         </nav>
 
         <div class="update-meta">
@@ -200,80 +179,6 @@
             </div>
           </section>
 
-          <aside class="assistant-panel" id="assistant" aria-labelledby="assistantTitle">
-            <div class="assistant-header">
-              <div>
-                <p class="eyebrow">DAILY TOPIC COPILOT</p>
-                <h2 id="assistantTitle">今日选题助手</h2>
-              </div>
-              <button class="icon-button" id="settingsButton" type="button" title="模型设置">
-                <svg><use href="#icon-settings"></use></svg>
-                <span class="sr-only">模型设置</span>
-              </button>
-            </div>
-
-            <form id="recommendForm" class="recommend-form">
-              <label for="laneInput">用一句话描述你的赛道</label>
-              <textarea
-                id="laneInput"
-                rows="3"
-                maxlength="160"
-                placeholder="例如：母婴用品测评、科技数码、职场经验或体育赛事"
-                required
-              ></textarea>
-              <div class="form-row">
-                <div>
-                  <span class="field-label">视频时长</span>
-                  <div class="segmented" id="durationControl" role="group" aria-label="视频时长">
-                    <button type="button" data-value="60–90秒">60–90秒</button>
-                    <button class="is-active" type="button" data-value="2–3分钟">2–3分钟</button>
-                    <button type="button" data-value="5分钟">5分钟</button>
-                  </div>
-                </div>
-                <label>
-                  <span class="field-label">创作目标</span>
-                  <select id="goalSelect">
-                    <option value="破圈传播">破圈传播</option>
-                    <option value="专业可信">专业可信</option>
-                    <option value="长期搜索">长期搜索</option>
-                    <option value="快速追热点">快速追热点</option>
-                  </select>
-                </label>
-              </div>
-              <button class="primary-button" id="generateButton" type="submit">
-                <svg><use href="#icon-sparkles"></use></svg>
-                <span>生成今天适合更新的话题</span>
-              </button>
-            </form>
-
-            <div class="assistant-mode">
-              <span id="assistantModeLabel">本地推荐模式</span>
-              <small id="assistantModeNote">无需密钥，基于今日数据评分</small>
-            </div>
-
-            <div class="recommendation-list" id="recommendationList">
-              <div class="assistant-placeholder">
-                <svg><use href="#icon-activity"></use></svg>
-                <strong>等待你的赛道描述</strong>
-                <span>系统会从今日热点中选出三个可拍、可讲、可验证的题目。</span>
-              </div>
-            </div>
-
-            <section class="chat-section" aria-labelledby="chatTitle">
-              <div class="chat-heading">
-                <h3 id="chatTitle">继续追问</h3>
-                <span>问数据、标题或分镜</span>
-              </div>
-              <div class="chat-log" id="chatLog" aria-live="polite"></div>
-              <form class="chat-form" id="chatForm">
-                <input id="chatInput" maxlength="280" placeholder="例如：为什么第一名比第二名更适合今天发布？" />
-                <button class="icon-button send-button" type="submit" title="发送">
-                  <svg><use href="#icon-send"></use></svg>
-                  <span class="sr-only">发送问题</span>
-                </button>
-              </form>
-            </section>
-          </aside>
         </div>
       </main>
 
@@ -297,52 +202,7 @@
       <div class="dialog-body" id="dialogBody"></div>
     </dialog>
 
-    <dialog class="settings-dialog" id="settingsDialog">
-      <div class="dialog-header">
-        <div>
-          <p class="eyebrow">MODEL CONNECTION</p>
-          <h2>模型设置</h2>
-        </div>
-        <button class="icon-button" id="closeSettingsButton" type="button" title="关闭">
-          <svg><use href="#icon-x"></use></svg>
-          <span class="sr-only">关闭</span>
-        </button>
-      </div>
-      <form id="settingsForm" class="settings-form">
-        <label>
-          <span>推荐模式</span>
-          <select id="providerSelect">
-            <option value="local">本地推荐，不调用模型</option>
-            <option value="openrouter">OpenRouter 免费模型</option>
-            <option value="custom">自定义 OpenAI 兼容接口</option>
-          </select>
-        </label>
-        <label id="endpointField" hidden>
-          <span>接口地址</span>
-          <input id="endpointInput" type="url" value="https://openrouter.ai/api/v1/chat/completions" />
-        </label>
-        <label id="modelField" hidden>
-          <span>模型</span>
-          <input id="modelInput" value="openrouter/free" autocomplete="off" />
-        </label>
-        <label id="keyField" hidden>
-          <span>API Key</span>
-          <span class="secret-input">
-            <svg><use href="#icon-key"></use></svg>
-            <input id="apiKeyInput" type="password" autocomplete="off" placeholder="仅保存在当前浏览器标签页" />
-          </span>
-        </label>
-        <p class="security-note">
-          GitHub Pages 是公开前端，不能安全保存共享密钥。这里的 Key 只写入当前标签页的
-          sessionStorage，关闭标签页即清除。正式开放给公众时应改用受限的服务端代理。
-        </p>
-        <button class="primary-button" type="submit">
-          <span>保存本次会话设置</span>
-        </button>
-      </form>
-    </dialog>
-
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
-    <script type="module" src="./app.js?v=20260725-2"></script>
+    <script type="module" src="./app.js?v=20260725-3"></script>
   </body>
 </html>
