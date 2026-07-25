@@ -19,6 +19,5 @@ python3 -m http.server 4173 --directory docs
 
 - `docs/data/raw-hotlists.json`：平台公开原榜快照，不按内容赛道过滤。
 - `docs/data/daily-hotspots.json`：从全量原榜生成的数学巅峰赛编辑精选。
-- `scripts/collect-hotlists.mjs`：每日公开榜单采集器。
 
 GitHub Pages 由 `.github/workflows/pages.yml` 发布，静态网站入口位于 `docs/`。
