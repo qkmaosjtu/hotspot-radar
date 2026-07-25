@@ -1,0 +1,5 @@
+.omx/
+node_modules/
+out/
+dist/
+.DS_Store

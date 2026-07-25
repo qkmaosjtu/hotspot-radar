@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/hotspot-radar/raw-hotlists.schema.json",
+  "title": "热点雷达平台原榜快照",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "date",
+    "generatedAt",
+    "timezone",
+    "summary",
+    "platforms"
+  ],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "date": {"type": "string", "format": "date"},
+    "generatedAt": {"type": "string", "format": "date-time"},
+    "timezone": {"const": "Asia/Shanghai"},
+    "summary": {
+      "type": "object",
+      "required": ["totalItems", "platformCount", "freshPlatformCount", "partialPlatformCount"],
+      "properties": {
+        "totalItems": {"type": "integer", "minimum": 0},
+        "platformCount": {"type": "integer", "minimum": 0},
+        "freshPlatformCount": {"type": "integer", "minimum": 0},
+        "partialPlatformCount": {"type": "integer", "minimum": 0}
+      }
+    },
+    "platforms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "status",
+          "sourceKind",
+          "sourceUrl",
+          "collectedAt",
+          "collectedCount",
+          "items"
+        ],
+        "properties": {
+          "id": {
+            "enum": ["douyin", "weibo", "zhihu", "xiaohongshu", "baidu", "bilibili"]
+          },
+          "name": {"type": "string"},
+          "status": {"enum": ["fresh", "partial", "stale", "error"]},
+          "sourceKind": {"enum": ["official", "third-party"]},
+          "sourceUrl": {"type": "string", "format": "uri"},
+          "note": {"type": "string"},
+          "collectedAt": {"type": "string", "format": "date-time"},
+          "collectedCount": {"type": "integer", "minimum": 0},
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "rank", "title", "url"],
+              "properties": {
+                "id": {"type": "string"},
+                "rank": {"type": "integer", "minimum": 1},
+                "title": {"type": "string", "minLength": 1},
+                "url": {"type": "string", "format": "uri"},
+                "hotValue": {"type": ["number", "null"], "minimum": 0},
+                "hotLabel": {"type": "string"},
+                "category": {"type": "string"},
+                "author": {"type": "string"},
+                "publishedAt": {"type": ["string", "null"], "format": "date-time"}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

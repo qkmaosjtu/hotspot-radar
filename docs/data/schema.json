@@ -1,0 +1,155 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/hotspot-radar/daily-hotspots.schema.json",
+  "title": "热点雷达每日数据",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "date",
+    "generatedAt",
+    "timezone",
+    "summary",
+    "sourceStatus",
+    "trendHistory",
+    "topics"
+  ],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "dataMode": {"enum": ["demo", "live"]},
+    "date": {"type": "string", "format": "date"},
+    "generatedAt": {"type": "string", "format": "date-time"},
+    "timezone": {"const": "Asia/Shanghai"},
+    "summary": {
+      "type": "object",
+      "required": [
+        "topicCount",
+        "urgentCount",
+        "crossPlatformCount",
+        "formulaReadyCount"
+      ],
+      "properties": {
+        "topicCount": {"type": "integer", "minimum": 0},
+        "urgentCount": {"type": "integer", "minimum": 0},
+        "crossPlatformCount": {"type": "integer", "minimum": 0},
+        "formulaReadyCount": {"type": "integer", "minimum": 0}
+      }
+    },
+    "sourceStatus": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "status", "items", "updatedAt"],
+        "properties": {
+          "id": {
+            "enum": ["douyin", "weibo", "zhihu", "xiaohongshu", "baidu", "bilibili"]
+          },
+          "name": {"type": "string"},
+          "status": {"enum": ["fresh", "partial", "stale", "error"]},
+          "items": {"type": "integer", "minimum": 0},
+          "updatedAt": {"type": "string", "format": "date-time"}
+        }
+      }
+    },
+    "trendHistory": {
+      "type": "object",
+      "required": ["times", "series"],
+      "properties": {
+        "times": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "series": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "items": {"type": "number", "minimum": 0, "maximum": 100}
+          }
+        }
+      }
+    },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "rank",
+          "title",
+          "brief",
+          "category",
+          "momentum",
+          "urgency",
+          "heat",
+          "crossPlatform",
+          "mathFit",
+          "visualFit",
+          "lifeFit",
+          "questionDensity",
+          "priority",
+          "platforms",
+          "keywords",
+          "mathAngles",
+          "hooks",
+          "recommendedFormat",
+          "factStatus",
+          "sources",
+          "updatedAt"
+        ],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+          "rank": {"type": "integer", "minimum": 1},
+          "title": {"type": "string", "minLength": 4},
+          "brief": {"type": "string"},
+          "category": {"type": "string"},
+          "momentum": {"enum": ["rising", "peak", "steady", "cooling"]},
+          "urgency": {"enum": ["now", "today", "evergreen"]},
+          "heat": {"type": "number", "minimum": 0, "maximum": 100},
+          "crossPlatform": {"type": "integer", "minimum": 1, "maximum": 6},
+          "mathFit": {"type": "number", "minimum": 0, "maximum": 100},
+          "visualFit": {"type": "number", "minimum": 0, "maximum": 100},
+          "lifeFit": {"type": "number", "minimum": 0, "maximum": 100},
+          "questionDensity": {"type": "number", "minimum": 0, "maximum": 100},
+          "priority": {"type": "number", "minimum": 0, "maximum": 100},
+          "platforms": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "rank", "score", "trend"],
+              "properties": {
+                "id": {"type": "string"},
+                "rank": {"type": "integer", "minimum": 1},
+                "score": {"type": "number", "minimum": 0, "maximum": 100},
+                "trend": {"type": "string"}
+              }
+            }
+          },
+          "keywords": {"type": "array", "items": {"type": "string"}},
+          "mathAngles": {"type": "array", "items": {"type": "string"}},
+          "hooks": {"type": "array", "items": {"type": "string"}},
+          "recommendedFormat": {
+            "type": "object",
+            "required": ["duration", "structure"],
+            "properties": {
+              "duration": {"type": "string"},
+              "structure": {"type": "string"}
+            }
+          },
+          "factStatus": {"enum": ["verified", "needs-review", "blocked"]},
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["name", "url", "type"],
+              "properties": {
+                "name": {"type": "string"},
+                "url": {"type": "string", "format": "uri"},
+                "type": {"enum": ["official", "paper", "media", "platform"]}
+              }
+            }
+          },
+          "updatedAt": {"type": "string", "format": "date-time"}
+        }
+      }
+    }
+  }
+}
