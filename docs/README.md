@@ -21,11 +21,11 @@ docs/data/raw-hotlists.json
 docs/data/daily-hotspots.json
 ```
 
-`raw-hotlists.json` 是六个平台公开榜单的原始快照，采集阶段不得按数学、
-科技或任何用户赛道删减条目。数据契约见 `docs/data/raw-hotlists.schema.json`。
+`raw-hotlists.json` 是六个平台公开榜单的原始快照，采集阶段不得按任何
+用户赛道删减条目。数据契约见 `docs/data/raw-hotlists.schema.json`。
 
-`daily-hotspots.json` 是从原始快照派生出的“数学巅峰赛编辑精选”，用于保留
-现有栏目工作流，数据契约见 `docs/data/schema.json`。
+`daily-hotspots.json` 是从原始快照派生出的“创作者编辑精选”，用于保留
+通用内容策划工作流，数据契约见 `docs/data/schema.json`。
 
 本地 Codex 定时任务应当每天 `12:00 Asia/Shanghai` 先完整重写原榜快照，
 再生成编辑精选，并完成以下工作：
@@ -34,7 +34,7 @@ docs/data/daily-hotspots.json
 2. 采集受限时使用 `partial`、`stale` 或 `error`，禁止用精选条目冒充全榜。
 3. 原榜快照写入 `docs/data/archive/YYYY-MM-DD-raw-hotlists.json`，保留可审计历史。
 4. 用户赛道匹配发生在原榜数据保存之后，不能反向影响采集覆盖。
-5. 为数学栏目精选计算数学适配度、视觉表现力和推荐优先级。
+5. 为创作精选计算内容深度、视觉表现力、生活关联度和推荐优先级。
 6. 热榜只用于发现需求；事实内容必须写入 `sources` 并标记 `factStatus`。
 7. 两个文件都先写临时文件并通过 JSON 校验后再原子替换正式文件。
 

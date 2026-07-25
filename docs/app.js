@@ -268,7 +268,7 @@ function renderMetrics() {
       icon: "icon-activity",
     },
     {
-      label: "数学精选",
+      label: "创作精选",
       value: summary.topicCount ?? state.data.topics.length,
       unit: "PICKS",
       tone: "mint",
@@ -647,7 +647,7 @@ function renderTopicCard(topic) {
         </div>
         <div class="score-bars">
           ${scoreBar("热度", topic.heat, "#ffb21a")}
-          ${scoreBar("数学", topic.mathFit, "#fe2c55")}
+          ${scoreBar("深度", topic.mathFit, "#fe2c55")}
           ${scoreBar("画面", topic.visualFit, "#2388ff")}
         </div>
       </div>
@@ -690,7 +690,7 @@ function openTopicDetail(topicId) {
       <ul>${topic.hooks.map((hook) => `<li>${escapeHtml(hook)}</li>`).join("")}</ul>
     </section>
     <section class="detail-section">
-      <h3>数学角度</h3>
+      <h3>可讲角度</h3>
       <ul>${topic.mathAngles.map((angle) => `<li>${escapeHtml(angle)}</li>`).join("")}</ul>
     </section>
     <section class="detail-section">
@@ -713,7 +713,7 @@ function semanticBoost(topic, lane) {
     {terms: ["物理", "工程", "航天"], categories: ["生活物理", "航天工程", "天气气候"], weight: 12},
     {terms: ["科技", "ai", "人工智能"], categories: ["科技生活", "AI产业"], weight: 12},
     {terms: ["天气", "气候", "台风"], categories: ["天气气候"], weight: 15},
-    {terms: ["财经", "投资", "消费"], categories: ["消费数学"], weight: 12},
+    {terms: ["财经", "投资", "消费"], categories: ["消费金融", "金融数学"], weight: 12},
     {terms: ["人物", "科学家", "历史"], categories: ["科学人物"], weight: 12},
   ];
 
@@ -884,7 +884,7 @@ function buildLocalReason(topic, lane, goal) {
   const signals = [];
   if (topic.crossPlatform >= 5) signals.push(`${topic.crossPlatform}个平台共振`);
   if (topic.visualFit >= 92) signals.push("视觉冲突强");
-  if (topic.mathFit >= 92) signals.push("公式与模型充足");
+  if (topic.mathFit >= 92) signals.push("解释空间充足");
   if (topic.lifeFit >= 90) signals.push("普通人关联高");
   if (topic.urgency === "now") signals.push("热点窗口正在打开");
   const laneMatch = semanticBoost(topic, lane) >= 8 ? "与你的赛道描述匹配" : "可迁移到你的叙事方式";
@@ -1140,7 +1140,7 @@ function localChatAnswer(question) {
   if (query.includes("公式") || query.includes("数学")) {
     return `这期可展开的数学主线：\n${topic.mathAngles.map((item) => `· ${item}`).join("\n")}`;
   }
-  return `“${topic.title}”当前优先级为 ${topic.priority}，覆盖 ${topic.crossPlatform} 个平台，数学适配度 ${topic.mathFit}，视觉表现力 ${topic.visualFit}。${buildLocalReason(
+  return `“${topic.title}”当前优先级为 ${topic.priority}，覆盖 ${topic.crossPlatform} 个平台，内容深度 ${topic.mathFit}，视觉表现力 ${topic.visualFit}。${buildLocalReason(
     topic,
     elements.laneInput.value || "知识科普",
     elements.goalSelect.value,
