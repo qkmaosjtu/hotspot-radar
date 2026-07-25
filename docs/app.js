@@ -48,7 +48,6 @@ const elements = {
   reportDate: document.querySelector("#reportDate"),
   globalStatusDot: document.querySelector("#globalStatusDot"),
   refreshButton: document.querySelector("#refreshButton"),
-  metricGrid: document.querySelector("#metricGrid"),
   trendLegend: document.querySelector("#trendLegend"),
   trendChart: document.querySelector("#trendChart"),
   chartAxis: document.querySelector("#chartAxis"),
@@ -210,7 +209,6 @@ function renderLoadError(error) {
 
 function renderAll() {
   renderHeader();
-  renderMetrics();
   renderRawHotlist();
   renderSources();
   renderLegend();
@@ -240,58 +238,6 @@ function renderHeader() {
   elements.footerMeta.textContent = `SCHEMA V${schemaVersion} · ${
     dataMode === "demo" ? "DEMO DATA" : "LOCAL CODEX PIPELINE"
   }`;
-}
-
-function renderMetrics() {
-  const summary = state.data.summary || {};
-  const rawSummary = state.rawData?.summary || {};
-  const metrics = [
-    {
-      label: "全量收录",
-      value: rawSummary.totalItems ?? 0,
-      unit: "ITEMS",
-      tone: "cyan",
-      icon: "icon-database",
-    },
-    {
-      label: "原榜平台",
-      value: rawSummary.platformCount ?? 0,
-      unit: "SOURCES",
-      tone: "coral",
-      icon: "icon-database",
-    },
-    {
-      label: "跨平台共振",
-      value: summary.crossPlatformCount ?? 0,
-      unit: "SIGNALS",
-      tone: "amber",
-      icon: "icon-activity",
-    },
-    {
-      label: "创作精选",
-      value: summary.topicCount ?? state.data.topics.length,
-      unit: "PICKS",
-      tone: "mint",
-      icon: "icon-sparkles",
-    },
-  ];
-
-  elements.metricGrid.innerHTML = metrics
-    .map(
-      (metric) => `
-        <article class="metric-item" data-tone="${metric.tone}">
-          <div class="metric-label">
-            <span>${escapeHtml(metric.label)}</span>
-            <svg><use href="#${metric.icon}"></use></svg>
-          </div>
-          <div class="metric-value">
-            <strong>${escapeHtml(metric.value)}</strong>
-            <small>${escapeHtml(metric.unit)}</small>
-          </div>
-        </article>
-      `,
-    )
-    .join("");
 }
 
 function renderSources() {
