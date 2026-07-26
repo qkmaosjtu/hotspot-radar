@@ -10,7 +10,7 @@
     <meta name="theme-color" content="#f5f5f7" />
     <title>热点雷达 · 每日视频选题</title>
     <link rel="icon" href="./assets/shu-boshi.png" />
-    <link rel="stylesheet" href="./styles.css?v=20260725-4" />
+    <link rel="stylesheet" href="./styles.css?v=20260726-1" />
   </head>
   <body>
     <svg class="icon-sprite" aria-hidden="true">
@@ -53,6 +53,7 @@
         <nav class="primary-nav" aria-label="主要区域">
           <button class="nav-item is-active" data-jump="hotlists">综合热点</button>
           <button class="nav-item" data-jump="topics">创作精选</button>
+          <a class="nav-item" href="#history" data-jump="history">往日精选</a>
         </nav>
 
         <div class="topbar-actions">
@@ -138,7 +139,13 @@
                 <p class="eyebrow">CREATOR EDITORIAL PICKS</p>
                 <h2 id="topicsTitle">今日创作精选</h2>
               </div>
-              <div class="result-count"><strong id="visibleCount">0</strong> 个匹配</div>
+              <div class="workspace-heading-actions">
+                <div class="result-count"><strong id="visibleCount">0</strong> 个匹配</div>
+                <a class="history-inline-link" href="#history" data-jump="history">
+                  往日精选
+                  <svg><use href="#icon-chevron"></use></svg>
+                </a>
+              </div>
             </div>
 
             <div class="filter-bar">
@@ -183,6 +190,40 @@
             <div class="empty-state" id="emptyState" hidden>
               <strong>没有匹配的选题</strong>
               <span>尝试清除关键词或切换平台筛选。</span>
+            </div>
+          </section>
+
+          <section class="history-workspace" id="history" aria-labelledby="historyTitle">
+            <div class="workspace-heading">
+              <div>
+                <p class="eyebrow">EDITORIAL ARCHIVE</p>
+                <h2 id="historyTitle">往日创作精选</h2>
+              </div>
+              <div class="result-count">
+                <strong id="historyCount">0</strong> 期归档
+              </div>
+            </div>
+
+            <div class="history-grid">
+              <aside class="history-index" aria-label="历史精选日期">
+                <div class="history-index-label">选择日期</div>
+                <div class="history-date-list" id="historyDateList"></div>
+              </aside>
+
+              <div class="history-content">
+                <div class="history-day-heading">
+                  <div>
+                    <strong id="historySelectedDate">等待归档</strong>
+                    <span id="historySelectedMeta">每天保留当日创作精选</span>
+                  </div>
+                  <span id="historyTopicCount">0 个选题</span>
+                </div>
+                <div class="topic-list history-topic-list" id="historyTopicList"></div>
+                <div class="empty-state" id="historyEmptyState">
+                  <strong>暂无往日精选</strong>
+                  <span>完成下一次每日更新后，这里会继续积累历史内容。</span>
+                </div>
+              </div>
             </div>
           </section>
 
@@ -237,6 +278,6 @@
     </dialog>
 
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
-    <script type="module" src="./app.js?v=20260725-4"></script>
+    <script type="module" src="./app.js?v=20260726-1"></script>
   </body>
 </html>

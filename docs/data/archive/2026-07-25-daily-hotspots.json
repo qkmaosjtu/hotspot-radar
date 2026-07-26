@@ -1,0 +1,541 @@
+{
+  "schemaVersion": 1,
+  "dataMode": "live",
+  "date": "2026-07-25",
+  "generatedAt": "2026-07-25T13:55:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "summary": {
+    "topicCount": 10,
+    "urgentCount": 3,
+    "crossPlatformCount": 4,
+    "formulaReadyCount": 10
+  },
+  "sourceStatus": [
+    {
+      "id": "douyin",
+      "name": "抖音",
+      "status": "partial",
+      "items": 50,
+      "updatedAt": "2026-07-25T13:51:00+08:00"
+    },
+    {
+      "id": "weibo",
+      "name": "微博",
+      "status": "partial",
+      "items": 50,
+      "updatedAt": "2026-07-25T13:51:00+08:00"
+    },
+    {
+      "id": "zhihu",
+      "name": "知乎",
+      "status": "partial",
+      "items": 30,
+      "updatedAt": "2026-07-25T13:51:00+08:00"
+    },
+    {
+      "id": "xiaohongshu",
+      "name": "小红书",
+      "status": "partial",
+      "items": 1,
+      "updatedAt": "2026-07-25T13:51:00+08:00"
+    },
+    {
+      "id": "baidu",
+      "name": "百度",
+      "status": "fresh",
+      "items": 50,
+      "updatedAt": "2026-07-25T13:51:00+08:00"
+    },
+    {
+      "id": "bilibili",
+      "name": "B站",
+      "status": "partial",
+      "items": 30,
+      "updatedAt": "2026-07-25T13:51:00+08:00"
+    }
+  ],
+  "trendHistory": {
+    "times": ["07/25 13:51"],
+    "series": {
+      "douyin": [90],
+      "weibo": [88],
+      "zhihu": [79],
+      "xiaohongshu": [42],
+      "baidu": [94],
+      "bilibili": [68]
+    }
+  },
+  "topics": [
+    {
+      "id": "ctrip-antitrust-platform-math",
+      "rank": 1,
+      "title": "携程被罚51.79亿元：平台垄断是怎样被数据识别的？",
+      "brief": "携程处罚相关词条在抖音、微博和百度同时居前。事件不只涉及罚款数字，更适合解释双边市场、网络效应、流量分配和市场支配力如何被量化。",
+      "category": "平台经济",
+      "momentum": "peak",
+      "urgency": "now",
+      "heat": 98,
+      "crossPlatform": 3,
+      "mathFit": 97,
+      "visualFit": 91,
+      "lifeFit": 94,
+      "questionDensity": 96,
+      "priority": 98,
+      "platforms": [
+        {"id": "douyin", "rank": 1, "score": 100, "trend": "05:00榜首"},
+        {"id": "weibo", "rank": 1, "score": 100, "trend": "05:00榜首"},
+        {"id": "baidu", "rank": 3, "score": 96, "trend": "午间仍在高位"}
+      ],
+      "keywords": ["携程", "反垄断", "平台经济", "流量分配", "市场支配力"],
+      "mathAngles": [
+        "市场集中度 HHI=Σs_i²",
+        "双边市场中的交叉网络效应 U_h=a+bN_u",
+        "罚款比例 35.21/469.58=7.5%",
+        "流量倾斜与商家退出概率的因果识别"
+      ],
+      "hooks": [
+        "一个App很好用、价格也不高，为什么仍可能构成垄断？",
+        "51.79亿元不是拍脑袋：监管如何把流量、交易额和排他行为写进证据链？"
+      ],
+      "recommendedFormat": {
+        "duration": "2–3分钟",
+        "structure": "热搜罚款数字 → 双边市场 → HHI与网络效应 → 流量排他机制 → 处罚金额拆解"
+      },
+      "factStatus": "verified",
+      "sources": [
+        {
+          "name": "市场监管总局：携程垄断行为行政处罚",
+          "url": "https://www.samr.gov.cn/xw/zj/art/2026/art_46d2c74cbd7249f189622dd030e3c3a7.html",
+          "type": "official"
+        },
+        {
+          "name": "百度实时热搜榜",
+          "url": "https://top.baidu.com/board?tab=realtime",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-07-25T13:51:00+08:00"
+    },
+    {
+      "id": "typhoon-hongxia-ensemble-forecast",
+      "rank": 2,
+      "title": "台风“红霞”逼近：路径为什么会越预测越分叉？",
+      "brief": "“红霞”路径、升级和防御响应在百度与抖音持续升温。可以借实时天气公报解释集合预报、数据同化和初值误差，而不猜测尚未发生的登陆结果。",
+      "category": "天气气候",
+      "momentum": "rising",
+      "urgency": "now",
+      "heat": 96,
+      "crossPlatform": 2,
+      "mathFit": 98,
+      "visualFit": 99,
+      "lifeFit": 98,
+      "questionDensity": 95,
+      "priority": 96,
+      "platforms": [
+        {"id": "baidu", "rank": 3, "score": 97, "trend": "持续上升"},
+        {"id": "douyin", "rank": 5, "score": 92, "trend": "05:00前五"}
+      ],
+      "keywords": ["台风红霞", "台风路径", "集合预报", "数据同化", "误差锥"],
+      "mathAngles": [
+        "大气状态方程 dx/dt=F(x,t)",
+        "集合预报概率 P(A)=命中成员数/N",
+        "初值误差近似增长 ||δx(t)||≈e^(λt)||δx(0)||",
+        "贝叶斯数据同化 P(x|y)∝P(y|x)P(x)"
+      ],
+      "hooks": [
+        "台风只有一个，为什么预报图上却会出现几十条路线？",
+        "路径图越往后越宽，不是台风变大了，而是未来的不确定性在扩散。"
+      ],
+      "recommendedFormat": {
+        "duration": "2–3分钟",
+        "structure": "实时路径图 → 单一预报的局限 → 集合成员分叉 → 概率锥 → 普通人如何读图"
+      },
+      "factStatus": "verified",
+      "sources": [
+        {
+          "name": "中央气象台7月25日天气公报",
+          "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm?v=2026072508",
+          "type": "official"
+        },
+        {
+          "name": "抖音：台风红霞升级为台风级",
+          "url": "https://www.douyin.com/search/%E5%8F%B0%E9%A3%8E%E7%BA%A2%E9%9C%9E%E5%8D%87%E7%BA%A7%E4%B8%BA%E5%8F%B0%E9%A3%8E%E7%BA%A7?type=general",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-07-25T13:51:00+08:00"
+    },
+    {
+      "id": "underwater-shield-tunnel-control",
+      "rank": 3,
+      "title": "高铁从长江和海底穿过，盾构机怎样控制毫米级误差？",
+      "brief": "长江高铁隧道贯通与海底盾构换刀同时进入热榜，形成强工程共振。适合讲地下定位、土压平衡、刀盘载荷和双向掘进误差闭合。",
+      "category": "超级工程",
+      "momentum": "peak",
+      "urgency": "now",
+      "heat": 95,
+      "crossPlatform": 3,
+      "mathFit": 96,
+      "visualFit": 99,
+      "lifeFit": 72,
+      "questionDensity": 93,
+      "priority": 94,
+      "platforms": [
+        {"id": "weibo", "rank": 2, "score": 98, "trend": "08:30第二"},
+        {"id": "baidu", "rank": 2, "score": 98, "trend": "08:30第二"},
+        {"id": "douyin", "rank": 2, "score": 98, "trend": "05:00第二"}
+      ],
+      "keywords": ["高铁隧道", "盾构机", "长江", "海底隧道", "误差控制"],
+      "mathAngles": [
+        "三维位姿变换 T∈SE(3)",
+        "测量更新 x̂_k=x̂_k^-+K_k(z_k-Hx̂_k^-)",
+        "泥水平衡条件 p_face≈p_water+p_soil",
+        "双向掘进闭合误差 e=||x_A-x_B||"
+      ],
+      "hooks": [
+        "地下没有GPS，两台盾构机为什么还能在江底精准会合？",
+        "盾构机不是一直向前挖，它每推进一环都要重新估计自己在哪里。"
+      ],
+      "recommendedFormat": {
+        "duration": "2–3分钟",
+        "structure": "贯通画面 → 地下定位难题 → 卡尔曼滤波 → 土压平衡 → 误差闭合"
+      },
+      "factStatus": "verified",
+      "sources": [
+        {
+          "name": "新华网：国内首条穿越长江高铁隧道贯通",
+          "url": "https://www.news.cn/politics/20260724/7880716b4fef481c838c229c289da8f3/c.html",
+          "type": "official"
+        },
+        {
+          "name": "湖北省经信厅：海底高铁隧道盾构换刀",
+          "url": "https://jxt.hubei.gov.cn/bmdt/rdjj/202607/t20260724_5983349.shtml",
+          "type": "official"
+        },
+        {
+          "name": "抖音：中国破解海底盾构机世界难题",
+          "url": "https://www.douyin.com/search/%E4%B8%AD%E5%9B%BD%E7%A0%B4%E8%A7%A3%E6%B5%B7%E5%BA%95%E7%9B%BE%E6%9E%84%E6%9C%BA%E4%B8%96%E7%95%8C%E9%9A%BE%E9%A2%98?type=general",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-07-25T13:51:00+08:00"
+    },
+    {
+      "id": "loan-all-in-cost-apr",
+      "rank": 4,
+      "title": "个人贷款新规来了：年利率为什么不等于真实借款成本？",
+      "brief": "个人贷款综合融资成本明示规定将于8月1日施行，微博相关词条居前。视频可以把利息、分期费、增信费和违约成本统一换算为可比较的年化成本。",
+      "category": "消费金融",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 87,
+      "crossPlatform": 1,
+      "mathFit": 98,
+      "visualFit": 90,
+      "lifeFit": 99,
+      "questionDensity": 97,
+      "priority": 91,
+      "platforms": [
+        {"id": "weibo", "rank": 3, "score": 96, "trend": "08:30第三"}
+      ],
+      "keywords": ["个人贷款", "综合融资成本", "年化利率", "现金流", "IRR"],
+      "mathAngles": [
+        "现金流内部收益率 ΣCF_t/(1+r)^t=0",
+        "等额本息月供 A=P·i(1+i)^n/((1+i)^n-1)",
+        "名义年利率与有效年利率 EAR=(1+i_m)^12-1",
+        "全部息费的统一年化"
+      ],
+      "hooks": [
+        "广告写着年利率3%，你最后付出的为什么可能远不止3%？",
+        "只有把每一笔费用放回现金流，贷款才真正变得可比较。"
+      ],
+      "recommendedFormat": {
+        "duration": "2–3分钟",
+        "structure": "新规热点 → 一笔贷款示例 → 月供公式 → IRR换算 → 看懂综合成本表"
+      },
+      "factStatus": "verified",
+      "sources": [
+        {
+          "name": "国家金融监督管理总局：个人贷款业务明示综合融资成本规定",
+          "url": "https://big5.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1251644&generaltype=0&itemId=917",
+          "type": "official"
+        },
+        {
+          "name": "微博：个人贷款新规8月1日起施行",
+          "url": "https://s.weibo.com/weibo?Refer=top&band_rank=4&q=%E4%B8%AA%E4%BA%BA%E8%B4%B7%E6%AC%BE%E6%96%B0%E8%A7%848%E6%9C%881%E6%97%A5%E8%B5%B7%E6%AD%A3%E5%BC%8F%E5%AE%9E%E6%96%BD&t=31",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-07-25T13:51:00+08:00"
+    },
+    {
+      "id": "musical-modes-geometry",
+      "rank": 5,
+      "title": "五种特色调式为什么能画成几何图形？",
+      "brief": "B站综合热门榜首直接把调式音阶与几何图形结合，和知识可视化赛道高度匹配。适合把十二平均律、模运算和音程结构做成动态圆环。",
+      "category": "音乐科技",
+      "momentum": "peak",
+      "urgency": "today",
+      "heat": 82,
+      "crossPlatform": 1,
+      "mathFit": 99,
+      "visualFit": 100,
+      "lifeFit": 70,
+      "questionDensity": 89,
+      "priority": 90,
+      "platforms": [
+        {"id": "bilibili", "rank": 1, "score": 100, "trend": "08:30榜首"}
+      ],
+      "keywords": ["调式音阶", "十二平均律", "音程", "模运算", "几何图形"],
+      "mathAngles": [
+        "十二音级构成循环群 Z₁₂",
+        "音程运算 (a+b) mod 12",
+        "音级集合的旋转、平移与对称",
+        "频率比 f_n=f_0·2^(n/12)"
+      ],
+      "hooks": [
+        "一段旋律为什么可以被压缩成圆上的几个点？",
+        "把音符放进模12世界，不同调式会显露出完全不同的几何骨架。"
+      ],
+      "recommendedFormat": {
+        "duration": "90秒",
+        "structure": "热门视频画面 → 十二音环 → 模运算 → 五种调式逐一变形 → 同一旋律对比"
+      },
+      "factStatus": "verified",
+      "sources": [
+        {
+          "name": "B站热门：世界上五种特色调式音阶",
+          "url": "https://www.bilibili.com/video/BV1KLg66DEi2",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-07-25T13:51:00+08:00"
+    },
+    {
+      "id": "starship-flight-13-control",
+      "rank": 6,
+      "title": "星舰第13次试飞：33台发动机怎样像一台机器协同？",
+      "brief": "星舰第13次试飞在抖音和百度进入热点，官方任务页与公开报道可核验。内容重点可落在多发动机推力分配、姿态控制、动态压强和软着陆轨迹。",
+      "category": "航天工程",
+      "momentum": "peak",
+      "urgency": "today",
+      "heat": 88,
+      "crossPlatform": 2,
+      "mathFit": 98,
+      "visualFit": 100,
+      "lifeFit": 46,
+      "questionDensity": 92,
+      "priority": 89,
+      "platforms": [
+        {"id": "douyin", "rank": 6, "score": 90, "trend": "05:00第六"},
+        {"id": "baidu", "rank": 20, "score": 76, "trend": "午间在榜"}
+      ],
+      "keywords": ["星舰", "试飞", "姿态控制", "发动机协同", "软着陆"],
+      "mathAngles": [
+        "刚体姿态动力学 Iω̇+ω×Iω=τ",
+        "推力分配 min||Bu-τ_cmd||² 且 u_min≤u≤u_max",
+        "动态压强 q=ρv²/2",
+        "模型预测控制 min Σ||x_k-x_ref||²+||u_k||²"
+      ],
+      "hooks": [
+        "33台发动机同时点火，为什么不能简单地让它们输出同样推力？",
+        "火箭偏转一度，控制系统必须在几百毫秒里重新分配全部推力。"
+      ],
+      "recommendedFormat": {
+        "duration": "2–3分钟",
+        "structure": "试飞画面 → 多发动机矩阵 → 姿态方程 → 风扰与最大动压 → 返航控制"
+      },
+      "factStatus": "verified",
+      "sources": [
+        {
+          "name": "SpaceX：Starship第13次飞行测试",
+          "url": "https://www.spacex.com/launches/starship-flight-13",
+          "type": "official"
+        },
+        {
+          "name": "百度实时热搜榜",
+          "url": "https://top.baidu.com/board?tab=realtime",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-07-25T13:51:00+08:00"
+    },
+    {
+      "id": "phone-under-powerline-physics",
+      "rank": 7,
+      "title": "高压线下打电话会爆炸？真正的危险由什么决定？",
+      "brief": "该辟谣词条进入百度热搜。适合用电场强度、频率、感应电压和安全距离区分“手机信号引爆”的错误因果与高压线附近真实的触电风险。",
+      "category": "生活物理",
+      "momentum": "steady",
+      "urgency": "today",
+      "heat": 81,
+      "crossPlatform": 1,
+      "mathFit": 94,
+      "visualFit": 92,
+      "lifeFit": 97,
+      "questionDensity": 99,
+      "priority": 87,
+      "platforms": [
+        {"id": "baidu", "rank": 11, "score": 84, "trend": "午间在榜"}
+      ],
+      "keywords": ["高压线", "手机", "电磁场", "感应电压", "安全距离"],
+      "mathAngles": [
+        "电场强度 E=-∇V",
+        "交变磁场感应电动势 ε=-dΦ_B/dt",
+        "手机射频与50Hz工频场的频率尺度差异",
+        "电弧风险近似取决于电压、距离与空气击穿场强"
+      ],
+      "hooks": [
+        "手机确实会发射电磁波，但为什么这不等于它能引爆高压线？",
+        "真正危险的不是接听电话，而是人和设备进入了高压电场的危险距离。"
+      ],
+      "recommendedFormat": {
+        "duration": "90秒",
+        "structure": "热搜谣言 → 两种电磁场对比 → 感应与击穿条件 → 真正安全边界"
+      },
+      "factStatus": "verified",
+      "sources": [
+        {
+          "name": "中国互联网联合辟谣平台",
+          "url": "https://www.piyao.org.cn/20260622/95058a654c384a73bb3bd069bd07d4ac/c.html",
+          "type": "official"
+        },
+        {
+          "name": "百度实时热搜榜",
+          "url": "https://top.baidu.com/board?tab=realtime",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-07-25T13:51:00+08:00"
+    },
+    {
+      "id": "world-cup-rights-auction",
+      "rank": 8,
+      "title": "世界杯转播权为什么越卖越贵？",
+      "brief": "“网传央视拒绝世界杯转播权报价”位居知乎热榜第一，但网传前提尚未得到权威确认。成片应避开断言，转而解释稀缺版权、竞价博弈、广告回收和赢家诅咒。",
+      "category": "体育经济",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 86,
+      "crossPlatform": 1,
+      "mathFit": 93,
+      "visualFit": 88,
+      "lifeFit": 83,
+      "questionDensity": 95,
+      "priority": 84,
+      "platforms": [
+        {"id": "zhihu", "rank": 1, "score": 100, "trend": "08:30榜首"}
+      ],
+      "keywords": ["世界杯", "转播权", "拍卖", "赢家诅咒", "广告收益"],
+      "mathAngles": [
+        "估值模型 V=Σ(R_t-C_t)/(1+r)^t",
+        "最高报价 max(X₁,…,X_n) 与赢家诅咒",
+        "纳什均衡与独家版权竞价",
+        "订阅、广告和新增用户的盈亏平衡点"
+      ],
+      "hooks": [
+        "观众越多，转播平台就一定越赚钱吗？",
+        "在竞价中赢下世界杯版权，为什么也可能意味着你高估得最严重？"
+      ],
+      "recommendedFormat": {
+        "duration": "2–3分钟",
+        "structure": "知乎争议 → 权威事实边界 → 版权估值 → 拍卖博弈 → 赢家诅咒"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "知乎热榜问题",
+          "url": "https://www.zhihu.com/question/2034233492381382080",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-07-25T13:51:00+08:00"
+    },
+    {
+      "id": "teacher-evaluation-base-rate",
+      "rank": 9,
+      "title": "教师不合格率22%、行政全员合格：这个数字能直接比较吗？",
+      "brief": "相关问题位居知乎热榜第二，但原始统计口径与样本范围尚未核实。适合做一支“看到反常百分比先问什么”的统计学视频，而不是复述未经证实的结论。",
+      "category": "统计思维",
+      "momentum": "steady",
+      "urgency": "today",
+      "heat": 84,
+      "crossPlatform": 1,
+      "mathFit": 96,
+      "visualFit": 82,
+      "lifeFit": 88,
+      "questionDensity": 97,
+      "priority": 81,
+      "platforms": [
+        {"id": "zhihu", "rank": 2, "score": 97, "trend": "08:30第二"}
+      ],
+      "keywords": ["教师评价", "不合格率", "样本偏差", "指标设计", "辛普森悖论"],
+      "mathAngles": [
+        "比例估计 p̂=x/n 与置信区间",
+        "不同岗位基数和评价标准不可直接合并",
+        "辛普森悖论 P(A|G₁),P(A|G₂) 与总体比例反转",
+        "古德哈特定律：指标成为目标后会失真"
+      ],
+      "hooks": [
+        "22%和0%看起来差距巨大，但如果分母和评分规则不同，这两个数字可能根本不能比。",
+        "遇到一个离谱百分比，第一步不是站队，而是找到它的分母。"
+      ],
+      "recommendedFormat": {
+        "duration": "2–3分钟",
+        "structure": "热榜数字 → 分母检查 → 评价口径 → 辛普森悖论 → 如何验证原始数据"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "知乎热榜问题",
+          "url": "https://www.zhihu.com/question/2034043329311151947",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-07-25T13:51:00+08:00"
+    },
+    {
+      "id": "standing-lunch-productivity-test",
+      "rank": 10,
+      "title": "站着吃饭真能提高效率？怎样设计一个不骗人的实验？",
+      "brief": "公司食堂取消座椅的讨论位居知乎热榜第四，企业回应中的“提高效率”需要数据验证。可以借此讲随机对照、混杂变量和效率指标不能替代健康与体验。",
+      "category": "实验设计",
+      "momentum": "steady",
+      "urgency": "today",
+      "heat": 78,
+      "crossPlatform": 1,
+      "mathFit": 91,
+      "visualFit": 86,
+      "lifeFit": 94,
+      "questionDensity": 96,
+      "priority": 78,
+      "platforms": [
+        {"id": "zhihu", "rank": 4, "score": 91, "trend": "08:30第四"}
+      ],
+      "keywords": ["站着吃饭", "效率", "随机对照", "混杂变量", "因果推断"],
+      "mathAngles": [
+        "处理效应 ATE=E[Y(1)-Y(0)]",
+        "差分中的差分 Δ=(Y_T1-Y_T0)-(Y_C1-Y_C0)",
+        "排队时间、用餐时长与满意度构成多目标函数",
+        "样本量与最小可检测效应"
+      ],
+      "hooks": [
+        "员工吃得更快，能证明工作效率提高了吗？",
+        "如果只测用餐分钟数，你可能准确地优化了一个错误目标。"
+      ],
+      "recommendedFormat": {
+        "duration": "2–3分钟",
+        "structure": "争议画面 → 什么叫效率 → 对照实验 → 混杂变量 → 多目标评价"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "知乎热榜问题",
+          "url": "https://www.zhihu.com/question/2033478970142713008",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-07-25T13:51:00+08:00"
+    }
+  ]
+}

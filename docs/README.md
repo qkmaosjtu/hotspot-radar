@@ -27,6 +27,16 @@ docs/data/daily-hotspots.json
 `daily-hotspots.json` 是从原始快照派生出的“创作者编辑精选”，用于保留
 通用内容策划工作流，数据契约见 `docs/data/schema.json`。
 
+往日创作精选保存在：
+
+```text
+docs/data/archive/YYYY-MM-DD-daily-hotspots.json
+docs/data/archive/index.json
+```
+
+`index.json` 只保存日期、文件名和选题数量；页面根据用户选择的日期按需读取
+对应归档，不把全部历史数据塞进首屏请求。
+
 本地 Codex 定时任务应当每天 `12:00 Asia/Shanghai` 先完整重写原榜快照，
 再生成编辑精选，并完成以下工作：
 
@@ -37,6 +47,8 @@ docs/data/daily-hotspots.json
 5. 为创作精选计算内容深度、视觉表现力、生活关联度和推荐优先级。
 6. 热榜只用于发现需求；事实内容必须写入 `sources` 并标记 `factStatus`。
 7. 两个文件都先写临时文件并通过 JSON 校验后再原子替换正式文件。
+8. 精选正式文件通过校验后复制为当天的 `YYYY-MM-DD-daily-hotspots.json`，
+   并更新 `archive/index.json`；索引按日期倒序排列，不得覆盖往日归档。
 
 ## 安全边界
 

@@ -1,5 +1,6 @@
 const DATA_URL = "./data/daily-hotspots.json";
 const RAW_DATA_URL = "./data/raw-hotlists.json";
+const HISTORY_INDEX_URL = "./data/archive/index.json";
 
 const PLATFORM_META = {
   douyin: {name: "抖音", color: "#fe2c55"},
@@ -29,6 +30,11 @@ const state = {
   selectedCategory: "全部",
   selectedRawPlatform: "all",
   rawLimit: 12,
+  historyEntries: [],
+  historyData: {},
+  selectedHistoryDate: null,
+  historyLoading: false,
+  historyError: null,
   toastTimer: null,
 };
 
@@ -52,6 +58,13 @@ const elements = {
   topicList: document.querySelector("#topicList"),
   visibleCount: document.querySelector("#visibleCount"),
   emptyState: document.querySelector("#emptyState"),
+  historyCount: document.querySelector("#historyCount"),
+  historyDateList: document.querySelector("#historyDateList"),
+  historySelectedDate: document.querySelector("#historySelectedDate"),
+  historySelectedMeta: document.querySelector("#historySelectedMeta"),
+  historyTopicCount: document.querySelector("#historyTopicCount"),
+  historyTopicList: document.querySelector("#historyTopicList"),
+  historyEmptyState: document.querySelector("#historyEmptyState"),
   topicDialog: document.querySelector("#topicDialog"),
   dialogEyebrow: document.querySelector("#dialogEyebrow"),
   dialogTitle: document.querySelector("#dialogTitle"),
@@ -130,6 +143,22 @@ function validateRawData(payload) {
   });
 }
 
+function validateHistoryIndex(payload) {
+  if (!payload || payload.schemaVersion !== 1 || !Array.isArray(payload.entries)) {
+    throw new Error("往日精选索引格式不受支持");
+  }
+  payload.entries.forEach((entry) => {
+    if (
+      !/^\d{4}-\d{2}-\d{2}$/.test(entry.date) ||
+      !/^\d{4}-\d{2}-\d{2}-daily-hotspots\.json$/.test(entry.file) ||
+      !Number.isInteger(entry.topicCount) ||
+      entry.topicCount < 0
+    ) {
+      throw new Error(`往日精选索引条目无效：${entry.date || "未知日期"}`);
+    }
+  });
+}
+
 async function loadData({announce = false} = {}) {
   elements.refreshButton.classList.add("is-loading");
   elements.globalStatusDot.className = "status-dot";
@@ -138,9 +167,12 @@ async function loadData({announce = false} = {}) {
     url.searchParams.set("_", Date.now());
     const rawUrl = new URL(RAW_DATA_URL, window.location.href);
     rawUrl.searchParams.set("_", Date.now());
-    const [response, rawResponse] = await Promise.all([
+    const historyIndexUrl = new URL(HISTORY_INDEX_URL, window.location.href);
+    historyIndexUrl.searchParams.set("_", Date.now());
+    const [response, rawResponse, historyResponse] = await Promise.all([
       fetch(url, {cache: "no-store"}),
       fetch(rawUrl, {cache: "no-store"}),
+      fetch(historyIndexUrl, {cache: "no-store"}).catch(() => null),
     ]);
     if (!response.ok) throw new Error(`读取每日精选失败：HTTP ${response.status}`);
     if (!rawResponse.ok) throw new Error(`读取平台原榜失败：HTTP ${rawResponse.status}`);
@@ -149,7 +181,29 @@ async function loadData({announce = false} = {}) {
     validateRawData(rawPayload);
     state.data = payload;
     state.rawData = rawPayload;
+    state.historyEntries = [];
+    state.historyError = null;
+    if (historyResponse?.ok) {
+      try {
+        const historyPayload = await historyResponse.json();
+        validateHistoryIndex(historyPayload);
+        state.historyEntries = historyPayload.entries
+          .filter((entry) => entry.date !== payload.date)
+          .sort((a, b) => b.date.localeCompare(a.date));
+      } catch (historyError) {
+        state.historyError = historyError.message || "往日精选索引不可用";
+      }
+    }
+    if (
+      !state.selectedHistoryDate ||
+      !state.historyEntries.some((entry) => entry.date === state.selectedHistoryDate)
+    ) {
+      state.selectedHistoryDate = state.historyEntries[0]?.date || null;
+    }
     renderAll();
+    if (state.selectedHistoryDate) {
+      await loadHistoryDate(state.selectedHistoryDate);
+    }
     elements.globalStatusDot.classList.add("is-ready");
     if (announce) showToast("已重新读取今日热点数据");
     if (payload.dataMode === "demo") {
@@ -180,6 +234,7 @@ function renderAll() {
   renderSources();
   renderCategories();
   renderTopics();
+  renderHistory();
 }
 
 function renderHeader() {
@@ -425,6 +480,125 @@ function renderTopics() {
   elements.topicList.innerHTML = topics.map(renderTopicCard).join("");
 }
 
+function historyArchiveUrl(entry) {
+  const url = new URL(`./data/archive/${entry.file}`, window.location.href);
+  url.searchParams.set("_", Date.now());
+  return url;
+}
+
+async function loadHistoryDate(date, {announce = false} = {}) {
+  const entry = state.historyEntries.find((item) => item.date === date);
+  if (!entry) return;
+  state.selectedHistoryDate = date;
+  state.historyError = null;
+  if (state.historyData[date]) {
+    renderHistory();
+    return;
+  }
+
+  state.historyLoading = true;
+  renderHistory();
+  try {
+    const response = await fetch(historyArchiveUrl(entry), {cache: "no-store"});
+    if (!response.ok) throw new Error(`读取 ${date} 精选失败：HTTP ${response.status}`);
+    const payload = await response.json();
+    validateData(payload);
+    if (payload.date !== date) throw new Error(`${date} 精选归档日期不一致`);
+    state.historyData[date] = payload;
+    if (announce) showToast(`已读取 ${formatArchiveDate(date)} 创作精选`);
+  } catch (error) {
+    state.historyError = error.message || "读取往日精选失败";
+  } finally {
+    state.historyLoading = false;
+    renderHistory();
+  }
+}
+
+function formatArchiveDate(value) {
+  const date = new Date(`${value}T00:00:00+08:00`);
+  if (Number.isNaN(date.getTime())) return value;
+  return formatDate(date, {year: "numeric", month: "long", day: "numeric"});
+}
+
+function renderHistory() {
+  elements.historyCount.textContent = state.historyEntries.length;
+  elements.historyDateList.innerHTML = state.historyEntries
+    .map(
+      (entry) => `
+        <button
+          class="history-date-button ${
+            entry.date === state.selectedHistoryDate ? "is-active" : ""
+          }"
+          type="button"
+          data-history-date="${escapeHtml(entry.date)}"
+        >
+          <span>${escapeHtml(formatArchiveDate(entry.date))}</span>
+          <small>${escapeHtml(entry.topicCount)} 个选题</small>
+        </button>
+      `,
+    )
+    .join("");
+
+  const hasHistory = state.historyEntries.length > 0;
+  elements.historyEmptyState.hidden = hasHistory;
+  elements.historyTopicList.hidden = !hasHistory;
+  if (!hasHistory) {
+    elements.historySelectedDate.textContent = "等待归档";
+    elements.historySelectedMeta.textContent = "每天保留当日创作精选";
+    elements.historyTopicCount.textContent = "0 个选题";
+    elements.historyTopicList.innerHTML = "";
+    return;
+  }
+
+  const selectedEntry = state.historyEntries.find(
+    (entry) => entry.date === state.selectedHistoryDate,
+  );
+  elements.historySelectedDate.textContent = selectedEntry
+    ? formatArchiveDate(selectedEntry.date)
+    : "选择日期";
+
+  if (state.historyLoading) {
+    elements.historySelectedMeta.textContent = "正在读取精选归档";
+    elements.historyTopicCount.textContent = "--";
+    elements.historyTopicList.innerHTML = `
+      <div class="history-loading">正在读取 ${escapeHtml(state.selectedHistoryDate)} 精选…</div>
+    `;
+    return;
+  }
+
+  if (state.historyError) {
+    elements.historySelectedMeta.textContent = "归档读取失败";
+    elements.historyTopicCount.textContent = "0 个选题";
+    elements.historyTopicList.innerHTML = `
+      <div class="empty-state">
+        <strong>无法读取这期精选</strong>
+        <span>${escapeHtml(state.historyError)}</span>
+      </div>
+    `;
+    return;
+  }
+
+  const payload = state.historyData[state.selectedHistoryDate];
+  if (!payload) {
+    elements.historySelectedMeta.textContent = "请选择一个归档日期";
+    elements.historyTopicCount.textContent = "0 个选题";
+    elements.historyTopicList.innerHTML = "";
+    return;
+  }
+
+  elements.historySelectedMeta.textContent = `生成于 ${formatDate(payload.generatedAt, {
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+  })}`;
+  elements.historyTopicCount.textContent = `${payload.topics.length} 个选题`;
+  elements.historyTopicList.innerHTML = payload.topics
+    .map((topic) => renderTopicCard(topic, payload.date))
+    .join("");
+}
+
 function scoreBar(label, score, color) {
   const value = clamp(score, 0, 100);
   return `
@@ -436,7 +610,7 @@ function scoreBar(label, score, color) {
   `;
 }
 
-function renderTopicCard(topic) {
+function renderTopicCard(topic, archiveDate = "") {
   const urgency = URGENCY_META[topic.urgency] || URGENCY_META.evergreen;
   const platforms = topic.platforms
     .slice(0, 5)
@@ -462,7 +636,13 @@ function renderTopicCard(topic) {
         </div>
         <div class="topic-title-row">
           <h3>${escapeHtml(topic.title)}</h3>
-          <button type="button" data-action="detail" data-topic-id="${escapeHtml(topic.id)}" title="查看选题详情">
+          <button
+            type="button"
+            data-action="detail"
+            data-topic-id="${escapeHtml(topic.id)}"
+            data-topic-date="${escapeHtml(archiveDate)}"
+            title="查看选题详情"
+          >
             <svg><use href="#icon-chevron"></use></svg>
             <span class="sr-only">查看${escapeHtml(topic.title)}详情</span>
           </button>
@@ -485,10 +665,13 @@ function renderTopicCard(topic) {
   `;
 }
 
-function openTopicDetail(topicId) {
-  const topic = state.data.topics.find((item) => item.id === topicId);
+function openTopicDetail(topicId, archiveDate = "") {
+  const payload = archiveDate ? state.historyData[archiveDate] : state.data;
+  const topic = payload?.topics.find((item) => item.id === topicId);
   if (!topic) return;
-  elements.dialogEyebrow.textContent = `${String(topic.rank).padStart(2, "0")} / ${topic.category}`;
+  elements.dialogEyebrow.textContent = `${archiveDate ? `${archiveDate} / ` : ""}${String(
+    topic.rank,
+  ).padStart(2, "0")} / ${topic.category}`;
   elements.dialogTitle.textContent = topic.title;
 
   const sources =
@@ -566,10 +749,17 @@ function bindEvents() {
     renderTopics();
   });
 
-  elements.topicList.addEventListener("click", (event) => {
+  const openDetailFromList = (event) => {
     const button = event.target.closest('[data-action="detail"]');
     if (!button) return;
-    openTopicDetail(button.dataset.topicId);
+    openTopicDetail(button.dataset.topicId, button.dataset.topicDate);
+  };
+  elements.topicList.addEventListener("click", openDetailFromList);
+  elements.historyTopicList.addEventListener("click", openDetailFromList);
+  elements.historyDateList.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-history-date]");
+    if (!button) return;
+    loadHistoryDate(button.dataset.historyDate, {announce: true});
   });
 
   elements.closeDialogButton.addEventListener("click", () => elements.topicDialog.close());
@@ -577,7 +767,8 @@ function bindEvents() {
   elements.closeSupportButton.addEventListener("click", () => elements.supportDialog.close());
 
   document.querySelectorAll("[data-jump]").forEach((button) => {
-    button.addEventListener("click", () => {
+    button.addEventListener("click", (event) => {
+      event.preventDefault();
       document.querySelector(`#${button.dataset.jump}`)?.scrollIntoView({behavior: "smooth"});
       document
         .querySelectorAll("[data-jump]")
