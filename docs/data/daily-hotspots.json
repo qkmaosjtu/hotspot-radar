@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "dataMode": "live",
   "date": "2026-07-26",
-  "generatedAt": "2026-07-26T04:14:17.283Z",
+  "generatedAt": "2026-07-26T14:44:30.300Z",
   "timezone": "Asia/Shanghai",
   "summary": {
     "topicCount": 10,
     "urgentCount": 2,
-    "crossPlatformCount": 8,
+    "crossPlatformCount": 4,
     "formulaReadyCount": 10
   },
   "sourceStatus": [
@@ -16,48 +16,48 @@
       "name": "抖音",
       "status": "fresh",
       "items": 50,
-      "updatedAt": "2026-07-26T04:08:52.888Z"
+      "updatedAt": "2026-07-26T14:44:30.300Z"
     },
     {
       "id": "weibo",
       "name": "微博",
       "status": "fresh",
       "items": 50,
-      "updatedAt": "2026-07-26T04:08:52.888Z"
+      "updatedAt": "2026-07-26T14:44:30.300Z"
     },
     {
       "id": "zhihu",
       "name": "知乎",
       "status": "partial",
       "items": 30,
-      "updatedAt": "2026-07-26T04:14:17.283Z"
+      "updatedAt": "2026-07-26T14:44:30.300Z"
     },
     {
       "id": "xiaohongshu",
       "name": "小红书",
       "status": "partial",
       "items": 10,
-      "updatedAt": "2026-07-26T04:08:52.888Z"
+      "updatedAt": "2026-07-26T14:44:30.300Z"
     },
     {
       "id": "baidu",
       "name": "百度",
       "status": "fresh",
       "items": 50,
-      "updatedAt": "2026-07-26T04:08:52.888Z"
+      "updatedAt": "2026-07-26T14:44:30.300Z"
     },
     {
       "id": "bilibili",
       "name": "B站",
       "status": "fresh",
       "items": 50,
-      "updatedAt": "2026-07-26T04:08:52.888Z"
+      "updatedAt": "2026-07-26T14:44:30.300Z"
     }
   ],
   "trendHistory": {
     "times": [
       "07/25 13:51",
-      "26/07 12:14"
+      "26/07 22:45"
     ],
     "series": {
       "douyin": [
@@ -88,132 +88,104 @@
   },
   "topics": [
     {
-      "id": "typhoon-hongxia-safety-explainer",
+      "id": "gansu-flash-flood-information",
       "rank": 1,
-      "title": "台风“红霞”登陆后：怎样把实时热榜做成安全说明？",
-      "brief": "多平台连续出现路径、登陆和现场记录词条。适合把不确定的即时信息与明确的避险动作分开讲，并在发布前核对气象部门更新。",
+      "title": "甘肃景区山洪信息该怎么讲：即时画面之外先做哪些核验？",
+      "brief": "多平台出现山洪、伤亡和现场信息。适合做信息核验与安全提示，不将热榜文字视为完整通报。",
       "category": "公共安全",
       "momentum": "peak",
       "urgency": "now",
-      "heat": 99,
-      "mathFit": 89,
-      "visualFit": 96,
+      "heat": 100,
+      "crossPlatform": 3,
+      "mathFit": 96,
+      "visualFit": 98,
       "lifeFit": 98,
-      "questionDensity": 93,
+      "questionDensity": 98,
       "priority": 98,
-      "keywords": [
-        "台风红霞",
-        "登陆",
-        "路径",
-        "避险",
-        "实时信息"
-      ],
-      "mathAngles": [
-        "把路径图、预警时间和行动清单拆成不同信息层",
-        "解释“能确认”和“仍待更新”的边界",
-        "用本地生活视角讲停运、转移和准备"
-      ],
-      "hooks": [
-        "一张热榜截图能告诉你什么，不能告诉你什么？",
-        "台风抵达后，第一条内容不该只追风景"
-      ],
-      "recommendedFormat": {
-        "duration": "60–90秒",
-        "structure": "榜单信号 → 权威核验入口 → 三个行动节点 → 信息更新时间"
-      },
-      "factStatus": "needs-review",
-      "crossPlatform": 4,
       "platforms": [
         {
           "id": "douyin",
-          "rank": 1,
-          "score": 99,
-          "trend": "原榜第1位"
-        },
-        {
-          "id": "weibo",
           "rank": 6,
           "score": 89,
           "trend": "原榜第6位"
         },
         {
-          "id": "baidu",
-          "rank": 9,
-          "score": 83,
-          "trend": "原榜第9位"
-        },
-        {
           "id": "zhihu",
-          "rank": 1,
-          "score": 99,
-          "trend": "原榜第1位"
+          "rank": 3,
+          "score": 95,
+          "trend": "原榜第3位"
+        },
+        {
+          "id": "baidu",
+          "rank": 12,
+          "score": 77,
+          "trend": "原榜第12位"
         }
       ],
-      "sources": [
-        {
-          "name": "抖音原榜：台风红霞最新路径",
-          "url": "https://www.douyin.com/search/%E5%8F%B0%E9%A3%8E%E7%BA%A2%E9%9C%9E%E6%9C%80%E6%96%B0%E8%B7%AF%E5%BE%84",
-          "type": "platform"
-        },
-        {
-          "name": "微博原榜：深圳台风",
-          "url": "https://s.weibo.com/weibo?q=%E6%B7%B1%E5%9C%B3%E5%8F%B0%E9%A3%8E",
-          "type": "platform"
-        },
-        {
-          "name": "百度原榜：台风红霞为今年来登陆中国最强台风",
-          "url": "https://m.baidu.com/s?word=%E5%8F%B0%E9%A3%8E%E7%BA%A2%E9%9C%9E%E4%B8%BA%E4%BB%8A%E5%B9%B4%E6%9D%A5%E7%99%BB%E9%99%86%E4%B8%AD%E5%9B%BD%E6%9C%80%E5%BC%BA%E5%8F%B0%E9%A3%8E&sa=fyb_news",
-          "type": "platform"
-        },
-        {
-          "name": "知乎原榜：台风「红霞」在广东惠州登陆，超越美莎克、巴威，成今年以来登陆我国的最强台风，影响多大？你那里情况如何？",
-          "url": "https://www.zhihu.com/question/2062972309652992711",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-07-26T04:14:17.283Z"
-    },
-    {
-      "id": "orthognathic-surgery-reporting",
-      "rank": 2,
-      "title": "正颌手术争议为什么迅速上热搜：如何避免二次伤害？",
-      "brief": "微博与百度均有相关词条，且涉及医疗与个案叙事。适合做媒体素养或患者沟通视角，不宜把网传细节当作已证实事实。",
-      "category": "健康与伦理",
-      "momentum": "rising",
-      "urgency": "now",
-      "heat": 95,
-      "mathFit": 83,
-      "visualFit": 68,
-      "lifeFit": 88,
-      "questionDensity": 94,
-      "priority": 93,
       "keywords": [
-        "正颌手术",
-        "医疗沟通",
-        "个案报道",
-        "二次伤害"
+        "公共安全",
+        "甘肃渭源山洪已致10死23伤",
+        "甘肃渭源一景区山洪已致 10 人遇难，23 人受伤，现场情况如何？哪些信息值得关注？"
       ],
       "mathAngles": [
-        "区分当事人陈述、平台讨论和正式调查三类信息",
-        "用时间线说明事实核验为何需要等待",
-        "讨论叙事镜头如何保护当事人"
+        "先区分热榜信号与可核验事实",
+        "把复杂问题拆成可复述的三个步骤",
+        "以真实使用场景组织叙事"
       ],
       "hooks": [
-        "为什么同一事件会同时出现多个热搜版本？",
-        "医疗热点里，哪些信息不能只靠转述？"
+        "这条热搜，真正值得创作者讲的是什么？",
+        "先别急着下结论，三个问题帮你拆开它。"
       ],
       "recommendedFormat": {
-        "duration": "90秒",
-        "structure": "热榜现象 → 信息分层 → 报道边界 → 观众可做的核验"
+        "duration": "60–90秒",
+        "structure": "热榜信号 → 真实场景 → 可讲角度 → 待核验边界"
       },
       "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "抖音原榜：甘肃渭源山洪已致10死23伤",
+          "url": "https://www.douyin.com/search/%E7%94%98%E8%82%83%E6%B8%AD%E6%BA%90%E5%B1%B1%E6%B4%AA%E5%B7%B2%E8%87%B410%E6%AD%BB23%E4%BC%A4",
+          "type": "platform"
+        },
+        {
+          "name": "知乎原榜：甘肃渭源一景区山洪已致 10 人遇难，23 人受伤，现场情况如何？哪些信息值得关注？",
+          "url": "https://www.zhihu.com/question/2064783855282643631",
+          "type": "platform"
+        },
+        {
+          "name": "百度原榜：甘肃省委书记省长赶赴山洪现场",
+          "url": "https://m.baidu.com/s?word=%E7%94%98%E8%82%83%E7%9C%81%E5%A7%94%E4%B9%A6%E8%AE%B0%E7%9C%81%E9%95%BF%E8%B5%B6%E8%B5%B4%E5%B1%B1%E6%B4%AA%E7%8E%B0%E5%9C%BA&sa=fyb_news",
+          "type": "platform"
+        },
+        {
+          "name": "百度原榜：甘肃景区山洪冲走多辆汽车",
+          "url": "https://m.baidu.com/s?word=%E7%94%98%E8%82%83%E6%99%AF%E5%8C%BA%E5%B1%B1%E6%B4%AA%E5%86%B2%E8%B5%B0%E5%A4%9A%E8%BE%86%E6%B1%BD%E8%BD%A6&sa=fyb_news",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-07-26T14:44:30.300Z"
+    },
+    {
+      "id": "jiuzhaigou-mudslide-travel-safety",
+      "rank": 2,
+      "title": "九寨沟泥石流登热搜：旅行内容如何把安全提示放在风景前面？",
+      "brief": "微博与百度同时出现景区泥石流词条，适合做出行前的预警信息、路线备选和求助入口清单。",
+      "category": "旅行与安全",
+      "momentum": "rising",
+      "urgency": "now",
+      "heat": 96,
       "crossPlatform": 2,
+      "mathFit": 92,
+      "visualFit": 97,
+      "lifeFit": 98,
+      "questionDensity": 95,
+      "priority": 94,
       "platforms": [
         {
           "id": "weibo",
-          "rank": 31,
-          "score": 39,
-          "trend": "原榜第31位"
+          "rank": 2,
+          "score": 97,
+          "trend": "原榜第2位"
         },
         {
           "id": "baidu",
@@ -222,537 +194,462 @@
           "trend": "原榜第4位"
         }
       ],
-      "sources": [
-        {
-          "name": "微博原榜：卫健委介入24岁女孩正颌手术被做反",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%8D%AB%E5%81%A5%E5%A7%94%E4%BB%8B%E5%85%A524%E5%B2%81%E5%A5%B3%E5%AD%A9%E6%AD%A3%E9%A2%8C%E6%89%8B%E6%9C%AF%E8%A2%AB%E5%81%9A%E5%8F%8D%23",
-          "type": "platform"
-        },
-        {
-          "name": "微博原榜：员工发现顾客腹部异常隆起坚持送医",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%91%98%E5%B7%A5%E5%8F%91%E7%8E%B0%E9%A1%BE%E5%AE%A2%E8%85%B9%E9%83%A8%E5%BC%82%E5%B8%B8%E9%9A%86%E8%B5%B7%E5%9D%9A%E6%8C%81%E9%80%81%E5%8C%BB%23",
-          "type": "platform"
-        },
-        {
-          "name": "百度原榜：女孩正颌手术被做反 当地卫健委介入",
-          "url": "https://m.baidu.com/s?word=%E5%A5%B3%E5%AD%A9%E6%AD%A3%E9%A2%8C%E6%89%8B%E6%9C%AF%E8%A2%AB%E5%81%9A%E5%8F%8D+%E5%BD%93%E5%9C%B0%E5%8D%AB%E5%81%A5%E5%A7%94%E4%BB%8B%E5%85%A5&sa=fyb_news",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-07-26T04:14:17.283Z"
-    },
-    {
-      "id": "travel-pose-saveable-tutorial",
-      "rank": 3,
-      "title": "旅行拍照姿势为何持续高位：一条教程怎样更值得收藏？",
-      "brief": "小红书旅行影像词条位居公开快照第一。适合生活方式创作者做同场景、同机位、不同动作的可复刻实验。",
-      "category": "旅行与生活方式",
-      "momentum": "steady",
-      "urgency": "today",
-      "heat": 88,
-      "mathFit": 76,
-      "visualFit": 99,
-      "lifeFit": 94,
-      "questionDensity": 75,
-      "priority": 91,
       "keywords": [
-        "旅行拍照",
-        "姿势",
-        "构图",
-        "收藏型内容"
+        "旅行与安全",
+        "四川九寨沟景区泥石流",
+        "九寨沟突发泥石流 大批游客滞留"
       ],
       "mathAngles": [
-        "用机位、焦段和动作顺序组织可复刻教程",
-        "比较同地点的不同画面效果",
-        "把审美建议转成可执行步骤"
+        "先区分热榜信号与可核验事实",
+        "把复杂问题拆成可复述的三个步骤",
+        "以真实使用场景组织叙事"
       ],
       "hooks": [
-        "不是姿势多，而是观众能不能在现场照着做",
-        "同一个机位，五个动作能差多少？"
-      ],
-      "recommendedFormat": {
-        "duration": "45–60秒",
-        "structure": "失败示例 → 机位固定 → 五个姿势 → 成片对比"
-      },
-      "factStatus": "needs-review",
-      "crossPlatform": 1,
-      "platforms": [
-        {
-          "id": "xiaohongshu",
-          "rank": 1,
-          "score": 99,
-          "trend": "原榜第1位"
-        }
-      ],
-      "sources": [
-        {
-          "name": "小红书原榜：用万能旅行拍照姿势美美出片",
-          "url": "https://www.xiaohongshu.com/search_result?keyword=%E7%94%A8%E4%B8%87%E8%83%BD%E6%97%85%E8%A1%8C%E6%8B%8D%E7%85%A7%E5%A7%BF%E5%8A%BF%E7%BE%8E%E7%BE%8E%E5%87%BA%E7%89%87&type=51",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-07-26T04:14:17.283Z"
-    },
-    {
-      "id": "phone-battery-review-method",
-      "rank": 4,
-      "title": "手机续航大横评：怎样把评测做成可复现的选择指南？",
-      "brief": "B站热门第一条聚焦手机续航与电池容量。可从测试条件、使用情境和结论边界切入，避免只给“最好”结论。",
-      "category": "消费科技",
-      "momentum": "peak",
-      "urgency": "today",
-      "heat": 89,
-      "mathFit": 92,
-      "visualFit": 86,
-      "lifeFit": 90,
-      "questionDensity": 88,
-      "priority": 90,
-      "keywords": [
-        "手机续航",
-        "评测",
-        "电池",
-        "消费决策"
-      ],
-      "mathAngles": [
-        "列出统一测试条件与不可比条件",
-        "把续航拆成场景而非一个总分",
-        "说明容量、性能和价格之间的权衡"
-      ],
-      "hooks": [
-        "同一部手机，为什么有人说耐用、有人说掉电快？",
-        "一张横评表最容易漏掉什么？"
+        "这条热搜，真正值得创作者讲的是什么？",
+        "先别急着下结论，三个问题帮你拆开它。"
       ],
       "recommendedFormat": {
         "duration": "60–90秒",
-        "structure": "问题设定 → 测试规则 → 场景对比 → 适合人群"
+        "structure": "热榜信号 → 真实场景 → 可讲角度 → 待核验边界"
       },
       "factStatus": "needs-review",
-      "crossPlatform": 1,
-      "platforms": [
+      "sources": [
         {
-          "id": "bilibili",
-          "rank": 1,
-          "score": 99,
-          "trend": "原榜第1位"
+          "name": "微博原榜：四川九寨沟景区泥石流",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%9B%9B%E5%B7%9D%E4%B9%9D%E5%AF%A8%E6%B2%9F%E6%99%AF%E5%8C%BA%E6%B3%A5%E7%9F%B3%E6%B5%81%23",
+          "type": "platform"
+        },
+        {
+          "name": "百度原榜：九寨沟突发泥石流 大批游客滞留",
+          "url": "https://m.baidu.com/s?word=%E4%B9%9D%E5%AF%A8%E6%B2%9F%E7%AA%81%E5%8F%91%E6%B3%A5%E7%9F%B3%E6%B5%81+%E5%A4%A7%E6%89%B9%E6%B8%B8%E5%AE%A2%E6%BB%9E%E7%95%99&sa=fyb_news",
+          "type": "platform"
         }
       ],
+      "updatedAt": "2026-07-26T14:44:30.300Z"
+    },
+    {
+      "id": "phone-battery-benchmark",
+      "rank": 3,
+      "title": "手机续航大横评：怎样把“谁最耐用”讲成可复现的评测？",
+      "brief": "知乎与B站同时讨论续航横评。可比较测试条件、使用场景和结论边界，避免只给单一总分。",
+      "category": "消费科技",
+      "momentum": "peak",
+      "urgency": "today",
+      "heat": 94,
+      "crossPlatform": 2,
+      "mathFit": 90,
+      "visualFit": 95,
+      "lifeFit": 96,
+      "questionDensity": 93,
+      "priority": 92,
+      "platforms": [
+        {
+          "id": "zhihu",
+          "rank": 2,
+          "score": 97,
+          "trend": "原榜第2位"
+        },
+        {
+          "id": "bilibili",
+          "rank": 2,
+          "score": 97,
+          "trend": "原榜第2位"
+        }
+      ],
+      "keywords": [
+        "消费科技",
+        "如何看待数码博主极客湾最新一期的《续航大横评》？这会给国产手机厂商和市场带来什么样的影响？",
+        "极客湾手机续航大横评：电池锁容？电量缩水？谁在浑水摸鱼？"
+      ],
+      "mathAngles": [
+        "先区分热榜信号与可核验事实",
+        "把复杂问题拆成可复述的三个步骤",
+        "以真实使用场景组织叙事"
+      ],
+      "hooks": [
+        "这条热搜，真正值得创作者讲的是什么？",
+        "先别急着下结论，三个问题帮你拆开它。"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90秒",
+        "structure": "热榜信号 → 真实场景 → 可讲角度 → 待核验边界"
+      },
+      "factStatus": "needs-review",
       "sources": [
+        {
+          "name": "知乎原榜：如何看待数码博主极客湾最新一期的《续航大横评》？这会给国产手机厂商和市场带来什么样的影响？",
+          "url": "https://www.zhihu.com/question/2064578743788745259",
+          "type": "platform"
+        },
         {
           "name": "B站原榜：极客湾手机续航大横评：电池锁容？电量缩水？谁在浑水摸鱼？",
           "url": "https://www.bilibili.com/video/BV1LR336sEFX",
           "type": "platform"
         }
       ],
-      "updatedAt": "2026-07-26T04:14:17.283Z"
+      "updatedAt": "2026-07-26T14:44:30.300Z"
     },
     {
-      "id": "fields-prize-public-participation",
-      "rank": 5,
-      "title": "菲尔兹奖为何让大众讨论：从“看不懂”到“能参与”的内容设计",
-      "brief": "数学家获奖、挂谷猜想解读与大众讨论同时出现在多个平台。可做人物、问题、公众参与三条叙事线，而不是只讲术语。",
-      "category": "人物与知识文化",
+      "id": "weekly-outfit-retrospective",
+      "rank": 4,
+      "title": "一周穿搭复盘为什么上榜：把日常穿搭做成可复制的决策表",
+      "brief": "抖音穿搭复盘居首，适合用预算、场景和单品复用率组织内容，而不是只展示成片。",
+      "category": "时尚与生活",
       "momentum": "rising",
       "urgency": "today",
-      "heat": 86,
-      "mathFit": 97,
-      "visualFit": 82,
-      "lifeFit": 79,
-      "questionDensity": 91,
-      "priority": 89,
-      "keywords": [
-        "菲尔兹奖",
-        "王虹",
-        "挂谷猜想",
-        "科学传播"
-      ],
-      "mathAngles": [
-        "从公众的“为什么激动”而非定义开始",
-        "用一件日常物体进入抽象问题",
-        "讲述科研成就与个人叙事的不同边界"
-      ],
-      "hooks": [
-        "看不懂奖项，我们为什么仍然会被它打动？",
-        "一条数学视频能不能先不写公式？"
-      ],
-      "recommendedFormat": {
-        "duration": "90秒",
-        "structure": "大众困惑 → 人物与问题 → 一个直觉演示 → 继续阅读入口"
-      },
-      "factStatus": "needs-review",
-      "crossPlatform": 3,
-      "platforms": [
-        {
-          "id": "douyin",
-          "rank": 20,
-          "score": 61,
-          "trend": "原榜第20位"
-        },
-        {
-          "id": "bilibili",
-          "rank": 13,
-          "score": 75,
-          "trend": "原榜第13位"
-        },
-        {
-          "id": "baidu",
-          "rank": 40,
-          "score": 21,
-          "trend": "原榜第40位"
-        }
-      ],
-      "sources": [
-        {
-          "name": "抖音原榜：第一视角记录台风红霞来袭",
-          "url": "https://www.douyin.com/search/%E7%AC%AC%E4%B8%80%E8%A7%86%E8%A7%92%E8%AE%B0%E5%BD%95%E5%8F%B0%E9%A3%8E%E7%BA%A2%E9%9C%9E%E6%9D%A5%E8%A2%AD",
-          "type": "platform"
-        },
-        {
-          "name": "抖音原榜：AI已经摸不透柯洁了",
-          "url": "https://www.douyin.com/search/AI%E5%B7%B2%E7%BB%8F%E6%91%B8%E4%B8%8D%E9%80%8F%E6%9F%AF%E6%B4%81%E4%BA%86",
-          "type": "platform"
-        },
-        {
-          "name": "B站原榜：一口气看懂王虹获菲尔兹奖：挂谷猜想到底有多难？",
-          "url": "https://www.bilibili.com/video/BV1bpgv66Ees",
-          "type": "platform"
-        },
-        {
-          "name": "百度原榜：看不懂菲尔兹奖的我们在激动什么",
-          "url": "https://m.baidu.com/s?word=%E7%9C%8B%E4%B8%8D%E6%87%82%E8%8F%B2%E5%B0%94%E5%85%B9%E5%A5%96%E7%9A%84%E6%88%91%E4%BB%AC%E5%9C%A8%E6%BF%80%E5%8A%A8%E4%BB%80%E4%B9%88&sa=fyb_news",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-07-26T04:14:17.283Z"
-    },
-    {
-      "id": "poetry-travel-shotlist",
-      "rank": 6,
-      "title": "古诗词里的中国如何拍得有现场感：文化旅行镜头脚本",
-      "brief": "小红书公开快照中“耗时三年拍下古诗词里的中国”和河南相关词条均在前十，适合文化、旅行和摄影创作者联动。",
-      "category": "文化旅行",
-      "momentum": "steady",
-      "urgency": "evergreen",
-      "heat": 82,
-      "mathFit": 81,
-      "visualFit": 98,
-      "lifeFit": 86,
-      "questionDensity": 78,
-      "priority": 87,
-      "keywords": [
-        "古诗词",
-        "河南",
-        "文化旅行",
-        "摄影脚本"
-      ],
-      "mathAngles": [
-        "把诗句、地点、光线和行进路线对应起来",
-        "通过远中近景建立现场感",
-        "把长期项目拆成可持续更新的系列"
-      ],
-      "hooks": [
-        "一首诗怎样变成一条可拍的旅行路线？",
-        "文化旅行片最容易只剩风景的原因是什么？"
-      ],
-      "recommendedFormat": {
-        "duration": "60秒",
-        "structure": "诗句 → 地点 → 机位与时段 → 人物行动 → 成片回看"
-      },
-      "factStatus": "needs-review",
-      "crossPlatform": 2,
-      "platforms": [
-        {
-          "id": "xiaohongshu",
-          "rank": 9,
-          "score": 83,
-          "trend": "原榜第9位"
-        },
-        {
-          "id": "douyin",
-          "rank": 18,
-          "score": 65,
-          "trend": "原榜第18位"
-        }
-      ],
-      "sources": [
-        {
-          "name": "小红书原榜：耗时三年拍下古诗词里的中国",
-          "url": "https://www.xiaohongshu.com/search_result?keyword=%E8%80%97%E6%97%B6%E4%B8%89%E5%B9%B4%E6%8B%8D%E4%B8%8B%E5%8F%A4%E8%AF%97%E8%AF%8D%E9%87%8C%E7%9A%84%E4%B8%AD%E5%9B%BD&type=51",
-          "type": "platform"
-        },
-        {
-          "name": "小红书原榜：原来古诗词里的河南真的存在",
-          "url": "https://www.xiaohongshu.com/search_result?keyword=%E5%8E%9F%E6%9D%A5%E5%8F%A4%E8%AF%97%E8%AF%8D%E9%87%8C%E7%9A%84%E6%B2%B3%E5%8D%97%E7%9C%9F%E7%9A%84%E5%AD%98%E5%9C%A8&type=51",
-          "type": "platform"
-        },
-        {
-          "name": "抖音原榜：景德镇制瓷凭啥领先欧洲500年",
-          "url": "https://www.douyin.com/search/%E6%99%AF%E5%BE%B7%E9%95%87%E5%88%B6%E7%93%B7%E5%87%AD%E5%95%A5%E9%A2%86%E5%85%88%E6%AC%A7%E6%B4%B2500%E5%B9%B4",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-07-26T04:14:17.283Z"
-    },
-    {
-      "id": "ai-partnership-plain-language",
-      "rank": 7,
-      "title": "AI合作计划为何容易变成大词：用交易结构讲清产业关系",
-      "brief": "微博与知乎均出现人工智能合作或产业交易类讨论。适合财经、科技和职场创作者把“谁买什么、谁承担什么风险”讲清楚。",
-      "category": "产业与财经",
-      "momentum": "rising",
-      "urgency": "today",
-      "heat": 80,
-      "mathFit": 94,
-      "visualFit": 75,
-      "lifeFit": 72,
-      "questionDensity": 89,
-      "priority": 85,
-      "keywords": [
-        "人工智能",
-        "产业合作",
-        "芯片",
-        "交易结构"
-      ],
-      "mathAngles": [
-        "用角色图而不是口号解释合作关系",
-        "区分新闻标题与已披露条款",
-        "展示供给、需求与资本开支的关系"
-      ],
-      "hooks": [
-        "一段“超大合作”新闻，先看哪三个问题？",
-        "公司互相买卖，和普通人的科技体验有什么关系？"
-      ],
-      "recommendedFormat": {
-        "duration": "75秒",
-        "structure": "标题拆解 → 角色图 → 已知与未知 → 影响路径"
-      },
-      "factStatus": "needs-review",
-      "crossPlatform": 2,
-      "platforms": [
-        {
-          "id": "weibo",
-          "rank": 3,
-          "score": 95,
-          "trend": "原榜第3位"
-        },
-        {
-          "id": "zhihu",
-          "rank": 26,
-          "score": 49,
-          "trend": "原榜第26位"
-        }
-      ],
-      "sources": [
-        {
-          "name": "微博原榜：APEC人工智能未来合作开启新路径",
-          "url": "https://s.weibo.com/weibo?q=%23APEC%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%9C%AA%E6%9D%A5%E5%90%88%E4%BD%9C%E5%BC%80%E5%90%AF%E6%96%B0%E8%B7%AF%E5%BE%84%23",
-          "type": "platform"
-        },
-        {
-          "name": "知乎原榜：英伟达与 SK 集团推出超 5000 亿美元双向交易AI合作计划，英伟达买内存，SK买超算，如何解读？",
-          "url": "https://www.zhihu.com/question/2064306906437571115",
-          "type": "platform"
-        },
-        {
-          "name": "知乎原榜：《三国第一部：争洛阳》上映 16 天官宣撤档，票房未破亿，电影的问题出在哪？改档期会有效吗？",
-          "url": "https://www.zhihu.com/question/2064445264405050834",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-07-26T04:14:17.283Z"
-    },
-    {
-      "id": "fine-print-consumer-decision",
-      "rank": 8,
-      "title": "“小字陷阱”为何反复出现：消费决策里最该看见的三行字",
-      "brief": "百度热榜的“小字陷阱”与知乎的商品标注法律讨论可组合成消费者权益选题。宜聚焦阅读合同、截图留存和寻求专业意见的常识。",
-      "category": "消费与法律常识",
-      "momentum": "peak",
-      "urgency": "today",
-      "heat": 78,
+      "heat": 91,
+      "crossPlatform": 1,
       "mathFit": 87,
-      "visualFit": 73,
-      "lifeFit": 96,
+      "visualFit": 92,
+      "lifeFit": 93,
       "questionDensity": 90,
-      "priority": 84,
-      "keywords": [
-        "小字陷阱",
-        "商品标注",
-        "消费者权益",
-        "合同阅读"
-      ],
-      "mathAngles": [
-        "用对比版面展示信息层级如何影响决策",
-        "列出购买前可核对的字段",
-        "把情绪性吐槽转成具体行动"
-      ],
-      "hooks": [
-        "真正让人吃亏的，常常不是价格而是一行小字",
-        "下单前截图，究竟该截哪里？"
-      ],
-      "recommendedFormat": {
-        "duration": "60秒",
-        "structure": "热榜问题 → 页面示意 → 三个核对点 → 风险提示"
-      },
-      "factStatus": "needs-review",
-      "crossPlatform": 2,
+      "priority": 89,
       "platforms": [
         {
-          "id": "baidu",
-          "rank": 2,
-          "score": 97,
-          "trend": "原榜第2位"
-        },
-        {
-          "id": "zhihu",
-          "rank": 9,
-          "score": 83,
-          "trend": "原榜第9位"
+          "id": "douyin",
+          "rank": 1,
+          "score": 99,
+          "trend": "原榜第1位"
         }
       ],
-      "sources": [
-        {
-          "name": "百度原榜：人民日报：“小字陷阱”何以一再上演",
-          "url": "https://m.baidu.com/s?word=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%EF%BC%9A%E2%80%9C%E5%B0%8F%E5%AD%97%E9%99%B7%E9%98%B1%E2%80%9D%E4%BD%95%E4%BB%A5%E4%B8%80%E5%86%8D%E4%B8%8A%E6%BC%94&sa=fyb_news",
-          "type": "platform"
-        },
-        {
-          "name": "知乎原榜：店主卖 7.9 元手机壳时标注「荣耀XX型号」被荣耀索赔 38 万元，如何从法律角度解读？",
-          "url": "https://www.zhihu.com/question/2064405742971352764",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-07-26T04:14:17.283Z"
-    },
-    {
-      "id": "elder-mode-usability-test",
-      "rank": 9,
-      "title": "电视“长辈模式”不好用：把适老化设计拍成一次真实体验",
-      "brief": "电视易用性争议和“长辈模式”讨论可转化为产品体验选题。让不同年龄用户完成同一任务，比单纯吐槽更有说明力。",
-      "category": "产品与生活",
-      "momentum": "steady",
-      "urgency": "evergreen",
-      "heat": 72,
-      "mathFit": 85,
-      "visualFit": 84,
-      "lifeFit": 92,
-      "questionDensity": 82,
-      "priority": 80,
       "keywords": [
-        "长辈模式",
-        "适老化",
-        "电视",
-        "用户体验"
+        "时尚与生活",
+        "复盘一周穿搭思路"
       ],
       "mathAngles": [
-        "用同一任务比较不同界面路径",
-        "记录完成时间、误触和求助次数",
-        "让设计建议落到按钮与文案"
+        "先区分热榜信号与可核验事实",
+        "把复杂问题拆成可复述的三个步骤",
+        "以真实使用场景组织叙事"
       ],
       "hooks": [
-        "把遥控器交给长辈，三分钟就能看出哪里不好用",
-        "适老化不是把字体调大就结束"
-      ],
-      "recommendedFormat": {
-        "duration": "60–75秒",
-        "structure": "任务设定 → 双人实测 → 卡点记录 → 改进建议"
-      },
-      "factStatus": "needs-review",
-      "crossPlatform": 2,
-      "platforms": [
-        {
-          "id": "baidu",
-          "rank": 14,
-          "score": 73,
-          "trend": "原榜第14位"
-        },
-        {
-          "id": "weibo",
-          "rank": 35,
-          "score": 31,
-          "trend": "原榜第35位"
-        }
-      ],
-      "sources": [
-        {
-          "name": "百度原榜：特朗普下令暂停空袭伊朗",
-          "url": "https://m.baidu.com/s?word=%E7%89%B9%E6%9C%97%E6%99%AE%E4%B8%8B%E4%BB%A4%E6%9A%82%E5%81%9C%E7%A9%BA%E8%A2%AD%E4%BC%8A%E6%9C%97&sa=fyb_news",
-          "type": "platform"
-        },
-        {
-          "name": "微博原榜：曝白敬亭胡先煦现在就出发只录首站",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9D%E7%99%BD%E6%95%AC%E4%BA%AD%E8%83%A1%E5%85%88%E7%85%A6%E7%8E%B0%E5%9C%A8%E5%B0%B1%E5%87%BA%E5%8F%91%E5%8F%AA%E5%BD%95%E9%A6%96%E7%AB%99%23",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-07-26T04:14:17.283Z"
-    },
-    {
-      "id": "layoff-girl-story-discussion",
-      "rank": 10,
-      "title": "《被裁掉的女孩》为何火：从故事共鸣到传播拆解",
-      "brief": "百度热榜同时出现播放量和“为何火”的讨论。适合影视、职场和叙事类创作者拆解角色代入、标题预期与评论区问题，但不替代票房或平台数据核验。",
-      "category": "影视与职场叙事",
-      "momentum": "rising",
-      "urgency": "today",
-      "heat": 74,
-      "mathFit": 78,
-      "visualFit": 90,
-      "lifeFit": 88,
-      "questionDensity": 84,
-      "priority": 79,
-      "keywords": [
-        "被裁掉的女孩",
-        "影视传播",
-        "职场",
-        "故事共鸣"
-      ],
-      "mathAngles": [
-        "区分作品事实与观众感受",
-        "从标题、冲突和角色代入拆解传播",
-        "把评论区当作问题库而非结论"
-      ],
-      "hooks": [
-        "一部职场剧为什么能让不同人都觉得在讲自己？",
-        "热度背后，是剧情、情绪还是现实经验？"
+        "这条热搜，真正值得创作者讲的是什么？",
+        "先别急着下结论，三个问题帮你拆开它。"
       ],
       "recommendedFormat": {
         "duration": "60–90秒",
-        "structure": "榜单信号 → 三个共鸣点 → 评论问题 → 待核验数据"
+        "structure": "热榜信号 → 真实场景 → 可讲角度 → 待核验边界"
       },
       "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "抖音原榜：复盘一周穿搭思路",
+          "url": "https://www.douyin.com/search/%E5%A4%8D%E7%9B%98%E4%B8%80%E5%91%A8%E7%A9%BF%E6%90%AD%E6%80%9D%E8%B7%AF",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-07-26T14:44:30.300Z"
+    },
+    {
+      "id": "ai-emotional-boundaries",
+      "rank": 5,
+      "title": "不要长期向 AI 倾泻心事：如何谈陪伴感、隐私与求助边界？",
+      "brief": "微博出现人与AI情感交流讨论。适合以使用边界与现实支持网络切入，不给医疗或心理诊断结论。",
+      "category": "AI与生活",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 89,
+      "crossPlatform": 1,
+      "mathFit": 85,
+      "visualFit": 90,
+      "lifeFit": 91,
+      "questionDensity": 88,
+      "priority": 87,
+      "platforms": [
+        {
+          "id": "weibo",
+          "rank": 4,
+          "score": 93,
+          "trend": "原榜第4位"
+        }
+      ],
+      "keywords": [
+        "AI与生活",
+        "不要长期向AI倾泻心事"
+      ],
+      "mathAngles": [
+        "先区分热榜信号与可核验事实",
+        "把复杂问题拆成可复述的三个步骤",
+        "以真实使用场景组织叙事"
+      ],
+      "hooks": [
+        "这条热搜，真正值得创作者讲的是什么？",
+        "先别急着下结论，三个问题帮你拆开它。"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90秒",
+        "structure": "热榜信号 → 真实场景 → 可讲角度 → 待核验边界"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "微博原榜：不要长期向AI倾泻心事",
+          "url": "https://s.weibo.com/weibo?q=%E4%B8%8D%E8%A6%81%E9%95%BF%E6%9C%9F%E5%90%91AI%E5%80%BE%E6%B3%BB%E5%BF%83%E4%BA%8B",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-07-26T14:44:30.300Z"
+    },
+    {
+      "id": "pindou-safety-and-craft",
+      "rank": 6,
+      "title": "拼豆从爆款到安全警示：亲子手作内容怎么兼顾创意与风险？",
+      "brief": "小红书的拼豆创作和百度安全提示形成对照，适合做材料、年龄与收纳环节的风险提示。",
+      "category": "亲子与手作",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 87,
       "crossPlatform": 2,
+      "mathFit": 83,
+      "visualFit": 88,
+      "lifeFit": 89,
+      "questionDensity": 86,
+      "priority": 85,
+      "platforms": [
+        {
+          "id": "xiaohongshu",
+          "rank": 7,
+          "score": 87,
+          "trend": "原榜第7位"
+        },
+        {
+          "id": "baidu",
+          "rank": 13,
+          "score": 75,
+          "trend": "原榜第13位"
+        }
+      ],
+      "keywords": [
+        "亲子与手作",
+        "拼豆上也可以作画了",
+        "暴涨5倍后 拼豆迎来国家级安全警示"
+      ],
+      "mathAngles": [
+        "先区分热榜信号与可核验事实",
+        "把复杂问题拆成可复述的三个步骤",
+        "以真实使用场景组织叙事"
+      ],
+      "hooks": [
+        "这条热搜，真正值得创作者讲的是什么？",
+        "先别急着下结论，三个问题帮你拆开它。"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90秒",
+        "structure": "热榜信号 → 真实场景 → 可讲角度 → 待核验边界"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "小红书原榜：拼豆上也可以作画了",
+          "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%8B%BC%E8%B1%86%E4%B8%8A%E4%B9%9F%E5%8F%AF%E4%BB%A5%E4%BD%9C%E7%94%BB%E4%BA%86&type=51",
+          "type": "platform"
+        },
+        {
+          "name": "百度原榜：暴涨5倍后 拼豆迎来国家级安全警示",
+          "url": "https://m.baidu.com/s?word=%E6%9A%B4%E6%B6%A85%E5%80%8D%E5%90%8E+%E6%8B%BC%E8%B1%86%E8%BF%8E%E6%9D%A5%E5%9B%BD%E5%AE%B6%E7%BA%A7%E5%AE%89%E5%85%A8%E8%AD%A6%E7%A4%BA&sa=fyb_news",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-07-26T14:44:30.300Z"
+    },
+    {
+      "id": "rare-earth-recycling-story",
+      "rank": 7,
+      "title": "日本拆旧空调找稀土：一台旧家电里有哪些可讲的循环故事？",
+      "brief": "抖音的稀土回收词条可延展为资源循环、拆解工艺和消费选择的叙事，但具体数据需另行核验。",
+      "category": "产业与环保",
+      "momentum": "steady",
+      "urgency": "today",
+      "heat": 85,
+      "crossPlatform": 1,
+      "mathFit": 81,
+      "visualFit": 86,
+      "lifeFit": 87,
+      "questionDensity": 84,
+      "priority": 83,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 10,
+          "score": 81,
+          "trend": "原榜第10位"
+        }
+      ],
+      "keywords": [
+        "产业与环保",
+        "日本为找稀土开始拆解废旧空调"
+      ],
+      "mathAngles": [
+        "先区分热榜信号与可核验事实",
+        "把复杂问题拆成可复述的三个步骤",
+        "以真实使用场景组织叙事"
+      ],
+      "hooks": [
+        "这条热搜，真正值得创作者讲的是什么？",
+        "先别急着下结论，三个问题帮你拆开它。"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90秒",
+        "structure": "热榜信号 → 真实场景 → 可讲角度 → 待核验边界"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "抖音原榜：日本为找稀土开始拆解废旧空调",
+          "url": "https://www.douyin.com/search/%E6%97%A5%E6%9C%AC%E4%B8%BA%E6%89%BE%E7%A8%80%E5%9C%9F%E5%BC%80%E5%A7%8B%E6%8B%86%E8%A7%A3%E5%BA%9F%E6%97%A7%E7%A9%BA%E8%B0%83",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-07-26T14:44:30.300Z"
+    },
+    {
+      "id": "adult-swimming-technique",
+      "rank": 8,
+      "title": "成年人学会游泳后为何忽略动作：把“会游”讲成“游得更省力”",
+      "brief": "知乎的游泳动作讨论适合用动作对比、节奏和体感变化做教学内容，避免替代专业医疗建议。",
+      "category": "运动与健康",
+      "momentum": "steady",
+      "urgency": "evergreen",
+      "heat": 82,
+      "crossPlatform": 1,
+      "mathFit": 78,
+      "visualFit": 83,
+      "lifeFit": 84,
+      "questionDensity": 81,
+      "priority": 80,
+      "platforms": [
+        {
+          "id": "zhihu",
+          "rank": 7,
+          "score": 87,
+          "trend": "原榜第7位"
+        }
+      ],
+      "keywords": [
+        "运动与健康",
+        "为什么大多数成年人一旦学会游泳就只想连续游，不再关注技术动作？"
+      ],
+      "mathAngles": [
+        "先区分热榜信号与可核验事实",
+        "把复杂问题拆成可复述的三个步骤",
+        "以真实使用场景组织叙事"
+      ],
+      "hooks": [
+        "这条热搜，真正值得创作者讲的是什么？",
+        "先别急着下结论，三个问题帮你拆开它。"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90秒",
+        "structure": "热榜信号 → 真实场景 → 可讲角度 → 待核验边界"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "知乎原榜：为什么大多数成年人一旦学会游泳就只想连续游，不再关注技术动作？",
+          "url": "https://www.zhihu.com/question/7803569929",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-07-26T14:44:30.300Z"
+    },
+    {
+      "id": "ppt-workflow-and-ai",
+      "rank": 9,
+      "title": "被嫌弃三十年的 PPT 为何仍离不开：表达工具怎样和 AI 协作？",
+      "brief": "B站的PPT与AI工具内容具有明显职场关联，可从需求澄清、结构搭建与演示反馈拆解。",
+      "category": "职场与表达",
+      "momentum": "steady",
+      "urgency": "today",
+      "heat": 80,
+      "crossPlatform": 1,
+      "mathFit": 76,
+      "visualFit": 81,
+      "lifeFit": 82,
+      "questionDensity": 79,
+      "priority": 78,
+      "platforms": [
+        {
+          "id": "bilibili",
+          "rank": 8,
+          "score": 85,
+          "trend": "原榜第8位"
+        }
+      ],
+      "keywords": [
+        "职场与表达",
+        "被骂了三十年的PPT，为什么我们还离不开它？｜附做PPT好用的AI！"
+      ],
+      "mathAngles": [
+        "先区分热榜信号与可核验事实",
+        "把复杂问题拆成可复述的三个步骤",
+        "以真实使用场景组织叙事"
+      ],
+      "hooks": [
+        "这条热搜，真正值得创作者讲的是什么？",
+        "先别急着下结论，三个问题帮你拆开它。"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90秒",
+        "structure": "热榜信号 → 真实场景 → 可讲角度 → 待核验边界"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "B站原榜：被骂了三十年的PPT，为什么我们还离不开它？｜附做PPT好用的AI！",
+          "url": "https://www.bilibili.com/video/BV1r73J6QExq",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-07-26T14:44:30.300Z"
+    },
+    {
+      "id": "watermelon-price-story",
+      "rank": 10,
+      "title": "滞销西瓜被压价：农产品故事怎样避开情绪化剪辑？",
+      "brief": "百度出现西瓜价格词条。适合讨论产销链路、信息来源和采访伦理，不将单条热搜等同于行业结论。",
+      "category": "消费与农业",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 78,
+      "crossPlatform": 1,
+      "mathFit": 74,
+      "visualFit": 79,
+      "lifeFit": 80,
+      "questionDensity": 77,
+      "priority": 76,
       "platforms": [
         {
           "id": "baidu",
-          "rank": 34,
-          "score": 33,
-          "trend": "原榜第34位"
-        },
-        {
-          "id": "zhihu",
-          "rank": 16,
-          "score": 69,
-          "trend": "原榜第16位"
+          "rank": 8,
+          "score": 85,
+          "trend": "原榜第8位"
         }
       ],
+      "keywords": [
+        "消费与农业",
+        "滞销西瓜被网红压价到一毛多一斤"
+      ],
+      "mathAngles": [
+        "先区分热榜信号与可核验事实",
+        "把复杂问题拆成可复述的三个步骤",
+        "以真实使用场景组织叙事"
+      ],
+      "hooks": [
+        "这条热搜，真正值得创作者讲的是什么？",
+        "先别急着下结论，三个问题帮你拆开它。"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90秒",
+        "structure": "热榜信号 → 真实场景 → 可讲角度 → 待核验边界"
+      },
+      "factStatus": "needs-review",
       "sources": [
         {
-          "name": "百度原榜：《被裁掉的女孩》播放破2亿",
-          "url": "https://m.baidu.com/s?word=%E3%80%8A%E8%A2%AB%E8%A3%81%E6%8E%89%E7%9A%84%E5%A5%B3%E5%AD%A9%E3%80%8B%E6%92%AD%E6%94%BE%E7%A0%B42%E4%BA%BF&sa=fyb_news",
-          "type": "platform"
-        },
-        {
-          "name": "百度原榜：《被裁掉的女孩》为何火",
-          "url": "https://m.baidu.com/s?word=%E3%80%8A%E8%A2%AB%E8%A3%81%E6%8E%89%E7%9A%84%E5%A5%B3%E5%AD%A9%E3%80%8B%E4%B8%BA%E4%BD%95%E7%81%AB&sa=fyb_news",
-          "type": "platform"
-        },
-        {
-          "name": "知乎原榜：《年会不能停 2！》开点映了，看过的都来说说，如何评价这部电影？",
-          "url": "https://www.zhihu.com/question/2063662105644082961",
+          "name": "百度原榜：滞销西瓜被网红压价到一毛多一斤",
+          "url": "https://m.baidu.com/s?word=%E6%BB%9E%E9%94%80%E8%A5%BF%E7%93%9C%E8%A2%AB%E7%BD%91%E7%BA%A2%E5%8E%8B%E4%BB%B7%E5%88%B0%E4%B8%80%E6%AF%9B%E5%A4%9A%E4%B8%80%E6%96%A4&sa=fyb_news",
           "type": "platform"
         }
       ],
-      "updatedAt": "2026-07-26T04:14:17.283Z"
+      "updatedAt": "2026-07-26T14:44:30.300Z"
     }
   ]
 }
