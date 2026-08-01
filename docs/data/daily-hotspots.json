@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "dataMode": "live",
   "date": "2026-08-01",
-  "generatedAt": "2026-08-01T05:50:36Z",
+  "generatedAt": "2026-08-01T06:15:04.830Z",
   "timezone": "Asia/Shanghai",
   "summary": {
     "topicCount": 11,
-    "urgentCount": 2,
+    "urgentCount": 3,
     "crossPlatformCount": 11,
     "formulaReadyCount": 11
   },
@@ -16,42 +16,42 @@
       "name": "抖音",
       "status": "fresh",
       "items": 49,
-      "updatedAt": "2026-08-01T04:04:55.236Z"
+      "updatedAt": "2026-08-01T06:15:04.830Z"
     },
     {
       "id": "weibo",
       "name": "微博",
       "status": "fresh",
       "items": 50,
-      "updatedAt": "2026-08-01T04:04:55.236Z"
+      "updatedAt": "2026-08-01T06:15:04.830Z"
     },
     {
       "id": "zhihu",
       "name": "知乎",
       "status": "partial",
       "items": 30,
-      "updatedAt": "2026-08-01T04:04:55.236Z"
+      "updatedAt": "2026-08-01T06:15:04.830Z"
     },
     {
       "id": "xiaohongshu",
       "name": "小红书",
       "status": "partial",
       "items": 10,
-      "updatedAt": "2026-08-01T04:04:55.236Z"
+      "updatedAt": "2026-08-01T06:15:04.830Z"
     },
     {
       "id": "baidu",
       "name": "百度",
       "status": "fresh",
       "items": 50,
-      "updatedAt": "2026-08-01T04:04:55.236Z"
+      "updatedAt": "2026-08-01T06:15:04.830Z"
     },
     {
       "id": "bilibili",
       "name": "B站",
       "status": "fresh",
       "items": 50,
-      "updatedAt": "2026-08-01T04:04:55.236Z"
+      "updatedAt": "2026-08-01T06:15:04.830Z"
     }
   ],
   "trendHistory": {
@@ -62,7 +62,7 @@
       "07/29 10:55",
       "07/29 12:01",
       "07/30 12:55",
-      "08/01 12:04"
+      "08/01 14:15"
     ],
     "series": {
       "douyin": [
@@ -123,763 +123,829 @@
   },
   "topics": [
     {
-      "id": "youth-protection-evidence",
-      "title": "少年捐赠侵华罪证获保护：公共事件内容怎样先保护当事人？",
-      "brief": "少年捐赠侵华罪证并获警方保护的讨论同时位于微博和百度前列。适合法治、历史与公益创作者说明公开信息、个人隐私和调查进展的边界，避免转载可识别信息或将热榜标题扩写为已证实事实。",
-      "category": "法治与公共议题",
-      "momentum": "rising",
+      "id": "army-day-public-memory",
+      "rank": 1,
+      "title": "八一内容五榜共振：纪念主题怎样兼顾情感、历史与现场感？",
+      "brief": "建军节、升旗、军队宣传片和装备画面在多个平台同时进入热榜，适合从公共记忆、影像叙事与现场参与三个层面拆解。",
+      "category": "纪念与国防",
+      "momentum": "peak",
       "urgency": "now",
-      "heat": 97,
-      "crossPlatform": 2,
-      "mathFit": 98,
-      "visualFit": 97,
-      "lifeFit": 98,
-      "questionDensity": 98,
+      "heat": 91,
+      "crossPlatform": 5,
+      "mathFit": 88,
+      "visualFit": 96,
+      "lifeFit": 86,
+      "questionDensity": 90,
+      "priority": 98,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 3,
+          "score": 98,
+          "trend": "热榜前列"
+        },
+        {
+          "id": "weibo",
+          "rank": 3,
+          "score": 98,
+          "trend": "热榜前列"
+        },
+        {
+          "id": "zhihu",
+          "rank": 4,
+          "score": 95,
+          "trend": "热榜前列"
+        },
+        {
+          "id": "baidu",
+          "rank": 7,
+          "score": 94,
+          "trend": "持续升温"
+        },
+        {
+          "id": "bilibili",
+          "rank": 47,
+          "score": 58,
+          "trend": "榜内讨论"
+        }
+      ],
+      "keywords": [
+        "八一",
+        "建军节",
+        "升旗",
+        "人民子弟兵",
+        "影像叙事"
+      ],
+      "mathAngles": [
+        "不同平台如何呈现同一纪念主题",
+        "纪念影像中的人物、空间与仪式感",
+        "历史背景与当代情绪怎样连接"
+      ],
+      "hooks": [
+        "同一个八一主题，为什么五个平台的讲法完全不同？",
+        "纪念内容怎样避免只剩口号？"
+      ],
+      "recommendedFormat": {
+        "duration": "90秒",
+        "structure": "五榜画面开场—叙事差异—可复用创作框架"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "抖音热榜：庆祝中国人民解放军建军99周年",
+          "url": "https://www.douyin.com/search/%E5%BA%86%E7%A5%9D%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E8%A7%A3%E6%94%BE%E5%86%9B%E5%BB%BA%E5%86%9B99%E5%91%A8%E5%B9%B4",
+          "type": "platform"
+        },
+        {
+          "name": "微博热榜：有种安心叫人民子弟兵",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%9C%89%E7%A7%8D%E5%AE%89%E5%BF%83%E5%8F%AB%E4%BA%BA%E6%B0%91%E5%AD%90%E5%BC%9F%E5%85%B5%23",
+          "type": "platform"
+        },
+        {
+          "name": "知乎热榜：如何评价最新发布的人民军队宣传片《制胜》？有哪些值得关注的细节？",
+          "url": "https://www.zhihu.com/question/2065877408276918979",
+          "type": "platform"
+        },
+        {
+          "name": "百度热榜：福建舰入列后首次曝光海上画面",
+          "url": "https://m.baidu.com/s?word=%E7%A6%8F%E5%BB%BA%E8%88%B0%E5%85%A5%E5%88%97%E5%90%8E%E9%A6%96%E6%AC%A1%E6%9B%9D%E5%85%89%E6%B5%B7%E4%B8%8A%E7%94%BB%E9%9D%A2&sa=fyb_news",
+          "type": "platform"
+        },
+        {
+          "name": "B站热榜：庆祝中国人民解放军建军99周年微视频《向百年》",
+          "url": "https://www.bilibili.com/video/BV114Gw61E75",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-08-01T06:15:04.830Z"
+    },
+    {
+      "id": "youth-protection-evidence",
+      "rank": 2,
+      "title": "少年捐赠侵华罪证获保护：公共事件内容怎样先保护当事人？",
+      "brief": "同一事件同时进入微博、知乎和百度前列，创作者需要区分已公开事实、法律讨论与未经证实的二次传播。",
+      "category": "公共事件",
+      "momentum": "peak",
+      "urgency": "now",
+      "heat": 92,
+      "crossPlatform": 3,
+      "mathFit": 92,
+      "visualFit": 84,
+      "lifeFit": 96,
+      "questionDensity": 97,
       "priority": 97,
       "platforms": [
         {
           "id": "weibo",
-          "rank": 1,
-          "score": 100,
-          "trend": "原榜第1位"
+          "rank": 7,
+          "score": 94,
+          "trend": "持续升温"
+        },
+        {
+          "id": "zhihu",
+          "rank": 7,
+          "score": 91,
+          "trend": "持续升温"
         },
         {
           "id": "baidu",
-          "rank": 1,
-          "score": 100,
-          "trend": "原榜第1位"
+          "rank": 2,
+          "score": 99,
+          "trend": "热榜前列"
         }
       ],
       "keywords": [
         "未成年人保护",
-        "历史证据",
+        "公共事件",
         "隐私",
-        "警方通报"
+        "证据",
+        "法律责任"
       ],
       "mathAngles": [
-        "区分平台标题、正式通报与推测",
-        "隐藏可识别身份信息",
-        "以时间线标注信息更新"
+        "哪些信息可以公开、哪些应当隐去",
+        "平台热度与事实确定性不能画等号",
+        "法律讨论如何注明证据边界"
       ],
       "hooks": [
-        "公共事件里，为什么保护当事人比追问细节更重要？",
-        "一条热点视频如何不造成二次伤害？"
+        "热搜越高，越要少说哪三类信息？",
+        "讲公共事件时，保护当事人应排在流量之前。"
       ],
       "recommendedFormat": {
-        "duration": "60–90 秒",
-        "structure": "热榜切入→信息分层→可核验依据→创作提示"
+        "duration": "75秒",
+        "structure": "事件脉络—信息边界—创作者核验清单"
       },
       "factStatus": "needs-review",
       "sources": [
         {
-          "name": "微博原榜：警方对捐日本侵华罪证少年启动保护",
+          "name": "微博热榜：警方对捐日本侵华罪证少年启动保护",
           "url": "https://s.weibo.com/weibo?q=%23%E8%AD%A6%E6%96%B9%E5%AF%B9%E6%8D%90%E6%97%A5%E6%9C%AC%E4%BE%B5%E5%8D%8E%E7%BD%AA%E8%AF%81%E5%B0%91%E5%B9%B4%E5%90%AF%E5%8A%A8%E4%BF%9D%E6%8A%A4%23",
           "type": "platform"
         },
         {
-          "name": "百度原榜：警方对捐日本侵华罪证少年启动保护",
+          "name": "知乎热榜：少年捐日军侵华罪证遭「销户」威胁，警方已立案并启动保护，这些发布死亡威胁的人该承担怎样的法律责任？",
+          "url": "https://www.zhihu.com/question/2066835566323136078",
+          "type": "platform"
+        },
+        {
+          "name": "百度热榜：警方对捐日本侵华罪证少年启动保护",
           "url": "https://m.baidu.com/s?word=%E8%AD%A6%E6%96%B9%E5%AF%B9%E6%8D%90%E6%97%A5%E6%9C%AC%E4%BE%B5%E5%8D%8E%E7%BD%AA%E8%AF%81%E5%B0%91%E5%B9%B4%E5%90%AF%E5%8A%A8%E4%BF%9D%E6%8A%A4&sa=fyb_news",
           "type": "platform"
         }
       ],
-      "updatedAt": "2026-08-01T05:50:36Z",
-      "rank": 1
+      "updatedAt": "2026-08-01T06:15:04.830Z"
     },
     {
-      "id": "ticket-refund-rule-literacy",
-      "title": "天价退票费后续跨榜：旅行内容怎样把退款争议讲清规则？",
-      "brief": "航空公司与平台围绕退票费的后续讨论进入微博和百度。适合旅行、消费和法律创作者核对订单条款、退改时间与实际退款明细，不把个案处理直接外推为所有航线和平台规则。",
-      "category": "旅行与消费",
-      "momentum": "peak",
-      "urgency": "today",
-      "heat": 95,
-      "crossPlatform": 2,
-      "mathFit": 96,
-      "visualFit": 95,
-      "lifeFit": 97,
-      "questionDensity": 96,
-      "priority": 95,
-      "platforms": [
-        {
-          "id": "weibo",
-          "rank": 8,
-          "score": 93,
-          "trend": "原榜第8位"
-        },
-        {
-          "id": "baidu",
-          "rank": 2,
-          "score": 99,
-          "trend": "原榜第2位"
-        }
-      ],
-      "keywords": [
-        "退票费",
-        "航班",
-        "消费者权益",
-        "订单规则"
-      ],
-      "mathAngles": [
-        "用订单节点拆解退款金额",
-        "区分个案与通用条款",
-        "保留平台、航司和监管入口"
-      ],
-      "hooks": [
-        "退票争议里，第一张该截的图是什么？",
-        "一笔退款为什么要先看时间线？"
-      ],
-      "recommendedFormat": {
-        "duration": "60–90 秒",
-        "structure": "热榜切入→信息分层→可核验依据→创作提示"
-      },
-      "factStatus": "needs-review",
-      "sources": [
-        {
-          "name": "微博原榜：航空公司不满携程返还天价退票费",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%88%AA%E7%A9%BA%E5%85%AC%E5%8F%B8%E4%B8%8D%E6%BB%A1%E6%90%BA%E7%A8%8B%E8%BF%94%E8%BF%98%E5%A4%A9%E4%BB%B7%E9%80%80%E7%A5%A8%E8%B4%B9%23",
-          "type": "platform"
-        },
-        {
-          "name": "百度原榜：航空公司不满携程返还天价退票费",
-          "url": "https://m.baidu.com/s?word=%E8%88%AA%E7%A9%BA%E5%85%AC%E5%8F%B8%E4%B8%8D%E6%BB%A1%E6%90%BA%E7%A8%8B%E8%BF%94%E8%BF%98%E5%A4%A9%E4%BB%B7%E9%80%80%E7%A5%A8%E8%B4%B9&sa=fyb_news",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-08-01T05:50:36Z",
-      "rank": 2
-    },
-    {
-      "id": "typhoon-white-dolphin-safety",
-      "title": "台风白海豚多榜上升：天气内容怎样把路径图变成行动清单？",
-      "brief": "台风白海豚的强度与路径出现在抖音、微博和知乎。适合天气、城市生活和旅行创作者以气象机构预报为准，明确预报时点、影响区域和避险动作，不将热榜讨论替代预警或灾情通报。",
-      "category": "天气与公共安全",
+      "id": "new-drama-launch-audience",
+      "rank": 3,
+      "title": "《莫得闲》开播三榜同步：新剧内容怎样拆开宣发热度与真实口碑？",
+      "brief": "抖音、微博和百度都出现开播相关条目，适合制作一条区分首日宣发、演员关注与作品评价的娱乐内容。",
+      "category": "影视娱乐",
       "momentum": "rising",
-      "urgency": "now",
-      "heat": 96,
+      "urgency": "today",
+      "heat": 86,
       "crossPlatform": 3,
-      "mathFit": 97,
-      "visualFit": 96,
-      "lifeFit": 98,
-      "questionDensity": 97,
-      "priority": 96,
+      "mathFit": 78,
+      "visualFit": 94,
+      "lifeFit": 82,
+      "questionDensity": 88,
+      "priority": 94,
       "platforms": [
         {
           "id": "douyin",
-          "rank": 23,
-          "score": 78,
-          "trend": "原榜第23位"
+          "rank": 5,
+          "score": 96,
+          "trend": "热榜前列"
         },
         {
           "id": "weibo",
-          "rank": 28,
-          "score": 73,
-          "trend": "原榜第28位"
+          "rank": 2,
+          "score": 99,
+          "trend": "热榜前列"
         },
         {
-          "id": "zhihu",
-          "rank": 5,
-          "score": 96,
-          "trend": "原榜第5位（partial 快照）"
+          "id": "baidu",
+          "rank": 39,
+          "score": 65,
+          "trend": "榜内讨论"
         }
       ],
       "keywords": [
-        "台风白海豚",
-        "预警",
-        "路径",
-        "防灾"
+        "莫得闲",
+        "新剧开播",
+        "宣发",
+        "口碑",
+        "观众预期"
       ],
       "mathAngles": [
-        "标注预报时效和不确定性",
-        "用区域与行动而非夸张画面组织内容",
-        "区分模型路径和正式预警"
+        "开播热度由哪些内容共同推动",
+        "宣发话题与观众评价如何区分",
+        "首日内容适合观察哪些信号"
       ],
       "hooks": [
-        "台风路径图上最关键的四个字是什么？",
-        "天气视频怎样让人看完就知道该做什么？"
+        "三榜都在推的新剧，等于口碑已经确定吗？",
+        "首日热度里有多少是作品，有多少是宣发？"
       ],
       "recommendedFormat": {
-        "duration": "60–90 秒",
-        "structure": "热榜切入→信息分层→可核验依据→创作提示"
+        "duration": "60秒",
+        "structure": "三榜对照—热度来源—观望指标"
       },
       "factStatus": "needs-review",
       "sources": [
         {
-          "name": "抖音原榜：台风白海豚最新路径",
-          "url": "https://www.douyin.com/search/%E5%8F%B0%E9%A3%8E%E7%99%BD%E6%B5%B7%E8%B1%9A%E6%9C%80%E6%96%B0%E8%B7%AF%E5%BE%84",
+          "name": "抖音热榜：莫得闲剧好看今日开播",
+          "url": "https://www.douyin.com/search/%E8%8E%AB%E5%BE%97%E9%97%B2%E5%89%A7%E5%A5%BD%E7%9C%8B%E4%BB%8A%E6%97%A5%E5%BC%80%E6%92%AD",
           "type": "platform"
         },
         {
-          "name": "微博原榜：台风白海豚已达17级",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%8F%B0%E9%A3%8E%E7%99%BD%E6%B5%B7%E8%B1%9A%E5%B7%B2%E8%BE%BE17%E7%BA%A7%23",
+          "name": "微博热榜：莫得闲今日开播",
+          "url": "https://s.weibo.com/weibo?q=%E8%8E%AB%E5%BE%97%E9%97%B2%E4%BB%8A%E6%97%A5%E5%BC%80%E6%92%AD",
           "type": "platform"
         },
         {
-          "name": "知乎原榜：「白海豚」爆发式增强，已成超强台风，中心最大风力17级，或直奔华东，最新动向如何？应做好哪些应对？",
-          "url": "https://www.zhihu.com/question/2065082521570600023",
+          "name": "百度热榜：肖战领衔主演《莫得闲》今日开播",
+          "url": "https://m.baidu.com/s?word=%E8%82%96%E6%88%98%E9%A2%86%E8%A1%94%E4%B8%BB%E6%BC%94%E3%80%8A%E8%8E%AB%E5%BE%97%E9%97%B2%E3%80%8B%E4%BB%8A%E6%97%A5%E5%BC%80%E6%92%AD&sa=fyb_news",
           "type": "platform"
         }
       ],
-      "updatedAt": "2026-08-01T05:50:36Z",
-      "rank": 3
+      "updatedAt": "2026-08-01T06:15:04.830Z"
     },
     {
-      "id": "entry-exit-rules-explainer",
-      "title": "出境入境规则更新跨榜：政策解读怎样先说明谁会受影响？",
-      "brief": "出境入境管理规定的讨论同时出现在抖音与知乎。适合法律、旅行和生活服务创作者从原文、生效日期、适用对象和办理渠道展开，具体权利义务须回查主管机关发布内容。",
-      "category": "公共政策与旅行",
-      "momentum": "peak",
+      "id": "ai-creation-and-safety",
+      "rank": 4,
+      "title": "AI创作与模型安全多榜并行：内容行业真正担心的是什么？",
+      "brief": "AI艺术、AI表演、模型跑分、智能体异常行为和沙箱安全同时出现在多个平台，适合做一次面向普通创作者的分层解释。",
+      "category": "AI与内容",
+      "momentum": "rising",
       "urgency": "today",
-      "heat": 93,
-      "crossPlatform": 2,
+      "heat": 92,
+      "crossPlatform": 5,
       "mathFit": 94,
-      "visualFit": 93,
-      "lifeFit": 95,
-      "questionDensity": 94,
+      "visualFit": 91,
+      "lifeFit": 88,
+      "questionDensity": 96,
       "priority": 93,
       "platforms": [
         {
           "id": "douyin",
-          "rank": 10,
-          "score": 91,
-          "trend": "原榜第10位"
-        },
-        {
-          "id": "zhihu",
-          "rank": 1,
-          "score": 100,
-          "trend": "原榜第1位（partial 快照）"
-        }
-      ],
-      "keywords": [
-        "出境入境",
-        "新规",
-        "旅行",
-        "政策解读"
-      ],
-      "mathAngles": [
-        "用适用对象和生效日期做信息卡",
-        "区分法规原文、解读与个人经验",
-        "给出主管机关入口"
-      ],
-      "hooks": [
-        "新规将施行，先看哪一段才知道自己是否相关？",
-        "政策短视频怎样避免只念标题？"
-      ],
-      "recommendedFormat": {
-        "duration": "60–90 秒",
-        "structure": "热榜切入→信息分层→可核验依据→创作提示"
-      },
-      "factStatus": "needs-review",
-      "sources": [
-        {
-          "name": "抖音原榜：完善出境入境限制措施",
-          "url": "https://www.douyin.com/search/%E5%AE%8C%E5%96%84%E5%87%BA%E5%A2%83%E5%85%A5%E5%A2%83%E9%99%90%E5%88%B6%E6%8E%AA%E6%96%BD",
-          "type": "platform"
-        },
-        {
-          "name": "知乎原榜：《国务院关于出境入境管理的规定》将于 9 月 15 日起施行，哪些信息值得关注？",
-          "url": "https://www.zhihu.com/question/2066576404393583263",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-08-01T05:50:36Z",
-      "rank": 4
-    },
-    {
-      "id": "ai-models-and-creative-boundaries",
-      "title": "大模型跑分、Agent与AI艺术同热：AI内容怎样把能力说在证据范围内？",
-      "brief": "AI作品是否算艺术、模型跑分与Agent拟人化回复分别进入抖音、微博和知乎。适合科技、创作和职场创作者把版本、任务、提示词和数据来源写清，不将单次截图或跑分当作通用能力结论。",
-      "category": "AI与创作",
-      "momentum": "peak",
-      "urgency": "today",
-      "heat": 92,
-      "crossPlatform": 3,
-      "mathFit": 93,
-      "visualFit": 92,
-      "lifeFit": 94,
-      "questionDensity": 93,
-      "priority": 92,
-      "platforms": [
-        {
-          "id": "douyin",
-          "rank": 9,
-          "score": 92,
-          "trend": "原榜第9位"
+          "rank": 12,
+          "score": 90,
+          "trend": "持续升温"
         },
         {
           "id": "weibo",
           "rank": 20,
-          "score": 81,
-          "trend": "原榜第20位"
+          "score": 83,
+          "trend": "榜内讨论"
         },
         {
           "id": "zhihu",
-          "rank": 12,
-          "score": 89,
-          "trend": "原榜第12位（partial 快照）"
+          "rank": 5,
+          "score": 94,
+          "trend": "热榜前列"
+        },
+        {
+          "id": "baidu",
+          "rank": 17,
+          "score": 85,
+          "trend": "榜内讨论"
+        },
+        {
+          "id": "bilibili",
+          "rank": 4,
+          "score": 97,
+          "trend": "热榜前列"
         }
       ],
       "keywords": [
-        "AI艺术",
-        "大模型",
-        "跑分",
-        "Agent"
+        "AI创作",
+        "模型安全",
+        "沙箱逃逸",
+        "内容行业",
+        "智能体"
       ],
       "mathAngles": [
-        "固定版本、任务与提示词后再比较",
-        "区分语言风格与实际工具执行",
-        "把跑分、体验和权利判断分栏"
+        "创作争议、产品能力与安全事件要分开讨论",
+        "模型演示与真实生产环境的差别",
+        "普通创作者使用AI时的风险边界"
       ],
       "hooks": [
-        "一张跑分图，究竟能说明模型什么？",
-        "AI说得像人，为什么不等于它有意图？"
+        "今天的AI热榜，其实混着三种完全不同的问题。",
+        "AI会演、会写、会入侵，是同一件事吗？"
       ],
       "recommendedFormat": {
-        "duration": "60–90 秒",
-        "structure": "热榜切入→信息分层→可核验依据→创作提示"
+        "duration": "90秒",
+        "structure": "五榜问题分类—风险层级—创作者行动建议"
       },
       "factStatus": "needs-review",
       "sources": [
         {
-          "name": "抖音原榜：AI生成的作品算艺术吗",
+          "name": "抖音热榜：AI生成的作品算艺术吗",
           "url": "https://www.douyin.com/search/AI%E7%94%9F%E6%88%90%E7%9A%84%E4%BD%9C%E5%93%81%E7%AE%97%E8%89%BA%E6%9C%AF%E5%90%97",
           "type": "platform"
         },
         {
-          "name": "微博原榜：DeepSeekV4Flash正式版跑分出炉",
-          "url": "https://s.weibo.com/weibo?q=%23DeepSeekV4Flash%E6%AD%A3%E5%BC%8F%E7%89%88%E8%B7%91%E5%88%86%E5%87%BA%E7%82%89%23",
+          "name": "微博热榜：真人演不了的都让ai来演",
+          "url": "https://s.weibo.com/weibo?q=%23%E7%9C%9F%E4%BA%BA%E6%BC%94%E4%B8%8D%E4%BA%86%E7%9A%84%E9%83%BD%E8%AE%A9ai%E6%9D%A5%E6%BC%94%23",
           "type": "platform"
         },
         {
-          "name": "知乎原榜：DeepSeek V4 flash上线，相较Kimi K3各有哪些优劣？现版本大模型中你的选择是啥？",
-          "url": "https://www.zhihu.com/question/2066599476764964006",
+          "name": "知乎热榜：如何看待 Anthropic 公布 Claude 也发生了沙箱逃逸，真实入侵了三家机构？",
+          "url": "https://www.zhihu.com/question/2066465758503252393",
+          "type": "platform"
+        },
+        {
+          "name": "百度热榜：头部AI再失控 Claude黑进三家公司",
+          "url": "https://m.baidu.com/s?word=%E5%A4%B4%E9%83%A8AI%E5%86%8D%E5%A4%B1%E6%8E%A7+Claude%E9%BB%91%E8%BF%9B%E4%B8%89%E5%AE%B6%E5%85%AC%E5%8F%B8&sa=fyb_news",
+          "type": "platform"
+        },
+        {
+          "name": "B站热榜：《全世界最会用AI的人》",
+          "url": "https://www.bilibili.com/video/BV12uGN6RETc",
           "type": "platform"
         }
       ],
-      "updatedAt": "2026-08-01T05:50:36Z",
-      "rank": 5
+      "updatedAt": "2026-08-01T06:15:04.830Z"
     },
     {
-      "id": "game-version-and-community",
-      "title": "原神版本前瞻跨平台上榜：游戏内容怎样让预告信息可复核？",
-      "brief": "原神版本前瞻位于抖音热榜，7.0 版本 PV 位于 B 站热门。适合游戏、数码和社群创作者标明版本号、测试范围、发布日期和官方公告来源，避免把演示画面或玩家猜测说成正式承诺。",
-      "category": "游戏与社群",
+      "id": "public-figure-accountability",
+      "rank": 5,
+      "title": "房主任事件四榜延烧：人物争议内容怎样避免只做情绪搬运？",
+      "brief": "淘汰、道歉、停演与本人回应在四个平台形成连续议题，适合梳理时间线、争议点和各方公开回应。",
+      "category": "人物与综艺",
       "momentum": "peak",
       "urgency": "today",
-      "heat": 89,
+      "heat": 88,
+      "crossPlatform": 4,
+      "mathFit": 86,
+      "visualFit": 89,
+      "lifeFit": 90,
+      "questionDensity": 94,
+      "priority": 92,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 21,
+          "score": 81,
+          "trend": "榜内讨论"
+        },
+        {
+          "id": "weibo",
+          "rank": 5,
+          "score": 96,
+          "trend": "热榜前列"
+        },
+        {
+          "id": "zhihu",
+          "rank": 12,
+          "score": 83,
+          "trend": "持续升温"
+        },
+        {
+          "id": "baidu",
+          "rank": 12,
+          "score": 90,
+          "trend": "持续升温"
+        }
+      ],
+      "keywords": [
+        "房主任",
+        "人物争议",
+        "综艺",
+        "回应",
+        "时间线"
+      ],
+      "mathAngles": [
+        "事件时间线与观点时间线分开呈现",
+        "个人回应、机构决定和网友评价的证据层级",
+        "人物内容如何保留批评尺度"
+      ],
+      "hooks": [
+        "四个平台说的是同一件事，却处在四个不同阶段。",
+        "人物争议最容易被省略的，是哪一段时间线？"
+      ],
+      "recommendedFormat": {
+        "duration": "75秒",
+        "structure": "时间线—四方信息—可核验结论"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "抖音热榜：脱口秀演员房主任道歉",
+          "url": "https://www.douyin.com/search/%E8%84%B1%E5%8F%A3%E7%A7%80%E6%BC%94%E5%91%98%E6%88%BF%E4%B8%BB%E4%BB%BB%E9%81%93%E6%AD%89",
+          "type": "platform"
+        },
+        {
+          "name": "微博热榜：房主任淘汰",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%88%BF%E4%B8%BB%E4%BB%BB%E6%B7%98%E6%B1%B0%23",
+          "type": "platform"
+        },
+        {
+          "name": "知乎热榜：如何看待房主任因《姐姐当家 2》中不当言论，遭经纪公司禁演三个月？",
+          "url": "https://www.zhihu.com/question/2066581443300569756",
+          "type": "platform"
+        },
+        {
+          "name": "百度热榜：房主任本人回应被停演3个月",
+          "url": "https://m.baidu.com/s?word=%E6%88%BF%E4%B8%BB%E4%BB%BB%E6%9C%AC%E4%BA%BA%E5%9B%9E%E5%BA%94%E8%A2%AB%E5%81%9C%E6%BC%943%E4%B8%AA%E6%9C%88&sa=fyb_news",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-08-01T06:15:04.830Z"
+    },
+    {
+      "id": "typhoon-white-dolphin-safety",
+      "rank": 6,
+      "title": "台风“白海豚”进入双榜：天气内容怎样从路径图落到行动清单？",
+      "brief": "抖音与知乎同时关注台风路径和强度变化，适合把动态气象信息转化为分地区、分时段的安全提示。",
+      "category": "天气安全",
+      "momentum": "rising",
+      "urgency": "now",
+      "heat": 74,
       "crossPlatform": 2,
       "mathFit": 90,
-      "visualFit": 89,
-      "lifeFit": 91,
-      "questionDensity": 90,
+      "visualFit": 95,
+      "lifeFit": 98,
+      "questionDensity": 91,
+      "priority": 91,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 29,
+          "score": 74,
+          "trend": "榜内讨论"
+        },
+        {
+          "id": "zhihu",
+          "rank": 13,
+          "score": 81,
+          "trend": "持续升温"
+        }
+      ],
+      "keywords": [
+        "台风白海豚",
+        "路径",
+        "天气安全",
+        "预警",
+        "行动清单"
+      ],
+      "mathAngles": [
+        "路径预测为何会持续变化",
+        "不同预警等级对应什么行动",
+        "地图画面怎样避免制造确定性错觉"
+      ],
+      "hooks": [
+        "台风路径线不是一条确定轨道。",
+        "看懂一张路径图后，下一步应该做什么？"
+      ],
+      "recommendedFormat": {
+        "duration": "60秒",
+        "structure": "路径图误区—风险区域—行动清单"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "抖音热榜：台风白海豚最新路径",
+          "url": "https://www.douyin.com/search/%E5%8F%B0%E9%A3%8E%E7%99%BD%E6%B5%B7%E8%B1%9A%E6%9C%80%E6%96%B0%E8%B7%AF%E5%BE%84",
+          "type": "platform"
+        },
+        {
+          "name": "知乎热榜：「白海豚」爆发式增强，已成超强台风，中心最大风力17级，或直奔华东，最新动向如何？应做好哪些应对？",
+          "url": "https://www.zhihu.com/question/2065082521570600023",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-08-01T06:15:04.830Z"
+    },
+    {
+      "id": "game-version-community",
+      "rank": 7,
+      "title": "《原神》7.0双榜升温：版本前瞻怎样转成玩家真正关心的问题？",
+      "brief": "抖音与B站均出现至冬版本及前瞻节目，适合从世界观、玩法信息和社区预期三个方向组织游戏内容。",
+      "category": "游戏",
+      "momentum": "peak",
+      "urgency": "today",
+      "heat": 90,
+      "crossPlatform": 2,
+      "mathFit": 80,
+      "visualFit": 98,
+      "lifeFit": 75,
+      "questionDensity": 87,
       "priority": 89,
       "platforms": [
         {
           "id": "douyin",
-          "rank": 13,
-          "score": 88,
-          "trend": "原榜第13位"
+          "rank": 11,
+          "score": 91,
+          "trend": "持续升温"
         },
         {
           "id": "bilibili",
           "rank": 2,
           "score": 99,
-          "trend": "原榜第2位"
+          "trend": "热榜前列"
         }
       ],
       "keywords": [
-        "原神",
-        "版本PV",
-        "游戏前瞻",
-        "社区"
+        "原神7.0",
+        "至冬",
+        "版本前瞻",
+        "玩家社区",
+        "游戏内容"
       ],
       "mathAngles": [
-        "按版本号与发布时间整理信息",
-        "区分官方预告、实测和猜测",
-        "用更新说明替代传言"
+        "PV信息、节目说明与玩家猜测如何分层",
+        "新版本内容的视觉线索",
+        "社区预期怎样影响讨论热度"
       ],
       "hooks": [
-        "游戏预告里，哪句话最容易被误读？",
-        "一条前瞻视频怎样让观众知道信息来自哪里？"
+        "PV里最热闹的画面，不一定是玩家最关心的信息。",
+        "版本前瞻该做复述，还是做问题清单？"
       ],
       "recommendedFormat": {
-        "duration": "60–90 秒",
-        "structure": "热榜切入→信息分层→可核验依据→创作提示"
+        "duration": "75秒",
+        "structure": "PV钩子—信息分层—玩家问题清单"
       },
       "factStatus": "needs-review",
       "sources": [
         {
-          "name": "抖音原榜：原神至冬版本前瞻",
+          "name": "抖音热榜：原神至冬版本前瞻",
           "url": "https://www.douyin.com/search/%E5%8E%9F%E7%A5%9E%E8%87%B3%E5%86%AC%E7%89%88%E6%9C%AC%E5%89%8D%E7%9E%BB",
           "type": "platform"
         },
         {
-          "name": "B站原榜：《原神》7.0版本PV：「无神怜爱的雪国」",
+          "name": "B站热榜：《原神》7.0版本PV：「无神怜爱的雪国」",
           "url": "https://www.bilibili.com/video/BV1EpGA6uEDX",
           "type": "platform"
         }
       ],
-      "updatedAt": "2026-08-01T05:50:36Z",
-      "rank": 6
+      "updatedAt": "2026-08-01T06:15:04.830Z"
     },
     {
-      "id": "screen-stories-and-audience-expectations",
-      "title": "蜘蛛侠与好莱坞人物讨论同现：影视内容怎样从剧透转向观影决策？",
-      "brief": "蜘蛛侠相关内容位于抖音和 B 站热门，演员作品讨论也在知乎上榜。适合影视、漫改和文化创作者以官方物料、无剧透看点和受众预期做内容，不把票房、档期或传闻包装为确定消息。",
-      "category": "影视与娱乐",
-      "momentum": "peak",
-      "urgency": "today",
-      "heat": 86,
+      "id": "travel-visual-storytelling",
+      "rank": 8,
+      "title": "暑期旅行内容三榜分化：出片、体验和消费怎样讲成一个故事？",
+      "brief": "小红书聚焦旅行出片，抖音出现独自旅行，百度关注“进货式旅游”，可从视觉表达、家庭体验和地方消费切入。",
+      "category": "旅行生活",
+      "momentum": "steady",
+      "urgency": "evergreen",
+      "heat": 75,
       "crossPlatform": 3,
-      "mathFit": 87,
-      "visualFit": 86,
-      "lifeFit": 88,
-      "questionDensity": 87,
-      "priority": 86,
-      "platforms": [
-        {
-          "id": "douyin",
-          "rank": 17,
-          "score": 84,
-          "trend": "原榜第17位"
-        },
-        {
-          "id": "bilibili",
-          "rank": 19,
-          "score": 82,
-          "trend": "原榜第19位"
-        },
-        {
-          "id": "zhihu",
-          "rank": 7,
-          "score": 94,
-          "trend": "原榜第7位（partial 快照）"
-        }
-      ],
-      "keywords": [
-        "蜘蛛侠",
-        "电影",
-        "演员",
-        "无剧透"
-      ],
-      "mathAngles": [
-        "把官方信息、预测和观感分层",
-        "用受众选择卡替代剧情复述",
-        "标记物料和评论的发布时间"
-      ],
-      "hooks": [
-        "影视热点怎样做内容又不毁掉观影体验？",
-        "一条无剧透推荐，最该交代哪三件事？"
-      ],
-      "recommendedFormat": {
-        "duration": "60–90 秒",
-        "structure": "热榜切入→信息分层→可核验依据→创作提示"
-      },
-      "factStatus": "needs-review",
-      "sources": [
-        {
-          "name": "抖音原榜：蜘蛛侠4结尾神来之笔",
-          "url": "https://www.douyin.com/search/%E8%9C%98%E8%9B%9B%E4%BE%A04%E7%BB%93%E5%B0%BE%E7%A5%9E%E6%9D%A5%E4%B9%8B%E7%AC%94",
-          "type": "platform"
-        },
-        {
-          "name": "B站原榜：成为蜘蛛侠的10年，荷兰弟对我说…【蛛联B合】",
-          "url": "https://www.bilibili.com/video/BV1W8Gw6yEC9",
-          "type": "platform"
-        },
-        {
-          "name": "知乎原榜：好莱坞女星赞达亚 2026 年有 4 部电影上映，其中 3 部都是大片，她怎么崛起的？如何评价其演技？",
-          "url": "https://www.zhihu.com/question/2066119170039572343",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-08-01T05:50:36Z",
-      "rank": 7
-    },
-    {
-      "id": "animation-audience-boundaries",
-      "title": "动画内容争议跨榜：亲子与文娱创作者怎样把讨论放回作品语境？",
-      "brief": "动画画面争议在微博和百度同时出现，相关剧集内容也在抖音上榜。适合亲子、动画和文化创作者区分作品分级、单一镜头、观众感受和制作方回应，不用截帧直接替代完整作品语境。",
-      "category": "动画与亲子文化",
-      "momentum": "peak",
-      "urgency": "today",
-      "heat": 84,
-      "crossPlatform": 3,
-      "mathFit": 85,
-      "visualFit": 84,
-      "lifeFit": 86,
-      "questionDensity": 85,
-      "priority": 84,
-      "platforms": [
-        {
-          "id": "weibo",
-          "rank": 4,
-          "score": 97,
-          "trend": "原榜第4位"
-        },
-        {
-          "id": "baidu",
-          "rank": 7,
-          "score": 94,
-          "trend": "原榜第7位"
-        },
-        {
-          "id": "douyin",
-          "rank": 20,
-          "score": 81,
-          "trend": "原榜第20位"
-        }
-      ],
-      "keywords": [
-        "动画",
-        "亲子内容",
-        "分级",
-        "作品语境"
-      ],
-      "mathAngles": [
-        "区分片段、完整作品和分级信息",
-        "为评价保留不同受众视角",
-        "等待片方或平台的可核验回应"
-      ],
-      "hooks": [
-        "一帧画面能否代表一部作品？",
-        "亲子内容讨论怎样不只剩情绪对立？"
-      ],
-      "recommendedFormat": {
-        "duration": "60–90 秒",
-        "structure": "热榜切入→信息分层→可核验依据→创作提示"
-      },
-      "factStatus": "needs-review",
-      "sources": [
-        {
-          "name": "微博原榜：喜羊羊新作画面疑似擦边",
-          "url": "https://s.weibo.com/weibo?q=%E5%96%9C%E7%BE%8A%E7%BE%8A%E6%96%B0%E4%BD%9C%E7%94%BB%E9%9D%A2%E7%96%91%E4%BC%BC%E6%93%A6%E8%BE%B9",
-          "type": "platform"
-        },
-        {
-          "name": "百度原榜：喜羊羊新作陷“擦边”争议",
-          "url": "https://m.baidu.com/s?word=%E5%96%9C%E7%BE%8A%E7%BE%8A%E6%96%B0%E4%BD%9C%E9%99%B7%E2%80%9C%E6%93%A6%E8%BE%B9%E2%80%9D%E4%BA%89%E8%AE%AE&sa=fyb_news",
-          "type": "platform"
-        },
-        {
-          "name": "抖音原榜：九门吴老狗不识字",
-          "url": "https://www.douyin.com/search/%E4%B9%9D%E9%97%A8%E5%90%B4%E8%80%81%E7%8B%97%E4%B8%8D%E8%AF%86%E5%AD%97",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-08-01T05:50:36Z",
-      "rank": 8
-    },
-    {
-      "id": "health-habits-evidence",
-      "title": "力量训练与视力习惯同现：健康内容怎样把建议讲成可核验的选择？",
-      "brief": "中年力量训练和日常用眼习惯分别出现在微博与百度。适合健康、运动和生活方式创作者把一般建议、适用人群、风险信号与就医需求分开表达，不以热榜标题替代医学诊断。",
-      "category": "健康与生活方式",
-      "momentum": "peak",
-      "urgency": "today",
-      "heat": 82,
-      "crossPlatform": 2,
-      "mathFit": 83,
-      "visualFit": 82,
-      "lifeFit": 84,
-      "questionDensity": 83,
-      "priority": 82,
-      "platforms": [
-        {
-          "id": "weibo",
-          "rank": 27,
-          "score": 74,
-          "trend": "原榜第27位"
-        },
-        {
-          "id": "baidu",
-          "rank": 19,
-          "score": 82,
-          "trend": "原榜第19位"
-        }
-      ],
-      "keywords": [
-        "力量训练",
-        "视力",
-        "健康习惯",
-        "科学沟通"
-      ],
-      "mathAngles": [
-        "区分相关性、建议和医疗结论",
-        "说明人群差异与风险信号",
-        "给出权威健康资源而不是诊断"
-      ],
-      "hooks": [
-        "健康热搜里，哪些话不能替医生替你说？",
-        "一条训练建议，怎样让不同年龄的人都听得明白？"
-      ],
-      "recommendedFormat": {
-        "duration": "60–90 秒",
-        "structure": "热榜切入→信息分层→可核验依据→创作提示"
-      },
-      "factStatus": "needs-review",
-      "sources": [
-        {
-          "name": "微博原榜：建议中年人要长期坚持力量训练",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%BB%BA%E8%AE%AE%E4%B8%AD%E5%B9%B4%E4%BA%BA%E8%A6%81%E9%95%BF%E6%9C%9F%E5%9D%9A%E6%8C%81%E5%8A%9B%E9%87%8F%E8%AE%AD%E7%BB%83%23",
-          "type": "platform"
-        },
-        {
-          "name": "百度原榜：这2个习惯正在偷走你的视力",
-          "url": "https://m.baidu.com/s?word=%E8%BF%992%E4%B8%AA%E4%B9%A0%E6%83%AF%E6%AD%A3%E5%9C%A8%E5%81%B7%E8%B5%B0%E4%BD%A0%E7%9A%84%E8%A7%86%E5%8A%9B&sa=fyb_news",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-08-01T05:50:36Z",
-      "rank": 9
-    },
-    {
-      "id": "education-talent-and-science",
-      "title": "数学人才、菲尔兹奖与物理学习同现：教育内容怎样不把天赋讲成单一路径？",
-      "brief": "数学人才竞争、菲尔兹奖后的教育讨论和物理学习内容分布在百度、知乎与 B 站。适合教育、科学和职场创作者区分研究成就、培养资源和普通学习路径，避免将个体故事变成焦虑模板。",
-      "category": "教育与科学",
-      "momentum": "peak",
-      "urgency": "today",
-      "heat": 83,
-      "crossPlatform": 3,
-      "mathFit": 84,
-      "visualFit": 83,
-      "lifeFit": 85,
+      "mathFit": 76,
+      "visualFit": 99,
+      "lifeFit": 95,
       "questionDensity": 84,
-      "priority": 83,
+      "priority": 87,
       "platforms": [
+        {
+          "id": "douyin",
+          "rank": 48,
+          "score": 56,
+          "trend": "榜内讨论"
+        },
+        {
+          "id": "xiaohongshu",
+          "rank": 1,
+          "score": 100,
+          "trend": "热榜前列"
+        },
+        {
+          "id": "baidu",
+          "rank": 50,
+          "score": 55,
+          "trend": "榜内讨论"
+        }
+      ],
+      "keywords": [
+        "暑期旅行",
+        "旅行拍照",
+        "独自旅行",
+        "地方消费",
+        "家庭体验"
+      ],
+      "mathAngles": [
+        "旅行内容的三种需求：记录、关系与消费",
+        "同一目的地如何设计不同叙事",
+        "出片教程如何加入真实体验"
+      ],
+      "hooks": [
+        "大家去旅行，真的是为了同一件事吗？",
+        "一条旅行视频可以同时讲景色、关系和消费。"
+      ],
+      "recommendedFormat": {
+        "duration": "90秒",
+        "structure": "三榜需求—三类叙事—拍摄模板"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "抖音热榜：我的暑期限定solotrip",
+          "url": "https://www.douyin.com/search/%E6%88%91%E7%9A%84%E6%9A%91%E6%9C%9F%E9%99%90%E5%AE%9Asolotrip",
+          "type": "platform"
+        },
+        {
+          "name": "小红书热榜：用万能旅行拍照姿势美美出片",
+          "url": "https://www.xiaohongshu.com/search_result?keyword=%E7%94%A8%E4%B8%87%E8%83%BD%E6%97%85%E8%A1%8C%E6%8B%8D%E7%85%A7%E5%A7%BF%E5%8A%BF%E7%BE%8E%E7%BE%8E%E5%87%BA%E7%89%87&type=51",
+          "type": "platform"
+        },
+        {
+          "name": "百度热榜：“进货式旅游”火出圈",
+          "url": "https://m.baidu.com/s?word=%E2%80%9C%E8%BF%9B%E8%B4%A7%E5%BC%8F%E6%97%85%E6%B8%B8%E2%80%9D%E7%81%AB%E5%87%BA%E5%9C%88&sa=fyb_news",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-08-01T06:15:04.830Z"
+    },
+    {
+      "id": "car-sales-consumer-reading",
+      "rank": 9,
+      "title": "车企月销量进入双榜：普通消费者该怎样读懂“破纪录”？",
+      "brief": "微博关注7月车企销量，百度出现新势力月销突破话题，适合解释销量口径、时间范围和消费者真正需要比较的指标。",
+      "category": "汽车消费",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 89,
+      "crossPlatform": 2,
+      "mathFit": 93,
+      "visualFit": 86,
+      "lifeFit": 92,
+      "questionDensity": 91,
+      "priority": 85,
+      "platforms": [
+        {
+          "id": "weibo",
+          "rank": 9,
+          "score": 93,
+          "trend": "持续升温"
+        },
         {
           "id": "baidu",
           "rank": 5,
           "score": 96,
-          "trend": "原榜第5位"
-        },
-        {
-          "id": "zhihu",
-          "rank": 15,
-          "score": 86,
-          "trend": "原榜第15位（partial 快照）"
-        },
-        {
-          "id": "bilibili",
-          "rank": 37,
-          "score": 64,
-          "trend": "原榜第37位"
+          "trend": "热榜前列"
         }
       ],
       "keywords": [
-        "数学",
-        "菲尔兹奖",
-        "物理",
-        "教育"
+        "汽车销量",
+        "新势力",
+        "月销",
+        "消费决策",
+        "数据口径"
       ],
       "mathAngles": [
-        "区分个人故事、资源条件与普遍建议",
-        "用路径图展示不同学习目标",
-        "让数据和案例各自说明边界"
+        "交付量、零售量和批发量口径有何不同",
+        "单月纪录与长期趋势如何区分",
+        "销量之外还要看哪些消费指标"
       ],
       "hooks": [
-        "讲数学天才时，为什么更该谈培养环境？",
-        "一条教育内容怎样不把成功写成标准答案？"
+        "月销破纪录，为什么不等于这辆车一定适合你？",
+        "同一张销量榜，可能藏着三种统计口径。"
       ],
       "recommendedFormat": {
-        "duration": "60–90 秒",
-        "structure": "热榜切入→信息分层→可核验依据→创作提示"
+        "duration": "75秒",
+        "structure": "热榜数字—口径拆解—购车检查表"
       },
       "factStatus": "needs-review",
       "sources": [
         {
-          "name": "百度原榜：硅谷与华尔街争抢20多岁数学天才",
-          "url": "https://m.baidu.com/s?word=%E7%A1%85%E8%B0%B7%E4%B8%8E%E5%8D%8E%E5%B0%94%E8%A1%97%E4%BA%89%E6%8A%A220%E5%A4%9A%E5%B2%81%E6%95%B0%E5%AD%A6%E5%A4%A9%E6%89%8D&sa=fyb_news",
+          "name": "微博热榜：车企7月份销量数据",
+          "url": "https://s.weibo.com/weibo?q=%23%E8%BD%A6%E4%BC%817%E6%9C%88%E4%BB%BD%E9%94%80%E9%87%8F%E6%95%B0%E6%8D%AE%23",
           "type": "platform"
         },
         {
-          "name": "知乎原榜：菲尔兹奖之后，教育的本质到底更应倾向筛选天才还是培养天才?",
-          "url": "https://www.zhihu.com/question/2064763528163201033",
-          "type": "platform"
-        },
-        {
-          "name": "B站原榜：零基础学物理（36）：电场线、等势线",
-          "url": "https://www.bilibili.com/video/BV124gZ6KEhc",
+          "name": "百度热榜：首个月销破10万辆的新势力出现了",
+          "url": "https://m.baidu.com/s?word=%E9%A6%96%E4%B8%AA%E6%9C%88%E9%94%80%E7%A0%B410%E4%B8%87%E8%BE%86%E7%9A%84%E6%96%B0%E5%8A%BF%E5%8A%9B%E5%87%BA%E7%8E%B0%E4%BA%86&sa=fyb_news",
           "type": "platform"
         }
       ],
-      "updatedAt": "2026-08-01T05:50:36Z",
-      "rank": 10
+      "updatedAt": "2026-08-01T06:15:04.830Z"
     },
     {
-      "id": "low-price-food-business-models",
-      "title": "低价餐饮与地方美食上榜：美食内容怎样既讲口味也讲经营账？",
-      "brief": "低价餐饮商业逻辑、地方大盘鸡与美食内容分别出现在知乎、抖音和 B 站。适合餐饮、创业和城市生活创作者从客单、周转、人工、租金与复购展开，不以单店样本推断行业整体盈利。",
-      "category": "美食与创业",
-      "momentum": "peak",
-      "urgency": "evergreen",
-      "heat": 80,
-      "crossPlatform": 3,
-      "mathFit": 81,
-      "visualFit": 80,
-      "lifeFit": 82,
-      "questionDensity": 81,
-      "priority": 80,
+      "id": "animation-audience-boundaries",
+      "rank": 10,
+      "title": "《喜羊羊》画面争议双榜出现：少儿内容的受众边界怎么判断？",
+      "brief": "微博和百度同时出现新作画面争议，适合从目标受众、镜头语境和平台传播截取三个层面审慎讨论。",
+      "category": "动画与受众",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 82,
+      "crossPlatform": 2,
+      "mathFit": 84,
+      "visualFit": 92,
+      "lifeFit": 91,
+      "questionDensity": 93,
+      "priority": 84,
       "platforms": [
         {
-          "id": "zhihu",
-          "rank": 30,
-          "score": 71,
-          "trend": "原榜第30位（partial 快照）"
+          "id": "weibo",
+          "rank": 10,
+          "score": 92,
+          "trend": "持续升温"
         },
         {
-          "id": "douyin",
-          "rank": 49,
-          "score": 55,
-          "trend": "原榜第49位"
-        },
-        {
-          "id": "bilibili",
-          "rank": 27,
-          "score": 74,
-          "trend": "原榜第27位"
+          "id": "baidu",
+          "rank": 23,
+          "score": 80,
+          "trend": "榜内讨论"
         }
       ],
       "keywords": [
-        "低价餐饮",
-        "大盘鸡",
-        "创业",
-        "成本"
+        "喜羊羊",
+        "少儿动画",
+        "受众边界",
+        "镜头语境",
+        "内容分级"
       ],
       "mathAngles": [
-        "把客单、翻台、人工和租金放在同一模型",
-        "区分流量、复购和利润",
-        "用区间表达成本而非单一数字"
+        "单帧截图与完整情节的差别",
+        "少儿内容的受众预期",
+        "争议画面如何核验原始语境"
       ],
       "hooks": [
-        "5元水饺真能赚钱吗？先别急着算食材。",
-        "地方美食走红后，怎样把流量拍成有用的经营观察？"
+        "一张截图能不能代表一部少儿动画？",
+        "判断少儿内容边界，至少要看哪三个层面？"
       ],
       "recommendedFormat": {
-        "duration": "60–90 秒",
-        "structure": "热榜切入→信息分层→可核验依据→创作提示"
+        "duration": "60秒",
+        "structure": "争议截图—语境核验—受众判断框架"
       },
       "factStatus": "needs-review",
       "sources": [
         {
-          "name": "知乎原榜：5 元水饺 4 元面馆，一批低价餐饮爆火，真能赚到钱吗？背后是怎样的商业逻辑？",
-          "url": "https://www.zhihu.com/question/2065429603510740131",
+          "name": "微博热榜：喜羊羊新作画面疑似擦边",
+          "url": "https://s.weibo.com/weibo?q=%E5%96%9C%E7%BE%8A%E7%BE%8A%E6%96%B0%E4%BD%9C%E7%94%BB%E9%9D%A2%E7%96%91%E4%BC%BC%E6%93%A6%E8%BE%B9",
           "type": "platform"
         },
         {
-          "name": "抖音原榜：洛阳的大盘鸡把我香迷糊了",
-          "url": "https://www.douyin.com/search/%E6%B4%9B%E9%98%B3%E7%9A%84%E5%A4%A7%E7%9B%98%E9%B8%A1%E6%8A%8A%E6%88%91%E9%A6%99%E8%BF%B7%E7%B3%8A%E4%BA%86",
-          "type": "platform"
-        },
-        {
-          "name": "B站原榜：为什么5天涨粉170万？探索印度鸡佬“成吉思鸡”，让他做一份1000元豪华中国大盘鸡，真有那么美味吗？",
-          "url": "https://www.bilibili.com/video/BV1V1GF6dE3z",
+          "name": "百度热榜：喜羊羊新作陷“擦边”争议",
+          "url": "https://m.baidu.com/s?word=%E5%96%9C%E7%BE%8A%E7%BE%8A%E6%96%B0%E4%BD%9C%E9%99%B7%E2%80%9C%E6%93%A6%E8%BE%B9%E2%80%9D%E4%BA%89%E8%AE%AE&sa=fyb_news",
           "type": "platform"
         }
       ],
-      "updatedAt": "2026-08-01T05:50:36Z",
-      "rank": 11
+      "updatedAt": "2026-08-01T06:15:04.830Z"
+    },
+    {
+      "id": "drinkware-hygiene-check",
+      "rank": 11,
+      "title": "吸管污垢话题进入双榜：日常卫生内容怎样避免因果跳跃？",
+      "brief": "微博与百度同时出现饮品吸管卫生话题，适合制作清洁检查、风险表达和就医边界明确的生活内容。",
+      "category": "食品健康",
+      "momentum": "steady",
+      "urgency": "today",
+      "heat": 80,
+      "crossPlatform": 2,
+      "mathFit": 87,
+      "visualFit": 90,
+      "lifeFit": 98,
+      "questionDensity": 89,
+      "priority": 83,
+      "platforms": [
+        {
+          "id": "weibo",
+          "rank": 21,
+          "score": 82,
+          "trend": "榜内讨论"
+        },
+        {
+          "id": "baidu",
+          "rank": 16,
+          "score": 86,
+          "trend": "榜内讨论"
+        }
+      ],
+      "keywords": [
+        "吸管卫生",
+        "饮品容器",
+        "清洁",
+        "健康风险",
+        "因果关系"
+      ],
+      "mathAngles": [
+        "发现污垢不等于已经证明病因",
+        "可视化清洁检查步骤",
+        "什么情况下应停止使用并咨询专业人士"
+      ],
+      "hooks": [
+        "看到污垢很直观，但它能直接证明病因吗？",
+        "每天使用的吸管，怎样用一分钟完成检查？"
+      ],
+      "recommendedFormat": {
+        "duration": "60秒",
+        "structure": "现象—因果边界—清洁与就医提示"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "微博热榜：女生老拉肚子发现吸管内壁全是污垢",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E7%94%9F%E8%80%81%E6%8B%89%E8%82%9A%E5%AD%90%E5%8F%91%E7%8E%B0%E5%90%B8%E7%AE%A1%E5%86%85%E5%A3%81%E5%85%A8%E6%98%AF%E6%B1%A1%E5%9E%A2%23",
+          "type": "platform"
+        },
+        {
+          "name": "百度热榜：女生老拉肚子发现吸管内壁全是污垢",
+          "url": "https://m.baidu.com/s?word=%E5%A5%B3%E7%94%9F%E8%80%81%E6%8B%89%E8%82%9A%E5%AD%90%E5%8F%91%E7%8E%B0%E5%90%B8%E7%AE%A1%E5%86%85%E5%A3%81%E5%85%A8%E6%98%AF%E6%B1%A1%E5%9E%A2&sa=fyb_news",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-08-01T06:15:04.830Z"
     }
   ]
 }
