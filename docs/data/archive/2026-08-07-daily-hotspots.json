@@ -2,370 +2,931 @@
   "schemaVersion": 1,
   "dataMode": "live",
   "date": "2026-08-07",
-  "generatedAt": "2026-08-06T16:20:47.450Z",
+  "generatedAt": "2026-08-07T04:08:16.977Z",
   "timezone": "Asia/Shanghai",
   "summary": {
-    "topicCount": 11,
-    "urgentCount": 4,
-    "crossPlatformCount": 11,
+    "topicCount": 10,
+    "urgentCount": 1,
+    "crossPlatformCount": 10,
     "formulaReadyCount": 8
   },
   "sourceStatus": [
-    {"id": "douyin", "name": "抖音", "status": "fresh", "items": 49, "updatedAt": "2026-08-06T16:18:55.707Z"},
-    {"id": "weibo", "name": "微博", "status": "fresh", "items": 50, "updatedAt": "2026-08-06T16:18:55.707Z"},
-    {"id": "zhihu", "name": "知乎", "status": "partial", "items": 30, "updatedAt": "2026-08-06T16:18:55.707Z"},
-    {"id": "xiaohongshu", "name": "小红书", "status": "partial", "items": 10, "updatedAt": "2026-08-06T16:18:55.707Z"},
-    {"id": "baidu", "name": "百度", "status": "fresh", "items": 50, "updatedAt": "2026-08-06T16:18:55.707Z"},
-    {"id": "bilibili", "name": "B站", "status": "fresh", "items": 50, "updatedAt": "2026-08-06T16:18:55.707Z"}
+    {
+      "id": "douyin",
+      "name": "抖音",
+      "status": "fresh",
+      "items": 50,
+      "updatedAt": "2026-08-07T04:05:05.290Z"
+    },
+    {
+      "id": "weibo",
+      "name": "微博",
+      "status": "fresh",
+      "items": 50,
+      "updatedAt": "2026-08-07T04:05:05.290Z"
+    },
+    {
+      "id": "zhihu",
+      "name": "知乎",
+      "status": "partial",
+      "items": 30,
+      "updatedAt": "2026-08-07T04:05:05.290Z"
+    },
+    {
+      "id": "xiaohongshu",
+      "name": "小红书",
+      "status": "partial",
+      "items": 10,
+      "updatedAt": "2026-08-07T04:05:05.290Z"
+    },
+    {
+      "id": "baidu",
+      "name": "百度",
+      "status": "fresh",
+      "items": 50,
+      "updatedAt": "2026-08-07T04:05:05.290Z"
+    },
+    {
+      "id": "bilibili",
+      "name": "B站",
+      "status": "fresh",
+      "items": 50,
+      "updatedAt": "2026-08-07T04:05:05.290Z"
+    }
   ],
   "trendHistory": {
-    "times": ["07/30 12:55", "08/01 14:15", "08/02 17:08", "08/03 12:08", "08/05 13:39", "08/06 12:12", "08/07 00:18"],
+    "times": [
+      "07/30 12:55",
+      "08/01 14:15",
+      "08/02 17:08",
+      "08/03 12:08",
+      "08/05 13:39",
+      "08/06 12:12",
+      "08/07 12:08"
+    ],
     "series": {
-      "douyin": [98, 98, 98, 96, 98, 98, 98],
-      "weibo": [100, 100, 100, 100, 100, 100, 100],
-      "zhihu": [100, 100, 100, 60, 60, 60, 60],
-      "xiaohongshu": [100, 100, 100, 20, 20, 20, 20],
-      "baidu": [100, 100, 100, 100, 100, 100, 100],
-      "bilibili": [100, 100, 100, 100, 100, 100, 100]
+      "douyin": [
+        98,
+        98,
+        98,
+        96,
+        98,
+        98,
+        100
+      ],
+      "weibo": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "zhihu": [
+        100,
+        100,
+        100,
+        60,
+        60,
+        60,
+        60
+      ],
+      "xiaohongshu": [
+        100,
+        100,
+        100,
+        20,
+        20,
+        20,
+        20
+      ],
+      "baidu": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "bilibili": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ]
     }
   },
   "topics": [
     {
-      "id": "unitree-ipo-pricing",
+      "id": "dolphin-typhoon-explainer",
       "rank": 1,
-      "title": "宇树科技发行价登四榜：150.80元和高市盈率该怎么讲？",
-      "brief": "申购、中签率、发行价和估值同时进入大众讨论。适合把‘价格’拆成发行定价、盈利预期和风险溢价，避免做成打新攻略。",
-      "category": "财经·科技",
+      "title": "‘白海豚’连登多榜：一张台风路径图该怎样看？",
+      "brief": "路径、云系面积与防台提示同时成为热词，适合做一条把预报图层、风险沟通和生活准备拆开的实用内容。",
+      "category": "天气·公共安全",
       "momentum": "peak",
       "urgency": "now",
-      "heat": 99,
+      "heat": 98,
       "crossPlatform": 4,
-      "mathFit": 92,
-      "visualFit": 92,
-      "lifeFit": 86,
-      "questionDensity": 96,
+      "mathFit": 88,
+      "visualFit": 94,
+      "lifeFit": 96,
+      "questionDensity": 92,
       "priority": 98,
       "platforms": [
-        {"id": "douyin", "rank": 1, "score": 100, "trend": "热榜第一"},
-        {"id": "weibo", "rank": 6, "score": 95, "trend": "热榜前列"},
-        {"id": "zhihu", "rank": 22, "score": 79, "trend": "定价讨论"},
-        {"id": "baidu", "rank": 10, "score": 91, "trend": "热议"}
+        {
+          "id": "douyin",
+          "rank": 2,
+          "score": 100,
+          "trend": "热榜前列"
+        },
+        {
+          "id": "weibo",
+          "rank": 24,
+          "score": 78,
+          "trend": "榜内讨论"
+        },
+        {
+          "id": "baidu",
+          "rank": 7,
+          "score": 95,
+          "trend": "热榜热门"
+        },
+        {
+          "id": "baidu",
+          "rank": 41,
+          "score": 61,
+          "trend": "榜内讨论"
+        }
       ],
-      "keywords": ["宇树科技", "IPO", "发行价", "市盈率", "中签率"],
-      "mathAngles": ["市盈率是市值与盈利的比值，需同时说明分子和分母", "中签率可用伯努利试验解释‘低概率不等于稳赚’", "用情景树区分高增长、中性和回落预期"],
-      "hooks": ["发行价150.80元，是一道算术题，还是一张未来预期的投票？", "市盈率越高，为什么既可能代表信心，也可能代表风险？"],
-      "recommendedFormat": {"duration": "120秒", "structure": "四榜热点→定价口径→概率与估值模型→风险边界"},
+      "keywords": [
+        "台风白海豚",
+        "路径",
+        "暴雨",
+        "防台"
+      ],
+      "mathAngles": [
+        "路径图的概率与不确定性",
+        "预警信息怎样转成个人行动清单",
+        "面积类比为何直观也可能误导"
+      ],
+      "hooks": [
+        "路径图上的一条线，到底代表什么？",
+        "别只看登陆点：普通人先该看哪三层信息？"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90秒",
+        "structure": "路径图拆解 → 风险边界 → 行动清单"
+      },
       "factStatus": "needs-review",
       "sources": [
-        {"name": "上交所宇树科技公开披露文件", "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202603/002178_20260320_QY8F.pdf", "type": "official"},
-        {"name": "抖音热榜直达", "url": "https://www.douyin.com/search/%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%808%E6%9C%8810%E6%97%A5%E5%BC%80%E5%90%AF%E7%BD%91%E4%B8%8A%E7%94%B3%E8%B4%AD", "type": "platform"},
-        {"name": "知乎发行定价讨论", "url": "https://www.zhihu.com/question/2068776757054760833", "type": "platform"}
+        {
+          "name": "抖音热榜直达",
+          "url": "https://www.douyin.com/search/%E5%8F%B0%E9%A3%8E%E7%99%BD%E6%B5%B7%E8%B1%9A%E5%AE%9E%E6%97%B6%E8%B7%AF%E5%BE%84",
+          "type": "platform"
+        },
+        {
+          "name": "微博热榜直达",
+          "url": "https://s.weibo.com/weibo?q=%E5%8F%B0%E9%A3%8E",
+          "type": "platform"
+        },
+        {
+          "name": "百度热榜直达",
+          "url": "https://m.baidu.com/s?word=%E5%8F%B0%E9%A3%8E%E7%99%BD%E6%B5%B7%E8%B1%9A%E4%BD%93%E5%9E%8B%E5%8F%98%E5%A4%A7%E8%BF%91%E4%BC%BC13%E4%B8%AA%E6%B5%99%E6%B1%9F%E9%9D%A2%E7%A7%AF&sa=fyb_news",
+          "type": "platform"
+        },
+        {
+          "name": "百度热榜直达",
+          "url": "https://m.baidu.com/s?word=%E5%8F%B0%E9%A3%8E%E7%99%BD%E6%B5%B7%E8%B1%9A%E9%80%BC%E8%BF%91+%E6%9A%B4%E9%9B%A8%E5%A4%A7%E6%9A%B4%E9%9B%A8%E6%9D%A5%E8%A2%AD&sa=fyb_news",
+          "type": "platform"
+        }
       ],
-      "updatedAt": "2026-08-06T16:20:47.450Z"
+      "updatedAt": "2026-08-07T04:08:16.977Z"
     },
     {
-      "id": "glueball-evidence",
+      "id": "lixia-autumn-consumption",
       "rank": 2,
-      "title": "‘只由胶子组成’的粒子登上两榜：科学家怎样证明胶球存在？",
-      "brief": "微博和知乎同时聚焦胶球证据。这类内容的真正解释空间在于：看不见的粒子如何通过衰变数据、统计显著性和备选模型被识别。",
-      "category": "科学·探索",
-      "momentum": "rising",
-      "urgency": "now",
-      "heat": 98,
-      "crossPlatform": 2,
-      "mathFit": 96,
-      "visualFit": 95,
-      "lifeFit": 68,
-      "questionDensity": 98,
-      "priority": 97,
-      "platforms": [
-        {"id": "weibo", "rank": 3, "score": 98, "trend": "热榜前三"},
-        {"id": "zhihu", "rank": 1, "score": 100, "trend": "热榜第一"}
-      ],
-      "keywords": ["胶球", "胶子", "强相互作用", "统计显著性", "粒子物理"],
-      "mathAngles": ["用不变质量谱展示从一群碰撞事件中寻找峰值", "对比信号假设与背景假设，说清统计证据不等于直接看见", "用备选模型拟合解释为什么结论仍需复核"],
-      "hooks": ["一个从来没有被拍到的粒子，凭什么说它存在？", "粒子物理学家看到的不是粒子，而是概率分布中的一个异常鼓包。"],
-      "recommendedFormat": {"duration": "150秒", "structure": "热榜疑问→胶球是什么→质量谱与背景→统计证据边界"},
-      "factStatus": "needs-review",
-      "sources": [
-        {"name": "微博热榜直达", "url": "https://s.weibo.com/weibo?q=%23%E6%88%91%E5%9B%BD%E7%A7%91%E5%AD%A6%E5%AE%B6%E7%A1%AE%E8%AF%81%E6%96%B0%E5%9E%8B%E7%B2%92%E5%AD%90%E8%83%B6%E7%90%83%E5%AD%98%E5%9C%A8%23", "type": "platform"},
-        {"name": "知乎热榜讨论", "url": "https://www.zhihu.com/question/2068632379342714042", "type": "platform"}
-      ],
-      "updatedAt": "2026-08-06T16:20:47.450Z"
-    },
-    {
-      "id": "dolphin-typhoon-path",
-      "rank": 3,
-      "title": "‘白海豚’路径词条集中登榜：台风图上的一条线能信多少？",
-      "brief": "百度出现多个路径与登陆词条，微博也进入前列。适合将单条路径改写为预报圈、概率区间和个人行动阈值。",
-      "category": "天气·公共安全",
-      "momentum": "rising",
-      "urgency": "now",
-      "heat": 97,
-      "crossPlatform": 2,
-      "mathFit": 88,
-      "visualFit": 98,
-      "lifeFit": 96,
-      "questionDensity": 94,
+      "title": "立秋刷屏：节气、奶茶与‘贴秋膘’怎样讲出当下感？",
+      "brief": "立秋、秋日消费和饮食习俗在多个平台集中出现，适合生活、餐饮、品牌和文化创作者做低门槛的季节内容。",
+      "category": "生活·消费",
+      "momentum": "peak",
+      "urgency": "today",
+      "heat": 96,
+      "crossPlatform": 5,
+      "mathFit": 74,
+      "visualFit": 91,
+      "lifeFit": 95,
+      "questionDensity": 82,
       "priority": 96,
       "platforms": [
-        {"id": "weibo", "rank": 15, "score": 86, "trend": "路径讨论"},
-        {"id": "baidu", "rank": 7, "score": 94, "trend": "多词条聚合"}
+        {
+          "id": "douyin",
+          "rank": 1,
+          "score": 100,
+          "trend": "热榜前列"
+        },
+        {
+          "id": "douyin",
+          "rank": 4,
+          "score": 98,
+          "trend": "热榜热门"
+        },
+        {
+          "id": "weibo",
+          "rank": 3,
+          "score": 99,
+          "trend": "热榜前列"
+        },
+        {
+          "id": "zhihu",
+          "rank": 11,
+          "score": 91,
+          "trend": "榜内讨论"
+        },
+        {
+          "id": "baidu",
+          "rank": 15,
+          "score": 87,
+          "trend": "榜内讨论"
+        }
       ],
-      "keywords": ["台风白海豚", "路径预报", "概率圈", "登陆", "风雨风险"],
-      "mathAngles": ["路径集合与概率密度比一条中心线更能表达不确定性", "预报误差通常随时间增大，可用扩张的概率圆锥呈现", "将风险与行动成本写成简单决策阈值"],
-      "hooks": ["为什么台风路径图越往后越像一只喇叭？", "‘登陆地点锁定’和‘最可能路径’，真的是同一句话吗？"],
-      "recommendedFormat": {"duration": "120秒", "structure": "路径词条→中心线误读→集合与概率圈→行动建议"},
+      "keywords": [
+        "立秋",
+        "第一杯奶茶",
+        "贴秋膘",
+        "节气"
+      ],
+      "mathAngles": [
+        "节气如何形成消费仪式",
+        "传统习俗与现代生活的连接",
+        "一日内容如何兼顾情绪和信息"
+      ],
+      "hooks": [
+        "为什么每到立秋，品牌和普通人都在找同一个仪式？",
+        "立秋内容不止奶茶：三个可立即拍的生活切口。"
+      ],
+      "recommendedFormat": {
+        "duration": "45–60秒",
+        "structure": "节气钩子 → 生活场景 → 三种创作模板"
+      },
       "factStatus": "needs-review",
       "sources": [
-        {"name": "中央气象台台风快讯", "url": "https://www.nmc.cn/publish/typhoon/typhoon_new.html", "type": "official"},
-        {"name": "百度热榜直达", "url": "https://m.baidu.com/s?word=%E5%8F%B0%E9%A3%8E%E7%99%BD%E6%B5%B7%E8%B1%9A%E7%99%BB%E9%99%86%E5%9C%B0%E7%82%B9%E6%9B%B4%E6%96%B0&sa=fyb_news", "type": "platform"}
+        {
+          "name": "抖音热榜直达",
+          "url": "https://www.douyin.com/search/%E8%80%81%E8%BE%88%E5%AD%90%E7%A7%8B%E5%A4%A9%E7%9A%84%E7%AC%AC%E4%B8%80%E6%9D%AF%E5%A5%B6%E8%8C%B6",
+          "type": "platform"
+        },
+        {
+          "name": "抖音热榜直达",
+          "url": "https://www.douyin.com/search/%E4%BB%8A%E6%97%A5%E7%AB%8B%E7%A7%8B",
+          "type": "platform"
+        },
+        {
+          "name": "微博热榜直达",
+          "url": "https://s.weibo.com/weibo?q=%23%E7%A7%8B%E5%A4%A9%E7%AC%AC1%E4%B8%AA%E8%8A%82%E6%B0%94%23",
+          "type": "platform"
+        },
+        {
+          "name": "知乎热榜直达",
+          "url": "https://www.zhihu.com/question/2065129497867956895",
+          "type": "platform"
+        },
+        {
+          "name": "百度热榜直达",
+          "url": "https://m.baidu.com/s?word=%E4%BB%8A%E6%97%A5%E7%AB%8B%E7%A7%8B&sa=fyb_news",
+          "type": "platform"
+        }
       ],
-      "updatedAt": "2026-08-06T16:20:47.450Z"
+      "updatedAt": "2026-08-07T04:08:16.977Z"
     },
     {
-      "id": "deepseek-pricing-economics",
-      "rank": 4,
-      "title": "DeepSeek价格讨论延续：API涨价之后，创作者怎样重算成本？",
-      "brief": "知乎和百度仍在讨论DeepSeek定价与扩张。适合把总成本拆成输入、输出、缓存命中、重试和并发需求，给不同内容团队做用量情景表。",
-      "category": "AI·创作工具",
-      "momentum": "steady",
-      "urgency": "now",
+      "id": "luxihe-food-safety-discussion",
+      "rank": 3,
+      "title": "泸溪河牙冠事件多词条占榜：食品争议内容怎样避免二次失真？",
+      "brief": "同一食品争议出现调查、致歉和辟谣相关词条，适合消费、法律、媒体素养创作者讲证据链与更正机制。",
+      "category": "消费·食品安全",
+      "momentum": "peak",
+      "urgency": "today",
       "heat": 95,
-      "crossPlatform": 2,
-      "mathFit": 91,
-      "visualFit": 86,
-      "lifeFit": 88,
-      "questionDensity": 93,
+      "crossPlatform": 4,
+      "mathFit": 93,
+      "visualFit": 78,
+      "lifeFit": 90,
+      "questionDensity": 97,
       "priority": 95,
       "platforms": [
-        {"id": "zhihu", "rank": 2, "score": 99, "trend": "热榜前二"},
-        {"id": "baidu", "rank": 27, "score": 74, "trend": "继续讨论"}
+        {
+          "id": "weibo",
+          "rank": 1,
+          "score": 100,
+          "trend": "热榜前列"
+        },
+        {
+          "id": "weibo",
+          "rank": 2,
+          "score": 100,
+          "trend": "热榜前列"
+        },
+        {
+          "id": "weibo",
+          "rank": 22,
+          "score": 80,
+          "trend": "榜内讨论"
+        },
+        {
+          "id": "baidu",
+          "rank": 6,
+          "score": 96,
+          "trend": "热榜热门"
+        }
       ],
-      "keywords": ["DeepSeek", "API定价", "Token成本", "缓存命中", "预算"],
-      "mathAngles": ["总成本等于各类Token数量与单价的加权和", "用敏感性分析比较用量、输出长度和缓存命中率", "用阶梯图说清单次便宜不代表月度总成本低"],
-      "hooks": ["模型单价只涨几块钱，为什么一个团队的月账单可能差出几万？", "一次生成的成本，不只是你看见的那段文字。"],
-      "recommendedFormat": {"duration": "90秒", "structure": "价格讨论→费用公式→三种用量情景→预算清单"},
+      "keywords": [
+        "泸溪河",
+        "食品安全",
+        "调查结果",
+        "辟谣"
+      ],
+      "mathAngles": [
+        "从爆料到调查的证据链",
+        "品牌回应的时间线如何核验",
+        "转述争议时怎样区分事实与评论"
+      ],
+      "hooks": [
+        "一条食品争议，为什么会长出多条互相牵连的热搜？",
+        "做争议内容前，先画出这张证据链。"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90秒",
+        "structure": "词条时间线 → 证据层级 → 转述守则"
+      },
       "factStatus": "needs-review",
       "sources": [
-        {"name": "DeepSeek API官方价格页", "url": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing", "type": "official"},
-        {"name": "知乎热榜讨论", "url": "https://www.zhihu.com/question/2068628771687625392", "type": "platform"}
+        {
+          "name": "微博热榜直达",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%B3%B8%E6%BA%AA%E6%B2%B3%E7%89%99%E5%86%A0%E4%BA%8B%E4%BB%B6%E6%B6%88%E8%B4%B9%E8%80%85%E5%B7%B2%E8%87%B4%E6%AD%89%23",
+          "type": "platform"
+        },
+        {
+          "name": "微博热榜直达",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%B3%B8%E6%BA%AA%E6%B2%B3%E9%87%91%E5%B1%9E%E7%89%99%E5%86%A0%E4%BA%8B%E4%BB%B6%E8%B0%83%E6%9F%A5%E7%BB%93%E6%9E%9C%23",
+          "type": "platform"
+        },
+        {
+          "name": "微博热榜直达",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%8E%92%E9%99%A4%E7%89%99%E5%86%A0%E6%B7%B7%E5%85%A5%E6%B3%B8%E6%BA%AA%E6%B2%B3%E6%A1%83%E9%85%A5%E5%8F%AF%E8%83%BD%E6%80%A7%23",
+          "type": "platform"
+        },
+        {
+          "name": "百度热榜直达",
+          "url": "https://m.baidu.com/s?word=%E6%B3%B8%E6%BA%AA%E6%B2%B3%EF%BC%9A%E6%A1%83%E9%85%A5%E5%90%83%E5%87%BA%E9%87%91%E5%B1%9E%E7%89%99%E5%86%A0%E8%A7%86%E9%A2%91%E4%B8%8D%E5%AE%9E&sa=fyb_news",
+          "type": "platform"
+        }
       ],
-      "updatedAt": "2026-08-06T16:20:47.450Z"
+      "updatedAt": "2026-08-07T04:08:16.977Z"
     },
     {
-      "id": "china-cool-cultural-story",
-      "rank": 5,
-      "title": "非遗、古诗词与China Cool同日走热：传统文化怎样变成可传播的故事？",
-      "brief": "抖音火把节非遗、小红书古诗词影像和百度China Cool同日出现。可从符号识别、场景翻译和观众参与分析‘文化出海’为何有些作品能被记住。",
-      "category": "文化·非遗",
+      "id": "air-conditioner-myths",
+      "rank": 4,
+      "title": "空调话题连上两榜：降温、安全与省电该如何一次讲清？",
+      "brief": "空调可视化、连续使用和省电传言集中出现，适合家居、健康、科普和消费创作者做可验证的夏季实用内容。",
+      "category": "家居·健康",
       "momentum": "rising",
-      "urgency": "today",
-      "heat": 94,
-      "crossPlatform": 3,
-      "mathFit": 75,
-      "visualFit": 99,
-      "lifeFit": 86,
-      "questionDensity": 87,
-      "priority": 94,
-      "platforms": [
-        {"id": "douyin", "rank": 4, "score": 97, "trend": "热榜前列"},
-        {"id": "xiaohongshu", "rank": 2, "score": 99, "trend": "视觉热点"},
-        {"id": "baidu", "rank": 3, "score": 98, "trend": "热榜前三"}
-      ],
-      "keywords": ["China Cool", "非遗", "古诗词", "文化出海", "视觉符号"],
-      "mathAngles": ["用符号密度和识别时间比较不同封面表达", "将内容路径拆成曝光、停留、理解与转发的转化漏斗", "比较地理景观、人物行为与文化背景在故事中的信息占比"],
-      "hooks": ["同样是中国风，为什么有的只是好看，有的却能让人主动转发？", "文化出海的第一道门槛，可能不是翻译，而是三秒内能否认出故事。"],
-      "recommendedFormat": {"duration": "90秒", "structure": "三平台样本→视觉符号→故事翻译→创作清单"},
-      "factStatus": "needs-review",
-      "sources": [
-        {"name": "抖音火把节非遗热榜", "url": "https://www.douyin.com/search/%E8%97%8F%E5%9C%A8%E7%81%AB%E6%8A%8A%E8%8A%82%E9%87%8C%E7%9A%84%E9%9D%9E%E9%81%97%E7%BE%8E%E5%AD%A6", "type": "platform"},
-        {"name": "小红书古诗词影像热榜", "url": "https://www.xiaohongshu.com/search_result?keyword=%E8%80%97%E6%97%B6%E4%B8%89%E5%B9%B4%E6%8B%8D%E4%B8%8B%E5%8F%A4%E8%AF%97%E8%AF%8D%E9%87%8C%E7%9A%84%E4%B8%AD%E5%9B%BD&type=51", "type": "platform"},
-        {"name": "百度China Cool热榜", "url": "https://m.baidu.com/s?word=%E2%80%9CChina+Cool%E2%80%9D%E6%88%90%E6%B5%B7%E5%A4%96%E7%83%AD%E8%AF%8D&sa=fyb_news", "type": "platform"}
-      ],
-      "updatedAt": "2026-08-06T16:20:47.450Z"
-    },
-    {
-      "id": "ai-character-production",
-      "rank": 6,
-      "title": "明星AI形象与中式AI视频同日登榜：角色内容该怎么讲真实感？",
-      "brief": "抖音、微博聚焦明星AI形象，百度出现中式AI视频。可从角色一致性、视觉奇观、人设授权和观众信任四个维度评估内容，不只做工具演示。",
-      "category": "AI·娱乐",
-      "momentum": "rising",
-      "urgency": "today",
-      "heat": 93,
-      "crossPlatform": 3,
-      "mathFit": 79,
-      "visualFit": 98,
-      "lifeFit": 82,
-      "questionDensity": 90,
-      "priority": 93,
-      "platforms": [
-        {"id": "douyin", "rank": 28, "score": 73, "trend": "榜内讨论"},
-        {"id": "weibo", "rank": 23, "score": 78, "trend": "榜内讨论"},
-        {"id": "baidu", "rank": 9, "score": 92, "trend": "热榜前列"}
-      ],
-      "keywords": ["AI形象", "角色一致性", "明星授权", "中式审美", "观众信任"],
-      "mathAngles": ["用角色特征向量说明发型、服装、声音和行为的一致性", "比较奇观感、故事完整度与信任度的多维评分", "将工具效率与人工审核成本放在同一张制作流程图中"],
-      "hooks": ["一个AI角色看起来很像真人，为什么说两句话就会露馅？", "观众记住的是特效，还是特效背后那个稳定的角色？"],
-      "recommendedFormat": {"duration": "90秒", "structure": "三平台现象→真实感四维度→授权边界→制作清单"},
-      "factStatus": "needs-review",
-      "sources": [
-        {"name": "微博明星AI形象词条", "url": "https://s.weibo.com/weibo?q=%23%E6%88%9A%E8%96%87%E7%9C%9F%E7%9A%84%E6%8A%8A%E8%87%AA%E5%B7%B1%E5%81%9A%E6%88%90AI%E4%BA%86%23", "type": "platform"},
-        {"name": "百度中式AI视频热榜", "url": "https://m.baidu.com/s?word=%E2%80%9C%E4%B8%AD%E5%BC%8F%E5%A4%A9%E5%BA%AD%E2%80%9DAI%E8%A7%86%E9%A2%91%E6%B5%B7%E5%A4%96%E7%88%86%E7%81%AB&sa=fyb_news", "type": "platform"}
-      ],
-      "updatedAt": "2026-08-06T16:20:47.450Z"
-    },
-    {
-      "id": "platform-price-perception",
-      "rank": 7,
-      "title": "‘用惯拼多多才发现很多东西不该这么贵’：廉价如何重写价格感知？",
-      "brief": "同一句价格感受同时进入微博和知乎。适合讲锚定效应、搜索成本、品质分布和平台补贴，避免简化成‘越便宜越好’。",
-      "category": "消费·平台",
-      "momentum": "steady",
       "urgency": "today",
       "heat": 92,
-      "crossPlatform": 2,
-      "mathFit": 85,
-      "visualFit": 88,
-      "lifeFit": 98,
-      "questionDensity": 92,
-      "priority": 92,
-      "platforms": [
-        {"id": "weibo", "rank": 42, "score": 59, "trend": "榜内讨论"},
-        {"id": "zhihu", "rank": 19, "score": 82, "trend": "消费讨论"}
-      ],
-      "keywords": ["拼多多", "价格锚点", "搜索成本", "平台补贴", "品质差异"],
-      "mathAngles": ["用分布而不是单个价格比较同类商品", "将到手价拆成成本、加价、流量费和补贴", "用质量调整价格解释‘便宜’与‘性价比’的差异"],
-      "hooks": ["一个商品在A平台100元、B平台50元，谁在赚那50元？", "当低价成为新锚点，我们是发现了暴利，还是忽略了隐形差异？"],
-      "recommendedFormat": {"duration": "90秒", "structure": "同句话两榜→价格拆解→质量分布→消费核对表"},
-      "factStatus": "needs-review",
-      "sources": [
-        {"name": "微博热榜直达", "url": "https://s.weibo.com/weibo?q=%23%E7%94%A8%E6%83%AF%E6%8B%BC%E5%A4%9A%E5%A4%9A%E5%8F%91%E7%8E%B0%E5%BE%88%E5%A4%9A%E4%B8%9C%E8%A5%BF%E4%B8%8D%E8%AF%A5%E8%BF%99%E4%B9%88%E8%B4%B5%23", "type": "platform"},
-        {"name": "知乎热榜讨论", "url": "https://www.zhihu.com/question/2068493502313412463", "type": "platform"}
-      ],
-      "updatedAt": "2026-08-06T16:20:47.450Z"
-    },
-    {
-      "id": "gold-jewelry-price-gap",
-      "rank": 8,
-      "title": "金饰克价跳涨登两榜：国际金价和柜台价为什么不是一个数？",
-      "brief": "抖音与知乎同时出现黄金、白银和品牌金饰价格讨论。适合拆解原料价、汇率、工费、品牌溢价与回收折价，不做涨跌预测。",
-      "category": "财经·消费",
-      "momentum": "rising",
-      "urgency": "today",
-      "heat": 91,
-      "crossPlatform": 2,
-      "mathFit": 87,
-      "visualFit": 91,
-      "lifeFit": 94,
-      "questionDensity": 91,
-      "priority": 91,
-      "platforms": [
-        {"id": "douyin", "rank": 20, "score": 81, "trend": "持续升温"},
-        {"id": "zhihu", "rank": 8, "score": 93, "trend": "热榜前列"}
-      ],
-      "keywords": ["黄金", "金饰克价", "汇率", "工费", "回收价"],
-      "mathAngles": ["柜台克价可写成原料价、汇率和各类加价的和", "用买入价与回收价差解释为什么首饰不等同于金条", "做汇率和国际金价的双变量敏感性表"],
-      "hooks": ["国际金价只涨1%，为什么柜台标价可能一次跳几十元？", "你买的是黄金的重量，还是设计、品牌和销售服务的组合包？"],
-      "recommendedFormat": {"duration": "90秒", "structure": "克价跳涨→价格拆分→买卖价差→消费核价清单"},
-      "factStatus": "needs-review",
-      "sources": [
-        {"name": "抖音金饰价格热榜", "url": "https://www.douyin.com/search/%E5%A4%9A%E5%93%81%E7%89%8C%E9%87%91%E9%A5%B0%E5%85%8B%E4%BB%B7%E5%A4%A7%E5%B9%85%E8%B7%B3%E6%B6%A8", "type": "platform"},
-        {"name": "知乎金银价格讨论", "url": "https://www.zhihu.com/question/2068465234843530940", "type": "platform"}
-      ],
-      "updatedAt": "2026-08-06T16:20:47.450Z"
-    },
-    {
-      "id": "food-portion-unit-conversion",
-      "rank": 9,
-      "title": "20个饺子真等于6到7个馒头吗？食品比较先要统一什么？",
-      "brief": "知乎的饺子换算与小红书、B站的美食内容同日走热。适合示范一次完整的单位换算：先统一重量，再比较原料和能量密度。",
-      "category": "健康·饮食",
-      "momentum": "steady",
-      "urgency": "today",
-      "heat": 90,
-      "crossPlatform": 3,
-      "mathFit": 90,
-      "visualFit": 95,
-      "lifeFit": 98,
-      "questionDensity": 94,
-      "priority": 90,
-      "platforms": [
-        {"id": "zhihu", "rank": 23, "score": 78, "trend": "数字争议"},
-        {"id": "xiaohongshu", "rank": 10, "score": 91, "trend": "美食热点"},
-        {"id": "bilibili", "rank": 36, "score": 65, "trend": "美食内容"}
-      ],
-      "keywords": ["饺子", "馒头", "份量", "能量密度", "单位换算"],
-      "mathAngles": ["个数不能直接比较，需先换算为重量或可食部分", "总能量等于重量与单位能量密度的乘积", "用区间而不是单点表达饺子大小、馅料和烹饪差异"],
-      "hooks": ["一个饺子多大？这个没说清，后面的6到7个馒头就没有标准答案。", "食物换算最容易犯的错，是把‘个’当成一个稳定单位。"],
-      "recommendedFormat": {"duration": "90秒", "structure": "网传换算→统一重量→能量密度→区间结论"},
-      "factStatus": "needs-review",
-      "sources": [
-        {"name": "知乎饺子换算讨论", "url": "https://www.zhihu.com/question/2067988257770574731", "type": "platform"},
-        {"name": "小红书馒头热榜", "url": "https://www.xiaohongshu.com/search_result?keyword=%E8%92%B8%E5%87%BA%E4%BA%86%E5%A5%B6%E9%A6%99%E7%88%86%E7%B1%B3%E8%8A%B1%E9%A6%92%E5%A4%B4&type=51", "type": "platform"}
-      ],
-      "updatedAt": "2026-08-06T16:20:47.450Z"
-    },
-    {
-      "id": "education-path-and-expectation",
-      "rank": 10,
-      "title": "‘研究生的世界’与新型大学分数线同日热：教育内容如何不只讲标签？",
-      "brief": "B站研究生内容居首，百度出现新型研究型大学分数线讨论。可用路径图区分入学门槛、学习过程、毕业去向和个人匹配。",
-      "category": "教育·成长",
-      "momentum": "rising",
-      "urgency": "today",
-      "heat": 89,
-      "crossPlatform": 2,
-      "mathFit": 78,
-      "visualFit": 90,
-      "lifeFit": 93,
-      "questionDensity": 88,
-      "priority": 89,
-      "platforms": [
-        {"id": "baidu", "rank": 34, "score": 67, "trend": "榜内讨论"},
-        {"id": "bilibili", "rank": 1, "score": 100, "trend": "热门第一"}
-      ],
-      "keywords": ["研究生", "研究型大学", "分数线", "教育路径", "个人匹配"],
-      "mathAngles": ["分数线是筛选结果而非教育价值的完整排名", "用条件概率区分录取、学业完成与就业去向", "用多目标决策表呈现研究兴趣、城市、费用和职业路径"],
-      "hooks": ["分数线超过985，能证明一所大学对每个人都更好吗？", "进入研究生的世界之前，你需要的不只是一张录取通知书。"],
-      "recommendedFormat": {"duration": "90秒", "structure": "两平台教育信号→分数线误读→路径图→个人匹配表"},
-      "factStatus": "needs-review",
-      "sources": [
-        {"name": "B站研究生热门视频", "url": "https://www.bilibili.com/video/BV1R53R6rE7a", "type": "platform"},
-        {"name": "百度新型研究型大学词条", "url": "https://m.baidu.com/s?word=%E6%96%B0%E5%9E%8B%E7%A0%94%E7%A9%B6%E5%9E%8B%E5%A4%A7%E5%AD%A6%E5%88%86%E6%95%B0%E7%BA%BF%E8%B6%85%E8%BF%87985&sa=fyb_news", "type": "platform"}
-      ],
-      "updatedAt": "2026-08-06T16:20:47.450Z"
-    },
-    {
-      "id": "rest-and-service-scheduling",
-      "rank": 11,
-      "title": "带头休假与银行午休同日登榜：休息权和服务供给如何同时成立？",
-      "brief": "百度聚焦带头休假，微博出现银行午休评论。适合从轮班、客流曲线和最低服务能力切入，把价值争论转成可比较的排班方案。",
-      "category": "职场·公共服务",
-      "momentum": "rising",
-      "urgency": "today",
-      "heat": 88,
-      "crossPlatform": 2,
-      "mathFit": 82,
+      "crossPlatform": 4,
+      "mathFit": 91,
       "visualFit": 87,
       "lifeFit": 97,
-      "questionDensity": 91,
-      "priority": 88,
+      "questionDensity": 94,
+      "priority": 94,
       "platforms": [
-        {"id": "weibo", "rank": 18, "score": 83, "trend": "公共服务讨论"},
-        {"id": "baidu", "rank": 1, "score": 100, "trend": "热榜第一"}
+        {
+          "id": "weibo",
+          "rank": 9,
+          "score": 93,
+          "trend": "热榜热门"
+        },
+        {
+          "id": "weibo",
+          "rank": 33,
+          "score": 69,
+          "trend": "榜内讨论"
+        },
+        {
+          "id": "baidu",
+          "rank": 8,
+          "score": 94,
+          "trend": "热榜热门"
+        },
+        {
+          "id": "baidu",
+          "rank": 11,
+          "score": 91,
+          "trend": "榜内讨论"
+        }
       ],
-      "keywords": ["休假", "银行午休", "轮班", "客流高峰", "服务能力"],
-      "mathAngles": ["用分时客流曲线定位午间服务的真实需求", "将排班写成覆盖需求、工时上限和最小人手的约束优化", "比较全员同休、交错轮班和预约服务的成本与覆盖率"],
-      "hooks": ["员工需要午休，客户也只有午休能办事，这道排班题有没有双赢解？", "问题不是‘能不能休’，而是休息时间和服务高峰如何错开。"],
-      "recommendedFormat": {"duration": "90秒", "structure": "两个热榜冲突→客流曲线→三种排班→服务底线"},
+      "keywords": [
+        "空调",
+        "省电",
+        "通风",
+        "夏季安全"
+      ],
+      "mathAngles": [
+        "把经验说法拆成可测条件",
+        "安全提醒与夸张标题的边界",
+        "家庭用电如何建立自己的记录表"
+      ],
+      "hooks": [
+        "‘24小时开空调更省电’为什么总会反复出现？",
+        "空调安全内容，先别急着给万能答案。"
+      ],
+      "recommendedFormat": {
+        "duration": "60秒",
+        "structure": "常见说法 → 条件拆分 → 可执行检查"
+      },
       "factStatus": "needs-review",
       "sources": [
-        {"name": "微博银行午休评论", "url": "https://s.weibo.com/weibo?q=%23%E5%A4%AE%E8%A7%86%E7%BD%91%E8%AF%84%E9%93%B6%E8%A1%8C%E5%8D%88%E4%BC%91%23", "type": "platform"},
-        {"name": "百度带头休假热榜", "url": "https://m.baidu.com/s?word=%E5%A4%9A%E5%9C%B0%E8%A6%81%E6%B1%82%E9%A2%86%E5%AF%BC%E5%B9%B2%E9%83%A8%E5%B8%A6%E5%A4%B4%E4%BC%91%E5%81%87&sa=fyb_news", "type": "platform"}
+        {
+          "name": "微博热榜直达",
+          "url": "https://s.weibo.com/weibo?q=%E7%A9%BA%E8%B0%83%E6%95%88%E6%9E%9C%E5%8F%AF%E8%A7%86%E5%8C%96%E4%BA%86",
+          "type": "platform"
+        },
+        {
+          "name": "微博热榜直达",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E5%BC%80%E4%B8%80%E5%A4%A9%E4%B8%80%E5%A4%9C%E7%A9%BA%E8%B0%83%E5%90%8E%E4%BA%8C%E6%B0%A7%E5%8C%96%E7%A2%B3%E4%B8%AD%E6%AF%92%23",
+          "type": "platform"
+        },
+        {
+          "name": "百度热榜直达",
+          "url": "https://m.baidu.com/s?word=%E5%A5%B3%E5%AD%90%E5%BC%80%E4%B8%80%E5%A4%A9%E4%B8%80%E5%A4%9C%E7%A9%BA%E8%B0%83%E5%90%8E%E4%BA%8C%E6%B0%A7%E5%8C%96%E7%A2%B3%E4%B8%AD%E6%AF%92&sa=fyb_news",
+          "type": "platform"
+        },
+        {
+          "name": "百度热榜直达",
+          "url": "https://m.baidu.com/s?word=%E2%80%9C%E7%A9%BA%E8%B0%8324%E5%B0%8F%E6%97%B6%E5%BC%80%E7%9D%80%E6%9B%B4%E7%9C%81%E7%94%B5%E2%80%9D%E4%B8%8D%E5%AE%9E&sa=fyb_news",
+          "type": "platform"
+        }
       ],
-      "updatedAt": "2026-08-06T16:20:47.450Z"
+      "updatedAt": "2026-08-07T04:08:16.977Z"
+    },
+    {
+      "id": "ai-trust-and-creation",
+      "rank": 5,
+      "title": "AI从漫剧到客服：像真人究竟是卖点还是风险？",
+      "brief": "AI漫剧、虚拟角色和拟人客服同时入榜，适合创作、产品、职场和伦理赛道讨论便利、披露与信任。",
+      "category": "AI·创作与产品",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 90,
+      "crossPlatform": 4,
+      "mathFit": 95,
+      "visualFit": 90,
+      "lifeFit": 80,
+      "questionDensity": 96,
+      "priority": 93,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 29,
+          "score": 73,
+          "trend": "榜内讨论"
+        },
+        {
+          "id": "weibo",
+          "rank": 23,
+          "score": 79,
+          "trend": "榜内讨论"
+        },
+        {
+          "id": "weibo",
+          "rank": 40,
+          "score": 62,
+          "trend": "榜内讨论"
+        },
+        {
+          "id": "baidu",
+          "rank": 38,
+          "score": 64,
+          "trend": "榜内讨论"
+        }
+      ],
+      "keywords": [
+        "AI漫剧",
+        "AI客服",
+        "拟人化",
+        "内容披露"
+      ],
+      "mathAngles": [
+        "拟人感为何会提升也会损害信任",
+        "创作者如何标识AI参与",
+        "从角色感到服务感的体验差异"
+      ],
+      "hooks": [
+        "当AI客服像真人，用户究竟在担心什么？",
+        "AI内容的真实感，应该在哪一步说清楚？"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90秒",
+        "structure": "案例并置 → 信任冲突 → 创作披露清单"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "抖音热榜直达",
+          "url": "https://www.douyin.com/search/%E6%88%9A%E8%96%87%E7%94%A8AI%E8%A7%A3%E9%94%81%E6%9C%AB%E4%B8%96",
+          "type": "platform"
+        },
+        {
+          "name": "微博热榜直达",
+          "url": "https://s.weibo.com/weibo?q=%E6%88%9A%E8%96%87%20AI%E6%BC%AB%E5%89%A7",
+          "type": "platform"
+        },
+        {
+          "name": "微博热榜直达",
+          "url": "https://s.weibo.com/weibo?q=AI%E5%AE%A2%E6%9C%8D%E5%A4%AA%E5%83%8F%E7%9C%9F%E4%BA%BA%E6%98%AF%E5%A5%BD%E4%BA%8B%E5%90%97",
+          "type": "platform"
+        },
+        {
+          "name": "百度热榜直达",
+          "url": "https://m.baidu.com/s?word=%E6%9B%9DOpenAI%E6%9C%80%E5%BF%AB%E4%B8%8B%E5%91%A8%E6%8E%A8%E5%87%BAAstra+AI&sa=fyb_news",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-08-07T04:08:16.977Z"
+    },
+    {
+      "id": "phone-price-rise",
+      "rank": 6,
+      "title": "手机涨价潮登知乎热榜：消费者怎样看参数、价格与换机时机？",
+      "brief": "品牌调价讨论与新品升级传闻同日出现，适合数码、消费和个人理财创作者把换机决策拆成可比较的维度。",
+      "category": "数码·消费",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 87,
+      "crossPlatform": 2,
+      "mathFit": 89,
+      "visualFit": 82,
+      "lifeFit": 91,
+      "questionDensity": 90,
+      "priority": 91,
+      "platforms": [
+        {
+          "id": "zhihu",
+          "rank": 9,
+          "score": 93,
+          "trend": "热榜热门"
+        },
+        {
+          "id": "weibo",
+          "rank": 14,
+          "score": 88,
+          "trend": "榜内讨论"
+        }
+      ],
+      "keywords": [
+        "手机涨价",
+        "换机",
+        "配置",
+        "消费决策"
+      ],
+      "mathAngles": [
+        "价格变化与配置升级不能直接相抵",
+        "按需求而非型号做比较",
+        "预算、折旧和使用周期的取舍"
+      ],
+      "hooks": [
+        "手机涨价时，最不该只盯着哪个数字？",
+        "换机不是站队：用三栏清单做决定。"
+      ],
+      "recommendedFormat": {
+        "duration": "60秒",
+        "structure": "热词背景 → 比较框架 → 购买决策表"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "知乎热榜直达",
+          "url": "https://www.zhihu.com/question/2068727171682718365",
+          "type": "platform"
+        },
+        {
+          "name": "微博热榜直达",
+          "url": "https://s.weibo.com/weibo?q=%23iPhone18Pro%E5%8D%81%E4%BA%8C%E5%A4%A7%E5%8D%87%E7%BA%A7%23",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-08-07T04:08:16.977Z"
+    },
+    {
+      "id": "education-rush-and-expectation",
+      "rank": 7,
+      "title": "‘预制娃’与研究生世界同日热门：教育焦虑如何讲得不只剩标签？",
+      "brief": "抢跑式教育讨论和研究生生活内容同时有热度，适合教育、亲子、校园和职场创作者讨论期待、资源与个体差异。",
+      "category": "教育·成长",
+      "momentum": "steady",
+      "urgency": "today",
+      "heat": 85,
+      "crossPlatform": 3,
+      "mathFit": 94,
+      "visualFit": 76,
+      "lifeFit": 92,
+      "questionDensity": 96,
+      "priority": 90,
+      "platforms": [
+        {
+          "id": "zhihu",
+          "rank": 12,
+          "score": 90,
+          "trend": "榜内讨论"
+        },
+        {
+          "id": "bilibili",
+          "rank": 2,
+          "score": 100,
+          "trend": "热榜前列"
+        },
+        {
+          "id": "bilibili",
+          "rank": 18,
+          "score": 84,
+          "trend": "榜内讨论"
+        }
+      ],
+      "keywords": [
+        "教育焦虑",
+        "预制娃",
+        "研究生",
+        "成长"
+      ],
+      "mathAngles": [
+        "教育选择为何容易被单一叙事绑架",
+        "家长和学生分别需要的信息",
+        "把标签改写成具体问题"
+      ],
+      "hooks": [
+        "‘抢跑’究竟在跑什么？",
+        "研究生生活的热度，能不能不只拍成滤镜？"
+      ],
+      "recommendedFormat": {
+        "duration": "90秒",
+        "structure": "现象对照 → 问题拆分 → 多角色建议"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "知乎热榜直达",
+          "url": "https://www.zhihu.com/question/2068724870267891996",
+          "type": "platform"
+        },
+        {
+          "name": "B站热榜直达",
+          "url": "https://www.bilibili.com/video/BV1R53R6rE7a",
+          "type": "platform"
+        },
+        {
+          "name": "B站热榜直达",
+          "url": "https://www.bilibili.com/video/BV1U8MS65Efm",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-08-07T04:08:16.977Z"
+    },
+    {
+      "id": "worktime-and-service",
+      "rank": 8,
+      "title": "双休、银行午休与房贷利率：时间和服务如何同时被重新分配？",
+      "brief": "休假、服务时段和家庭财务压力出现在同一轮讨论，适合职场、公共议题与财经创作者从时间成本切入。",
+      "category": "职场·公共服务",
+      "momentum": "steady",
+      "urgency": "today",
+      "heat": 83,
+      "crossPlatform": 4,
+      "mathFit": 92,
+      "visualFit": 70,
+      "lifeFit": 94,
+      "questionDensity": 94,
+      "priority": 89,
+      "platforms": [
+        {
+          "id": "weibo",
+          "rank": 6,
+          "score": 96,
+          "trend": "热榜热门"
+        },
+        {
+          "id": "weibo",
+          "rank": 30,
+          "score": 72,
+          "trend": "榜内讨论"
+        },
+        {
+          "id": "zhihu",
+          "rank": 16,
+          "score": 86,
+          "trend": "榜内讨论"
+        },
+        {
+          "id": "zhihu",
+          "rank": 20,
+          "score": 82,
+          "trend": "榜内讨论"
+        }
+      ],
+      "keywords": [
+        "双休",
+        "银行午休",
+        "房贷",
+        "时间成本"
+      ],
+      "mathAngles": [
+        "服务时间与劳动时间的错配",
+        "休假如何影响消费和家庭安排",
+        "公共议题中个人经验与总体数据的差别"
+      ],
+      "hooks": [
+        "为什么大家既希望更多休假，也希望银行随时开门？",
+        "时间不是背景变量：它本身就是成本。"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90秒",
+        "structure": "冲突场景 → 供需视角 → 个人决策提示"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "微博热榜直达",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%A4%AE%E8%A7%86%E7%BD%91%E8%AF%84%E9%93%B6%E8%A1%8C%E5%8D%88%E4%BC%91%23",
+          "type": "platform"
+        },
+        {
+          "name": "微博热榜直达",
+          "url": "https://s.weibo.com/weibo?q=%23%E9%83%A8%E5%88%86%E9%93%B6%E8%A1%8C%E6%88%BF%E8%B4%B7%E5%88%A9%E7%8E%87%E9%99%8D%E8%87%B32%E5%AD%97%E5%A4%B4%23",
+          "type": "platform"
+        },
+        {
+          "name": "知乎热榜直达",
+          "url": "https://www.zhihu.com/question/2068732573711329057",
+          "type": "platform"
+        },
+        {
+          "name": "知乎热榜直达",
+          "url": "https://www.zhihu.com/question/2068750826869413005",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-08-07T04:08:16.977Z"
+    },
+    {
+      "id": "torch-festival-heritage",
+      "rank": 9,
+      "title": "火把节与非遗美学：地方文化怎样从打卡变成有记忆的故事？",
+      "brief": "火把节攻略、彝装和非遗美学在短视频热榜集中出现，适合旅行、文化、品牌和影像创作者做在地叙事。",
+      "category": "文化·旅行",
+      "momentum": "peak",
+      "urgency": "today",
+      "heat": 84,
+      "crossPlatform": 4,
+      "mathFit": 82,
+      "visualFit": 98,
+      "lifeFit": 78,
+      "questionDensity": 78,
+      "priority": 88,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 9,
+          "score": 93,
+          "trend": "热榜热门"
+        },
+        {
+          "id": "douyin",
+          "rank": 11,
+          "score": 91,
+          "trend": "榜内讨论"
+        },
+        {
+          "id": "douyin",
+          "rank": 38,
+          "score": 64,
+          "trend": "榜内讨论"
+        },
+        {
+          "id": "bilibili",
+          "rank": 45,
+          "score": 57,
+          "trend": "榜内讨论"
+        }
+      ],
+      "keywords": [
+        "火把节",
+        "非遗",
+        "彝族文化",
+        "旅行影像"
+      ],
+      "mathAngles": [
+        "节庆内容如何保留具体的人与地方",
+        "攻略与文化解释怎样平衡",
+        "短视频视觉符号如何避免同质化"
+      ],
+      "hooks": [
+        "火把节内容为什么不能只拍火？",
+        "把地方文化拍出记忆点的三个镜头选择。"
+      ],
+      "recommendedFormat": {
+        "duration": "45–75秒",
+        "structure": "现场画面 → 人物细节 → 文化背景"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "抖音热榜直达",
+          "url": "https://www.douyin.com/search/%E8%A2%AB%E9%9D%9E%E9%81%97%E4%BA%BA%E7%9A%84%E7%81%AB%E6%8A%8A%E8%8A%82%E7%87%83%E5%88%B0%E4%BA%86",
+          "type": "platform"
+        },
+        {
+          "name": "抖音热榜直达",
+          "url": "https://www.douyin.com/search/%E8%AF%B7%E6%94%B6%E4%B8%8B%E8%BF%99%E4%BB%BD%E7%81%AB%E6%8A%8A%E8%8A%82%E6%94%BB%E7%95%A5",
+          "type": "platform"
+        },
+        {
+          "name": "抖音热榜直达",
+          "url": "https://www.douyin.com/search/%E8%97%8F%E5%9C%A8%E7%81%AB%E6%8A%8A%E8%8A%82%E9%87%8C%E7%9A%84%E9%9D%9E%E9%81%97%E7%BE%8E%E5%AD%A6",
+          "type": "platform"
+        },
+        {
+          "name": "B站热榜直达",
+          "url": "https://www.bilibili.com/video/BV1cxuF6ZEq3",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-08-07T04:08:16.977Z"
+    },
+    {
+      "id": "zenghouyi-bells-replica",
+      "rank": 10,
+      "title": "一万斤青铜复刻曾侯乙编钟：一件文物如何拍出工艺与声音？",
+      "brief": "复刻编钟的长视频进入B站热门，适合历史、手作、音乐和纪录片创作者把材料、制作与听觉体验串成故事。",
+      "category": "历史·手作",
+      "momentum": "rising",
+      "urgency": "evergreen",
+      "heat": 76,
+      "crossPlatform": 2,
+      "mathFit": 90,
+      "visualFit": 96,
+      "lifeFit": 66,
+      "questionDensity": 84,
+      "priority": 84,
+      "platforms": [
+        {
+          "id": "bilibili",
+          "rank": 24,
+          "score": 78,
+          "trend": "榜内讨论"
+        },
+        {
+          "id": "douyin",
+          "rank": 45,
+          "score": 57,
+          "trend": "榜内讨论"
+        }
+      ],
+      "keywords": [
+        "曾侯乙编钟",
+        "青铜",
+        "复刻",
+        "传统工艺"
+      ],
+      "mathAngles": [
+        "工艺过程如何建立观看期待",
+        "材料尺度怎样变成画面语言",
+        "声音、历史与手作的叙事节奏"
+      ],
+      "hooks": [
+        "一万斤青铜，怎么复刻出2400年前的声音？",
+        "拍工艺片时，最该让观众先听见什么？"
+      ],
+      "recommendedFormat": {
+        "duration": "90秒",
+        "structure": "成品声音 → 制作难点 → 历史与当代连接"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "B站热榜直达",
+          "url": "https://www.bilibili.com/video/BV1k1MS6PEzA",
+          "type": "platform"
+        },
+        {
+          "name": "抖音热榜直达",
+          "url": "https://www.douyin.com/search/%E7%81%AB%E9%87%8C%E4%BD%9C%E7%94%BB%E7%9A%84%E5%8D%9A%E5%B1%B1%E7%90%89%E7%92%83%E7%81%AF%E5%B7%A5",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-08-07T04:08:16.977Z"
     }
   ]
 }
