@@ -5,10 +5,10 @@
   "generatedAt": "2026-09-22T16:09:47.188Z",
   "timezone": "Asia/Shanghai",
   "summary": {
-    "topicCount": 8,
-    "urgentCount": 2,
-    "crossPlatformCount": 3,
-    "formulaReadyCount": 8
+    "topicCount": 10,
+    "urgentCount": 4,
+    "crossPlatformCount": 10,
+    "formulaReadyCount": 10
   },
   "sourceStatus": [
     {
@@ -67,8 +67,8 @@
     "series": {
       "douyin": [
         98,
-        96,
         98,
+        96,
         98,
         98,
         98,
@@ -123,59 +123,97 @@
   },
   "topics": [
     {
-      "id": "women-volleyball-title",
+      "id": "women-volleyball-triple-crown",
       "rank": 1,
-      "title": "中国女排夺冠：赛后内容怎样从欢呼走向复盘？",
-      "brief": "中国女排夺冠同时出现在抖音、百度和知乎。适合从赛程、对位、关键分与官方赛果设计赛后复盘，不把热榜情绪当作完整比赛叙述。",
+      "title": "中国女排三连冠热词：赛果短片怎样不只剩庆祝？",
+      "brief": "女排夺冠相关词条同时出现在抖音、微博、知乎和百度。可把比赛节点、关键回合与赛后反应分层讲述；具体比分、赛程和人物信息须回到赛事官方来源复核。",
       "category": "体育赛事",
       "momentum": "peak",
       "urgency": "now",
-      "heat": 96,
-      "crossPlatform": 3,
-      "mathFit": 91,
-      "visualFit": 94,
-      "lifeFit": 88,
-      "questionDensity": 92,
-      "priority": 95,
-      "platforms": [
-        {
-          "id": "douyin",
-          "rank": 6,
-          "score": 90,
-          "trend": "本次上榜"
-        },
-        {
-          "id": "baidu",
-          "rank": 1,
-          "score": 100,
-          "trend": "本次上榜"
-        },
-        {
-          "id": "zhihu",
-          "rank": 13,
-          "score": 72,
-          "trend": "部分快照上榜"
-        }
+      "heat": 99,
+      "crossPlatform": 4,
+      "mathFit": 86,
+      "visualFit": 96,
+      "lifeFit": 84,
+      "questionDensity": 89,
+      "priority": 99,
+      "signals": [
+        [
+          "douyin",
+          6,
+          94,
+          "高位上榜"
+        ],
+        [
+          "douyin",
+          11,
+          84,
+          "同题延伸"
+        ],
+        [
+          "weibo",
+          45,
+          18,
+          "同题延伸"
+        ],
+        [
+          "zhihu",
+          14,
+          78,
+          "深度讨论"
+        ],
+        [
+          "baidu",
+          1,
+          100,
+          "热榜首位"
+        ],
+        [
+          "baidu",
+          20,
+          60,
+          "同题延伸"
+        ]
       ],
       "keywords": [
-        "女排",
+        "中国女排",
         "亚运会",
-        "赛后复盘",
-        "赛果"
+        "三连冠",
+        "赛果",
+        "赛事复盘"
       ],
       "mathAngles": [
-        "用赛程、局分和关键回合组织复盘",
-        "区分赛果、评论与球迷情绪"
+        "用赛程时间线区分赛前、赛中与赛后",
+        "把比分、项目和来源放在同一张信息卡"
       ],
       "hooks": [
-        "冠军之外，这场球最该复盘哪三段？",
-        "一条女排赛后视频，怎样不只剩“太燃了”？"
+        "一条夺冠视频，除了庆祝还应该留下什么？",
+        "赛果很热，怎样把热度讲成一场可复盘的比赛？"
       ],
       "recommendedFormat": {
-        "duration": "45–60 秒",
-        "structure": "热词开场 → 比赛结构 → 官方赛果 → 复盘问题"
+        "duration": "60–90 秒",
+        "structure": "热榜切入 → 比赛节点 → 赛果卡片 → 来源说明"
       },
+      "refs": [
+        [
+          "douyin",
+          6
+        ],
+        [
+          "weibo",
+          45
+        ],
+        [
+          "zhihu",
+          14
+        ],
+        [
+          "baidu",
+          1
+        ]
+      ],
       "factStatus": "needs-review",
+      "updatedAt": "2026-09-22T16:09:47.188Z",
       "sources": [
         {
           "name": "抖音原榜：中国女排亚运会三连冠",
@@ -183,66 +221,228 @@
           "type": "platform"
         },
         {
+          "name": "微博原榜：中国女排3连冠",
+          "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E5%A5%B3%E6%8E%923%E8%BF%9E%E5%86%A0%23",
+          "type": "platform"
+        },
+        {
+          "name": "知乎原榜：亚运会女排决赛，中国女排 3-0 完胜日本队，成就亚运「十冠王」，如何评价本场比赛？",
+          "url": "https://www.zhihu.com/question/2085652946457465509",
+          "type": "platform"
+        },
+        {
           "name": "百度原榜：中国女排夺冠！3-0横扫日本",
           "url": "https://m.baidu.com/s?word=%E4%B8%AD%E5%9B%BD%E5%A5%B3%E6%8E%92%E5%A4%BA%E5%86%A0%EF%BC%813-0%E6%A8%AA%E6%89%AB%E6%97%A5%E6%9C%AC&sa=fyb_news",
           "type": "platform"
-        },
-        {
-          "name": "知乎原榜：什么样的亲子互动方式能让孩子感受到持续的爱和支持？",
-          "url": "https://www.zhihu.com/question/2011401875841377394",
-          "type": "platform"
         }
       ],
-      "updatedAt": "2026-09-22T16:09:47.188Z"
-    },
-    {
-      "id": "first-astronauts-retirement",
-      "rank": 2,
-      "title": "首批航天员停航停训：人物新闻怎样讲清时间与制度？",
-      "brief": "抖音和百度出现我国首批航天员全部停航停训话题。适合做航天人物与任务史的时间线内容；人员状态、具体任务和官方表述均应回到权威发布核验。",
-      "category": "航天与人物",
-      "momentum": "rising",
-      "urgency": "today",
-      "heat": 91,
-      "crossPlatform": 2,
-      "mathFit": 93,
-      "visualFit": 87,
-      "lifeFit": 81,
-      "questionDensity": 94,
-      "priority": 91,
       "platforms": [
         {
           "id": "douyin",
-          "rank": 1,
-          "score": 100,
-          "trend": "本次上榜"
+          "rank": 6,
+          "score": 94,
+          "trend": "高位上榜"
+        },
+        {
+          "id": "douyin",
+          "rank": 11,
+          "score": 84,
+          "trend": "同题延伸"
+        },
+        {
+          "id": "weibo",
+          "rank": 45,
+          "score": 18,
+          "trend": "同题延伸"
+        },
+        {
+          "id": "zhihu",
+          "rank": 14,
+          "score": 78,
+          "trend": "深度讨论"
         },
         {
           "id": "baidu",
+          "rank": 1,
+          "score": 100,
+          "trend": "热榜首位"
+        },
+        {
+          "id": "baidu",
+          "rank": 20,
+          "score": 60,
+          "trend": "同题延伸"
+        }
+      ]
+    },
+    {
+      "id": "zhang-zhanshuo-distance-swim",
+      "rank": 2,
+      "title": "张展硕1500米夺冠：长距离项目怎样把数字讲清楚？",
+      "brief": "张展硕1500米自由泳夺冠在抖音、微博和百度同时出现。适合从项目距离、成绩口径、对手与比赛阶段切入，不以未核验的历史比较替代成绩册。",
+      "category": "体育人物",
+      "momentum": "peak",
+      "urgency": "now",
+      "heat": 96,
+      "crossPlatform": 3,
+      "mathFit": 92,
+      "visualFit": 91,
+      "lifeFit": 80,
+      "questionDensity": 90,
+      "priority": 96,
+      "signals": [
+        [
+          "douyin",
+          2,
+          98,
+          "高位上榜"
+        ],
+        [
+          "weibo",
+          19,
+          64,
+          "赛事讨论"
+        ],
+        [
+          "baidu",
+          44,
+          28,
+          "同题延伸"
+        ]
+      ],
+      "keywords": [
+        "张展硕",
+        "1500米自由泳",
+        "游泳",
+        "成绩",
+        "赛果"
+      ],
+      "mathAngles": [
+        "以距离、分段和总成绩解释长距离项目",
+        "把纪录性表述与可验证的成绩单分开"
+      ],
+      "hooks": [
+        "1500米夺冠，视频里哪几个数字最不能省？",
+        "长距离项目怎么讲，才不会只剩一句“太强了”？"
+      ],
+      "recommendedFormat": {
+        "duration": "45–60 秒",
+        "structure": "热词 → 项目尺度 → 成绩信息卡 → 官方成绩入口"
+      },
+      "refs": [
+        [
+          "douyin",
+          2
+        ],
+        [
+          "weibo",
+          19
+        ],
+        [
+          "baidu",
+          44
+        ]
+      ],
+      "factStatus": "needs-review",
+      "updatedAt": "2026-09-22T16:09:47.188Z",
+      "sources": [
+        {
+          "name": "抖音原榜：张展硕1500米自由泳夺冠",
+          "url": "https://www.douyin.com/search/%E5%BC%A0%E5%B1%95%E7%A1%951500%E7%B1%B3%E8%87%AA%E7%94%B1%E6%B3%B3%E5%A4%BA%E5%86%A0",
+          "type": "platform"
+        },
+        {
+          "name": "微博原榜：张展硕1500自由泳金牌",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%BC%A0%E5%B1%95%E7%A1%951500%E8%87%AA%E7%94%B1%E6%B3%B3%E9%87%91%E7%89%8C%23",
+          "type": "platform"
+        },
+        {
+          "name": "百度原榜：张展硕回应夺冠动作：有不能输的理由",
+          "url": "https://m.baidu.com/s?word=%E5%BC%A0%E5%B1%95%E7%A1%95%E5%9B%9E%E5%BA%94%E5%A4%BA%E5%86%A0%E5%8A%A8%E4%BD%9C%EF%BC%9A%E6%9C%89%E4%B8%8D%E8%83%BD%E8%BE%93%E7%9A%84%E7%90%86%E7%94%B1&sa=fyb_news",
+          "type": "platform"
+        }
+      ],
+      "platforms": [
+        {
+          "id": "douyin",
           "rank": 2,
           "score": 98,
-          "trend": "本次上榜"
+          "trend": "高位上榜"
+        },
+        {
+          "id": "weibo",
+          "rank": 19,
+          "score": 64,
+          "trend": "赛事讨论"
+        },
+        {
+          "id": "baidu",
+          "rank": 44,
+          "score": 28,
+          "trend": "同题延伸"
         }
+      ]
+    },
+    {
+      "id": "retired-astronauts-story",
+      "rank": 3,
+      "title": "首批航天员停航停训：人物新闻怎样做成时间线？",
+      "brief": "“我国首批航天员已全部停航停训”登上抖音和百度高位。适合用人物、任务、时间与公开资料来源梳理一段航天记忆，避免延伸推断未经发布的信息。",
+      "category": "航天人物",
+      "momentum": "rising",
+      "urgency": "now",
+      "heat": 94,
+      "crossPlatform": 2,
+      "mathFit": 90,
+      "visualFit": 93,
+      "lifeFit": 78,
+      "questionDensity": 91,
+      "priority": 94,
+      "signals": [
+        [
+          "douyin",
+          1,
+          100,
+          "热榜首位"
+        ],
+        [
+          "baidu",
+          2,
+          98,
+          "高位上榜"
+        ]
       ],
       "keywords": [
         "航天员",
-        "停航停训",
-        "航天史",
+        "航天",
+        "人物史",
+        "任务",
         "时间线"
       ],
       "mathAngles": [
-        "用任务节点而非煽情标签讲人物",
-        "区分退役、停训与公开报道的表述"
+        "将人物、任务、日期和资料出处做成可读时间线",
+        "区分公开履历与尚未证实的个人信息"
       ],
       "hooks": [
-        "首批航天员“停航停训”，意味着什么？",
-        "一条人物航天史，先画哪条时间线？"
+        "一代航天员结束飞行训练，最适合从哪张时间线讲起？",
+        "人物新闻为什么不能只放一张合影？"
       ],
       "recommendedFormat": {
-        "duration": "60 秒",
-        "structure": "热点标题 → 时间线 → 制度语境 → 权威出处"
+        "duration": "60–90 秒",
+        "structure": "热榜原话 → 时间线 → 任务档案 → 公开来源"
       },
+      "refs": [
+        [
+          "douyin",
+          1
+        ],
+        [
+          "baidu",
+          2
+        ]
+      ],
       "factStatus": "needs-review",
+      "updatedAt": "2026-09-22T16:09:47.188Z",
       "sources": [
         {
           "name": "抖音原榜：我国首批航天员已全部停航停训",
@@ -255,327 +455,983 @@
           "type": "platform"
         }
       ],
-      "updatedAt": "2026-09-22T16:09:47.188Z"
-    },
-    {
-      "id": "emergency-line-access",
-      "rank": 3,
-      "title": "五次拨打120未接通：公共服务事件如何做信息核验？",
-      "brief": "微博和百度均出现老人拨打120未接通的相关话题。适合围绕时间线、已知回应、求助渠道和未证实细节建立信息边界，避免以个案热搜替代公共服务结论。",
-      "category": "公共服务",
-      "momentum": "rising",
-      "urgency": "now",
-      "heat": 90,
-      "crossPlatform": 2,
-      "mathFit": 94,
-      "visualFit": 74,
-      "lifeFit": 95,
-      "questionDensity": 97,
-      "priority": 93,
       "platforms": [
         {
-          "id": "weibo",
-          "rank": 5,
-          "score": 92,
-          "trend": "本次上榜"
+          "id": "douyin",
+          "rank": 1,
+          "score": 100,
+          "trend": "热榜首位"
         },
         {
           "id": "baidu",
-          "rank": 4,
-          "score": 94,
-          "trend": "本次上榜"
+          "rank": 2,
+          "score": 98,
+          "trend": "高位上榜"
         }
+      ]
+    },
+    {
+      "id": "holiday-travel-content-kit",
+      "rank": 4,
+      "title": "中秋国庆旅行热词：把“出片”变成可执行攻略",
+      "brief": "旅行拍照、慢旅行、家庭出游、家乡推荐与节前出行提示同日出现。可从路线、时间、预算、拍摄点和安全提示做内容模板，避免把个别体验说成普遍规则。",
+      "category": "旅行生活",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 92,
+      "crossPlatform": 3,
+      "mathFit": 86,
+      "visualFit": 98,
+      "lifeFit": 97,
+      "questionDensity": 88,
+      "priority": 93,
+      "signals": [
+        [
+          "douyin",
+          5,
+          92,
+          "慢旅行上榜"
+        ],
+        [
+          "douyin",
+          19,
+          64,
+          "信息差讨论"
+        ],
+        [
+          "douyin",
+          25,
+          52,
+          "家乡内容"
+        ],
+        [
+          "xiaohongshu",
+          1,
+          100,
+          "热榜首位"
+        ],
+        [
+          "xiaohongshu",
+          8,
+          70,
+          "家庭旅行"
+        ],
+        [
+          "bilibili",
+          47,
+          34,
+          "骑行内容"
+        ]
       ],
       "keywords": [
-        "120",
-        "急救",
-        "公共服务",
-        "事实核验"
+        "旅行",
+        "攻略",
+        "拍照",
+        "家庭出游",
+        "中秋国庆"
       ],
       "mathAngles": [
-        "把时间线、回应与推测分开",
-        "将个案叙述与系统性结论分层"
+        "以地图、时间和预算三层组织一条路线",
+        "把出片点与交通、安全、拥挤度并列呈现"
       ],
       "hooks": [
-        "面对急救热搜，哪几条信息必须先核验？",
-        "一张时间线，如何避免把猜测讲成事实？"
+        "好看的旅行视频，为什么未必是一份好攻略？",
+        "假期出游，先把哪五个变量讲清楚？"
       ],
       "recommendedFormat": {
-        "duration": "45–60 秒",
-        "structure": "热榜线索 → 时间线 → 信息边界 → 求助提示"
+        "duration": "60 秒",
+        "structure": "美景钩子 → 路线卡片 → 花费/时间 → 注意事项"
       },
+      "refs": [
+        [
+          "douyin",
+          5
+        ],
+        [
+          "xiaohongshu",
+          1
+        ],
+        [
+          "xiaohongshu",
+          8
+        ],
+        [
+          "bilibili",
+          47
+        ]
+      ],
       "factStatus": "needs-review",
+      "updatedAt": "2026-09-22T16:09:47.188Z",
       "sources": [
         {
-          "name": "微博原榜：多方回应老人5次打120未接通后身亡",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%A4%9A%E6%96%B9%E5%9B%9E%E5%BA%94%E8%80%81%E4%BA%BA5%E6%AC%A1%E6%89%93120%E6%9C%AA%E6%8E%A5%E9%80%9A%E5%90%8E%E8%BA%AB%E4%BA%A1%23",
+          "name": "抖音原榜：和好友一起打开川西慢旅行",
+          "url": "https://www.douyin.com/search/%E5%92%8C%E5%A5%BD%E5%8F%8B%E4%B8%80%E8%B5%B7%E6%89%93%E5%BC%80%E5%B7%9D%E8%A5%BF%E6%85%A2%E6%97%85%E8%A1%8C",
           "type": "platform"
         },
         {
-          "name": "百度原榜：老人心梗去世前5次打120未接通",
-          "url": "https://m.baidu.com/s?word=%E8%80%81%E4%BA%BA%E5%BF%83%E6%A2%97%E5%8E%BB%E4%B8%96%E5%89%8D5%E6%AC%A1%E6%89%93120%E6%9C%AA%E6%8E%A5%E9%80%9A&sa=fyb_news",
+          "name": "小红书原榜：用万能旅行拍照姿势美美出片",
+          "url": "https://www.xiaohongshu.com/search_result?keyword=%E7%94%A8%E4%B8%87%E8%83%BD%E6%97%85%E8%A1%8C%E6%8B%8D%E7%85%A7%E5%A7%BF%E5%8A%BF%E7%BE%8E%E7%BE%8E%E5%87%BA%E7%89%87&type=51",
+          "type": "platform"
+        },
+        {
+          "name": "小红书原榜：我的家庭旅行更像是打副本",
+          "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%88%91%E7%9A%84%E5%AE%B6%E5%BA%AD%E6%97%85%E8%A1%8C%E6%9B%B4%E5%83%8F%E6%98%AF%E6%89%93%E5%89%AF%E6%9C%AC&type=51",
+          "type": "platform"
+        },
+        {
+          "name": "B站原榜：骑行318最爽的一天，下下下下然后上！",
+          "url": "https://www.bilibili.com/video/BV1HVhE6NEdS",
           "type": "platform"
         }
       ],
-      "updatedAt": "2026-09-22T16:09:47.188Z"
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 5,
+          "score": 92,
+          "trend": "慢旅行上榜"
+        },
+        {
+          "id": "douyin",
+          "rank": 19,
+          "score": 64,
+          "trend": "信息差讨论"
+        },
+        {
+          "id": "douyin",
+          "rank": 25,
+          "score": 52,
+          "trend": "家乡内容"
+        },
+        {
+          "id": "xiaohongshu",
+          "rank": 1,
+          "score": 100,
+          "trend": "热榜首位"
+        },
+        {
+          "id": "xiaohongshu",
+          "rank": 8,
+          "score": 70,
+          "trend": "家庭旅行"
+        },
+        {
+          "id": "bilibili",
+          "rank": 47,
+          "score": 34,
+          "trend": "骑行内容"
+        }
+      ]
     },
     {
-      "id": "battery-safety-standard",
-      "rank": 4,
-      "title": "动力电池新国标：安全话题如何避免参数堆砌？",
-      "brief": "微博出现动力电池新国标下的安全话题。适合用测试场景、风险控制、适用车型和实施节点解释标准，不把单条热搜当作法规全文或产品安全结论。",
-      "category": "汽车与产业",
+      "id": "moon-cake-and-long-tart",
+      "rank": 5,
+      "title": "月饼与超长蛋挞：节日食品如何讲“爆款”而不夸大？",
+      "brief": "月饼、手作月饼、超长蛋挞和校园发放等相关条目覆盖抖音、小红书、百度与B站。可用来源、样本、价格、制作条件和食品安全五项框架，避免把个案热度写成市场结论。",
+      "category": "美食消费",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 90,
+      "crossPlatform": 4,
+      "mathFit": 88,
+      "visualFit": 95,
+      "lifeFit": 96,
+      "questionDensity": 90,
+      "priority": 91,
+      "signals": [
+        [
+          "douyin",
+          8,
+          88,
+          "爆款食品"
+        ],
+        [
+          "douyin",
+          27,
+          58,
+          "同题延伸"
+        ],
+        [
+          "douyin",
+          28,
+          54,
+          "手作内容"
+        ],
+        [
+          "xiaohongshu",
+          4,
+          86,
+          "教程内容"
+        ],
+        [
+          "xiaohongshu",
+          10,
+          58,
+          "同题延伸"
+        ],
+        [
+          "baidu",
+          27,
+          46,
+          "消费讨论"
+        ],
+        [
+          "baidu",
+          28,
+          44,
+          "同题延伸"
+        ],
+        [
+          "bilibili",
+          19,
+          64,
+          "美食内容"
+        ]
+      ],
+      "keywords": [
+        "月饼",
+        "蛋挞",
+        "节日食品",
+        "爆款",
+        "手作"
+      ],
+      "mathAngles": [
+        "用样本、渠道、价格、时间和条件拆解“爆款”",
+        "在教程中标明配料、储存与过敏风险信息"
+      ],
+      "hooks": [
+        "一个食品爆款，怎么判断是全国趋势还是局部热闹？",
+        "月饼和超长蛋挞都火了，内容创作者该先核对什么？"
+      ],
+      "recommendedFormat": {
+        "duration": "45–75 秒",
+        "structure": "热词拼图 → 五项检查 → 制作/购买提示"
+      },
+      "refs": [
+        [
+          "douyin",
+          8
+        ],
+        [
+          "xiaohongshu",
+          4
+        ],
+        [
+          "baidu",
+          28
+        ],
+        [
+          "bilibili",
+          19
+        ]
+      ],
+      "factStatus": "needs-review",
+      "updatedAt": "2026-09-22T16:09:47.188Z",
+      "sources": [
+        {
+          "name": "抖音原榜：超长蛋挞爆火出圈",
+          "url": "https://www.douyin.com/search/%E8%B6%85%E9%95%BF%E8%9B%8B%E6%8C%9E%E7%88%86%E7%81%AB%E5%87%BA%E5%9C%88",
+          "type": "platform"
+        },
+        {
+          "name": "小红书原榜：超日常美食教程速来 get",
+          "url": "https://www.xiaohongshu.com/search_result?keyword=%E8%B6%85%E6%97%A5%E5%B8%B8%E7%BE%8E%E9%A3%9F%E6%95%99%E7%A8%8B%E9%80%9F%E6%9D%A5get&type=51",
+          "type": "platform"
+        },
+        {
+          "name": "百度原榜：一高校给全校学生免费发超长蛋挞",
+          "url": "https://m.baidu.com/s?word=%E4%B8%80%E9%AB%98%E6%A0%A1%E7%BB%99%E5%85%A8%E6%A0%A1%E5%AD%A6%E7%94%9F%E5%85%8D%E8%B4%B9%E5%8F%91%E8%B6%85%E9%95%BF%E8%9B%8B%E6%8C%9E&sa=fyb_news",
+          "type": "platform"
+        },
+        {
+          "name": "B站原榜：来一场蛋宰派对吧！",
+          "url": "https://www.bilibili.com/video/BV1kceH6DEzQ",
+          "type": "platform"
+        }
+      ],
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 8,
+          "score": 88,
+          "trend": "爆款食品"
+        },
+        {
+          "id": "douyin",
+          "rank": 27,
+          "score": 58,
+          "trend": "同题延伸"
+        },
+        {
+          "id": "douyin",
+          "rank": 28,
+          "score": 54,
+          "trend": "手作内容"
+        },
+        {
+          "id": "xiaohongshu",
+          "rank": 4,
+          "score": 86,
+          "trend": "教程内容"
+        },
+        {
+          "id": "xiaohongshu",
+          "rank": 10,
+          "score": 58,
+          "trend": "同题延伸"
+        },
+        {
+          "id": "baidu",
+          "rank": 27,
+          "score": 46,
+          "trend": "消费讨论"
+        },
+        {
+          "id": "baidu",
+          "rank": 28,
+          "score": 44,
+          "trend": "同题延伸"
+        },
+        {
+          "id": "bilibili",
+          "rank": 19,
+          "score": 64,
+          "trend": "美食内容"
+        }
+      ]
+    },
+    {
+      "id": "game-balance-and-esports",
+      "rank": 6,
+      "title": "游戏平衡与赛事热词：把玩家争论变成机制解释",
+      "brief": "游戏攻略、版本更新、职业赛事和玩家对平衡补丁的讨论同时出现在抖音、微博、知乎与B站。适合从规则、版本、样本局和角色定位做拆解，避免以单局体验代替整体结论。",
+      "category": "游戏电竞",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 87,
+      "crossPlatform": 4,
+      "mathFit": 91,
+      "visualFit": 94,
+      "lifeFit": 83,
+      "questionDensity": 93,
+      "priority": 89,
+      "signals": [
+        [
+          "douyin",
+          22,
+          60,
+          "版本更新"
+        ],
+        [
+          "weibo",
+          31,
+          48,
+          "游戏讨论"
+        ],
+        [
+          "weibo",
+          44,
+          34,
+          "赛事预热"
+        ],
+        [
+          "zhihu",
+          3,
+          96,
+          "机制讨论"
+        ],
+        [
+          "zhihu",
+          29,
+          44,
+          "电竞讨论"
+        ],
+        [
+          "bilibili",
+          21,
+          60,
+          "攻略内容"
+        ]
+      ],
+      "keywords": [
+        "游戏平衡",
+        "版本更新",
+        "电竞",
+        "补丁",
+        "攻略"
+      ],
+      "mathAngles": [
+        "将版本号、改动项、样本局与胜率口径分开",
+        "用前后版本对比代替“削弱/加强”的情绪标签"
+      ],
+      "hooks": [
+        "一个套路被削，真的是“官方不让玩家玩”吗？",
+        "游戏平衡视频最该先给出的，是哪一条版本信息？"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90 秒",
+        "structure": "争论钩子 → 版本改动 → 样本边界 → 对局演示"
+      },
+      "refs": [
+        [
+          "douyin",
+          22
+        ],
+        [
+          "weibo",
+          44
+        ],
+        [
+          "zhihu",
+          3
+        ],
+        [
+          "bilibili",
+          21
+        ]
+      ],
+      "factStatus": "needs-review",
+      "updatedAt": "2026-09-22T16:09:47.188Z",
+      "sources": [
+        {
+          "name": "抖音原榜：无畏契约史上最大版本更新",
+          "url": "https://www.douyin.com/search/%E6%97%A0%E7%95%8F%E5%A5%91%E7%BA%A6%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%A4%A7%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0",
+          "type": "platform"
+        },
+        {
+          "name": "微博原榜：S16全球总决赛",
+          "url": "https://s.weibo.com/weibo?q=S16%E5%85%A8%E7%90%83%E6%80%BB%E5%86%B3%E8%B5%9B",
+          "type": "platform"
+        },
+        {
+          "name": "知乎原榜：G 胖认为，开发者最大的错误之一就是把玩家自己琢磨出来的轮椅套路当成作弊一刀砍掉，你同意他的看法吗？",
+          "url": "https://www.zhihu.com/question/2085679798857240709",
+          "type": "platform"
+        },
+        {
+          "name": "B站原榜：廉颇推塔竟然这么快，这还玩啥六耳啊",
+          "url": "https://www.bilibili.com/video/BV1cahB69END",
+          "type": "platform"
+        }
+      ],
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 22,
+          "score": 60,
+          "trend": "版本更新"
+        },
+        {
+          "id": "weibo",
+          "rank": 31,
+          "score": 48,
+          "trend": "游戏讨论"
+        },
+        {
+          "id": "weibo",
+          "rank": 44,
+          "score": 34,
+          "trend": "赛事预热"
+        },
+        {
+          "id": "zhihu",
+          "rank": 3,
+          "score": 96,
+          "trend": "机制讨论"
+        },
+        {
+          "id": "zhihu",
+          "rank": 29,
+          "score": 44,
+          "trend": "电竞讨论"
+        },
+        {
+          "id": "bilibili",
+          "rank": 21,
+          "score": 60,
+          "trend": "攻略内容"
+        }
+      ]
+    },
+    {
+      "id": "auto-safety-standard-literacy",
+      "rank": 7,
+      "title": "动力电池新国标与“航空级安全”：汽车词汇怎样核验？",
+      "brief": "动力电池新国标、汽车安全宣传和智能驾驶描述相关内容进入微博、百度与B站原榜。适合做术语辨析：标准名称、适用对象、测试条件与营销表述不能互相替代。",
+      "category": "汽车科技",
       "momentum": "rising",
       "urgency": "today",
       "heat": 83,
-      "crossPlatform": 1,
-      "mathFit": 95,
+      "crossPlatform": 3,
+      "mathFit": 94,
       "visualFit": 89,
-      "lifeFit": 79,
-      "questionDensity": 93,
-      "priority": 86,
-      "platforms": [
-        {
-          "id": "weibo",
-          "rank": 10,
-          "score": 82,
-          "trend": "本次上榜"
-        }
+      "lifeFit": 89,
+      "questionDensity": 95,
+      "priority": 88,
+      "signals": [
+        [
+          "weibo",
+          10,
+          84,
+          "标准讨论"
+        ],
+        [
+          "baidu",
+          49,
+          26,
+          "描述调整"
+        ],
+        [
+          "bilibili",
+          44,
+          36,
+          "安全宣传"
+        ]
       ],
       "keywords": [
         "动力电池",
         "新国标",
         "汽车安全",
-        "标准"
+        "智能驾驶",
+        "测试条件"
       ],
       "mathAngles": [
-        "用测试场景解释标准的作用",
-        "区分标准发布、实施和单车表现"
+        "将法规标准、测试数据和营销形容词分层",
+        "把测试条件与适用范围写在视频结论之前"
       ],
       "hooks": [
-        "一条“新国标”热搜，最容易被漏掉的是什么？",
-        "动力电池安全，别只剩几个参数。"
+        "“航空级安全”到底是标准名，还是宣传语？",
+        "看汽车安全信息，先找哪四个字段？"
       ],
       "recommendedFormat": {
         "duration": "60 秒",
-        "structure": "热词 → 测试场景 → 实施边界 → 官方标准待核验"
+        "structure": "热词 → 术语拆分 → 测试条件 → 官方标准查询"
       },
+      "refs": [
+        [
+          "weibo",
+          10
+        ],
+        [
+          "baidu",
+          49
+        ],
+        [
+          "bilibili",
+          44
+        ]
+      ],
       "factStatus": "needs-review",
+      "updatedAt": "2026-09-22T16:09:47.188Z",
       "sources": [
         {
           "name": "微博原榜：动力电池新国标下的安全硬仗",
           "url": "https://s.weibo.com/weibo?q=%23%E5%8A%A8%E5%8A%9B%E7%94%B5%E6%B1%A0%E6%96%B0%E5%9B%BD%E6%A0%87%E4%B8%8B%E7%9A%84%E5%AE%89%E5%85%A8%E7%A1%AC%E4%BB%97%23",
           "type": "platform"
+        },
+        {
+          "name": "百度原榜：特斯拉中国修改FSD描述",
+          "url": "https://m.baidu.com/s?word=%E7%89%B9%E6%96%AF%E6%8B%89%E4%B8%AD%E5%9B%BD%E4%BF%AE%E6%94%B9FSD%E6%8F%8F%E8%BF%B0&sa=fyb_news",
+          "type": "platform"
+        },
+        {
+          "name": "B站原榜：一台汽车，凭什么敢说自己是 \"航空级安全\"？",
+          "url": "https://www.bilibili.com/video/BV1qwhJ6aEAG",
+          "type": "platform"
         }
       ],
-      "updatedAt": "2026-09-22T16:09:47.188Z"
+      "platforms": [
+        {
+          "id": "weibo",
+          "rank": 10,
+          "score": 84,
+          "trend": "标准讨论"
+        },
+        {
+          "id": "baidu",
+          "rank": 49,
+          "score": 26,
+          "trend": "描述调整"
+        },
+        {
+          "id": "bilibili",
+          "rank": 44,
+          "score": 36,
+          "trend": "安全宣传"
+        }
+      ]
     },
     {
-      "id": "holiday-travel-policy-card",
-      "rank": 5,
-      "title": "中秋国庆出行提醒：信息卡怎样做到一眼可核验？",
-      "brief": "抖音出现中秋国庆调休和高速政策提醒。适合给旅行、生活和本地创作者提供政策信息卡模板：日期、适用车辆、路段与官方入口需要逐项标注。",
-      "category": "生活与出行",
+      "id": "industrial-economy-data-reading",
+      "rank": 8,
+      "title": "工业经济、民企500强与铜金矿：产业数字怎么读？",
+      "brief": "前8月工业经济、民营企业500强和超大型铜金矿等产业词条同日出现。可做数据阅读模板：明确统计期、口径、单位、来源与不能推出的结论，不用单一排名替代行业全貌。",
+      "category": "产业财经",
       "momentum": "rising",
       "urgency": "today",
-      "heat": 82,
-      "crossPlatform": 1,
-      "mathFit": 91,
-      "visualFit": 90,
-      "lifeFit": 94,
-      "questionDensity": 88,
+      "heat": 81,
+      "crossPlatform": 2,
+      "mathFit": 97,
+      "visualFit": 80,
+      "lifeFit": 82,
+      "questionDensity": 96,
       "priority": 87,
+      "signals": [
+        [
+          "douyin",
+          3,
+          96,
+          "高位产业词"
+        ],
+        [
+          "douyin",
+          13,
+          76,
+          "榜单发布"
+        ],
+        [
+          "weibo",
+          3,
+          96,
+          "发展议题"
+        ],
+        [
+          "baidu",
+          14,
+          72,
+          "资源产业"
+        ],
+        [
+          "baidu",
+          5,
+          90,
+          "金融相关"
+        ]
+      ],
+      "keywords": [
+        "工业经济",
+        "民营企业",
+        "矿产",
+        "统计口径",
+        "数据阅读"
+      ],
+      "mathAngles": [
+        "先写清统计期、指标口径、单位和基期",
+        "把排名、同比和总量放在不同信息框"
+      ],
+      "hooks": [
+        "产业新闻里的数字，为什么最怕脱离统计期？",
+        "一份500强榜单，能回答什么、不能回答什么？"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90 秒",
+        "structure": "热词 → 数据五问 → 示例图表 → 原始发布入口"
+      },
+      "refs": [
+        [
+          "douyin",
+          3
+        ],
+        [
+          "douyin",
+          13
+        ],
+        [
+          "baidu",
+          14
+        ]
+      ],
+      "factStatus": "needs-review",
+      "updatedAt": "2026-09-22T16:09:47.188Z",
+      "sources": [
+        {
+          "name": "抖音原榜：前8月工业经济稳中有进",
+          "url": "https://www.douyin.com/search/%E5%89%8D8%E6%9C%88%E5%B7%A5%E4%B8%9A%E7%BB%8F%E6%B5%8E%E7%A8%B3%E4%B8%AD%E6%9C%89%E8%BF%9B",
+          "type": "platform"
+        },
+        {
+          "name": "抖音原榜：2026中国民营企业500强发布",
+          "url": "https://www.douyin.com/search/2026%E4%B8%AD%E5%9B%BD%E6%B0%91%E8%90%A5%E4%BC%81%E4%B8%9A500%E5%BC%BA%E5%8F%91%E5%B8%83",
+          "type": "platform"
+        },
+        {
+          "name": "百度原榜：中国发现超大型铜金矿",
+          "url": "https://m.baidu.com/s?word=%E4%B8%AD%E5%9B%BD%E5%8F%91%E7%8E%B0%E8%B6%85%E5%A4%A7%E5%9E%8B%E9%93%9C%E9%87%91%E7%9F%BF&sa=fyb_news",
+          "type": "platform"
+        }
+      ],
       "platforms": [
         {
           "id": "douyin",
-          "rank": 12,
-          "score": 78,
-          "trend": "本次上榜"
-        }
-      ],
-      "keywords": [
-        "中秋",
-        "国庆",
-        "调休",
-        "高速",
-        "出行"
-      ],
-      "mathAngles": [
-        "将日期、对象和例外条件拆成卡片",
-        "把政策原文入口置于结论旁"
-      ],
-      "hooks": [
-        "节假日政策卡，最容易错的是哪一行？",
-        "出行提醒别只做口号：四格信息卡够用吗？"
-      ],
-      "recommendedFormat": {
-        "duration": "30–45 秒",
-        "structure": "热词 → 四格信息卡 → 官方入口 → 出行提醒"
-      },
-      "factStatus": "needs-review",
-      "sources": [
+          "rank": 3,
+          "score": 96,
+          "trend": "高位产业词"
+        },
         {
-          "name": "抖音原榜：中秋国庆调休和高速政策提醒",
-          "url": "https://www.douyin.com/search/%E4%B8%AD%E7%A7%8B%E5%9B%BD%E5%BA%86%E8%B0%83%E4%BC%91%E5%92%8C%E9%AB%98%E9%80%9F%E6%94%BF%E7%AD%96%E6%8F%90%E9%86%92",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-09-22T16:09:47.188Z"
-    },
-    {
-      "id": "el-nino-claim-check",
-      "rank": 6,
-      "title": "超强厄尔尼诺传闻：气候热搜先查哪三层证据？",
-      "brief": "百度出现秋冬超强厄尔尼诺相关标题。适合做气候信息识读内容，区分预测、监测、概率与地方天气影响；未经权威气象机构核验前不应下确定性结论。",
-      "category": "气候与科学",
-      "momentum": "rising",
-      "urgency": "today",
-      "heat": 80,
-      "crossPlatform": 1,
-      "mathFit": 97,
-      "visualFit": 82,
-      "lifeFit": 89,
-      "questionDensity": 98,
-      "priority": 88,
-      "platforms": [
+          "id": "douyin",
+          "rank": 13,
+          "score": 76,
+          "trend": "榜单发布"
+        },
+        {
+          "id": "weibo",
+          "rank": 3,
+          "score": 96,
+          "trend": "发展议题"
+        },
         {
           "id": "baidu",
-          "rank": 7,
-          "score": 86,
-          "trend": "本次上榜"
-        }
-      ],
-      "keywords": [
-        "厄尔尼诺",
-        "气候",
-        "预测",
-        "概率",
-        "天气"
-      ],
-      "mathAngles": [
-        "区分海温监测、预测概率与天气结论",
-        "说明全球气候信号不等于本地天气预报"
-      ],
-      "hooks": [
-        "“超强厄尔尼诺”来了？先别急着转。",
-        "气候热搜的三个证据层，少一个都不够。"
-      ],
-      "recommendedFormat": {
-        "duration": "60 秒",
-        "structure": "标题 → 证据层级 → 概率边界 → 权威监测待核验"
-      },
-      "factStatus": "needs-review",
-      "sources": [
+          "rank": 14,
+          "score": 72,
+          "trend": "资源产业"
+        },
         {
-          "name": "百度原榜：今年秋冬将有超强厄尔尼诺事件",
-          "url": "https://m.baidu.com/s?word=%E4%BB%8A%E5%B9%B4%E7%A7%8B%E5%86%AC%E5%B0%86%E6%9C%89%E8%B6%85%E5%BC%BA%E5%8E%84%E5%B0%94%E5%B0%BC%E8%AF%BA%E4%BA%8B%E4%BB%B6&sa=fyb_news",
-          "type": "platform"
+          "id": "baidu",
+          "rank": 5,
+          "score": 90,
+          "trend": "金融相关"
         }
-      ],
-      "updatedAt": "2026-09-22T16:09:47.188Z"
+      ]
     },
     {
-      "id": "mooncake-consumption-shift",
-      "rank": 7,
-      "title": "月饼价格带变化：消费趋势视频怎样不被单一爆款带偏？",
-      "brief": "知乎出现平价月饼礼盒销售与礼赠趋势的讨论。适合从价格带、渠道、销量口径和节令消费拆解话题，具体品牌和销售数据需以可核验来源补充。",
-      "category": "消费与餐饮",
-      "momentum": "steady",
+      "id": "health-claim-source-check",
+      "rank": 9,
+      "title": "控糖、流感疫苗与糖尿病内容：健康热词先做证据分级",
+      "brief": "控糖、流感疫苗和糖尿病相关讨论分别进入微博、百度与B站原榜。此类选题适合讲来源和就医边界，不能根据热榜自行给出诊断、用药或接种建议。",
+      "category": "健康科普",
+      "momentum": "rising",
       "urgency": "today",
       "heat": 78,
-      "crossPlatform": 1,
-      "mathFit": 92,
-      "visualFit": 84,
-      "lifeFit": 92,
-      "questionDensity": 91,
-      "priority": 82,
-      "platforms": [
-        {
-          "id": "zhihu",
-          "rank": 2,
-          "score": 91,
-          "trend": "部分快照上榜"
-        }
+      "crossPlatform": 3,
+      "mathFit": 96,
+      "visualFit": 74,
+      "lifeFit": 94,
+      "questionDensity": 97,
+      "priority": 84,
+      "signals": [
+        [
+          "weibo",
+          20,
+          62,
+          "疫苗顾虑讨论"
+        ],
+        [
+          "weibo",
+          42,
+          24,
+          "控糖讨论"
+        ],
+        [
+          "baidu",
+          47,
+          30,
+          "价格信息"
+        ],
+        [
+          "bilibili",
+          50,
+          20,
+          "健康内容"
+        ]
       ],
       "keywords": [
-        "月饼",
-        "消费",
-        "价格带",
-        "礼赠",
-        "零售"
+        "控糖",
+        "流感疫苗",
+        "糖尿病",
+        "健康信息",
+        "证据分级"
       ],
       "mathAngles": [
-        "把售价、销量、渠道和时间范围拆开",
-        "避免以单一品牌代表整个市场"
+        "将个人经验、媒体报道、指南与医生建议分级",
+        "明确“科普内容”不等于个人医疗建议"
       ],
       "hooks": [
-        "一盒29.9元月饼，能说明礼赠时代结束吗？",
-        "消费趋势内容，怎样不被一个爆款带偏？"
+        "健康热搜能看，但为什么不能直接照着做？",
+        "一条健康视频，怎样标明证据和就医边界？"
       ],
       "recommendedFormat": {
         "duration": "45–60 秒",
-        "structure": "热榜提问 → 四项口径 → 消费场景 → 数据待核验"
+        "structure": "热词 → 证据分级 → 不适用边界 → 正规咨询入口"
       },
+      "refs": [
+        [
+          "weibo",
+          20
+        ],
+        [
+          "baidu",
+          47
+        ],
+        [
+          "bilibili",
+          50
+        ]
+      ],
       "factStatus": "needs-review",
+      "updatedAt": "2026-09-22T16:09:47.188Z",
       "sources": [
         {
-          "name": "知乎原榜：美心低至六七折、 29.9 元礼盒爆卖 200 万件，月饼告别「礼赠时代」了吗？反映出怎样的消费趋势？",
-          "url": "https://www.zhihu.com/question/2085661029837403728",
+          "name": "微博原榜：家长不给孩子打流感疫苗的顾虑是什么",
+          "url": "https://s.weibo.com/weibo?q=%E5%AE%B6%E9%95%BF%E4%B8%8D%E7%BB%99%E5%AD%A9%E5%AD%90%E6%89%93%E6%B5%81%E6%84%9F%E7%96%AB%E8%8B%97%E7%9A%84%E9%A1%BE%E8%99%91%E6%98%AF%E4%BB%80%E4%B9%88",
+          "type": "platform"
+        },
+        {
+          "name": "百度原榜：公费流感疫苗从5.5元涨至9元",
+          "url": "https://m.baidu.com/s?word=%E5%85%AC%E8%B4%B9%E6%B5%81%E6%84%9F%E7%96%AB%E8%8B%97%E4%BB%8E5.5%E5%85%83%E6%B6%A8%E8%87%B39%E5%85%83&sa=fyb_news",
+          "type": "platform"
+        },
+        {
+          "name": "B站原榜：从失明截肢到心梗脑梗，糖尿病是如何一步步瓦解身体的？",
+          "url": "https://www.bilibili.com/video/BV1X2hB6VE1J",
           "type": "platform"
         }
       ],
-      "updatedAt": "2026-09-22T16:09:47.188Z"
-    },
-    {
-      "id": "go-learning-course",
-      "rank": 8,
-      "title": "围棋入门课登上热门：技能课程如何设计第一分钟？",
-      "brief": "B站热门出现围棋入门课。适合给教育、游戏和知识创作者拆解初学者内容：先建立最小规则、即时反馈和下一步任务，避免开场被术语淹没。",
-      "category": "教育与技能",
-      "momentum": "steady",
-      "urgency": "evergreen",
-      "heat": 76,
-      "crossPlatform": 1,
-      "mathFit": 90,
-      "visualFit": 85,
-      "lifeFit": 78,
-      "questionDensity": 89,
-      "priority": 80,
       "platforms": [
         {
+          "id": "weibo",
+          "rank": 20,
+          "score": 62,
+          "trend": "疫苗顾虑讨论"
+        },
+        {
+          "id": "weibo",
+          "rank": 42,
+          "score": 24,
+          "trend": "控糖讨论"
+        },
+        {
+          "id": "baidu",
+          "rank": 47,
+          "score": 30,
+          "trend": "价格信息"
+        },
+        {
           "id": "bilibili",
-          "rank": 1,
-          "score": 100,
-          "trend": "本次上榜"
+          "rank": 50,
+          "score": 20,
+          "trend": "健康内容"
         }
+      ]
+    },
+    {
+      "id": "culture-location-evidence",
+      "rank": 10,
+      "title": "古诗词、围棋与夜空：知识内容怎样让画面有出处？",
+      "brief": "古诗词旅行、围棋入门与夜空问题等内容在小红书和B站上榜。适合将画面、原始文本、术语解释和引用来源组合成知识短片，防止“氛围感”替代事实。",
+      "category": "文化知识",
+      "momentum": "steady",
+      "urgency": "evergreen",
+      "heat": 74,
+      "crossPlatform": 2,
+      "mathFit": 95,
+      "visualFit": 93,
+      "lifeFit": 85,
+      "questionDensity": 91,
+      "priority": 82,
+      "signals": [
+        [
+          "xiaohongshu",
+          2,
+          96,
+          "高位文化旅行"
+        ],
+        [
+          "xiaohongshu",
+          9,
+          62,
+          "同题延伸"
+        ],
+        [
+          "bilibili",
+          1,
+          100,
+          "热榜首位"
+        ],
+        [
+          "bilibili",
+          49,
+          24,
+          "科学问题"
+        ]
       ],
       "keywords": [
+        "古诗词",
         "围棋",
-        "入门课",
-        "技能学习",
-        "课程设计"
+        "夜空",
+        "知识短片",
+        "出处"
       ],
       "mathAngles": [
-        "用最小规则降低初学门槛",
-        "让即时反馈连接到下一步任务"
+        "为每个画面标注文本、地点或概念出处",
+        "用一个问题、一个解释、一个来源控制叙事密度"
       ],
       "hooks": [
-        "一门入门课的前60秒，到底该教什么？",
-        "为什么新手不是输在难，而是输在没有下一步？"
+        "知识视频好看和可信，能不能同时做到？",
+        "一段夜空画面，怎样不靠空泛旁白也能讲清问题？"
       ],
       "recommendedFormat": {
-        "duration": "60 秒",
-        "structure": "热门课程 → 最小规则 → 即时反馈 → 练习任务"
+        "duration": "45–75 秒",
+        "structure": "画面钩子 → 一个问题 → 证据/出处卡片 → 延伸阅读"
       },
+      "refs": [
+        [
+          "xiaohongshu",
+          2
+        ],
+        [
+          "bilibili",
+          1
+        ],
+        [
+          "bilibili",
+          49
+        ]
+      ],
       "factStatus": "needs-review",
+      "updatedAt": "2026-09-22T16:09:47.188Z",
       "sources": [
+        {
+          "name": "小红书原榜：耗时三年拍下古诗词里的中国",
+          "url": "https://www.xiaohongshu.com/search_result?keyword=%E8%80%97%E6%97%B6%E4%B8%89%E5%B9%B4%E6%8B%8D%E4%B8%8B%E5%8F%A4%E8%AF%97%E8%AF%8D%E9%87%8C%E7%9A%84%E4%B8%AD%E5%9B%BD&type=51",
+          "type": "platform"
+        },
         {
           "name": "B站原榜：《柯洁围棋入门课》",
           "url": "https://www.bilibili.com/video/BV1YDhJ6ZEL6",
           "type": "platform"
+        },
+        {
+          "name": "B站原榜：为什么夜晚的天空总是黑的？",
+          "url": "https://www.bilibili.com/video/BV17Wez6fEAb",
+          "type": "platform"
         }
       ],
-      "updatedAt": "2026-09-22T16:09:47.188Z"
+      "platforms": [
+        {
+          "id": "xiaohongshu",
+          "rank": 2,
+          "score": 96,
+          "trend": "高位文化旅行"
+        },
+        {
+          "id": "xiaohongshu",
+          "rank": 9,
+          "score": 62,
+          "trend": "同题延伸"
+        },
+        {
+          "id": "bilibili",
+          "rank": 1,
+          "score": 100,
+          "trend": "热榜首位"
+        },
+        {
+          "id": "bilibili",
+          "rank": 49,
+          "score": 24,
+          "trend": "科学问题"
+        }
+      ]
     }
   ]
 }
