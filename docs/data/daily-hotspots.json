@@ -2,963 +2,105 @@
   "schemaVersion": 1,
   "dataMode": "live",
   "date": "2026-09-26",
-  "generatedAt": "2026-09-26T09:09:12.078Z",
+  "generatedAt": "2026-09-26T09:12:09.064Z",
   "timezone": "Asia/Shanghai",
   "summary": {
     "topicCount": 12,
-    "urgentCount": 5,
-    "crossPlatformCount": 10,
+    "urgentCount": 6,
+    "crossPlatformCount": 12,
     "formulaReadyCount": 8
   },
   "sourceStatus": [
-    {
-      "id": "douyin",
-      "name": "抖音",
-      "status": "fresh",
-      "items": 50,
-      "updatedAt": "2026-09-26T07:22:42.725Z"
-    },
-    {
-      "id": "weibo",
-      "name": "微博",
-      "status": "fresh",
-      "items": 50,
-      "updatedAt": "2026-09-26T07:22:42.725Z"
-    },
-    {
-      "id": "zhihu",
-      "name": "知乎",
-      "status": "partial",
-      "items": 30,
-      "updatedAt": "2026-09-26T07:22:42.725Z"
-    },
-    {
-      "id": "xiaohongshu",
-      "name": "小红书",
-      "status": "partial",
-      "items": 10,
-      "updatedAt": "2026-09-26T07:22:42.725Z"
-    },
-    {
-      "id": "baidu",
-      "name": "百度",
-      "status": "fresh",
-      "items": 50,
-      "updatedAt": "2026-09-26T07:22:42.725Z"
-    },
-    {
-      "id": "bilibili",
-      "name": "B站",
-      "status": "fresh",
-      "items": 50,
-      "updatedAt": "2026-09-26T07:22:42.725Z"
-    }
+    {"id": "douyin", "name": "抖音", "status": "fresh", "items": 49, "updatedAt": "2026-09-26T09:12:09.064Z"},
+    {"id": "weibo", "name": "微博", "status": "fresh", "items": 50, "updatedAt": "2026-09-26T09:12:09.064Z"},
+    {"id": "zhihu", "name": "知乎", "status": "partial", "items": 30, "updatedAt": "2026-09-26T09:12:09.064Z"},
+    {"id": "xiaohongshu", "name": "小红书", "status": "partial", "items": 10, "updatedAt": "2026-09-26T09:12:09.064Z"},
+    {"id": "baidu", "name": "百度", "status": "fresh", "items": 50, "updatedAt": "2026-09-26T09:12:09.064Z"},
+    {"id": "bilibili", "name": "B站", "status": "fresh", "items": 50, "updatedAt": "2026-09-26T09:12:09.064Z"}
   ],
   "trendHistory": {
-    "times": [
-      "2026-09-10",
-      "2026-09-12",
-      "2026-09-13",
-      "2026-09-14",
-      "2026-09-18",
-      "2026-09-23",
-      "2026-09-26"
-    ],
+    "times": ["2026-09-10", "2026-09-12", "2026-09-13", "2026-09-14", "2026-09-18", "2026-09-23", "2026-09-26"],
     "series": {
-      "douyin": [
-        98,
-        96,
-        98,
-        98,
-        98,
-        96,
-        100
-      ],
-      "weibo": [
-        100,
-        100,
-        100,
-        100,
-        100,
-        100,
-        100
-      ],
-      "zhihu": [
-        58,
-        58,
-        60,
-        60,
-        60,
-        60,
-        60
-      ],
-      "xiaohongshu": [
-        20,
-        20,
-        20,
-        20,
-        20,
-        20,
-        20
-      ],
-      "baidu": [
-        100,
-        100,
-        100,
-        100,
-        100,
-        100,
-        100
-      ],
-      "bilibili": [
-        100,
-        100,
-        100,
-        100,
-        100,
-        100,
-        100
-      ]
+      "douyin": [98, 96, 98, 98, 98, 96, 98],
+      "weibo": [100, 100, 100, 100, 100, 100, 100],
+      "zhihu": [58, 58, 60, 60, 60, 60, 60],
+      "xiaohongshu": [20, 20, 20, 20, 20, 20, 20],
+      "baidu": [100, 100, 100, 100, 100, 100, 100],
+      "bilibili": [100, 100, 100, 100, 100, 100, 100]
     }
   },
   "topics": [
     {
-      "id": "china-us-archive-story",
-      "platforms": [
-        {
-          "id": "douyin",
-          "rank": 1,
-          "score": 100,
-          "trend": "fresh"
-        },
-        {
-          "id": "weibo",
-          "rank": 1,
-          "score": 100,
-          "trend": "fresh"
-        },
-        {
-          "id": "zhihu",
-          "rank": 4,
-          "score": 97,
-          "trend": "partial"
-        },
-        {
-          "id": "baidu",
-          "rank": 3,
-          "score": 98,
-          "trend": "fresh"
-        }
-      ],
-      "crossPlatform": 4,
-      "sources": [
-        {
-          "name": "抖音 原榜：中美两国元首夫妇茶叙",
-          "url": "https://www.douyin.com/search/%E4%B8%AD%E7%BE%8E%E4%B8%A4%E5%9B%BD%E5%85%83%E9%A6%96%E5%A4%AB%E5%A6%87%E8%8C%B6%E5%8F%99",
-          "type": "platform"
-        },
-        {
-          "name": "微博 原榜：中美两国元首夫妇参观美国国家档案馆",
-          "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E7%BE%8E%E4%B8%A4%E5%9B%BD%E5%85%83%E9%A6%96%E5%A4%AB%E5%A6%87%E5%8F%82%E8%A7%82%E7%BE%8E%E5%9B%BD%E5%9B%BD%E5%AE%B6%E6%A1%A3%E6%A1%88%E9%A6%86%23",
-          "type": "platform"
-        },
-        {
-          "name": "知乎 原榜：中美同意共同构建基于尊重、公平、对等的建设性战略稳定关系，这一新定位有哪些深意和影响？",
-          "url": "https://www.zhihu.com/question/2087138028443668724",
-          "type": "platform"
-        },
-        {
-          "name": "百度 原榜：落实中美关系新定位",
-          "url": "https://m.baidu.com/s?word=%E8%90%BD%E5%AE%9E%E4%B8%AD%E7%BE%8E%E5%85%B3%E7%B3%BB%E6%96%B0%E5%AE%9A%E4%BD%8D&sa=fyb_news",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-09-26T09:09:12.078Z",
-      "rank": 1,
-      "title": "中美互动与档案叙事：怎样把宏大新闻讲成具体故事？",
-      "brief": "多平台同时聚焦中美互动、档案与关系定位；适合历史、国际关系和公共传播创作者从具体物件或照片切入，但关键表述应回到公开原文核验。",
-      "category": "时政与历史",
-      "momentum": "peak",
-      "urgency": "now",
-      "heat": 98,
-      "mathFit": 92,
-      "visualFit": 89,
-      "lifeFit": 65,
-      "questionDensity": 92,
-      "priority": 97,
-      "keywords": [
-        "中美关系",
-        "国家档案馆",
-        "民间交流",
-        "国际新闻"
-      ],
-      "mathAngles": [
-        "用时间线区分会晤、表态与后续影响",
-        "把一张照片、一个档案或一句话拆成可核验的信息层级"
-      ],
-      "hooks": [
-        "一张档案馆照片，为什么会冲上多个热榜？",
-        "国际新闻最容易被忽略的，往往是时间和出处。"
-      ],
-      "recommendedFormat": {
-        "duration": "90 秒",
-        "structure": "热榜切面 → 事件时间线 → 原文与照片出处 → 争议边界"
-      },
-      "factStatus": "needs-review"
+      "id": "asian-games-multi-sport-story", "rank": 1,
+      "title": "亚运赛场密集上榜：把“夺金热词”讲成可追看的比赛叙事", "brief": "游泳、跳水、乒乓球、田径与马拉松相关标题同时分布在多个原榜。适合从赛程、项目规则、关键回合和运动员故事选择一个清晰切口；任何赛果、纪录与伤病信息发布前均应回查赛事官方成绩和当事方信息。", "category": "体育赛事", "momentum": "peak", "urgency": "now", "heat": 98, "crossPlatform": 5, "mathFit": 90, "visualFit": 94, "lifeFit": 88, "questionDensity": 92, "priority": 98,
+      "platforms": [{"id":"douyin","rank":4,"score":100,"trend":"fresh"},{"id":"weibo","rank":4,"score":100,"trend":"fresh"},{"id":"zhihu","rank":12,"score":89,"trend":"partial"},{"id":"baidu","rank":5,"score":98,"trend":"fresh"},{"id":"bilibili","rank":48,"score":70,"trend":"fresh"}],
+      "keywords": ["亚运会", "夺金", "游泳", "跳水", "乒乓球", "田径"], "mathAngles": ["用赛程和项目规则替代只报结果", "将分段、配速或关键分可视化，并标明数据来源"], "hooks": ["同一天这么多夺金热词，观众真正记住的是哪一个瞬间？", "比赛叙事怎么从‘赢了’升级为看得懂的过程？"], "recommendedFormat": {"duration":"60–90 秒","structure":"热榜拼图 → 一个项目的规则/过程 → 官方数据核验入口"}, "factStatus": "needs-review", "sources": [{"name":"抖音原榜：陈妤颉亚运会百米夺冠","url":"https://www.douyin.com/search/%E9%99%88%E5%A6%A4%E9%A2%89%E4%BA%9A%E8%BF%90%E4%BC%9A%E7%99%BE%E7%B1%B3%E5%A4%BA%E5%86%A0","type":"platform"},{"name":"微博原榜：陈芋汐卢为10米台夺金","url":"https://s.weibo.com/weibo?q=%23%E9%99%88%E8%8A%8B%E6%B1%90%E5%8D%A2%E4%B8%BA10%E7%B1%B3%E5%8F%B0%E5%A4%BA%E9%87%91%23","type":"platform"},{"name":"知乎原榜：亚运会男子100米半决赛讨论","url":"https://www.zhihu.com/question/2086892833596600701","type":"platform"},{"name":"百度原榜：张展硕7枚金牌","url":"https://m.baidu.com/s?word=%E6%97%A5%E6%9C%AC%E9%80%89%E6%89%8B%E8%A2%AB%E5%BC%A0%E5%B1%95%E7%A1%957%E6%9E%9A%E9%87%91%E7%89%8C%E6%83%8A%E5%87%BA%E8%A1%A8%E6%83%85%E5%8C%85&sa=fyb_news","type":"platform"},{"name":"B站原榜：中国男乒亚运话题视频","url":"https://www.bilibili.com/video/BV1xnag6HEFj","type":"platform"}], "updatedAt":"2026-09-26T05:21:07.000Z"
     },
     {
-      "id": "liu-huan-music-memory",
-      "platforms": [
-        {
-          "id": "douyin",
-          "rank": 11,
-          "score": 90,
-          "trend": "fresh"
-        },
-        {
-          "id": "weibo",
-          "rank": 13,
-          "score": 88,
-          "trend": "fresh"
-        },
-        {
-          "id": "zhihu",
-          "rank": 11,
-          "score": 90,
-          "trend": "partial"
-        },
-        {
-          "id": "baidu",
-          "rank": 30,
-          "score": 71,
-          "trend": "fresh"
-        }
-      ],
-      "crossPlatform": 4,
-      "sources": [
-        {
-          "name": "抖音 原榜：送别刘欢老师",
-          "url": "https://www.douyin.com/search/%E9%80%81%E5%88%AB%E5%88%98%E6%AC%A2%E8%80%81%E5%B8%88",
-          "type": "platform"
-        },
-        {
-          "name": "微博 原榜：刘欢去世",
-          "url": "https://s.weibo.com/weibo?q=%E5%88%98%E6%AC%A2%E5%8E%BB%E4%B8%96",
-          "type": "platform"
-        },
-        {
-          "name": "知乎 原榜：著名音乐家刘欢于9月25日在上海病逝，享年63岁，如何评价他在华语乐坛的地位？哪首歌是你的时代记忆？",
-          "url": "https://www.zhihu.com/question/2087120107130598179",
-          "type": "platform"
-        },
-        {
-          "name": "百度 原榜：120秒回顾刘欢经典作品",
-          "url": "https://m.baidu.com/s?word=120%E7%A7%92%E5%9B%9E%E9%A1%BE%E5%88%98%E6%AC%A2%E7%BB%8F%E5%85%B8%E4%BD%9C%E5%93%81&sa=fyb_news",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-09-26T09:09:12.078Z",
-      "rank": 2,
-      "title": "刘欢作品记忆：告别话题怎样回到音乐与时代？",
-      "brief": "多个榜单集中出现告别、作品回顾与观众记忆；更适合做作品脉络、舞台片段和个人记忆征集，避免延展未经权威来源证实的病情或私事。",
-      "category": "音乐与文化",
-      "momentum": "peak",
-      "urgency": "now",
-      "heat": 97,
-      "mathFit": 88,
-      "visualFit": 94,
-      "lifeFit": 91,
-      "questionDensity": 89,
-      "priority": 96,
-      "keywords": [
-        "刘欢",
-        "华语音乐",
-        "时代记忆",
-        "作品回顾"
-      ],
-      "mathAngles": [
-        "按作品、舞台和听众记忆建立时间轴",
-        "用版权合规的封面、文字与自述替代未经授权的素材拼贴"
-      ],
-      "hooks": [
-        "一位歌手离开后，哪些旋律会被一代人同时想起？",
-        "别急着复述传闻，先把他的作品坐标找回来。"
-      ],
-      "recommendedFormat": {
-        "duration": "60–90 秒",
-        "structure": "共鸣片段 → 作品时间轴 → 观众记忆 → 信息边界提示"
-      },
-      "factStatus": "needs-review"
+      "id": "mid-autumn-food-and-rumor-check", "rank": 2,
+      "title": "中秋饮食热词：低糖、月饼与螃蟹怎么做成不误导的生活内容", "brief": "低糖和文创月饼、月饼与螃蟹、节日家宴及美食教程都出现在当日原榜。适合从配料、保存、适量和家庭场景制作内容；营养、食安和谣言判断应以监管部门或医学专业机构信息复核，不应由热搜标题直接推导。", "category": "美食生活", "momentum": "peak", "urgency": "today", "heat": 96, "crossPlatform": 4, "mathFit": 85, "visualFit": 92, "lifeFit": 98, "questionDensity": 90, "priority": 96,
+      "platforms": [{"id":"douyin","rank":9,"score":100,"trend":"fresh"},{"id":"zhihu","rank":15,"score":84,"trend":"partial"},{"id":"xiaohongshu","rank":4,"score":91,"trend":"partial"},{"id":"baidu","rank":9,"score":100,"trend":"fresh"}],
+      "keywords": ["中秋", "月饼", "低糖", "螃蟹", "家宴", "美食"], "mathAngles": ["分清营养标签、单次摄入与长期饮食三种不同问题", "将‘热词’和‘可验证的食安信息’做成两栏"], "hooks": ["低糖月饼真的该怎么选，先看哪几行？", "一条‘食物相克’热搜，为什么不能直接拿来当健康建议？"], "recommendedFormat": {"duration":"45–75 秒","structure":"节日热词 → 标签/谣言边界 → 可执行的选购或储存提示"}, "factStatus": "needs-review", "sources": [{"name":"抖音原榜：中秋消费新风向","url":"https://www.douyin.com/search/%E4%B8%AD%E7%A7%8B%E6%B6%88%E8%B4%B9%E6%96%B0%E9%A3%8E%E5%90%91","type":"platform"},{"name":"知乎原榜：月饼甜咸讨论","url":"https://www.zhihu.com/question/2082173256929207884","type":"platform"},{"name":"小红书原榜：日常美食教程","url":"https://www.xiaohongshu.com/search_result?keyword=%E8%B6%85%E6%97%A5%E5%B8%B8%E7%BE%8E%E9%A3%9F%E6%95%99%E7%A8%8B%E9%80%9F%E6%9D%A5get&type=51","type":"platform"},{"name":"百度原榜：低糖月饼、文创月饼走俏","url":"https://m.baidu.com/s?word=%E4%BD%8E%E7%B3%96%E6%9C%88%E9%A5%BC%E3%80%81%E6%96%87%E5%88%9B%E6%9C%88%E9%A5%BC%E8%B5%B0%E4%BF%8F&sa=fyb_news","type":"platform"}], "updatedAt":"2026-09-26T05:21:07.000Z"
     },
     {
-      "id": "u23-football-knockout",
-      "platforms": [
-        {
-          "id": "douyin",
-          "rank": 4,
-          "score": 97,
-          "trend": "fresh"
-        },
-        {
-          "id": "weibo",
-          "rank": 8,
-          "score": 93,
-          "trend": "fresh"
-        },
-        {
-          "id": "baidu",
-          "rank": 7,
-          "score": 94,
-          "trend": "fresh"
-        }
-      ],
-      "crossPlatform": 3,
-      "sources": [
-        {
-          "name": "抖音 原榜：中国U23男足vs泰国U23",
-          "url": "https://www.douyin.com/search/%E4%B8%AD%E5%9B%BDU23%E7%94%B7%E8%B6%B3vs%E6%B3%B0%E5%9B%BDU23",
-          "type": "platform"
-        },
-        {
-          "name": "微博 原榜：U23国足大变阵",
-          "url": "https://s.weibo.com/weibo?q=U23%E5%9B%BD%E8%B6%B3%E5%A4%A7%E5%8F%98%E9%98%B5",
-          "type": "platform"
-        },
-        {
-          "name": "百度 原榜：陪看亚运：U23男足冲4强",
-          "url": "https://m.baidu.com/s?word=%E9%99%AA%E7%9C%8B%E4%BA%9A%E8%BF%90%EF%BC%9AU23%E7%94%B7%E8%B6%B3%E5%86%B24%E5%BC%BA&sa=fyb_news",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-09-26T09:09:12.078Z",
-      "rank": 3,
-      "title": "U23男足对阵与变阵：赛前内容怎样少喊口号、多讲看点？",
-      "brief": "对阵、变阵和晋级预期分布在三个平台；可用位置变化、关键对位和赛程压力做赛前解释，赛果与名单以赛事官方信息为准。",
-      "category": "体育",
-      "momentum": "rising",
-      "urgency": "now",
-      "heat": 93,
-      "mathFit": 90,
-      "visualFit": 90,
-      "lifeFit": 76,
-      "questionDensity": 88,
-      "priority": 94,
-      "keywords": [
-        "U23",
-        "国足",
-        "泰国",
-        "变阵",
-        "亚运"
-      ],
-      "mathAngles": [
-        "用阵型图解释变阵，而不把预测当结果",
-        "用赛程间隔和对位数据讲清压力来自哪里"
-      ],
-      "hooks": [
-        "赛前最值得看的不是比分预测，而是哪一个位置变了。",
-        "把变阵画出来，才看得懂一场球的风险。"
-      ],
-      "recommendedFormat": {
-        "duration": "60 秒",
-        "structure": "对阵信息 → 阵型示意 → 三个对位 → 官方赛程提醒"
-      },
-      "factStatus": "needs-review"
+      "id": "china-us-archives-and-public-diplomacy", "rank": 3,
+      "title": "中美互动占据原榜：从档案、青年与公开影像找内容切口", "brief": "两国元首相关公开活动、档案馆、青年交流与互访等相近主题同时出现在抖音、微博、百度和知乎原榜。可将叙事限定在可见的原始影像、档案材料与公开发布信息；涉及外交结论、行程细节和政策含义均需以权威发布或原始记录复核。", "category": "时事文化", "momentum": "peak", "urgency": "now", "heat": 95, "crossPlatform": 4, "mathFit": 88, "visualFit": 86, "lifeFit": 72, "questionDensity": 91, "priority": 95,
+      "platforms": [{"id":"douyin","rank":1,"score":100,"trend":"fresh"},{"id":"weibo","rank":1,"score":100,"trend":"fresh"},{"id":"zhihu","rank":1,"score":96,"trend":"partial"},{"id":"baidu","rank":4,"score":98,"trend":"fresh"}],
+      "keywords": ["中美", "档案", "青年交流", "互访", "公开活动"], "mathAngles": ["以时间线区分现场画面、历史档案与评论", "将事实、引述、解释三层信息分屏呈现"], "hooks": ["一张档案照片，怎样讲清它是什么、又不能说明什么？", "热点影像很多，怎样不靠夸张标题把故事讲完整？"], "recommendedFormat": {"duration":"60–90 秒","structure":"公开信号 → 档案/影像背景 → 信息边界与来源卡"}, "factStatus": "needs-review", "sources": [{"name":"抖音原榜：中美两国元首夫妇茶叙","url":"https://www.douyin.com/search/%E4%B8%AD%E7%BE%8E%E4%B8%A4%E5%9B%BD%E5%85%83%E9%A6%96%E5%A4%AB%E5%A6%87%E8%8C%B6%E5%8F%99","type":"platform"},{"name":"微博原榜：参观美国国家档案馆","url":"https://s.weibo.com/weibo?q=%23%E4%B8%AD%E7%BE%8E%E4%B8%A4%E5%9B%BD%E5%85%83%E9%A6%96%E5%A4%AB%E5%A6%87%E5%8F%82%E8%A7%82%E7%BE%8E%E5%9B%BD%E5%9B%BD%E5%AE%B6%E6%A1%A3%E6%A1%88%E9%A6%86%23","type":"platform"},{"name":"知乎原榜：贸易休战讨论","url":"https://www.zhihu.com/question/2086393162981979290","type":"platform"},{"name":"百度原榜：中美元首互访","url":"https://m.baidu.com/s?word=%E4%B8%AD%E7%BE%8E%E5%85%83%E9%A6%96%E4%B8%8D%E5%88%B0%E5%8D%8A%E5%B9%B4%E5%AE%9E%E7%8E%B0%E4%BA%92%E8%AE%BF+%E5%89%8D%E6%89%80%E6%9C%AA%E6%9C%89&sa=fyb_news","type":"platform"}], "updatedAt":"2026-09-26T05:21:07.000Z"
     },
     {
-      "id": "asian-games-aquatics",
-      "platforms": [
-        {
-          "id": "douyin",
-          "rank": 6,
-          "score": 95,
-          "trend": "fresh"
-        },
-        {
-          "id": "weibo",
-          "rank": 46,
-          "score": 55,
-          "trend": "fresh"
-        },
-        {
-          "id": "baidu",
-          "rank": 38,
-          "score": 63,
-          "trend": "fresh"
-        }
-      ],
-      "crossPlatform": 3,
-      "sources": [
-        {
-          "name": "抖音 原榜：陈芋汐卢为夺亚运双人10米跳台金牌",
-          "url": "https://www.douyin.com/search/%E9%99%88%E8%8A%8B%E6%B1%90%E5%8D%A2%E4%B8%BA%E5%A4%BA%E4%BA%9A%E8%BF%90%E5%8F%8C%E4%BA%BA10%E7%B1%B3%E8%B7%B3%E5%8F%B0%E9%87%91%E7%89%8C",
-          "type": "platform"
-        },
-        {
-          "name": "微博 原榜：陈芋汐 双圈全满贯",
-          "url": "https://s.weibo.com/weibo?q=%E9%99%88%E8%8A%8B%E6%B1%90%20%E5%8F%8C%E5%9C%88%E5%85%A8%E6%BB%A1%E8%B4%AF",
-          "type": "platform"
-        },
-        {
-          "name": "百度 原榜：陈芋汐卢为10米台夺金",
-          "url": "https://m.baidu.com/s?word=%E9%99%88%E8%8A%8B%E6%B1%90%E5%8D%A2%E4%B8%BA10%E7%B1%B3%E5%8F%B0%E5%A4%BA%E9%87%91&sa=fyb_news",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-09-26T09:09:12.078Z",
-      "rank": 4,
-      "title": "跳水夺金热度：双人项目怎样拍出同步与难度？",
-      "brief": "跳水夺金在短视频、微博与百度同时出现；体育、动作分析和人物创作者可围绕同步性、动作节奏与观赛视角制作，成绩和术语需查官方成绩册。",
-      "category": "体育",
-      "momentum": "rising",
-      "urgency": "now",
-      "heat": 91,
-      "mathFit": 91,
-      "visualFit": 96,
-      "lifeFit": 74,
-      "questionDensity": 84,
-      "priority": 92,
-      "keywords": [
-        "跳水",
-        "陈芋汐",
-        "卢为",
-        "双人10米台",
-        "亚运"
-      ],
-      "mathAngles": [
-        "逐帧比较起跳、翻转和入水的同步关系",
-        "区分动作观感、裁判评分与官方成绩三种信息"
-      ],
-      "hooks": [
-        "双人跳台看起来整齐，真正难的是哪一瞬间？",
-        "把两条动作轨迹叠在一起，同步性就看得见。"
-      ],
-      "recommendedFormat": {
-        "duration": "45–60 秒",
-        "structure": "夺金热榜 → 慢动作节点 → 同步可视化 → 成绩册引用"
-      },
-      "factStatus": "needs-review"
+      "id": "liu-huan-memory-and-music-legacy", "rank": 4,
+      "title": "刘欢相关消息引发回忆潮：人物纪念内容先建立事实边界", "brief": "刘欢相关标题在抖音、微博、知乎和百度原榜均居前。纪念、音乐回顾和时代记忆都有内容空间，但讣告、时间与生平资料必须先核验当事方、亲属或权威机构的公开信息；在未完成核验前，不宜把原榜标题扩写成结论性报道。", "category": "人物音乐", "momentum": "rising", "urgency": "now", "heat": 94, "crossPlatform": 4, "mathFit": 82, "visualFit": 84, "lifeFit": 87, "questionDensity": 89, "priority": 94,
+      "platforms": [{"id":"douyin","rank":5,"score":100,"trend":"fresh"},{"id":"weibo","rank":2,"score":100,"trend":"fresh"},{"id":"zhihu","rank":13,"score":86,"trend":"partial"},{"id":"baidu","rank":1,"score":100,"trend":"fresh"}],
+      "keywords": ["刘欢", "音乐", "回忆", "人物纪念", "华语乐坛"], "mathAngles": ["用作品时间线而不是情绪化的生平断言组织回顾", "把已核验资料、原榜讨论和个人感受严格区分"], "hooks": ["一位歌手为什么能成为几代人的共同记忆？", "做人物纪念，哪些信息必须在发片前再核一遍？"], "recommendedFormat": {"duration":"60–90 秒","structure":"热榜信号 → 经核验的作品时间线 → 个人记忆征集"}, "factStatus": "needs-review", "sources": [{"name":"抖音原榜：著名歌手刘欢去世","url":"https://www.douyin.com/search/%E8%91%97%E5%90%8D%E6%AD%8C%E6%89%8B%E5%88%98%E6%AC%A2%E5%8E%BB%E4%B8%96","type":"platform"},{"name":"微博原榜：刘欢去世","url":"https://s.weibo.com/weibo?q=%E5%88%98%E6%AC%A2%E5%8E%BB%E4%B8%96","type":"platform"},{"name":"知乎原榜：刘欢音乐地位讨论","url":"https://www.zhihu.com/question/2087120107130598179","type":"platform"},{"name":"百度原榜：刘欢去世","url":"https://m.baidu.com/s?word=%E5%88%98%E6%AC%A2%E5%8E%BB%E4%B8%96&sa=fyb_news","type":"platform"}], "updatedAt":"2026-09-26T05:21:07.000Z"
     },
     {
-      "id": "mid-autumn-mooncake-economy",
-      "platforms": [
-        {
-          "id": "weibo",
-          "rank": 7,
-          "score": 94,
-          "trend": "fresh"
-        },
-        {
-          "id": "weibo",
-          "rank": 9,
-          "score": 92,
-          "trend": "fresh"
-        },
-        {
-          "id": "zhihu",
-          "rank": 26,
-          "score": 75,
-          "trend": "partial"
-        },
-        {
-          "id": "bilibili",
-          "rank": 47,
-          "score": 54,
-          "trend": "fresh"
-        }
-      ],
-      "crossPlatform": 3,
-      "sources": [
-        {
-          "name": "微博 原榜：月饼回收价800元一吨",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%9C%88%E9%A5%BC%E5%9B%9E%E6%94%B6%E4%BB%B7800%E5%85%83%E4%B8%80%E5%90%A8%23",
-          "type": "platform"
-        },
-        {
-          "name": "微博 原榜：五仁月饼回收价1000元一吨",
-          "url": "https://s.weibo.com/weibo?q=%23%E4%BA%94%E4%BB%81%E6%9C%88%E9%A5%BC%E5%9B%9E%E6%94%B6%E4%BB%B71000%E5%85%83%E4%B8%80%E5%90%A8%23",
-          "type": "platform"
-        },
-        {
-          "name": "知乎 原榜：为什么月饼卖不动了，大家都不喜欢吃了吗？",
-          "url": "https://www.zhihu.com/question/1954114630910710482",
-          "type": "platform"
-        },
-        {
-          "name": "B站 原榜：《月饼守恒定律》",
-          "url": "https://www.bilibili.com/video/BV1GWh26wEx6",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-09-26T09:09:12.078Z",
-      "rank": 5,
-      "title": "月饼回收与节日消费：一串价格热词背后能讲什么？",
-      "brief": "回收价、卖不动与轻松梗同时上榜；适合消费、食品、生活方式创作者讨论节日商品的供需、礼赠与剩余处理，不把单条热搜价格外推成全国行情。",
-      "category": "消费与生活",
-      "momentum": "peak",
-      "urgency": "today",
-      "heat": 89,
-      "mathFit": 93,
-      "visualFit": 85,
-      "lifeFit": 95,
-      "questionDensity": 93,
-      "priority": 91,
-      "keywords": [
-        "月饼",
-        "回收价",
-        "节日消费",
-        "食品浪费"
-      ],
-      "mathAngles": [
-        "区分零售价、回收价与原料价值，避免价格误读",
-        "从家庭剩余到行业库存，展示不同尺度的消费问题"
-      ],
-      "hooks": [
-        "800 元一吨的热搜，到底能说明月饼卖不动吗？",
-        "月饼不是只在中秋被吃掉，也在节后被重新定价。"
-      ],
-      "recommendedFormat": {
-        "duration": "60–90 秒",
-        "structure": "热搜数字 → 价格含义拆解 → 家庭场景 → 数据与监管来源"
-      },
-      "factStatus": "needs-review"
+      "id": "holiday-travel-shot-list", "rank": 5,
+      "title": "假期出游与出片同时上榜：做一条可复制的拍摄行程", "brief": "假期日常电影感、旅行拍照姿势、家庭旅行和自然景观素材在抖音、小红书与B站都有信号。适合提供时段、构图、天气备选和同行协作，而不只罗列滤镜；景区开放、交通和天气属于发布前必须本地复核的信息。", "category": "旅行影像", "momentum": "rising", "urgency": "today", "heat": 92, "crossPlatform": 3, "mathFit": 81, "visualFit": 99, "lifeFit": 95, "questionDensity": 85, "priority": 92,
+      "platforms": [{"id":"douyin","rank":10,"score":96,"trend":"fresh"},{"id":"xiaohongshu","rank":1,"score":100,"trend":"partial"},{"id":"bilibili","rank":2,"score":92,"trend":"fresh"}],
+      "keywords": ["假期", "旅行", "出片", "拍照姿势", "家庭旅行", "自然景观"], "mathAngles": ["把拍摄路线写成时间预算：抵达、等光、转场、返程", "用前景—主体—背景的镜头清单降低复拍成本"], "hooks": ["为什么同一趟旅行，有人拍成电影、有人只拍到拥挤？", "旅行出片真正该抄的是姿势，还是时间表？"], "recommendedFormat": {"duration":"45–75 秒","structure":"原榜画面 → 4 格镜头清单 → 天气与人流备选"}, "factStatus": "needs-review", "sources": [{"name":"抖音原榜：把假期日常拍出电影感","url":"https://www.douyin.com/search/%E6%8A%8A%E6%88%91%E7%9A%84%E5%81%87%E6%9C%9F%E6%97%A5%E5%B8%B8%E6%8B%8D%E5%87%BA%E7%94%B5%E5%BD%B1%E6%84%9F","type":"platform"},{"name":"小红书原榜：万能旅行拍照姿势","url":"https://www.xiaohongshu.com/search_result?keyword=%E7%94%A8%E4%B8%87%E8%83%BD%E6%97%85%E8%A1%8C%E6%8B%8D%E7%85%A7%E5%A7%BF%E5%8A%BF%E7%BE%8E%E7%BE%8E%E5%87%BA%E7%89%87&type=51","type":"platform"},{"name":"B站原榜：闯入无人区","url":"https://www.bilibili.com/video/BV1p5aP6wEHR","type":"platform"}], "updatedAt":"2026-09-26T05:21:07.000Z"
     },
     {
-      "id": "holiday-travel-experience",
-      "platforms": [
-        {
-          "id": "weibo",
-          "rank": 4,
-          "score": 97,
-          "trend": "fresh"
-        },
-        {
-          "id": "zhihu",
-          "rank": 25,
-          "score": 76,
-          "trend": "partial"
-        },
-        {
-          "id": "xiaohongshu",
-          "rank": 1,
-          "score": 100,
-          "trend": "partial"
-        },
-        {
-          "id": "douyin",
-          "rank": 47,
-          "score": 54,
-          "trend": "fresh"
-        }
-      ],
-      "crossPlatform": 4,
-      "sources": [
-        {
-          "name": "微博 原榜：为什么你去旅游很无聊",
-          "url": "https://s.weibo.com/weibo?q=%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%A0%E5%8E%BB%E6%97%85%E6%B8%B8%E5%BE%88%E6%97%A0%E8%81%8A",
-          "type": "platform"
-        },
-        {
-          "name": "知乎 原榜：现在很多人喜欢自驾打卡网红景点，你觉得自驾旅行，是打卡目的地更重要，还是路上沿途的过程更重要？",
-          "url": "https://www.zhihu.com/question/2083630865196773379",
-          "type": "platform"
-        },
-        {
-          "name": "小红书 原榜：用万能旅行拍照姿势美美出片",
-          "url": "https://www.xiaohongshu.com/search_result?keyword=%E7%94%A8%E4%B8%87%E8%83%BD%E6%97%85%E8%A1%8C%E6%8B%8D%E7%85%A7%E5%A7%BF%E5%8A%BF%E7%BE%8E%E7%BE%8E%E5%87%BA%E7%89%87&type=51",
-          "type": "platform"
-        },
-        {
-          "name": "抖音 原榜：国庆当然要出发",
-          "url": "https://www.douyin.com/search/%E5%9B%BD%E5%BA%86%E5%BD%93%E7%84%B6%E8%A6%81%E5%87%BA%E5%8F%91",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-09-26T09:09:12.078Z",
-      "rank": 6,
-      "title": "假期旅行为什么会无聊：从打卡到体验的一次内容实验",
-      "brief": "出发、出片与“旅游无聊”的反差同时存在；旅行创作者可用路线、同伴分工和预期管理做对照，而不是只再发布一份景点清单。",
-      "category": "旅行与生活",
-      "momentum": "rising",
-      "urgency": "today",
-      "heat": 87,
-      "mathFit": 86,
-      "visualFit": 93,
-      "lifeFit": 94,
-      "questionDensity": 91,
-      "priority": 90,
-      "keywords": [
-        "国庆",
-        "旅行",
-        "自驾",
-        "出片",
-        "体验"
-      ],
-      "mathAngles": [
-        "用时间预算分解赶路、排队、拍照和停留",
-        "用同一行程的两种目标说明为什么会感到无聊"
-      ],
-      "hooks": [
-        "同一趟旅行，有人出片有人崩溃，差别不在目的地。",
-        "把旅行的一天按小时摊开，答案就出现了。"
-      ],
-      "recommendedFormat": {
-        "duration": "60 秒",
-        "structure": "反差提问 → 行程时间条 → 两种玩法 → 可执行清单"
-      },
-      "factStatus": "needs-review"
+      "id": "table-tennis-pressure-and-viewing", "rank": 6,
+      "title": "国乒话题高密度上榜：赛程、舆论与技战术如何分开讲", "brief": "王楚钦、国乒赛程、混双与男团相关讨论横跨微博、知乎、百度和B站。可用官方赛程、可公开的技术统计和比赛回合建立内容骨架；关于个人状态、舆论和人际关系的推断不应越过公开信息边界。", "category": "体育人物", "momentum": "peak", "urgency": "now", "heat": 93, "crossPlatform": 4, "mathFit": 91, "visualFit": 90, "lifeFit": 84, "questionDensity": 93, "priority": 93,
+      "platforms": [{"id":"weibo","rank":6,"score":100,"trend":"fresh"},{"id":"zhihu","rank":11,"score":90,"trend":"partial"},{"id":"baidu","rank":6,"score":98,"trend":"fresh"},{"id":"bilibili","rank":48,"score":69,"trend":"fresh"}],
+      "keywords": ["国乒", "王楚钦", "孙颖莎", "混双", "男团", "赛程"], "mathAngles": ["将赛程、赛果、技术统计和评论分为独立信息层", "用关键分或对局结构讲技战术，不用单条情绪标题下定论"], "hooks": ["看国乒比赛，赛程热词和真正的比赛信息差几步？", "一场失利之后，哪些是数据，哪些只是情绪？"], "recommendedFormat": {"duration":"60 秒","structure":"热榜标题 → 赛程/比分信息卡 → 一处技战术观察"}, "factStatus": "needs-review", "sources": [{"name":"微博原榜：国乒在日本比赛有多艰难","url":"https://s.weibo.com/weibo?q=%E5%9B%BD%E4%B9%92%E5%9C%A8%E6%97%A5%E6%9C%AC%E6%AF%94%E8%B5%9B%E6%9C%89%E5%A4%9A%E8%89%B0%E9%9A%BE","type":"platform"},{"name":"知乎原榜：王楚钦之后谁能扛起大旗","url":"https://www.zhihu.com/question/2086538132225091055","type":"platform"},{"name":"百度原榜：孙颖莎王楚钦出战单打","url":"https://m.baidu.com/s?word=%E9%99%AA%E7%9C%8B%EF%BC%9A%E5%AD%99%E9%A2%96%E8%8E%8E%E7%8E%8B%E6%A5%9A%E9%92%A6%E5%87%BA%E6%88%98%E5%8D%95%E6%89%93&sa=fyb_news","type":"platform"},{"name":"B站原榜：男乒亚运话题视频","url":"https://www.bilibili.com/video/BV1xnag6HEFj","type":"platform"}], "updatedAt":"2026-09-26T05:21:07.000Z"
     },
     {
-      "id": "home-occupancy-boundary",
-      "platforms": [
-        {
-          "id": "weibo",
-          "rank": 6,
-          "score": 95,
-          "trend": "fresh"
-        },
-        {
-          "id": "baidu",
-          "rank": 13,
-          "score": 88,
-          "trend": "fresh"
-        }
-      ],
-      "crossPlatform": 2,
-      "sources": [
-        {
-          "name": "微博 原榜：全款买房空置6年被人装修入住4年",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%85%A8%E6%AC%BE%E4%B9%B0%E6%88%BF%E7%A9%BA%E7%BD%AE6%E5%B9%B4%E8%A2%AB%E4%BA%BA%E8%A3%85%E4%BF%AE%E5%85%A5%E4%BD%8F4%E5%B9%B4%23",
-          "type": "platform"
-        },
-        {
-          "name": "百度 原榜：男子全款买房未入住 6年后一看懵了",
-          "url": "https://m.baidu.com/s?word=%E7%94%B7%E5%AD%90%E5%85%A8%E6%AC%BE%E4%B9%B0%E6%88%BF%E6%9C%AA%E5%85%A5%E4%BD%8F+6%E5%B9%B4%E5%90%8E%E4%B8%80%E7%9C%8B%E6%87%B5%E4%BA%86&sa=fyb_news",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-09-26T09:09:12.078Z",
-      "rank": 7,
-      "title": "空置房被入住：公共讨论怎样分清权属、物业与事实？",
-      "brief": "房屋空置与他人入住的故事跨平台引发讨论；法律和生活创作者可从证据留存、交接流程、物业责任边界入手，个案事实与法律结论都应复核。",
-      "category": "社会与法治",
-      "momentum": "rising",
-      "urgency": "today",
-      "heat": 84,
-      "mathFit": 90,
-      "visualFit": 82,
-      "lifeFit": 92,
-      "questionDensity": 94,
-      "priority": 88,
-      "keywords": [
-        "空置房",
-        "房屋权属",
-        "物业",
-        "证据",
-        "入住"
-      ],
-      "mathAngles": [
-        "把时间、钥匙、装修与居住证据做成事件链",
-        "区分热搜叙事、事实认定与法律意见"
-      ],
-      "hooks": [
-        "一套空置六年的房子，为什么会变成四年入住的争议？",
-        "法律科普最先要做的，不是站队，而是补全时间线。"
-      ],
-      "recommendedFormat": {
-        "duration": "90 秒",
-        "structure": "热搜概要 → 证据时间线 → 流程提醒 → 个案边界声明"
-      },
-      "factStatus": "needs-review"
+      "id": "oil-price-and-energy-explainer", "rank": 7,
+      "title": "油价与能源叙事：把“调控”“下跌”翻译成普通人的决策", "brief": "油价调控、国际油价和石油危机解释型内容分别出现在微博、百度与B站。创作者可拆解国际价格、国内零售机制和个人用车感受的不同层次；具体价格、调整窗口和政策表述需要以主管部门正式信息与公开市场数据复核。", "category": "财经产业", "momentum": "rising", "urgency": "today", "heat": 88, "crossPlatform": 3, "mathFit": 94, "visualFit": 82, "lifeFit": 91, "questionDensity": 92, "priority": 88,
+      "platforms": [{"id":"weibo","rank":7,"score":100,"trend":"fresh"},{"id":"baidu","rank":12,"score":92,"trend":"fresh"},{"id":"bilibili","rank":16,"score":86,"trend":"fresh"}],
+      "keywords": ["油价", "能源", "调控", "国际油价", "出行成本"], "mathAngles": ["将国际原油、成品油价格和个人账单分成三条链", "用单位、周期和基期解释价格变动，而非只报涨跌"], "hooks": ["国际油价跌了，为什么加油站价格不一定立刻变？", "一条油价热搜，跟你的出行账单隔着哪几层？"], "recommendedFormat": {"duration":"60–90 秒","structure":"热榜信号 → 三层价格链 → 官方查询入口"}, "factStatus": "needs-review", "sources": [{"name":"微博原榜：国家出手调控油价","url":"https://s.weibo.com/weibo?q=%23%E5%9B%BD%E5%AE%B6%E5%87%BA%E6%89%8B%E8%B0%83%E6%8E%A7%E6%B2%B9%E4%BB%B7%E4%BA%86%23","type":"platform"},{"name":"百度原榜：国际油价25日下跌","url":"https://m.baidu.com/s?word=%E5%9B%BD%E9%99%85%E6%B2%B9%E4%BB%B725%E6%97%A5%E4%B8%8B%E8%B7%8C&sa=fyb_news","type":"platform"},{"name":"B站原榜：石油危机解释视频","url":"https://www.bilibili.com/video/BV1ySaP6TEMx","type":"platform"}], "updatedAt":"2026-09-26T05:21:07.000Z"
     },
     {
-      "id": "ev-range-claim",
-      "platforms": [
-        {
-          "id": "baidu",
-          "rank": 24,
-          "score": 77,
-          "trend": "fresh"
-        }
-      ],
-      "crossPlatform": 1,
-      "sources": [
-        {
-          "name": "百度 原榜：比亚迪新车纯电续航1100km打破纪录",
-          "url": "https://m.baidu.com/s?word=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%96%B0%E8%BD%A6%E7%BA%AF%E7%94%B5%E7%BB%AD%E8%88%AA1100km%E6%89%93%E7%A0%B4%E7%BA%AA%E5%BD%95&sa=fyb_news",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-09-26T09:09:12.078Z",
-      "rank": 8,
-      "title": "1100 公里续航热词：汽车参数怎样讲得既兴奋又准确？",
-      "brief": "超长纯电续航登上百度热榜；汽车创作者适合解释测试条件、工况、补能与真实使用范围，不能把单一宣传数字直接当作所有场景的体验。",
-      "category": "汽车与科技",
-      "momentum": "rising",
-      "urgency": "today",
-      "heat": 80,
-      "mathFit": 94,
-      "visualFit": 88,
-      "lifeFit": 86,
-      "questionDensity": 89,
-      "priority": 85,
-      "keywords": [
-        "新能源车",
-        "续航",
-        "1100公里",
-        "测试工况",
-        "补能"
-      ],
-      "mathAngles": [
-        "把标称续航、能耗、温度和速度放进同一张条件表",
-        "用区间而非单点数字讲真实出行范围"
-      ],
-      "hooks": [
-        "1100 公里是怎样测出来的？先别急着把它当作通勤答案。",
-        "续航数字越大，越要问测试条件。"
-      ],
-      "recommendedFormat": {
-        "duration": "60–90 秒",
-        "structure": "热搜参数 → 工况拆解 → 场景换算 → 官方资料待核验"
-      },
-      "factStatus": "needs-review"
+      "id": "mobile-video-craft", "rank": 8,
+      "title": "手机拍摄热度上升：用对比实验讲清“手机感”从哪来", "brief": "手机拍视频、电影机对比、创作者拍摄方法和假期电影感内容同时出现。可将创作讲解设计为光线、镜头距离、收音、稳定和剪辑节奏的可复现实验；品牌合作、设备性能或样片来源需要在发布时清楚标注。", "category": "创作技能", "momentum": "rising", "urgency": "today", "heat": 86, "crossPlatform": 3, "mathFit": 89, "visualFit": 97, "lifeFit": 89, "questionDensity": 87, "priority": 86,
+      "platforms": [{"id":"douyin","rank":10,"score":95,"trend":"fresh"},{"id":"xiaohongshu","rank":1,"score":100,"trend":"partial"},{"id":"bilibili","rank":1,"score":100,"trend":"fresh"}],
+      "keywords": ["手机拍摄", "电影感", "镜头", "收音", "剪辑", "创作者"], "mathAngles": ["用同场景A/B测试说明变量，而不是只给滤镜配方", "以镜头时长、距离和光位建立可复拍的拍摄表"], "hooks": ["手机的‘手机感’，到底是画质问题还是拍法问题？", "同一台设备，先改哪一个变量最有用？"], "recommendedFormat": {"duration":"45–75 秒","structure":"原榜钩子 → 同场景对比 → 3 个可复拍设置"}, "factStatus": "needs-review", "sources": [{"name":"抖音原榜：假期日常拍出电影感","url":"https://www.douyin.com/search/%E6%8A%8A%E6%88%91%E7%9A%84%E5%81%87%E6%9C%9F%E6%97%A5%E5%B8%B8%E6%8B%8D%E5%87%BA%E7%94%B5%E5%BD%B1%E6%84%9F","type":"platform"},{"name":"小红书原榜：旅行拍照姿势","url":"https://www.xiaohongshu.com/search_result?keyword=%E7%94%A8%E4%B8%87%E8%83%BD%E6%97%85%E8%A1%8C%E6%8B%8D%E7%85%A7%E5%A7%BF%E5%8A%BF%E7%BE%8E%E7%BE%8E%E5%87%BA%E7%89%87&type=51","type":"platform"},{"name":"B站原榜：手机拍视频","url":"https://www.bilibili.com/video/BV1kDaw6ZEf9","type":"platform"}], "updatedAt":"2026-09-26T05:21:07.000Z"
     },
     {
-      "id": "ai-catastrophe-claim",
-      "platforms": [
-        {
-          "id": "weibo",
-          "rank": 2,
-          "score": 99,
-          "trend": "fresh"
-        },
-        {
-          "id": "baidu",
-          "rank": 14,
-          "score": 87,
-          "trend": "fresh"
-        }
-      ],
-      "crossPlatform": 2,
-      "sources": [
-        {
-          "name": "微博 原榜：比尔盖茨发出严厉警告",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%AF%94%E5%B0%94%E7%9B%96%E8%8C%A8%E5%8F%91%E5%87%BA%E4%B8%A5%E5%8E%89%E8%AD%A6%E5%91%8A%23",
-          "type": "platform"
-        },
-        {
-          "name": "百度 原榜：比尔·盖茨警告AI或致十亿人死亡",
-          "url": "https://m.baidu.com/s?word=%E6%AF%94%E5%B0%94%C2%B7%E7%9B%96%E8%8C%A8%E8%AD%A6%E5%91%8AAI%E6%88%96%E8%87%B4%E5%8D%81%E4%BA%BF%E4%BA%BA%E6%AD%BB%E4%BA%A1&sa=fyb_news",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-09-26T09:09:12.078Z",
-      "rank": 9,
-      "title": "AI 灾难式警告上榜：怎样核对原话、语境与风险？",
-      "brief": "关于 AI 的强烈表述跨平台传播；科技、媒体素养和教育创作者可演示如何追溯原始采访、区分预测与事实，并避免二次放大失实标题。",
-      "category": "科技与媒体素养",
-      "momentum": "rising",
-      "urgency": "now",
-      "heat": 82,
-      "mathFit": 96,
-      "visualFit": 84,
-      "lifeFit": 82,
-      "questionDensity": 96,
-      "priority": 84,
-      "keywords": [
-        "人工智能",
-        "风险传播",
-        "标题核查",
-        "比尔·盖茨"
-      ],
-      "mathAngles": [
-        "把标题、原话、发布者和时间拆成核验四要素",
-        "解释概率性风险与确定性断言不能混用"
-      ],
-      "hooks": [
-        "一句“十亿人死亡”是原话，还是被标题放大的恐惧？",
-        "AI 新闻最值得教的，是怎么找到第一出处。"
-      ],
-      "recommendedFormat": {
-        "duration": "60 秒",
-        "structure": "热搜标题 → 原始出处检索 → 语境比对 → 不确定性提示"
-      },
-      "factStatus": "blocked"
+      "id": "traditional-mid-autumn-storytelling", "rank": 9,
+      "title": "古人赏月与当代团圆：传统节日怎么拍出新鲜叙事", "brief": "古人中秋仪式、古诗词里的中国、月球潮汐提问和团圆讨论共同出现。可以从一项仪式、一个地方或一个自然现象延展成短片，但传统习俗、诗词出处和科学解释必须标注可靠来源，避免把民俗想象写成历史定论。", "category": "传统文化", "momentum": "peak", "urgency": "today", "heat": 85, "crossPlatform": 4, "mathFit": 93, "visualFit": 94, "lifeFit": 90, "questionDensity": 94, "priority": 85,
+      "platforms": [{"id":"douyin","rank":12,"score":92,"trend":"fresh"},{"id":"zhihu","rank":10,"score":90,"trend":"partial"},{"id":"xiaohongshu","rank":2,"score":100,"trend":"partial"},{"id":"baidu","rank":47,"score":65,"trend":"fresh"}],
+      "keywords": ["中秋", "赏月", "古诗词", "团圆", "潮汐", "传统文化"], "mathAngles": ["把诗词、仪式、地理与天文解释分成各自可核验的线索", "用月相和潮汐示意图回答一个具体问题"], "hooks": ["中秋为什么是八月十五？先别急着只讲传说。", "从古人赏月到今天的团圆，一条视频能串起哪些真实细节？"], "recommendedFormat": {"duration":"60–90 秒","structure":"一项仪式/一句诗 → 时空背景 → 可查来源与延伸问题"}, "factStatus": "needs-review", "sources": [{"name":"抖音原榜：解锁古人的中秋赏月仪式感","url":"https://www.douyin.com/search/%E8%A7%A3%E9%94%81%E5%8F%A4%E4%BA%BA%E7%9A%84%E4%B8%AD%E7%A7%8B%E8%B5%8F%E6%9C%88%E4%BB%AA%E5%BC%8F%E6%84%9F","type":"platform"},{"name":"知乎原榜：月球潮汐与人体水分","url":"https://www.zhihu.com/question/2048110316056326927","type":"platform"},{"name":"小红书原榜：耗时三年拍下古诗词里的中国","url":"https://www.xiaohongshu.com/search_result?keyword=%E8%80%97%E6%97%B6%E4%B8%89%E5%B9%B4%E6%8B%8D%E4%B8%8B%E5%8F%A4%E8%AF%97%E8%AF%8D%E9%87%8C%E7%9A%84%E4%B8%AD%E5%9B%BD&type=51","type":"platform"},{"name":"百度原榜：为什么中秋要在八月十五","url":"https://m.baidu.com/s?word=%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%AD%E7%A7%8B%E8%A6%81%E5%9C%A8%E5%85%AB%E6%9C%88%E5%8D%81%E4%BA%94&sa=fyb_news","type":"platform"}], "updatedAt":"2026-09-26T05:21:07.000Z"
     },
     {
-      "id": "air-purifier-comparison",
-      "platforms": [
-        {
-          "id": "bilibili",
-          "rank": 36,
-          "score": 65,
-          "trend": "fresh"
-        }
-      ],
-      "crossPlatform": 1,
-      "sources": [
-        {
-          "name": "B站 原榜：空气净化器2026大横评，1500平测试场+5大维度，实测9台找答案",
-          "url": "https://www.bilibili.com/video/BV1MsaN65Ede",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-09-26T09:09:12.078Z",
-      "rank": 10,
-      "title": "空气净化器大横评：测评视频怎样让方法比结论更可信？",
-      "brief": "B站热门测评以场地、维度和样品数作为卖点；家电与生活创作者可公开测试变量、限制与利益关联，让观众知道结论适用于什么条件。",
-      "category": "消费测评",
-      "momentum": "steady",
-      "urgency": "evergreen",
-      "heat": 75,
-      "mathFit": 95,
-      "visualFit": 86,
-      "lifeFit": 90,
-      "questionDensity": 91,
-      "priority": 82,
-      "keywords": [
-        "空气净化器",
-        "横评",
-        "测评方法",
-        "家电"
-      ],
-      "mathAngles": [
-        "明确测试面积、污染物、时长与重复次数",
-        "用评分表公开权重，避免把主观偏好伪装成实验结论"
-      ],
-      "hooks": [
-        "9 台机器、5 个维度，真正该先看的不是冠军。",
-        "一条测评的可信度，藏在它没说的测试条件里。"
-      ],
-      "recommendedFormat": {
-        "duration": "90 秒",
-        "structure": "热门测评 → 变量清单 → 评分表 → 观众复核方法"
-      },
-      "factStatus": "needs-review"
+      "id": "new-energy-car-range-claims", "rank": 10,
+      "title": "新能源车“续航纪录”热词：先把测试条件讲清楚", "brief": "新能源车销量、品牌布局与续航纪录相关标题出现在百度和B站原榜。适合围绕续航测试、工况、充电条件、价格区间与实际使用差异做消费者内容；任何具体车型、续航数值、销量和纪录主张均需回到厂商公告、测试方法和权威登记资料核验。", "category": "汽车消费", "momentum": "rising", "urgency": "today", "heat": 83, "crossPlatform": 2, "mathFit": 95, "visualFit": 86, "lifeFit": 89, "questionDensity": 91, "priority": 83,
+      "platforms": [{"id":"baidu","rank":29,"score":78,"trend":"fresh"},{"id":"bilibili","rank":30,"score":77,"trend":"fresh"}],
+      "keywords": ["新能源车", "续航", "测试工况", "充电", "汽车消费"], "mathAngles": ["说明续航数字必须绑定工况、温度、速度和载荷", "把标称值、媒体测试与个人使用体验放入同一比较表"], "hooks": ["1100 公里这个数字，最该先问的不是‘厉不厉害’。", "为什么两个人开同一辆电车，续航能差这么多？"], "recommendedFormat": {"duration":"60 秒","structure":"热榜数字 → 测试条件拆解 → 看参数的三个问题"}, "factStatus": "needs-review", "sources": [{"name":"百度原榜：比亚迪新车纯电续航1100km","url":"https://m.baidu.com/s?word=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%96%B0%E8%BD%A6%E7%BA%AF%E7%94%B5%E7%BB%AD%E8%88%AA1100km%E6%89%93%E7%A0%B4%E7%BA%AA%E5%BD%95&sa=fyb_news","type":"platform"},{"name":"B站原榜：中国新能源TOP3重排","url":"https://www.bilibili.com/video/BV1ptaA6YERE","type":"platform"}], "updatedAt":"2026-09-26T05:21:07.000Z"
     },
     {
-      "id": "game-character-trailer",
-      "platforms": [
-        {
-          "id": "bilibili",
-          "rank": 1,
-          "score": 100,
-          "trend": "fresh"
-        },
-        {
-          "id": "douyin",
-          "rank": 48,
-          "score": 53,
-          "trend": "fresh"
-        }
-      ],
-      "crossPlatform": 2,
-      "sources": [
-        {
-          "name": "B站 原榜：《鸣潮》共鸣者战斗演示 | 心",
-          "url": "https://www.bilibili.com/video/BV1GahD6GEjC",
-          "type": "platform"
-        },
-        {
-          "name": "抖音 原榜：超自然行动组联动哪吒传奇",
-          "url": "https://www.douyin.com/search/%E8%B6%85%E8%87%AA%E7%84%B6%E8%A1%8C%E5%8A%A8%E7%BB%84%E8%81%94%E5%8A%A8%E5%93%AA%E5%90%92%E4%BC%A0%E5%A5%87",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-09-26T09:09:12.078Z",
-      "rank": 11,
-      "title": "角色演示与游戏联动：如何做不剧透的机制解读？",
-      "brief": "角色战斗演示与跨 IP 联动出现在视频平台热榜；游戏创作者可聚焦动作语言、玩法入口与新手体验，避免把尚未实装或未经证实的信息写成定论。",
-      "category": "游戏与二次元",
-      "momentum": "rising",
-      "urgency": "today",
-      "heat": 76,
-      "mathFit": 87,
-      "visualFit": 97,
-      "lifeFit": 73,
-      "questionDensity": 84,
-      "priority": 81,
-      "keywords": [
-        "游戏角色",
-        "战斗演示",
-        "联动",
-        "不剧透"
-      ],
-      "mathAngles": [
-        "按已公开画面标注动作、资源和机制，而非猜测数值",
-        "把新手体验拆为观赏性、操作门槛和信息透明度"
-      ],
-      "hooks": [
-        "不剧透地讲角色强不强，靠的不是一句“必抽”。",
-        "预告片里哪些信息是事实，哪些只是玩家推测？"
-      ],
-      "recommendedFormat": {
-        "duration": "45–60 秒",
-        "structure": "公开画面 → 机制标注 → 新手角度 → 信息边界"
-      },
-      "factStatus": "needs-review"
+      "id": "education-policy-reading", "rank": 11,
+      "title": "优质高中建设讨论：教育政策视频如何读数字和范围", "brief": "优质高中建设相关问题进入知乎原榜，学校、地域和升学相关讨论也在持续出现。适合讲“目标数量、适用范围、时间节点和执行主体”四个阅读框架；政策文件、实施范围和统计数字都应链接到教育主管部门的原文，避免用单个标题替代政策解释。", "category": "教育成长", "momentum": "steady", "urgency": "today", "heat": 79, "crossPlatform": 2, "mathFit": 96, "visualFit": 75, "lifeFit": 92, "questionDensity": 95, "priority": 81,
+      "platforms": [{"id":"zhihu","rank":5,"score":100,"trend":"partial"},{"id":"douyin","rank":39,"score":64,"trend":"fresh"}],
+      "keywords": ["教育", "优质高中", "政策", "学校建设", "数据口径"], "mathAngles": ["将目标数、覆盖范围、财政投入和招生变化区别开来", "演示从热榜标题追溯到正式文件的查证路径"], "hooks": ["教育政策里的‘1000 所’，到底应该先问哪四个问题？", "热搜里的教育结论，为什么不能只看一个数字？"], "recommendedFormat": {"duration":"60–90 秒","structure":"热榜问题 → 文件阅读框架 → 原文核验清单"}, "factStatus": "needs-review", "sources": [{"name":"知乎原榜：优质高中建设讨论","url":"https://www.zhihu.com/question/2086054245120398456","type":"platform"},{"name":"抖音原榜：陈妤颉夺冠收到五年高考三年模拟","url":"https://www.douyin.com/search/%E9%99%88%E5%A6%A4%E9%A2%89%E5%A4%BA%E5%86%A0%E6%94%B6%E5%88%B0%E4%BA%94%E5%B9%B4%E9%AB%98%E8%80%83%E4%B8%89%E5%B9%B4%E6%A8%A1%E6%8B%9F","type":"platform"}], "updatedAt":"2026-09-26T05:21:07.000Z"
     },
     {
-      "id": "coffee-bean-consumption",
-      "platforms": [
-        {
-          "id": "weibo",
-          "rank": 42,
-          "score": 59,
-          "trend": "fresh"
-        },
-        {
-          "id": "baidu",
-          "rank": 49,
-          "score": 52,
-          "trend": "fresh"
-        }
-      ],
-      "crossPlatform": 2,
-      "sources": [
-        {
-          "name": "微博 原榜：广东人喝咖啡已经卷到买豆了",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%B9%BF%E4%B8%9C%E4%BA%BA%E5%96%9D%E5%92%96%E5%95%A1%E5%B7%B2%E7%BB%8F%E5%8D%B7%E5%88%B0%E4%B9%B0%E8%B1%86%E4%BA%86%23",
-          "type": "platform"
-        },
-        {
-          "name": "百度 原榜：星巴克“放下身段”卖早餐",
-          "url": "https://m.baidu.com/s?word=%E6%98%9F%E5%B7%B4%E5%85%8B%E2%80%9C%E6%94%BE%E4%B8%8B%E8%BA%AB%E6%AE%B5%E2%80%9D%E5%8D%96%E6%97%A9%E9%A4%90&sa=fyb_news",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-09-26T09:09:12.078Z",
-      "rank": 12,
-      "title": "从买咖啡豆到卖早餐：咖啡生意怎样进入日常？",
-      "brief": "家庭买豆与连锁早餐两个热词指向不同的消费场景；餐饮和生活创作者可比较便利、价格、口味与社交需求，不据此推断整体市场趋势。",
-      "category": "餐饮与消费",
-      "momentum": "steady",
-      "urgency": "today",
-      "heat": 72,
-      "mathFit": 89,
-      "visualFit": 87,
-      "lifeFit": 93,
-      "questionDensity": 85,
-      "priority": 79,
-      "keywords": [
-        "咖啡",
-        "买豆",
-        "早餐",
-        "连锁餐饮",
-        "日常消费"
-      ],
-      "mathAngles": [
-        "比较一杯现制、一包咖啡豆和早餐套餐的使用场景与成本",
-        "用用户旅程替代单一价格战叙事"
-      ],
-      "hooks": [
-        "咖啡卷到买豆，和连锁店卖早餐，其实是同一件事吗？",
-        "一杯咖啡的竞争，正在从口味延伸到早晨的十分钟。"
-      ],
-      "recommendedFormat": {
-        "duration": "60 秒",
-        "structure": "两条热搜 → 场景对比 → 成本与便利 → 观察边界"
-      },
-      "factStatus": "needs-review"
+      "id": "city-nature-visual-moment", "rank": 12,
+      "title": "城市与自然景观走红：一条“现场感”短片的镜头结构", "brief": "成都三角梅瀑布、日照金山、赛里木湖和湿地纪录片分别在微博、百度、小红书与B站上榜。适合用远景交代地点、中景展示尺度、近景捕捉细节构成视觉叙事；拍摄地点、季节特征、进入限制和素材授权都需在发布前核验。", "category": "城市自然", "momentum": "rising", "urgency": "today", "heat": 78, "crossPlatform": 4, "mathFit": 80, "visualFit": 99, "lifeFit": 86, "questionDensity": 82, "priority": 80,
+      "platforms": [{"id":"weibo","rank":43,"score":70,"trend":"fresh"},{"id":"xiaohongshu","rank":5,"score":100,"trend":"partial"},{"id":"baidu","rank":28,"score":78,"trend":"fresh"},{"id":"bilibili","rank":4,"score":95,"trend":"fresh"}],
+      "keywords": ["城市景观", "自然纪录", "湿地", "日照金山", "赛里木湖", "镜头语言"], "mathAngles": ["用远中近景和镜头时长构建空间尺度", "将自然景观的季节、气象与拍摄安全提示单列"], "hooks": ["一个城市景观为什么能让人停下来？先看镜头有没有尺度。", "风景视频不靠滤镜，靠哪三种镜头把现场感拍出来？"], "recommendedFormat": {"duration":"45–75 秒","structure":"热榜画面 → 三层镜头示范 → 地点与版权提示"}, "factStatus": "needs-review", "sources": [{"name":"微博原榜：成都三角梅瀑布","url":"https://s.weibo.com/weibo?q=%23%E6%88%90%E9%83%BD%E4%B8%80%E6%A0%8B%E6%A5%BC%E5%BC%80%E6%88%90%E4%B8%89%E8%A7%92%E6%A2%85%E7%80%91%E5%B8%83%23","type":"platform"},{"name":"小红书原榜：日照金山","url":"https://www.xiaohongshu.com/search_result?keyword=%E5%AE%9A%E6%A0%BC%E8%BF%99%E4%B8%80%E5%88%BB%E7%9A%84%E6%97%A5%E7%85%A7%E9%87%91%E5%B1%B1&type=51","type":"platform"},{"name":"百度原榜：成都三角梅瀑布","url":"https://m.baidu.com/s?word=%E6%88%90%E9%83%BD%E4%B8%80%E6%A0%8B%E6%A5%BC%E5%BC%80%E6%88%90%E4%B8%89%E8%A7%92%E6%A2%85%E7%80%91%E5%B8%83&sa=fyb_news","type":"platform"},{"name":"B站原榜：生命奇观2黄渤海湿地","url":"https://www.bilibili.com/video/BV1SxhW6hEK3","type":"platform"}], "updatedAt":"2026-09-26T05:21:07.000Z"
     }
   ]
 }
