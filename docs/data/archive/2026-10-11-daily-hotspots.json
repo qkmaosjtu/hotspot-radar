@@ -1,0 +1,896 @@
+{
+  "schemaVersion": 1,
+  "dataMode": "live",
+  "date": "2026-10-11",
+  "generatedAt": "2026-10-11T04:07:18.448Z",
+  "timezone": "Asia/Shanghai",
+  "summary": {
+    "topicCount": 12,
+    "urgentCount": 5,
+    "crossPlatformCount": 7,
+    "formulaReadyCount": 12
+  },
+  "sourceStatus": [
+    {
+      "id": "douyin",
+      "name": "抖音",
+      "status": "fresh",
+      "items": 49,
+      "updatedAt": "2026-10-11T04:02:44.021Z"
+    },
+    {
+      "id": "weibo",
+      "name": "微博",
+      "status": "fresh",
+      "items": 50,
+      "updatedAt": "2026-10-11T04:02:44.021Z"
+    },
+    {
+      "id": "zhihu",
+      "name": "知乎",
+      "status": "partial",
+      "items": 30,
+      "updatedAt": "2026-10-11T04:02:44.021Z"
+    },
+    {
+      "id": "xiaohongshu",
+      "name": "小红书",
+      "status": "partial",
+      "items": 10,
+      "updatedAt": "2026-10-11T04:02:44.021Z"
+    },
+    {
+      "id": "baidu",
+      "name": "百度",
+      "status": "fresh",
+      "items": 50,
+      "updatedAt": "2026-10-11T04:02:44.021Z"
+    },
+    {
+      "id": "bilibili",
+      "name": "B站",
+      "status": "fresh",
+      "items": 50,
+      "updatedAt": "2026-10-11T04:02:44.021Z"
+    }
+  ],
+  "trendHistory": {
+    "times": [
+      "2026-10-05",
+      "2026-10-06",
+      "2026-10-07",
+      "2026-10-08",
+      "2026-10-09",
+      "2026-10-10",
+      "2026-10-11"
+    ],
+    "series": {
+      "douyin": [
+        94,
+        98,
+        96,
+        92,
+        94,
+        98,
+        98
+      ],
+      "weibo": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "zhihu": [
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60
+      ],
+      "xiaohongshu": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "baidu": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "bilibili": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ]
+    }
+  },
+  "topics": [
+    {
+      "momentum": "peak",
+      "urgency": "now",
+      "heat": 96,
+      "mathFit": 94,
+      "visualFit": 72,
+      "lifeFit": 82,
+      "questionDensity": 98,
+      "factStatus": "needs-review",
+      "updatedAt": "2026-10-11T04:07:18.448Z",
+      "id": "riyadh-airport-information-boundary",
+      "rank": 1,
+      "title": "利雅得机场事件跨四榜：国际突发内容先做信息边界图",
+      "brief": "抖音、微博、知乎和百度原榜均出现利雅得机场相关词条。适合新闻、国际观察和媒介素养创作者先区分平台转述、待核对事实、现场素材与可确认来源；伤亡、归因和后续局势均不应仅凭热榜下定论。",
+      "category": "国际局势与媒介素养",
+      "crossPlatform": 4,
+      "priority": 98,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 4,
+          "score": 95.65,
+          "trend": "热榜"
+        },
+        {
+          "id": "weibo",
+          "rank": 8,
+          "score": 89.85,
+          "trend": "热搜"
+        },
+        {
+          "id": "zhihu",
+          "rank": 1,
+          "score": 100,
+          "trend": "讨论"
+        },
+        {
+          "id": "baidu",
+          "rank": 4,
+          "score": 95.65,
+          "trend": "热"
+        }
+      ],
+      "keywords": [
+        "利雅得机场",
+        "国际突发",
+        "信息核验",
+        "媒体素养"
+      ],
+      "mathAngles": [
+        "用时间线区分首发、转述、更新与待证实信息",
+        "把人员伤亡、责任归因、局势判断拆成独立证据格",
+        "用地图与来源层级呈现而非拼贴现场画面"
+      ],
+      "hooks": [
+        "同一条国际突发跨四个平台刷屏，第一步为什么不是急着解释？",
+        "一张信息边界图，怎样避免把热搜标题讲成事实？"
+      ],
+      "recommendedFormat": {
+        "duration": "75–110 秒",
+        "structure": "热榜出现 → 信息分层图 → 可核验来源 → 不确定性提示"
+      },
+      "sources": [
+        {
+          "name": "抖音原榜：沙特利雅得机场遇袭",
+          "url": "https://www.douyin.com/search/%E6%B2%99%E7%89%B9%E5%88%A9%E9%9B%85%E5%BE%97%E6%9C%BA%E5%9C%BA%E9%81%87%E8%A2%AD",
+          "type": "platform"
+        },
+        {
+          "name": "微博原榜：利雅得机场遭袭致12死309伤",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%88%A9%E9%9B%85%E5%BE%97%E6%9C%BA%E5%9C%BA%E9%81%AD%E8%A2%AD%E8%87%B412%E6%AD%BB309%E4%BC%A4%23",
+          "type": "platform"
+        },
+        {
+          "name": "知乎原榜：沙特利雅得机场遭袭，造成 12 人死亡 309 人受伤，哪些信息值得关注？对中东局势有何影响？",
+          "url": "https://www.zhihu.com/question/2092513467722719411",
+          "type": "platform"
+        },
+        {
+          "name": "百度原榜：沙特利雅得机场遭袭 致12死309伤",
+          "url": "https://m.baidu.com/s?word=%E6%B2%99%E7%89%B9%E5%88%A9%E9%9B%85%E5%BE%97%E6%9C%BA%E5%9C%BA%E9%81%AD%E8%A2%AD+%E8%87%B412%E6%AD%BB309%E4%BC%A4&sa=fyb_news",
+          "type": "platform"
+        }
+      ]
+    },
+    {
+      "momentum": "peak",
+      "urgency": "now",
+      "heat": 92,
+      "mathFit": 85,
+      "visualFit": 90,
+      "lifeFit": 85,
+      "questionDensity": 84,
+      "factStatus": "needs-review",
+      "updatedAt": "2026-10-11T04:07:18.448Z",
+      "id": "zheng-qinwen-final-storyline",
+      "rank": 2,
+      "title": "郑钦文决赛话题上榜：体育内容如何把结果叙事改成比赛观察",
+      "brief": "抖音榜首与百度榜单都出现郑钦文及决赛相关词条。适合体育、女性成长和赛事内容创作者围绕赛程节点、选手表达与观赛体验做短内容；对比赛结果、排名和对阵信息应以赛事官方页面复核。",
+      "category": "体育与人物叙事",
+      "crossPlatform": 2,
+      "priority": 93,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 1,
+          "score": 100,
+          "trend": "热榜"
+        },
+        {
+          "id": "baidu",
+          "rank": 25,
+          "score": 65.2,
+          "trend": "热"
+        }
+      ],
+      "keywords": [
+        "郑钦文",
+        "中网",
+        "决赛",
+        "网球",
+        "赛事叙事"
+      ],
+      "mathAngles": [
+        "以赛程、技战术、情绪和观众四层组织复盘",
+        "区分选手原话、即时成绩与二次解读",
+        "用一回合画面承接一个可验证观察"
+      ],
+      "hooks": [
+        "一场决赛前的体育内容，为什么别急着只做‘赢没赢’？",
+        "把赛点之外的观察拍出来，赛事短视频还能怎么讲？"
+      ],
+      "recommendedFormat": {
+        "duration": "55–85 秒",
+        "structure": "赛前节点 → 一个观察 → 画面证据 → 官方赛果入口"
+      },
+      "sources": [
+        {
+          "name": "抖音原榜：郑钦文首进中网女单决赛",
+          "url": "https://www.douyin.com/search/%E9%83%91%E9%92%A6%E6%96%87%E9%A6%96%E8%BF%9B%E4%B8%AD%E7%BD%91%E5%A5%B3%E5%8D%95%E5%86%B3%E8%B5%9B",
+          "type": "platform"
+        },
+        {
+          "name": "百度原榜：郑钦文决赛将战安德烈耶娃",
+          "url": "https://m.baidu.com/s?word=%E9%83%91%E9%92%A6%E6%96%87%E5%86%B3%E8%B5%9B%E5%B0%86%E6%88%98%E5%AE%89%E5%BE%B7%E7%83%88%E8%80%B6%E5%A8%83&sa=fyb_news",
+          "type": "platform"
+        }
+      ]
+    },
+    {
+      "momentum": "rising",
+      "urgency": "now",
+      "heat": 90,
+      "mathFit": 95,
+      "visualFit": 82,
+      "lifeFit": 91,
+      "questionDensity": 96,
+      "factStatus": "needs-review",
+      "updatedAt": "2026-10-11T04:07:18.448Z",
+      "id": "car-safety-r-and-d-cycle",
+      "rank": 3,
+      "title": "刹车踏板与汽车研发测试同升温：汽车内容别跳过验证链",
+      "brief": "微博、知乎和百度原榜同时出现制动安全、研发测试与车企推新相关词条。适合汽车、工程和消费决策创作者从设计、测试、量产、使用和召回信息的不同层次讲解，不凭单一视频或热搜判定具体责任。",
+      "category": "汽车与消费安全",
+      "crossPlatform": 3,
+      "priority": 95,
+      "platforms": [
+        {
+          "id": "weibo",
+          "rank": 5,
+          "score": 94.2,
+          "trend": "热搜"
+        },
+        {
+          "id": "zhihu",
+          "rank": 4,
+          "score": 95.65,
+          "trend": "讨论"
+        },
+        {
+          "id": "baidu",
+          "rank": 30,
+          "score": 57.95,
+          "trend": "讨论"
+        }
+      ],
+      "keywords": [
+        "刹车踏板",
+        "汽车测试",
+        "研发周期",
+        "消费安全",
+        "验证链"
+      ],
+      "mathAngles": [
+        "用设计—测试—量产—售后画出问题可能出现的阶段",
+        "区分个案线索、媒体报道、监管动作和产品结论",
+        "解释测试里程与真实使用并不是同一指标"
+      ],
+      "hooks": [
+        "一段汽车事故视频，能直接说明产品问题吗？",
+        "从研发到上路，汽车安全验证到底经过哪些关？"
+      ],
+      "recommendedFormat": {
+        "duration": "80–120 秒",
+        "structure": "热词并列 → 验证链路 → 信息边界 → 查证入口"
+      },
+      "sources": [
+        {
+          "name": "微博原榜：汽车刹车踏板绝不应该在驾驶中断裂",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%B1%BD%E8%BD%A6%E5%88%B9%E8%BD%A6%E8%B8%8F%E6%9D%BF%E7%BB%9D%E4%B8%8D%E5%BA%94%E8%AF%A5%E5%9C%A8%E9%A9%BE%E9%A9%B6%E4%B8%AD%E6%96%AD%E8%A3%82%23",
+          "type": "platform"
+        },
+        {
+          "name": "知乎原榜：四部门发文严管汽车研发测试整治「速成车」，并设定一年三万公里指标，将对车企竞争和造车周期带来哪些改变？",
+          "url": "https://www.zhihu.com/question/2092405334082171213",
+          "type": "platform"
+        },
+        {
+          "name": "百度原榜：车企跟风推新拟迎严管",
+          "url": "https://m.baidu.com/s?word=%E8%BD%A6%E4%BC%81%E8%B7%9F%E9%A3%8E%E6%8E%A8%E6%96%B0%E6%8B%9F%E8%BF%8E%E4%B8%A5%E7%AE%A1&sa=fyb_news",
+          "type": "platform"
+        }
+      ]
+    },
+    {
+      "momentum": "rising",
+      "urgency": "now",
+      "heat": 90,
+      "mathFit": 97,
+      "visualFit": 77,
+      "lifeFit": 92,
+      "questionDensity": 97,
+      "factStatus": "needs-review",
+      "updatedAt": "2026-10-11T04:07:18.448Z",
+      "id": "creator-clipping-income-claims",
+      "rank": 4,
+      "title": "“切片三年赚七百万”登顶：创作者收入叙事应先拆账本",
+      "brief": "微博榜首出现大学生靠切片收入的说法。适合内容创业、教育和职场创作者把流量、版权授权、平台分成、团队成本、税务和个体样本分开讲；未经当事方或平台材料核验的收益数字只应作为讨论线索。",
+      "category": "创作者经济与职业发展",
+      "crossPlatform": 1,
+      "priority": 94,
+      "platforms": [
+        {
+          "id": "weibo",
+          "rank": 1,
+          "score": 100,
+          "trend": "热搜"
+        }
+      ],
+      "keywords": [
+        "切片",
+        "创作者收入",
+        "平台分成",
+        "版权授权",
+        "职业选择"
+      ],
+      "mathAngles": [
+        "用收入、成本、授权、风险四栏拆解收益叙事",
+        "区分营收、利润、累计收入和单个案例",
+        "提示镜头外的剪辑、人力与合规成本"
+      ],
+      "hooks": [
+        "一句‘三年赚七百万’，到底漏掉了哪几本账？",
+        "做切片真的只需要会剪视频吗？"
+      ],
+      "recommendedFormat": {
+        "duration": "60–95 秒",
+        "structure": "热搜数字 → 收益拆账 → 授权边界 → 适合谁做"
+      },
+      "sources": [
+        {
+          "name": "微博原榜：大二专科生称靠切片三年赚七百万",
+          "url": "https://s.weibo.com/weibo?q=%E5%A4%A7%E4%BA%8C%E4%B8%93%E7%A7%91%E7%94%9F%E7%A7%B0%E9%9D%A0%E5%88%87%E7%89%87%E4%B8%89%E5%B9%B4%E8%B5%9A%E4%B8%83%E7%99%BE%E4%B8%87",
+          "type": "platform"
+        }
+      ]
+    },
+    {
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 83,
+      "mathFit": 96,
+      "visualFit": 76,
+      "lifeFit": 89,
+      "questionDensity": 97,
+      "factStatus": "needs-review",
+      "updatedAt": "2026-10-11T04:07:18.448Z",
+      "id": "ai-boundaries-from-investment-to-health",
+      "rank": 5,
+      "title": "大模型投毒与AI问诊同现：AI内容更该讲清责任边界",
+      "brief": "知乎讨论大模型投毒相关创业，B站则出现“AI当判官”与医患信任的评论内容。适合科技、职场和健康传播创作者把模型安全、商业宣传、辅助建议与最终责任拆开，尤其避免把AI输出包装成医疗结论。",
+      "category": "AI与公共信任",
+      "crossPlatform": 2,
+      "priority": 92,
+      "platforms": [
+        {
+          "id": "zhihu",
+          "rank": 2,
+          "score": 98.55,
+          "trend": "讨论"
+        },
+        {
+          "id": "bilibili",
+          "rank": 29,
+          "score": 59.4,
+          "trend": "热门"
+        }
+      ],
+      "keywords": [
+        "大模型",
+        "模型安全",
+        "AI问诊",
+        "责任边界",
+        "医患信任"
+      ],
+      "mathAngles": [
+        "把技术能力、产品承诺、使用者判断和责任主体分层",
+        "用输入—处理—输出—复核流程解释AI风险",
+        "医疗场景强调辅助而非诊断替代"
+      ],
+      "hooks": [
+        "AI越来越会说，谁来为它的话负责？",
+        "从创业热词到AI问诊，为什么都绕不开‘复核’？"
+      ],
+      "recommendedFormat": {
+        "duration": "75–105 秒",
+        "structure": "两条热议 → 四层责任图 → 高风险场景 → 使用提醒"
+      },
+      "sources": [
+        {
+          "name": "知乎原榜：如何看待给大模型投毒被字节索赔800 万的前实习生开启创业，已获近三千万美元融资？你看好其创业前景吗？",
+          "url": "https://www.zhihu.com/question/2092306646621844796",
+          "type": "platform"
+        },
+        {
+          "name": "B站原榜：“豆包问诊改问千问”是恶搞“请AI当判官”是日常，医患之间信任的沟壑不是AI挖的 AI也填不平（评论员：王珍珍 编辑：刘嘉欣）",
+          "url": "https://www.bilibili.com/video/BV13FHQ6DEV4",
+          "type": "platform"
+        }
+      ]
+    },
+    {
+      "momentum": "peak",
+      "urgency": "today",
+      "heat": 88,
+      "mathFit": 82,
+      "visualFit": 98,
+      "lifeFit": 91,
+      "questionDensity": 83,
+      "factStatus": "needs-review",
+      "updatedAt": "2026-10-11T04:07:18.448Z",
+      "id": "autumn-visual-travel-language",
+      "rank": 6,
+      "title": "秋日自然影像刷屏：旅行创作者怎样拍出可抵达的季节感",
+      "brief": "抖音前列出现秋天、桂花与错峰出游内容，小红书则集中出现旅行姿势、海鸥雨和日照金山。适合旅行、摄影与城市生活赛道从时间、地点、天气、路线和拍摄限制做可复用内容，不必只复制同款取景。",
+      "category": "旅行、摄影与城市生活",
+      "crossPlatform": 2,
+      "priority": 91,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 2,
+          "score": 98.55,
+          "trend": "热榜"
+        },
+        {
+          "id": "xiaohongshu",
+          "rank": 3,
+          "score": 97.1,
+          "trend": "热门"
+        }
+      ],
+      "keywords": [
+        "秋天",
+        "旅行摄影",
+        "自然影像",
+        "错峰出游",
+        "取景"
+      ],
+      "mathAngles": [
+        "用光线、天气、位置、时间四变量组织拍摄建议",
+        "把审美画面与路线可达性分成两段叙事",
+        "保留天气、客流和安全条件的动态提醒"
+      ],
+      "hooks": [
+        "为什么同样拍秋天，有人拍到氛围，有人只拍到树？",
+        "一条旅行视频怎样让观众真的知道什么时候去？"
+      ],
+      "recommendedFormat": {
+        "duration": "45–75 秒",
+        "structure": "季节画面 → 四变量 → 路线提示 → 保存收藏理由"
+      },
+      "sources": [
+        {
+          "name": "抖音原榜：大自然的秋天进度更新了",
+          "url": "https://www.douyin.com/search/%E5%A4%A7%E8%87%AA%E7%84%B6%E7%9A%84%E7%A7%8B%E5%A4%A9%E8%BF%9B%E5%BA%A6%E6%9B%B4%E6%96%B0%E4%BA%86",
+          "type": "platform"
+        },
+        {
+          "name": "小红书原榜：我拍到了海鸥雨",
+          "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%88%91%E6%8B%8D%E5%88%B0%E4%BA%86%E6%B5%B7%E9%B8%A5%E9%9B%A8&type=51",
+          "type": "platform"
+        }
+      ]
+    },
+    {
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 80,
+      "mathFit": 88,
+      "visualFit": 95,
+      "lifeFit": 82,
+      "questionDensity": 89,
+      "factStatus": "needs-review",
+      "updatedAt": "2026-10-11T04:07:18.448Z",
+      "id": "poetry-location-cultural-travel",
+      "rank": 7,
+      "title": "“古诗词里的中国”受关注：文化旅行内容可以从文本走到现场",
+      "brief": "小红书原榜同时出现“耗时三年拍下古诗词里的中国”和河南相关词条。适合文旅、历史、摄影和教育创作者用诗句、地理、历史材料与当代现场的对应关系策划系列；诗文出处和历史解释需在发布前复核。",
+      "category": "文化、历史与文旅",
+      "crossPlatform": 1,
+      "priority": 86,
+      "platforms": [
+        {
+          "id": "xiaohongshu",
+          "rank": 2,
+          "score": 98.55,
+          "trend": "热门"
+        }
+      ],
+      "keywords": [
+        "古诗词",
+        "中国",
+        "河南",
+        "文化旅行",
+        "历史现场"
+      ],
+      "mathAngles": [
+        "用文本出处、地理位置、时代背景三层核对场景",
+        "让诗句成为提问而不是装饰字幕",
+        "以地图转场连接多个可访问地点"
+      ],
+      "hooks": [
+        "一首古诗怎么不只停在课本里？",
+        "把诗词拍到现实中，第一步是找景还是查出处？"
+      ],
+      "recommendedFormat": {
+        "duration": "60–100 秒",
+        "structure": "诗句钩子 → 地图定位 → 现场对照 → 出处说明"
+      },
+      "sources": [
+        {
+          "name": "小红书原榜：耗时三年拍下古诗词里的中国",
+          "url": "https://www.xiaohongshu.com/search_result?keyword=%E8%80%97%E6%97%B6%E4%B8%89%E5%B9%B4%E6%8B%8D%E4%B8%8B%E5%8F%A4%E8%AF%97%E8%AF%8D%E9%87%8C%E7%9A%84%E4%B8%AD%E5%9B%BD&type=51",
+          "type": "platform"
+        },
+        {
+          "name": "小红书原榜：原来古诗词里的河南真的存在",
+          "url": "https://www.xiaohongshu.com/search_result?keyword=%E5%8E%9F%E6%9D%A5%E5%8F%A4%E8%AF%97%E8%AF%8D%E9%87%8C%E7%9A%84%E6%B2%B3%E5%8D%97%E7%9C%9F%E7%9A%84%E5%AD%98%E5%9C%A8&type=51",
+          "type": "platform"
+        }
+      ]
+    },
+    {
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 78,
+      "mathFit": 91,
+      "visualFit": 64,
+      "lifeFit": 96,
+      "questionDensity": 93,
+      "factStatus": "needs-review",
+      "updatedAt": "2026-10-11T04:07:18.448Z",
+      "id": "housing-fund-retirement-service-explainer",
+      "rank": 8,
+      "title": "公积金与退休预服务上榜：公共服务内容要教会观众核对条件",
+      "brief": "百度原榜出现公积金功能更新和退休预服务相关词条。适合民生、职场和理财入门创作者讲“适用对象、办理入口、所需材料、地区差异”四项，而不是把单一热搜表述为全国统一政策。",
+      "category": "民生服务与个人财务",
+      "crossPlatform": 1,
+      "priority": 88,
+      "platforms": [
+        {
+          "id": "baidu",
+          "rank": 1,
+          "score": 100,
+          "trend": "热榜"
+        }
+      ],
+      "keywords": [
+        "公积金",
+        "退休预服务",
+        "公共服务",
+        "政策查询",
+        "地区差异"
+      ],
+      "mathAngles": [
+        "用对象、条件、材料、入口四格做办事清单",
+        "明确全国规则与地方实施的区别",
+        "引导观众回到官方服务平台核验"
+      ],
+      "hooks": [
+        "公共服务‘上新’和每个人都能用，是一回事吗？",
+        "政策类视频怎样讲得有用又不误导？"
+      ],
+      "recommendedFormat": {
+        "duration": "55–90 秒",
+        "structure": "热榜词 → 四格核对 → 官方入口 → 地区提示"
+      },
+      "sources": [
+        {
+          "name": "百度原榜：公积金功能又上新了",
+          "url": "https://m.baidu.com/s?word=%E5%85%AC%E7%A7%AF%E9%87%91%E5%8A%9F%E8%83%BD%E5%8F%88%E4%B8%8A%E6%96%B0%E4%BA%86&sa=fyb_news",
+          "type": "platform"
+        },
+        {
+          "name": "百度原榜：人社部：全面推进“退休预服务”",
+          "url": "https://m.baidu.com/s?word=%E4%BA%BA%E7%A4%BE%E9%83%A8%EF%BC%9A%E5%85%A8%E9%9D%A2%E6%8E%A8%E8%BF%9B%E2%80%9C%E9%80%80%E4%BC%91%E9%A2%84%E6%9C%8D%E5%8A%A1%E2%80%9D&sa=fyb_news",
+          "type": "platform"
+        }
+      ]
+    },
+    {
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 76,
+      "mathFit": 90,
+      "visualFit": 70,
+      "lifeFit": 95,
+      "questionDensity": 92,
+      "factStatus": "needs-review",
+      "updatedAt": "2026-10-11T04:07:18.448Z",
+      "id": "silent-call-scam-literacy",
+      "rank": 9,
+      "title": "陌生来电先沉默三秒：反诈内容适合讲机制，不只讲口诀",
+      "brief": "百度原榜出现陌生来电先沉默三秒的讨论。适合反诈、家庭教育和科技生活创作者解释陌生来电中的录音、筛选、冒充与社工风险，并提醒观众通过官方反诈渠道核验，而不是把单一技巧当作万能防护。",
+      "category": "反诈与数字生活",
+      "crossPlatform": 1,
+      "priority": 87,
+      "platforms": [
+        {
+          "id": "baidu",
+          "rank": 2,
+          "score": 98.55,
+          "trend": "热榜"
+        }
+      ],
+      "keywords": [
+        "陌生来电",
+        "反诈",
+        "社工",
+        "录音",
+        "家庭提醒"
+      ],
+      "mathAngles": [
+        "拆解来电发生前、接通时、挂断后三个防护节点",
+        "用情境演示替代夸张恐吓",
+        "把个人信息、验证码和转账请求分开处理"
+      ],
+      "hooks": [
+        "为什么有些陌生电话接通后不马上说话？",
+        "反诈视频除了背口诀，还能教会家人什么？"
+      ],
+      "recommendedFormat": {
+        "duration": "45–70 秒",
+        "structure": "来电情境 → 机制解释 → 三步应对 → 官方核验提示"
+      },
+      "sources": [
+        {
+          "name": "百度原榜：为何接陌生来电要先沉默三秒",
+          "url": "https://m.baidu.com/s?word=%E4%B8%BA%E4%BD%95%E6%8E%A5%E9%99%8C%E7%94%9F%E6%9D%A5%E7%94%B5%E8%A6%81%E5%85%88%E6%B2%89%E9%BB%98%E4%B8%89%E7%A7%92&sa=fyb_news",
+          "type": "platform"
+        }
+      ]
+    },
+    {
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 75,
+      "mathFit": 92,
+      "visualFit": 80,
+      "lifeFit": 92,
+      "questionDensity": 95,
+      "factStatus": "needs-review",
+      "updatedAt": "2026-10-11T04:07:18.448Z",
+      "id": "food-purchase-rights-evidence",
+      "rank": 10,
+      "title": "“假果肉”争议上榜：消费维权内容先保存什么证据",
+      "brief": "知乎原榜出现低价榴莲疑似假果肉与维权的提问。适合消费、法律常识和生活方式创作者围绕订单、开箱过程、商品页面、沟通记录和平台规则讲取证流程；个案真伪及责任应等待监管、平台或司法渠道核实。",
+      "category": "消费维权与生活服务",
+      "crossPlatform": 1,
+      "priority": 88,
+      "platforms": [
+        {
+          "id": "zhihu",
+          "rank": 3,
+          "score": 97.1,
+          "trend": "讨论"
+        }
+      ],
+      "keywords": [
+        "消费维权",
+        "食品购买",
+        "订单证据",
+        "平台规则",
+        "投诉"
+      ],
+      "mathAngles": [
+        "按交易前、收货时、沟通后排序证据材料",
+        "区分事实记录、主张和责任判断",
+        "用时间戳和原始素材减少二次转述误差"
+      ],
+      "hooks": [
+        "买到疑似有问题的食品，第一张照片该拍什么？",
+        "维权视频怎样既有用，又不抢着给个案定性？"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90 秒",
+        "structure": "热议提问 → 证据顺序 → 平台路径 → 结论边界"
+      },
+      "sources": [
+        {
+          "name": "知乎原榜：女子称 38 元买榴莲，切开后发现里面都是假果肉，还塞着年糕和土豆，是真的吗？可以怎样维权？",
+          "url": "https://www.zhihu.com/question/2092234755576001604",
+          "type": "platform"
+        }
+      ]
+    },
+    {
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 82,
+      "mathFit": 94,
+      "visualFit": 69,
+      "lifeFit": 97,
+      "questionDensity": 96,
+      "factStatus": "needs-review",
+      "updatedAt": "2026-10-11T04:07:18.448Z",
+      "id": "work-hours-wages-and-deliverables",
+      "rank": 11,
+      "title": "排班、最低工资与职场分工同热：工作内容适合从规则走向交付",
+      "brief": "百度原榜出现国庆排班与最低工资标准，知乎则讨论工作量与升职回报的不对称。适合职场、人力资源和法律常识创作者分别讲排班留痕、地区标准查询与可交接成果，避免把网络案例直接当作普遍法律结论。",
+      "category": "职场、劳动与职业发展",
+      "crossPlatform": 2,
+      "priority": 90,
+      "platforms": [
+        {
+          "id": "baidu",
+          "rank": 8,
+          "score": 89.85,
+          "trend": "热议"
+        },
+        {
+          "id": "zhihu",
+          "rank": 23,
+          "score": 68.1,
+          "trend": "讨论"
+        }
+      ],
+      "keywords": [
+        "排班",
+        "最低工资",
+        "职场分工",
+        "工作留痕",
+        "劳动权益"
+      ],
+      "mathAngles": [
+        "用任务、时间、结果、责任四项记录工作",
+        "把事实留痕和法律判断分开",
+        "提醒标准存在地区、行业和合同差异"
+      ],
+      "hooks": [
+        "工作做得多，为什么不一定换来更好的回报？",
+        "职场内容如何从抱怨变成可复用的记录模板？"
+      ],
+      "recommendedFormat": {
+        "duration": "65–95 秒",
+        "structure": "热词冲突 → 四项记录 → 查询入口 → 情境边界"
+      },
+      "sources": [
+        {
+          "name": "百度原榜：男子国庆被排7天班 1天都没去遭开除",
+          "url": "https://m.baidu.com/s?word=%E7%94%B7%E5%AD%90%E5%9B%BD%E5%BA%86%E8%A2%AB%E6%8E%927%E5%A4%A9%E7%8F%AD+1%E5%A4%A9%E9%83%BD%E6%B2%A1%E5%8E%BB%E9%81%AD%E5%BC%80%E9%99%A4&sa=fyb_news",
+          "type": "platform"
+        },
+        {
+          "name": "知乎原榜：在职场中，A承担了 80% 的工作量，B只做 20%，但B零失误，为什么最后奖金、升职全是干活少的B？",
+          "url": "https://www.zhihu.com/question/2091907275392866244",
+          "type": "platform"
+        },
+        {
+          "name": "百度原榜：全国各地最低工资标准公布",
+          "url": "https://m.baidu.com/s?word=%E5%85%A8%E5%9B%BD%E5%90%84%E5%9C%B0%E6%9C%80%E4%BD%8E%E5%B7%A5%E8%B5%84%E6%A0%87%E5%87%86%E5%85%AC%E5%B8%83&sa=fyb_news",
+          "type": "platform"
+        }
+      ]
+    },
+    {
+      "momentum": "rising",
+      "urgency": "now",
+      "heat": 81,
+      "mathFit": 98,
+      "visualFit": 68,
+      "lifeFit": 98,
+      "questionDensity": 98,
+      "factStatus": "needs-review",
+      "updatedAt": "2026-10-11T04:07:18.448Z",
+      "id": "health-headline-causality-check",
+      "rank": 12,
+      "title": "盐、膝盖与癌症热词并列：健康内容的第一课是别从标题推诊断",
+      "brief": "百度和微博原榜出现盐与血压、膝盖异常、鼻塞查癌、尿毒症等健康词条。适合健康传播与家庭照护创作者讲清个案、风险因素、诊断和干预之间的差别；不提供个体诊断或饮食处方，并应补充权威医疗来源后再陈述事实。",
+      "category": "健康传播与科学素养",
+      "crossPlatform": 2,
+      "priority": 91,
+      "platforms": [
+        {
+          "id": "baidu",
+          "rank": 19,
+          "score": 73.9,
+          "trend": "热议"
+        },
+        {
+          "id": "weibo",
+          "rank": 10,
+          "score": 86.95,
+          "trend": "热搜"
+        }
+      ],
+      "keywords": [
+        "健康热搜",
+        "血压",
+        "症状",
+        "风险因素",
+        "医学信息"
+      ],
+      "mathAngles": [
+        "用相关、风险、因果和诊断四层过滤健康标题",
+        "不把单个故事扩展成普遍医疗建议",
+        "为每一个结论保留可点击的医学出处与更新时间"
+      ],
+      "hooks": [
+        "一个健康热搜，为什么不能直接变成你的自查清单？",
+        "从标题到诊断之间，最容易漏掉哪三步？"
+      ],
+      "recommendedFormat": {
+        "duration": "70–105 秒",
+        "structure": "热词并列 → 四层区分 → 何时就医 → 权威来源提示"
+      },
+      "sources": [
+        {
+          "name": "百度原榜：快把家里的盐换了 可以帮助控血压",
+          "url": "https://m.baidu.com/s?word=%E5%BF%AB%E6%8A%8A%E5%AE%B6%E9%87%8C%E7%9A%84%E7%9B%90%E6%8D%A2%E4%BA%86+%E5%8F%AF%E4%BB%A5%E5%B8%AE%E5%8A%A9%E6%8E%A7%E8%A1%80%E5%8E%8B&sa=fyb_news",
+          "type": "platform"
+        },
+        {
+          "name": "百度原榜：走路膝盖突然软一下 可能是这些原因",
+          "url": "https://m.baidu.com/s?word=%E8%B5%B0%E8%B7%AF%E8%86%9D%E7%9B%96%E7%AA%81%E7%84%B6%E8%BD%AF%E4%B8%80%E4%B8%8B+%E5%8F%AF%E8%83%BD%E6%98%AF%E8%BF%99%E4%BA%9B%E5%8E%9F%E5%9B%A0&sa=fyb_news",
+          "type": "platform"
+        },
+        {
+          "name": "微博原榜：女子长期鼻塞查出患癌",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E9%95%BF%E6%9C%9F%E9%BC%BB%E5%A1%9E%E6%9F%A5%E5%87%BA%E6%82%A3%E7%99%8C%23",
+          "type": "platform"
+        },
+        {
+          "name": "微博原榜：尿毒症大多是吃出来的",
+          "url": "https://s.weibo.com/weibo?q=%E5%B0%BF%E6%AF%92%E7%97%87%E5%A4%A7%E5%A4%9A%E6%98%AF%E5%90%83%E5%87%BA%E6%9D%A5%E7%9A%84",
+          "type": "platform"
+        }
+      ]
+    }
+  ]
+}
