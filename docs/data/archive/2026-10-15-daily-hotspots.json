@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "dataMode": "live",
+  "date": "2026-10-15",
+  "generatedAt": "2026-10-15T04:01:24Z",
+  "timezone": "Asia/Shanghai",
+  "summary": {"topicCount": 12, "urgentCount": 5, "crossPlatformCount": 9, "formulaReadyCount": 12},
+  "sourceStatus": [
+    {"id":"douyin","name":"抖音","status":"fresh","items":50,"updatedAt":"2026-10-15T03:59:57.413Z"},
+    {"id":"weibo","name":"微博","status":"fresh","items":50,"updatedAt":"2026-10-15T03:59:57.413Z"},
+    {"id":"zhihu","name":"知乎","status":"partial","items":30,"updatedAt":"2026-10-15T03:59:57.413Z"},
+    {"id":"xiaohongshu","name":"小红书","status":"partial","items":10,"updatedAt":"2026-10-15T03:59:57.413Z"},
+    {"id":"baidu","name":"百度","status":"fresh","items":50,"updatedAt":"2026-10-15T03:59:57.413Z"},
+    {"id":"bilibili","name":"B站","status":"fresh","items":50,"updatedAt":"2026-10-15T03:59:57.413Z"}
+  ],
+  "trendHistory": {
+    "times": ["2026-10-09","2026-10-10","2026-10-11","2026-10-12","2026-10-13","2026-10-14","2026-10-15"],
+    "series": {
+      "douyin":[94,98,98,98,98,98,100],
+      "weibo":[100,100,100,100,100,100,100],
+      "zhihu":[60,60,60,58,60,60,60],
+      "xiaohongshu":[20,20,20,20,20,20,20],
+      "baidu":[100,100,100,100,100,100,100],
+      "bilibili":[100,100,100,100,100,100,100]
+    }
+  },
+  "topics": [
+    {
+      "id":"deepseek-service-reliability","rank":1,
+      "title":"DeepSeek 服务异常跨四榜：AI 工具内容应先讲“不可用时怎么办”",
+      "brief":"“DeepSeek 崩了”及服务暂不可用的讨论同时出现在抖音、微博、知乎与百度。适合科技、职场和效率创作者把一次异常转成用户可执行的准备：保存关键产出、准备替代流程、区分网页、应用和网络端问题；异常原因与恢复时间必须回查平台公告。",
+      "category":"科技与工作","momentum":"peak","urgency":"now","heat":96,"crossPlatform":4,"mathFit":94,"visualFit":83,"lifeFit":91,"questionDensity":94,"priority":96,
+      "platforms":[{"id":"douyin","rank":19,"score":68,"trend":"rising"},{"id":"weibo","rank":15,"score":72,"trend":"rising"},{"id":"zhihu","rank":3,"score":96,"trend":"top"},{"id":"baidu","rank":4,"score":94,"trend":"top"}],
+      "keywords":["DeepSeek","服务异常","AI 工具","工作流"],
+      "mathAngles":["画出用户端、网络、服务端与替代方案的故障边界图","用备份、导出、替代三步把一次热搜变成可操作清单"],
+      "hooks":["AI 工具突然不可用，最先该备份的不是聊天记录。","服务崩了以后，怎么不让工作流跟着停摆？"],
+      "recommendedFormat":{"duration":"60–90 秒","structure":"热榜现象 → 故障边界图 → 三步应对清单"},"factStatus":"needs-review",
+      "sources":[{"name":"知乎热榜原条目","url":"https://www.zhihu.com/question/2093997001205445814","type":"platform"},{"name":"微博热搜原条目","url":"https://s.weibo.com/weibo?q=DeepSeek%E5%B4%A9%E4%BA%86","type":"platform"}],"updatedAt":"2026-10-15T04:01:24Z"
+    },
+    {
+      "id":"yalu-river-bridge-paths","rank":2,
+      "title":"新鸭绿江大桥开通跨两榜：基建内容别只拍仪式，要画出路径变化",
+      "brief":"“中朝新鸭绿江大桥开通”在抖音与百度均居前列。交通、城市和商业创作者可用地图、口岸流程和时间成本解释基础设施与人的关联；开通安排、通行对象与运营规则不应仅据热榜标题判断。",
+      "category":"城市与基础设施","momentum":"peak","urgency":"now","heat":93,"crossPlatform":2,"mathFit":91,"visualFit":92,"lifeFit":79,"questionDensity":85,"priority":92,
+      "platforms":[{"id":"douyin","rank":1,"score":100,"trend":"top"},{"id":"baidu","rank":5,"score":92,"trend":"top"}],
+      "keywords":["鸭绿江大桥","口岸","交通","基础设施"],
+      "mathAngles":["用开通前后路线图呈现可能改变的节点","把建设完成、口岸开放与常态运营分为三个待核验层"],
+      "hooks":["一座桥开通，普通人的哪一段路先变短？","别只拍航拍：基础设施怎么落到行程表里？"],
+      "recommendedFormat":{"duration":"60–90 秒","structure":"地图开场 → 节点与路径 → 三项待核验信息"},"factStatus":"needs-review",
+      "sources":[{"name":"抖音热榜原条目","url":"https://www.douyin.com/search/%E4%B8%AD%E6%9C%9D%E6%96%B0%E9%B8%AD%E7%BB%BF%E6%B1%9F%E5%A4%A7%E6%A1%A5%E4%BB%8A%E6%97%A5%E5%BC%80%E9%80%9A","type":"platform"},{"name":"百度热榜原条目","url":"https://m.baidu.com/s?word=%E4%B8%AD%E6%9C%9D%E6%96%B0%E9%B8%AD%E7%BB%BF%E6%B1%9F%E5%A4%A7%E6%A1%A5%E6%AD%A3%E5%BC%8F%E5%BC%80%E9%80%9A&sa=fyb_news","type":"platform"}],"updatedAt":"2026-10-15T04:01:24Z"
+    },
+    {
+      "id":"concert-ticketing-system","rank":3,
+      "title":"演唱会售票、黄牛与平台异常同日升温：文娱内容可拆出票务系统而非只晒抢票",
+      "brief":"微博出现可售票数、放票、黄牛与平台异常等多条讨论，百度也出现票务平台异常、票价和周边住宿等内容。适合文娱、消费和城市创作者从供给、购票规则、候补、转售与出行成本拆解；具体票数、票价和平台状态均需回查主办方或票务平台。",
+      "category":"文娱与消费","momentum":"peak","urgency":"now","heat":91,"crossPlatform":2,"mathFit":92,"visualFit":87,"lifeFit":92,"questionDensity":95,"priority":91,
+      "platforms":[{"id":"weibo","rank":11,"score":81,"trend":"rising"},{"id":"weibo","rank":23,"score":69,"trend":"discussing"},{"id":"baidu","rank":19,"score":76,"trend":"rising"},{"id":"baidu","rank":28,"score":67,"trend":"discussing"}],
+      "keywords":["演唱会","票务","黄牛","大麦","出行成本"],
+      "mathAngles":["用供给、规则、候补、转售、出行五格图解释抢票链条","把平台异常与票价争议分开，避免把截图当作完整结论"],
+      "hooks":["抢不到票，不等于票都去哪了。","一场演唱会，为什么能同时带动票务、酒店和黄牛讨论？"],
+      "recommendedFormat":{"duration":"75–100 秒","structure":"多条热榜 → 票务链条图 → 消费者核验清单"},"factStatus":"needs-review",
+      "sources":[{"name":"微博热搜原条目","url":"https://s.weibo.com/weibo?q=%23%E5%A4%A7%E9%BA%A6%E5%85%AC%E5%B8%83%E8%82%96%E6%88%98%E6%BC%94%E5%94%B1%E4%BC%9A%E5%8F%AF%E5%94%AE%E7%A5%A8%E6%95%B0%23","type":"platform"},{"name":"百度热榜原条目","url":"https://m.baidu.com/s?word=%E5%A4%A7%E9%BA%A6%E5%B4%A9%E4%BA%86&sa=fyb_news","type":"platform"}],"updatedAt":"2026-10-15T04:01:24Z"
+    },
+    {
+      "id":"market-volatility-information-boundary","rank":4,
+      "title":"股市与贵金属波动同日上榜：财经内容先标注市场、时间与风险边界",
+      "brief":"全球和韩国股市下跌、黄金白银价格变化等话题分布在微博、抖音和百度。适合财经与生活创作者用市场、品种、时间点和信息来源拆解热榜，不将一次价格波动写成个人投资建议。",
+      "category":"财经与生活","momentum":"peak","urgency":"now","heat":89,"crossPlatform":3,"mathFit":95,"visualFit":76,"lifeFit":88,"questionDensity":92,"priority":89,
+      "platforms":[{"id":"weibo","rank":4,"score":96,"trend":"top"},{"id":"douyin","rank":14,"score":74,"trend":"rising"},{"id":"baidu","rank":7,"score":88,"trend":"top"},{"id":"baidu","rank":21,"score":65,"trend":"discussing"}],
+      "keywords":["股市","黄金","白银","市场波动","风险提示"],
+      "mathAngles":["用时间、市场、品种、涨跌幅、来源五项标注替代情绪化截图","区分市场信息解读与个体投资决策"],
+      "hooks":["看到“暴跌”，先别问抄不抄底，先看它说的是哪个市场。","一张行情图里，最容易被忽略的其实是时间点。"],
+      "recommendedFormat":{"duration":"60–90 秒","structure":"热榜切口 → 五项信息卡 → 非投资建议提示"},"factStatus":"needs-review",
+      "sources":[{"name":"微博热搜原条目","url":"https://s.weibo.com/weibo?q=%E5%85%A8%E7%90%83%E8%82%A1%E5%B8%82%E5%A4%A7%E8%B7%8C","type":"platform"},{"name":"百度热榜原条目","url":"https://m.baidu.com/s?word=%E9%BB%84%E9%87%91%E7%99%BD%E9%93%B6%E6%96%AD%E5%B4%96%E5%BC%8F%E5%A4%A7%E8%B7%8C&sa=fyb_news","type":"platform"}],"updatedAt":"2026-10-15T04:01:24Z"
+    },
+    {
+      "id":"career-switching-pay-and-meaning","rank":5,
+      "title":"高薪转教书讨论跨两榜：职业内容应把收入、时间与意义放进同一张表",
+      "brief":"名校硕士辞职转去任教及收入变化在知乎和百度均出现。适合职场与教育创作者避免把选择包装成单一“降薪勇气”，而是拆成收入、稳定性、工作内容、地域与个人偏好；当事经历不应被泛化成普遍建议。",
+      "category":"职场与教育","momentum":"rising","urgency":"today","heat":86,"crossPlatform":2,"mathFit":94,"visualFit":75,"lifeFit":93,"questionDensity":94,"priority":87,
+      "platforms":[{"id":"zhihu","rank":4,"score":95,"trend":"top"},{"id":"baidu","rank":27,"score":56,"trend":"discussing"}],
+      "keywords":["职业选择","教师","收入","工作意义","转行"],
+      "mathAngles":["建立收入、时间、稳定、成长与偏好的决策表","把个体选择与可复制的职业建议明确分层"],
+      "hooks":["降薪去当老师，是逃离还是重新选择？","职业选择最难量化的那一项，往往不是工资。"],
+      "recommendedFormat":{"duration":"60–90 秒","structure":"故事切口 → 五维决策表 → 不替人下结论"},"factStatus":"needs-review",
+      "sources":[{"name":"知乎热榜原条目","url":"https://www.zhihu.com/question/2093748550467437948","type":"platform"},{"name":"百度热榜原条目","url":"https://m.baidu.com/s?word=%E5%A5%B3%E7%A1%95%E5%A3%AB%E5%A4%A7%E5%8E%82%E8%BE%9E%E8%81%8C%E5%BD%93%E8%80%81%E5%B8%88+%E6%9C%88%E8%96%AA%E9%99%8D%E8%87%B39%E5%8D%83&sa=fyb_news","type":"platform"}],"updatedAt":"2026-10-15T04:01:24Z"
+    },
+    {
+      "id":"ai-assistant-permission-boundaries","rank":6,
+      "title":"AI 助手、手机智能体与权威感同日出现：科技内容先问“它能操作什么”",
+      "brief":"豆包相关讨论在微博和知乎登榜，B站热门也出现智能体手机发布内容。适合科技和数码创作者从权限、可见数据、可执行操作、平台限制与用户确认五层解释，而非只比较“像不像人”；具体产品能力与合作限制必须核对官方资料。",
+      "category":"科技与数码","momentum":"rising","urgency":"now","heat":85,"crossPlatform":3,"mathFit":98,"visualFit":89,"lifeFit":87,"questionDensity":98,"priority":88,
+      "platforms":[{"id":"weibo","rank":1,"score":100,"trend":"top"},{"id":"zhihu","rank":5,"score":93,"trend":"top"},{"id":"bilibili","rank":19,"score":62,"trend":"rising"}],
+      "keywords":["AI 助手","智能体手机","自动化","权限","数码"],
+      "mathAngles":["用权限层级图解释读取、建议、代操作之间的差别","把观点性讨论、产品能力与平台规则放入不同证据栏"],
+      "hooks":["一个 AI 助手“能帮你点按钮”，到底意味着什么？","讨论 AI 是否聪明前，先看它被给了哪些权限。"],
+      "recommendedFormat":{"duration":"75–100 秒","structure":"三条热榜 → 权限层级图 → 用户确认清单"},"factStatus":"needs-review",
+      "sources":[{"name":"知乎热榜原条目","url":"https://www.zhihu.com/question/2093648090582599188","type":"platform"},{"name":"B站热门原条目","url":"https://www.bilibili.com/video/BV171pm64EUP","type":"platform"}],"updatedAt":"2026-10-15T04:01:24Z"
+    },
+    {
+      "id":"application-season-identity-checks","rank":7,
+      "title":"考研与国考报名节点密集：教育内容可做“报名流程与身份核验”对照",
+      "brief":"考研报名在抖音和百度出现，国考的实名实人认证讨论则出现在微博和知乎。适合教育、求职和效率创作者比较不同考试的时间线、材料、账号与身份核验，不混淆不同考试的规则与日期。",
+      "category":"教育与求职","momentum":"rising","urgency":"today","heat":83,"crossPlatform":4,"mathFit":90,"visualFit":80,"lifeFit":94,"questionDensity":90,"priority":86,
+      "platforms":[{"id":"douyin","rank":4,"score":97,"trend":"top"},{"id":"baidu","rank":49,"score":32,"trend":"discussing"},{"id":"weibo","rank":29,"score":55,"trend":"discussing"},{"id":"zhihu","rank":22,"score":61,"trend":"discussing"}],
+      "keywords":["考研报名","国考报名","实名认证","材料清单","时间线"],
+      "mathAngles":["用时间轴和材料清单区分两类报名流程","明确提醒观众以招考公告为准，不用二手截图替代规则"],
+      "hooks":["报名季最容易漏的，往往不是截止日。","不同考试的实名认证，为什么不能用一张流程图混过去？"],
+      "recommendedFormat":{"duration":"60–90 秒","structure":"两类报名 → 对照时间轴 → 官方公告核验提示"},"factStatus":"needs-review",
+      "sources":[{"name":"抖音热榜原条目","url":"https://www.douyin.com/search/%E8%80%83%E7%A0%94%E6%8A%A5%E5%90%8D%E4%BB%8A%E5%A4%A9%E6%AD%A3%E5%BC%8F%E5%BC%80%E5%A7%8B","type":"platform"},{"name":"知乎热榜原条目","url":"https://www.zhihu.com/question/2093318924318388525","type":"platform"}],"updatedAt":"2026-10-15T04:01:24Z"
+    },
+    {
+      "id":"toothpaste-rule-shopping-guide","rank":8,
+      "title":"牙膏“新规”登榜：生活消费内容先讲适用范围，再讲避坑",
+      "brief":"百度热榜出现牙膏相关“新规”话题。适合生活、母婴与消费创作者把产品类别、标签信息、适用对象和官方规则来源列清，再给购买建议；未经核验前不把热榜标题延伸成具体健康功效或监管结论。",
+      "category":"消费与生活","momentum":"rising","urgency":"today","heat":79,"crossPlatform":1,"mathFit":85,"visualFit":72,"lifeFit":95,"questionDensity":87,"priority":81,
+      "platforms":[{"id":"baidu","rank":2,"score":98,"trend":"top"}],
+      "keywords":["牙膏","产品标签","消费避坑","规则"],
+      "mathAngles":["用产品类别、标签、适用人群、来源四栏替代口号式推荐","把“能说什么”和“需要核验什么”并列展示"],
+      "hooks":["牙膏的新规，和你买哪一支到底有什么关系？","“避坑”视频最该先给出的，其实是适用范围。"],
+      "recommendedFormat":{"duration":"45–60 秒","structure":"热榜标题 → 四栏购买卡 → 官方来源提示"},"factStatus":"needs-review",
+      "sources":[{"name":"百度热榜原条目","url":"https://m.baidu.com/s?word=%E6%96%B0%E8%A7%84%E6%9D%A5%E4%BA%86%EF%BC%81%E4%B9%B0%E7%89%99%E8%86%8F%E9%81%BF%E5%9D%91%E5%BF%85%E7%9C%8B&sa=fyb_news","type":"platform"}],"updatedAt":"2026-10-15T04:01:24Z"
+    },
+    {
+      "id":"poetry-travel-route-series","rank":9,
+      "title":"古诗词、河南与旅行拍照同榜：文旅创作者可做“文本到路线”系列",
+      "brief":"小红书榜内同时出现古诗词取景、河南、旅行拍照和家庭旅行等内容。适合旅行、摄影和文化赛道把泛美景改写成诗句、地点、季节、机位与路线的可复用清单，区分真实取景、灵感借景和后期效果。",
+      "category":"旅行与文化","momentum":"steady","urgency":"today","heat":78,"crossPlatform":1,"mathFit":84,"visualFit":98,"lifeFit":85,"questionDensity":78,"priority":83,
+      "platforms":[{"id":"xiaohongshu","rank":2,"score":98,"trend":"top"},{"id":"xiaohongshu","rank":9,"score":79,"trend":"discussing"},{"id":"xiaohongshu","rank":1,"score":100,"trend":"top"}],
+      "keywords":["古诗词","河南","旅行摄影","路线","取景"],
+      "mathAngles":["建立诗句、地点、季节、机位与交通五列选题表","把“出片”转为可验证的地点和拍摄条件"],
+      "hooks":["一首诗怎么变成一条周末路线？","不只告诉你在哪儿拍，还告诉你为什么这个季节好拍。"],
+      "recommendedFormat":{"duration":"45–75 秒","structure":"诗句开场 → 地点与机位 → 路线出处卡"},"factStatus":"needs-review",
+      "sources":[{"name":"小红书热榜原条目","url":"https://www.xiaohongshu.com/search_result?keyword=%E8%80%97%E6%97%B6%E4%B8%89%E5%B9%B4%E6%8B%8D%E4%B8%8B%E5%8F%A4%E8%AF%97%E8%AF%8D%E9%87%8C%E7%9A%84%E4%B8%AD%E5%9B%BD&type=51","type":"platform"}],"updatedAt":"2026-10-15T04:01:24Z"
+    },
+    {
+      "id":"viral-clip-secondary-harm","rank":10,
+      "title":"“撞脸陈小春”从走红到拍摄者离职跨三榜：人物热点别忽略二次伤害",
+      "brief":"工人“撞脸陈小春”及拍摄者相关讨论出现在抖音、微博和百度。适合人物、媒体素养和职场创作者以传播链说明走红、围观、追问与现实影响如何相连；当事经历和因果关系应回查当事方完整表述，避免复述未经证实细节。",
+      "category":"人物与媒体素养","momentum":"rising","urgency":"today","heat":77,"crossPlatform":3,"mathFit":91,"visualFit":85,"lifeFit":86,"questionDensity":94,"priority":84,
+      "platforms":[{"id":"douyin","rank":6,"score":94,"trend":"top"},{"id":"weibo","rank":6,"score":94,"trend":"top"},{"id":"baidu","rank":10,"score":82,"trend":"rising"}],
+      "keywords":["走红","网络围观","二次伤害","人物故事","媒体素养"],
+      "mathAngles":["画出发布、扩散、评论、追问与现实影响的传播链","将原始当事表述与二次解读分栏呈现"],
+      "hooks":["一个人因为像明星走红以后，谁承担了后续的代价？","网络热度退去后，内容创作者还该做什么？"],
+      "recommendedFormat":{"duration":"60–90 秒","structure":"热榜现象 → 传播链 → 减少二次伤害的做法"},"factStatus":"needs-review",
+      "sources":[{"name":"微博热搜原条目","url":"https://s.weibo.com/weibo?q=%23%E5%B7%A5%E4%BA%BA%E6%92%9E%E8%84%B8%E9%99%88%E5%B0%8F%E6%98%A5%E6%8B%8D%E6%91%84%E8%80%85%E5%9B%A0%E8%88%86%E8%AE%BA%E7%A6%BB%E8%81%8C%23","type":"platform"},{"name":"百度热榜原条目","url":"https://m.baidu.com/s?word=%E5%B7%A5%E4%BA%BA%E6%92%9E%E8%84%B8%E9%99%88%E5%B0%8F%E6%98%A5+%E6%8B%8D%E6%91%84%E8%80%85%E5%B7%B2%E7%A6%BB%E8%81%8C&sa=fyb_news","type":"platform"}],"updatedAt":"2026-10-15T04:01:24Z"
+    },
+    {
+      "id":"medical-accompaniment-standard","rank":11,
+      "title":"“看病请人陪”标准上榜：健康服务内容该先解释服务边界",
+      "brief":"百度热榜出现“看病请人陪”与国家标准相关话题。适合健康、养老和本地生活创作者先解释陪诊服务可能涉及的预约、陪同、沟通和隐私边界，并提醒观众核对标准文本、服务主体与当地政策；不对医疗选择或具体服务质量作未经核验的承诺。",
+      "category":"健康与养老","momentum":"rising","urgency":"today","heat":74,"crossPlatform":1,"mathFit":89,"visualFit":69,"lifeFit":94,"questionDensity":90,"priority":79,
+      "platforms":[{"id":"baidu","rank":23,"score":61,"trend":"rising"}],
+      "keywords":["陪诊","健康服务","养老","国家标准","隐私"],
+      "mathAngles":["将陪同、预约、沟通、隐私和费用列为服务边界卡","用标准原文与服务广告分层，避免把热榜当政策全文"],
+      "hooks":["“陪你看病”到底是一项什么服务？","健康服务里，最不能模糊的是谁能做什么。"],
+      "recommendedFormat":{"duration":"60 秒","structure":"热榜切口 → 服务边界卡 → 官方文本核验提示"},"factStatus":"needs-review",
+      "sources":[{"name":"百度热榜原条目","url":"https://m.baidu.com/s?word=%E2%80%9C%E7%9C%8B%E7%97%85%E8%AF%B7%E4%BA%BA%E9%99%AA%E2%80%9D%E6%9C%89%E5%9B%BD%E5%AE%B6%E6%A0%87%E5%87%86%E4%BA%86&sa=fyb_news","type":"platform"}],"updatedAt":"2026-10-15T04:01:24Z"
+    },
+    {
+      "id":"iphone-duo-consumer-claims","rank":12,
+      "title":"iPhone Duo 备案与早鸟包讨论同现：数码内容要把产品、资格与营销拆开",
+      "brief":"抖音出现 iPhone Duo 与大模型备案的条目，知乎出现早鸟包消费争议。适合数码和消费创作者将产品能力、备案或资格信息、预售权益与退款规则分别核验，不把营销话术、用户评论和官方规格混为同一事实。",
+      "category":"数码与消费","momentum":"rising","urgency":"today","heat":72,"crossPlatform":2,"mathFit":90,"visualFit":84,"lifeFit":82,"questionDensity":91,"priority":78,
+      "platforms":[{"id":"douyin","rank":23,"score":60,"trend":"rising"},{"id":"zhihu","rank":10,"score":78,"trend":"discussing"}],
+      "keywords":["iPhone Duo","预售","退款规则","备案","数码消费"],
+      "mathAngles":["用产品能力、资格信息、权益条款和售后规则四栏拆解营销叙事","在购买建议前先展示用户需要核对的原文位置"],
+      "hooks":["数码新品的一个“早鸟包”，到底买到了什么？","备案、规格和预售权益，为什么不能在一张图里混着讲？"],
+      "recommendedFormat":{"duration":"60–90 秒","structure":"两条热榜 → 四栏核验表 → 下单前检查项"},"factStatus":"needs-review",
+      "sources":[{"name":"抖音热榜原条目","url":"https://www.douyin.com/search/iPhone%20Duo%E5%B7%B2%E5%AE%8C%E6%88%90%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%A4%87%E6%A1%88","type":"platform"},{"name":"知乎热榜原条目","url":"https://www.zhihu.com/question/2093803354644112874","type":"platform"}],"updatedAt":"2026-10-15T04:01:24Z"
+    }
+  ]
+}
