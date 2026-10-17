@@ -1,0 +1,392 @@
+{
+  "schemaVersion": 1,
+  "dataMode": "live",
+  "date": "2026-10-17",
+  "generatedAt": "2026-10-17T04:03:43Z",
+  "timezone": "Asia/Shanghai",
+  "summary": {
+    "topicCount": 12,
+    "urgentCount": 4,
+    "crossPlatformCount": 8,
+    "formulaReadyCount": 12
+  },
+  "sourceStatus": [
+    {"id": "douyin", "name": "抖音", "status": "fresh", "items": 49, "updatedAt": "2026-10-17T04:02:31.496Z"},
+    {"id": "weibo", "name": "微博", "status": "fresh", "items": 50, "updatedAt": "2026-10-17T04:02:31.496Z"},
+    {"id": "zhihu", "name": "知乎", "status": "partial", "items": 50, "updatedAt": "2026-10-17T04:02:31.496Z"},
+    {"id": "xiaohongshu", "name": "小红书", "status": "partial", "items": 10, "updatedAt": "2026-10-17T04:02:31.496Z"},
+    {"id": "baidu", "name": "百度", "status": "fresh", "items": 50, "updatedAt": "2026-10-17T04:02:31.496Z"},
+    {"id": "bilibili", "name": "B站", "status": "fresh", "items": 50, "updatedAt": "2026-10-17T04:02:31.496Z"}
+  ],
+  "trendHistory": {
+    "times": ["2026-10-11", "2026-10-12", "2026-10-13", "2026-10-14", "2026-10-15", "2026-10-16", "2026-10-17"],
+    "series": {
+      "douyin": [98, 98, 98, 98, 100, 100, 98],
+      "weibo": [100, 100, 100, 100, 100, 100, 100],
+      "zhihu": [60, 58, 60, 60, 60, 58, 100],
+      "xiaohongshu": [20, 20, 20, 20, 20, 20, 20],
+      "baidu": [100, 100, 100, 100, 100, 100, 100],
+      "bilibili": [100, 100, 100, 100, 100, 100, 100]
+    }
+  },
+  "topics": [
+    {
+      "id": "canton-fair-manufacturing-shift",
+      "rank": 1,
+      "title": "广交会跨三榜：用一件商品讲清“中国制造”如何从卖产品走向卖方案",
+      "brief": "抖音、微博和百度均出现广交会及其“新”与“热门单品”讨论。适合产业、商业和品牌创作者从一个展品切入，拆解技术、供应链、客户场景与展示方式，而不是泛泛歌颂。",
+      "category": "产业与商业",
+      "momentum": "peak",
+      "urgency": "now",
+      "heat": 96,
+      "crossPlatform": 3,
+      "mathFit": 91,
+      "visualFit": 85,
+      "lifeFit": 72,
+      "questionDensity": 91,
+      "priority": 95,
+      "platforms": [
+        {"id": "douyin", "rank": 3, "score": 94, "trend": "高位"},
+        {"id": "weibo", "rank": 3, "score": 94, "trend": "高位"},
+        {"id": "baidu", "rank": 3, "score": 94, "trend": "高位"}
+      ],
+      "keywords": ["广交会", "中国制造", "智能制造", "外贸", "展品"],
+      "mathAngles": ["从单品到解决方案的价值链", "展会现场如何把复杂产品拍得可理解", "订单、交期与售后如何形成竞争力"],
+      "hooks": ["一件展品，为什么能讲出制造业升级？", "广交会的“新”，到底新在产品还是新在卖法？"],
+      "recommendedFormat": {"duration": "60–90 秒", "structure": "展品钩子 → 用户痛点 → 供应链与服务拆解 → 创作者结论"},
+      "factStatus": "needs-review",
+      "sources": [
+        {"name": "抖音热榜：广交会见证中国制造从能造到智造", "url": "https://www.douyin.com/search/%E5%B9%BF%E4%BA%A4%E4%BC%9A%E8%A7%81%E8%AF%81%E4%B8%AD%E5%9B%BD%E5%88%B6%E9%80%A0%E4%BB%8E%E8%83%BD%E9%80%A0%E5%88%B0%E6%99%BA%E9%80%A0", "type": "platform"},
+        {"name": "微博热搜：这届广交会含新量拉满了", "url": "https://s.weibo.com/weibo?q=%23%E8%BF%99%E5%B1%8A%E5%B9%BF%E4%BA%A4%E4%BC%9A%E5%90%AB%E6%96%B0%E9%87%8F%E6%8B%89%E6%BB%A1%E4%BA%86%23", "type": "platform"},
+        {"name": "百度热榜：广交会70年热门单品大变迁", "url": "https://m.baidu.com/s?word=%E5%B9%BF%E4%BA%A4%E4%BC%9A70%E5%B9%B4%E2%80%9C%E7%83%AD%E9%97%A8%E5%8D%95%E5%93%81%E2%80%9D%E5%A4%A7%E5%8F%98%E8%BF%81&sa=fyb_news", "type": "platform"}
+      ],
+      "updatedAt": "2026-10-17T04:03:43Z"
+    },
+    {
+      "id": "roadster-claim-check",
+      "rank": 2,
+      "title": "Roadster“会飞”跨四榜：先把宣传画面、工程原理和量产承诺分开",
+      "brief": "Roadster 与“会飞”相关讨论出现在抖音、微博、知乎和 B 站。汽车、科技与财经创作者都可做主张核验：哪些是演示、哪些是设计设想、哪些已经有可复现证据。",
+      "category": "汽车与科技",
+      "momentum": "peak",
+      "urgency": "now",
+      "heat": 95,
+      "crossPlatform": 4,
+      "mathFit": 94,
+      "visualFit": 94,
+      "lifeFit": 75,
+      "questionDensity": 95,
+      "priority": 94,
+      "platforms": [
+        {"id": "douyin", "rank": 33, "score": 66, "trend": "讨论扩散"},
+        {"id": "weibo", "rank": 27, "score": 72, "trend": "讨论扩散"},
+        {"id": "zhihu", "rank": 1, "score": 96, "trend": "高位"},
+        {"id": "bilibili", "rank": 20, "score": 79, "trend": "深度解读"}
+      ],
+      "keywords": ["Roadster", "特斯拉", "飞行汽车", "宣传核验", "量产"],
+      "mathAngles": ["演示效果与产品能力的证据层级", "空气动力、推力与安全约束的通俗解释", "新品发布如何影响市场预期"],
+      "hooks": ["一辆“会飞”的车，先别急着问酷不酷。", "把发布会里的三句话拆开，哪一句有证据？"],
+      "recommendedFormat": {"duration": "75–120 秒", "structure": "热门画面 → 三层主张拆分 → 可核验资料清单 → 风险提示"},
+      "factStatus": "needs-review",
+      "sources": [
+        {"name": "抖音热榜：特斯拉发布第二代Roadster跑车", "url": "https://www.douyin.com/search/%E7%89%B9%E6%96%AF%E6%8B%89%E5%8F%91%E5%B8%83%E7%AC%AC%E4%BA%8C%E4%BB%A3Roadster%E8%B7%91%E8%BD%A6", "type": "platform"},
+        {"name": "知乎热榜：特斯拉为啥要造一款会飞的汽车", "url": "https://www.zhihu.com/question/2094526225645401301", "type": "platform"},
+        {"name": "B站热门：Roadster 2造车门槛是什么", "url": "https://www.bilibili.com/video/BV15BJX6dEoR", "type": "platform"}
+      ],
+      "updatedAt": "2026-10-17T04:03:43Z"
+    },
+    {
+      "id": "auto-testing-marketing-boundary",
+      "rank": 3,
+      "title": "车企座谈登两榜：把测试验证和营销话术放进同一张检查表",
+      "brief": "抖音与知乎均出现四部门组织车企座谈及测试验证、宣传边界的讨论。适合汽车、法律和消费内容做“看到一个宣传语后该问什么”的实用清单。",
+      "category": "产业与规则",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 88,
+      "crossPlatform": 2,
+      "mathFit": 91,
+      "visualFit": 79,
+      "lifeFit": 84,
+      "questionDensity": 93,
+      "priority": 90,
+      "platforms": [
+        {"id": "douyin", "rank": 7, "score": 90, "trend": "高位"},
+        {"id": "zhihu", "rank": 11, "score": 86, "trend": "讨论扩散"}
+      ],
+      "keywords": ["车企", "测试验证", "宣传", "消费者", "规则"],
+      "mathAngles": ["把产品主张转成可验证的指标", "测试条件、样本与结论之间的边界", "消费者如何读懂性能比较"],
+      "hooks": ["一句“遥遥领先”，在买车前该怎么验证？", "测试通过不等于每一种场景都安全。"],
+      "recommendedFormat": {"duration": "60–90 秒", "structure": "热榜标题 → 四个核验问题 → 购车场景示例 → 来源提示"},
+      "factStatus": "needs-review",
+      "sources": [
+        {"name": "抖音热榜：四部门组织30余家车企座谈", "url": "https://www.douyin.com/search/%E5%9B%9B%E9%83%A8%E9%97%A8%E7%BB%84%E7%BB%8730%E4%BD%99%E5%AE%B6%E8%BD%A6%E4%BC%81%E5%BA%A7%E8%B0%88", "type": "platform"},
+        {"name": "知乎热榜：加强车企研发测试验证管理", "url": "https://www.zhihu.com/question/2094512887410549186", "type": "platform"}
+      ],
+      "updatedAt": "2026-10-17T04:03:43Z"
+    },
+    {
+      "id": "wage-and-celebrity-accountability",
+      "rank": 4,
+      "title": "“血汗钱”两榜同列：娱乐话题也能回到企业责任与信息核验",
+      "brief": "同一争议表述位居微博与百度第一。适合财经、职场、法律及娱乐观察创作者先说明未经独立核验的边界，再讲劳动报酬、企业关联与公开信息应如何查证。",
+      "category": "职场与消费",
+      "momentum": "peak",
+      "urgency": "now",
+      "heat": 94,
+      "crossPlatform": 2,
+      "mathFit": 89,
+      "visualFit": 77,
+      "lifeFit": 92,
+      "questionDensity": 94,
+      "priority": 90,
+      "platforms": [
+        {"id": "weibo", "rank": 1, "score": 96, "trend": "高位"},
+        {"id": "baidu", "rank": 1, "score": 96, "trend": "高位"}
+      ],
+      "keywords": ["欠薪", "劳动报酬", "企业责任", "娱乐观察", "核验"],
+      "mathAngles": ["热搜标题与可确认事实如何分层", "劳动争议中哪些公开记录可追溯", "流量话题如何避免把猜测当结论"],
+      "hooks": ["热搜第一的争议，创作者第一步不该是站队。", "一条企业争议视频，哪些信息必须留出核验位？"],
+      "recommendedFormat": {"duration": "45–75 秒", "structure": "争议标题 → 已知与未知 → 查证路径 → 讨论边界"},
+      "factStatus": "needs-review",
+      "sources": [
+        {"name": "微博热搜：拿打工人血汗钱给女儿铺星路", "url": "https://s.weibo.com/weibo?q=%23%E6%8B%BF%E6%89%93%E5%B7%A5%E4%BA%BA%E8%A1%80%E6%B1%97%E9%92%B1%E7%BB%99%E5%A5%B3%E5%84%BF%E9%93%BA%E6%98%9F%E8%B7%AF%23", "type": "platform"},
+        {"name": "百度热榜：拿员工血汗钱给女儿铺星路", "url": "https://m.baidu.com/s?word=%E6%8B%BF%E5%91%98%E5%B7%A5%E8%A1%80%E6%B1%97%E9%92%B1%E7%BB%99%E5%A5%B3%E5%84%BF%E9%93%BA%E6%98%9F%E8%B7%AF&sa=fyb_news", "type": "platform"}
+      ],
+      "updatedAt": "2026-10-17T04:03:43Z"
+    },
+    {
+      "id": "luoyang-museum-rumor-response",
+      "rank": 5,
+      "title": "洛阳博物馆辟谣跨两榜：文博内容适合做“谣言是怎样被拆掉的”",
+      "brief": "知乎与百度均出现洛阳博物馆回应和“传国玉玺”传言。文化、历史与本地生活创作者可用公开回应、藏品逻辑和传播路径做一次不猎奇的辟谣复盘。",
+      "category": "文化与公共信息",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 87,
+      "crossPlatform": 2,
+      "mathFit": 90,
+      "visualFit": 86,
+      "lifeFit": 78,
+      "questionDensity": 91,
+      "priority": 88,
+      "platforms": [
+        {"id": "zhihu", "rank": 2, "score": 95, "trend": "高位"},
+        {"id": "baidu", "rank": 11, "score": 86, "trend": "讨论扩散"}
+      ],
+      "keywords": ["洛阳", "博物馆", "辟谣", "文博", "历史传播"],
+      "mathAngles": ["谣言的叙事诱因与证据缺口", "博物馆更新与公众期待如何沟通", "历史内容的来源标注方法"],
+      "hooks": ["“挖出国宝”的消息，为什么总能迅速扩散？", "一条博物馆辟谣，能教会观众什么？"],
+      "recommendedFormat": {"duration": "60–90 秒", "structure": "传言钩子 → 官方回应待核点 → 史料与常识检验 → 信息素养收尾"},
+      "factStatus": "needs-review",
+      "sources": [
+        {"name": "知乎热榜：洛阳博物馆回应与辟谣", "url": "https://www.zhihu.com/question/2094385669615218922", "type": "platform"},
+        {"name": "百度热榜：洛阳辟谣挖出传国玉玺", "url": "https://m.baidu.com/s?word=%E6%B4%9B%E9%98%B3%E8%BE%9F%E8%B0%A3%E6%8C%96%E5%87%BA%E2%80%9C%E4%BC%A0%E5%9B%BD%E7%8E%89%E7%8E%BA%E2%80%9D&sa=fyb_news", "type": "platform"}
+      ],
+      "updatedAt": "2026-10-17T04:03:43Z"
+    },
+    {
+      "id": "autumn-travel-camera-story",
+      "rank": 6,
+      "title": "秋日旅行影像同日升温：别只教姿势，也展示一张照片的“前后工作”",
+      "brief": "抖音的喀纳斯秋日实况与小红书的旅行拍照话题同时靠前。旅行、摄影和本地生活创作者可把取景、等待、天气、路线与修图边界拍成可复制的系列。",
+      "category": "旅行与影像",
+      "momentum": "peak",
+      "urgency": "today",
+      "heat": 89,
+      "crossPlatform": 2,
+      "mathFit": 83,
+      "visualFit": 98,
+      "lifeFit": 90,
+      "questionDensity": 80,
+      "priority": 87,
+      "platforms": [
+        {"id": "douyin", "rank": 2, "score": 95, "trend": "高位"},
+        {"id": "xiaohongshu", "rank": 1, "score": 96, "trend": "高位"}
+      ],
+      "keywords": ["喀纳斯", "秋日", "旅行摄影", "出片", "路线"],
+      "mathAngles": ["同一景点的时间、机位与天气选择", "照片成片背后的路线和等待成本", "旅行攻略如何说明适用条件"],
+      "hooks": ["好看的旅行照，镜头之外还做了什么？", "别只抄姿势：先学会判断你该不该去。"],
+      "recommendedFormat": {"duration": "30–60 秒", "structure": "成片对比 → 到达与取景过程 → 适用条件 → 保存型清单"},
+      "factStatus": "needs-review",
+      "sources": [
+        {"name": "抖音热榜：喀纳斯秋日实况", "url": "https://www.douyin.com/search/%E5%96%80%E7%BA%B3%E6%96%AF%E7%A7%8B%E6%97%A5%E5%AE%9E%E5%86%B5", "type": "platform"},
+        {"name": "小红书热榜：用万能旅行拍照姿势美美出片", "url": "https://www.xiaohongshu.com/search_result?keyword=%E7%94%A8%E4%B8%87%E8%83%BD%E6%97%85%E8%A1%8C%E6%8B%8D%E7%85%A7%E5%A7%BF%E5%8A%BF%E7%BE%8E%E7%BE%8E%E5%87%BA%E7%89%87&type=51", "type": "platform"}
+      ],
+      "updatedAt": "2026-10-17T04:03:43Z"
+    },
+    {
+      "id": "poetry-china-location-series",
+      "rank": 7,
+      "title": "“古诗词里的中国”占小红书两席：文化内容可以把诗句还原成一条真实路线",
+      "brief": "小红书同时出现“耗时三年拍下古诗词里的中国”和河南相关话题。文旅、历史和影像创作者可把一句诗、一处地理、一段史料与拍摄方法组织成系列，而非只做风景混剪。",
+      "category": "文化与文旅",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 83,
+      "crossPlatform": 1,
+      "mathFit": 87,
+      "visualFit": 94,
+      "lifeFit": 79,
+      "questionDensity": 82,
+      "priority": 85,
+      "platforms": [
+        {"id": "xiaohongshu", "rank": 2, "score": 95, "trend": "高位"}
+      ],
+      "keywords": ["古诗词", "中国", "河南", "文旅", "影像"],
+      "mathAngles": ["诗句、地名与史料的对应关系", "拍摄路线如何兼顾可达性与季节", "文化短片如何避免把联想说成考据"],
+      "hooks": ["一句古诗，能带你走到哪里？", "把“诗和远方”拍成一条能照着走的路线。"],
+      "recommendedFormat": {"duration": "60–90 秒", "structure": "诗句钩子 → 地理现场 → 史料提示 → 路线与拍摄建议"},
+      "factStatus": "needs-review",
+      "sources": [
+        {"name": "小红书热榜：耗时三年拍下古诗词里的中国", "url": "https://www.xiaohongshu.com/search_result?keyword=%E8%80%97%E6%97%B6%E4%B8%89%E5%B9%B4%E6%8B%8D%E4%B8%8B%E5%8F%A4%E8%AF%97%E8%AF%8D%E9%87%8C%E7%9A%84%E4%B8%AD%E5%9B%BD&type=51", "type": "platform"},
+        {"name": "小红书热榜：原来古诗词里的河南真的存在", "url": "https://www.xiaohongshu.com/search_result?keyword=%E5%8E%9F%E6%9D%A5%E5%8F%A4%E8%AF%97%E8%AF%8D%E9%87%8C%E7%9A%84%E6%B2%B3%E5%8D%97%E7%9C%9F%E7%9A%84%E5%AD%98%E5%9C%A8&type=51", "type": "platform"}
+      ],
+      "updatedAt": "2026-10-17T04:03:43Z"
+    },
+    {
+      "id": "ito-mima-career-turning-point",
+      "rank": 8,
+      "title": "伊藤美诚话题跨两榜：体育叙事可从“输赢”转向职业转折的证据链",
+      "brief": "知乎与百度都出现与伊藤美诚相关的话题。体育创作者可讨论排名、选拔、状态和职业身份变化之间的区别，避免把粉丝猜测写成退役结论。",
+      "category": "体育与人物",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 80,
+      "crossPlatform": 2,
+      "mathFit": 86,
+      "visualFit": 80,
+      "lifeFit": 72,
+      "questionDensity": 88,
+      "priority": 84,
+      "platforms": [
+        {"id": "zhihu", "rank": 6, "score": 91, "trend": "高位"},
+        {"id": "baidu", "rank": 32, "score": 67, "trend": "讨论扩散"}
+      ],
+      "keywords": ["伊藤美诚", "乒乓球", "职业生涯", "选拔", "体育叙事"],
+      "mathAngles": ["赛事结果、排名与选拔资格的区别", "职业转折应看哪些公开信号", "人物内容如何处理不确定性"],
+      "hooks": ["一条体育热搜，能直接推导出“告别赛场”吗？", "运动员的职业转折，不只是一场比赛。"],
+      "recommendedFormat": {"duration": "60–90 秒", "structure": "热榜问题 → 三类公开信息 → 不确定性说明 → 观赛视角"},
+      "factStatus": "needs-review",
+      "sources": [
+        {"name": "知乎热榜：伊藤美诚会彻底告别乒坛吗", "url": "https://www.zhihu.com/question/2094555391921059009", "type": "platform"},
+        {"name": "百度热榜：日乒唯一乒乓奥运金牌出自伊藤美诚", "url": "https://m.baidu.com/s?word=%E6%97%A5%E4%B9%92%E5%94%AF%E4%B8%80%E4%B9%92%E4%B9%93%E5%A5%A5%E8%BF%90%E9%87%91%E7%89%8C%E5%87%BA%E8%87%AA%E4%BC%8A%E8%97%A4%E7%BE%8E%E8%AF%9A&sa=fyb_news", "type": "platform"}
+      ],
+      "updatedAt": "2026-10-17T04:03:43Z"
+    },
+    {
+      "id": "ai-agent-security-boundaries",
+      "rank": 9,
+      "title": "AI 智能体一边上热榜一边进争议：效率演示前，先讲权限与密钥边界",
+      "brief": "知乎出现 AI 智能体与泄露密钥、绕过反爬相关讨论，B站则有个人智能体效率内容。科技、职场和安全创作者适合将“能帮忙”与“被授权做什么”放在同一个案例里。",
+      "category": "AI与数字安全",
+      "momentum": "rising",
+      "urgency": "now",
+      "heat": 78,
+      "crossPlatform": 2,
+      "mathFit": 95,
+      "visualFit": 82,
+      "lifeFit": 82,
+      "questionDensity": 96,
+      "priority": 83,
+      "platforms": [
+        {"id": "zhihu", "rank": 10, "score": 87, "trend": "讨论扩散"},
+        {"id": "bilibili", "rank": 47, "score": 52, "trend": "案例延展"}
+      ],
+      "keywords": ["AI智能体", "密钥", "授权", "反爬", "效率工具"],
+      "mathAngles": ["能力、权限与责任的三层模型", "演示环境和真实账号的安全差异", "个人使用智能体前的最小权限清单"],
+      "hooks": ["AI 能替你点地图，为什么不等于它该拿到你的密钥？", "一个智能体演示，最该展示的是权限面板。"],
+      "recommendedFormat": {"duration": "60–90 秒", "structure": "效率场景 → 权限边界 → 风险案例待核 → 自查清单"},
+      "factStatus": "needs-review",
+      "sources": [
+        {"name": "知乎热榜：AI智能体与泄露密钥争议", "url": "https://www.zhihu.com/question/2094037238065714517", "type": "platform"},
+        {"name": "B站热门：个人智能体是怎么抢着帮我干活的", "url": "https://www.bilibili.com/video/BV1BSJQ6bE6q", "type": "platform"}
+      ],
+      "updatedAt": "2026-10-17T04:03:43Z"
+    },
+    {
+      "id": "hotel-hygiene-advice-checklist",
+      "rank": 10,
+      "title": "住酒店自带物品冲上微博第二：健康内容要给“必要性分级”而非制造焦虑",
+      "brief": "“皮肤科医生建议住酒店自带4样东西”位居微博第二。健康、旅行和生活方式创作者可把建议拆成高风险场景、个人需要与可选项，并清楚标注不能替代专业诊疗。",
+      "category": "健康与生活",
+      "momentum": "peak",
+      "urgency": "today",
+      "heat": 76,
+      "crossPlatform": 1,
+      "mathFit": 85,
+      "visualFit": 73,
+      "lifeFit": 95,
+      "questionDensity": 86,
+      "priority": 81,
+      "platforms": [
+        {"id": "weibo", "rank": 2, "score": 95, "trend": "高位"}
+      ],
+      "keywords": ["酒店", "皮肤科", "旅行健康", "生活建议", "风险分级"],
+      "mathAngles": ["建议适用人群与风险场景分级", "个人卫生习惯和医疗建议的边界", "生活科普如何避免把个案说成通则"],
+      "hooks": ["住酒店到底该带什么？先别把行李箱装满。", "健康建议最重要的不是“几样”，而是适不适合你。"],
+      "recommendedFormat": {"duration": "45–60 秒", "structure": "热榜建议 → 三档场景 → 不适用人群 → 就医边界"},
+      "factStatus": "needs-review",
+      "sources": [
+        {"name": "微博热搜：皮肤科医生建议住酒店自带4样东西", "url": "https://s.weibo.com/weibo?q=%23%E7%9A%AE%E8%82%A4%E7%A7%91%E5%8C%BB%E7%94%9F%E5%BB%BA%E8%AE%AE%E4%BD%8F%E9%85%92%E5%BA%97%E8%87%AA%E5%B8%A64%E6%A0%B7%E4%B8%9C%E8%A5%BF%23", "type": "platform"}
+      ],
+      "updatedAt": "2026-10-17T04:03:43Z"
+    },
+    {
+      "id": "global-time-scale-change",
+      "rank": 11,
+      "title": "“全球时间标尺”上榜：把看不见的标准讲成每个人都依赖的基础设施",
+      "brief": "百度出现全球时间标尺调整相关话题。科学、工程和教育创作者可以从手机校时、导航定位、交易记录与跨国协作切入，提醒观众以权威计量机构的正式说明为准。",
+      "category": "科学与基础设施",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 70,
+      "crossPlatform": 1,
+      "mathFit": 96,
+      "visualFit": 79,
+      "lifeFit": 74,
+      "questionDensity": 92,
+      "priority": 79,
+      "platforms": [
+        {"id": "baidu", "rank": 48, "score": 51, "trend": "新出现"}
+      ],
+      "keywords": ["时间标准", "计量", "导航", "基础设施", "科学传播"],
+      "mathAngles": ["标准时间怎样同步到日常设备", "精确计时为何影响导航和网络", "新闻标题中的标准变更应向谁核验"],
+      "hooks": ["手机自动校时的背后，藏着怎样一把全球时钟？", "时间标准有变化，为什么你可能完全感觉不到？"],
+      "recommendedFormat": {"duration": "60–90 秒", "structure": "日常场景 → 时间标准原理 → 影响范围 → 官方资料待补"},
+      "factStatus": "needs-review",
+      "sources": [
+        {"name": "百度热榜：全球时间标尺为何大调整", "url": "https://m.baidu.com/s?word=%E5%85%A8%E7%90%83%E6%97%B6%E9%97%B4%E6%A0%87%E5%B0%BA%E4%B8%BA%E4%BD%95%E5%A4%A7%E8%B0%83%E6%95%B4&sa=fyb_news", "type": "platform"}
+      ],
+      "updatedAt": "2026-10-17T04:03:43Z"
+    },
+    {
+      "id": "smartphone-storage-value",
+      "rank": 12,
+      "title": "手机内存“越卖越小”上榜：数码测评可把容量、价格与使用周期放进同一笔账",
+      "brief": "百度热榜出现手机内存相关讨论。数码、消费和理财创作者可用真实机型参数、可用空间、云服务成本和换机周期比较“看上去便宜”的版本是否真的划算。",
+      "category": "数码与消费",
+      "momentum": "steady",
+      "urgency": "evergreen",
+      "heat": 68,
+      "crossPlatform": 1,
+      "mathFit": 93,
+      "visualFit": 76,
+      "lifeFit": 90,
+      "questionDensity": 89,
+      "priority": 78,
+      "platforms": [
+        {"id": "baidu", "rank": 25, "score": 74, "trend": "讨论扩散"}
+      ],
+      "keywords": ["手机内存", "存储容量", "云服务", "换机", "消费决策"],
+      "mathAngles": ["标称容量与实际可用空间", "云订阅和本地存储的长期成本", "不同使用强度下的容量选择"],
+      "hooks": ["128GB 到底够不够？先算完三年的账。", "低配版便宜，可能只是把成本转移到了以后。"],
+      "recommendedFormat": {"duration": "45–75 秒", "structure": "热榜问题 → 使用情景分组 → 三年成本表 → 购买建议"},
+      "factStatus": "needs-review",
+      "sources": [
+        {"name": "百度热榜：手机内存越卖越小", "url": "https://m.baidu.com/s?word=%E6%89%8B%E6%9C%BA%E5%86%85%E5%AD%98%E8%B6%8A%E5%8D%96%E8%B6%8A%E5%B0%8F&sa=fyb_news", "type": "platform"}
+      ],
+      "updatedAt": "2026-10-17T04:03:43Z"
+    }
+  ]
+}
