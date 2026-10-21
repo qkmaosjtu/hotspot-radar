@@ -1,41 +1,178 @@
 {
   "schemaVersion": 1,
   "dataMode": "live",
-  "date": "2026-10-19",
-  "generatedAt": "2026-10-19T04:00:45Z",
+  "date": "2026-10-21",
+  "generatedAt": "2026-10-21T15:53:14.014Z",
   "timezone": "Asia/Shanghai",
-  "summary": {"topicCount": 12, "urgentCount": 4, "crossPlatformCount": 9, "formulaReadyCount": 12},
+  "summary": {
+    "topicCount": 12,
+    "urgentCount": 4,
+    "crossPlatformCount": 10,
+    "formulaReadyCount": 12
+  },
   "sourceStatus": [
-    {"id":"douyin","name":"抖音","status":"fresh","items":50,"updatedAt":"2026-10-19T03:59:22.295Z"},
-    {"id":"weibo","name":"微博","status":"fresh","items":50,"updatedAt":"2026-10-19T03:59:22.295Z"},
-    {"id":"zhihu","name":"知乎","status":"partial","items":50,"updatedAt":"2026-10-19T03:59:22.295Z"},
-    {"id":"xiaohongshu","name":"小红书","status":"partial","items":10,"updatedAt":"2026-10-19T03:59:22.295Z"},
-    {"id":"baidu","name":"百度","status":"fresh","items":50,"updatedAt":"2026-10-19T03:59:22.295Z"},
-    {"id":"bilibili","name":"B站","status":"fresh","items":50,"updatedAt":"2026-10-19T03:59:22.295Z"}
+    {"id":"douyin","name":"抖音","status":"fresh","items":49,"updatedAt":"2026-10-21T15:51:43.718Z"},
+    {"id":"weibo","name":"微博","status":"fresh","items":50,"updatedAt":"2026-10-21T15:51:43.718Z"},
+    {"id":"zhihu","name":"知乎","status":"partial","items":50,"updatedAt":"2026-10-21T15:51:43.718Z"},
+    {"id":"xiaohongshu","name":"小红书","status":"partial","items":10,"updatedAt":"2026-10-21T15:51:43.718Z"},
+    {"id":"baidu","name":"百度","status":"fresh","items":50,"updatedAt":"2026-10-21T15:51:43.718Z"},
+    {"id":"bilibili","name":"B站","status":"fresh","items":50,"updatedAt":"2026-10-21T15:51:43.718Z"}
   ],
   "trendHistory": {
-    "times": ["2026-10-13","2026-10-14","2026-10-15","2026-10-16","2026-10-17","2026-10-18","2026-10-19"],
+    "times": ["2026-10-14","2026-10-15","2026-10-16","2026-10-17","2026-10-18","2026-10-19","2026-10-21"],
     "series": {
-      "douyin":[98,98,100,100,98,98,100],
+      "douyin":[98,100,100,98,98,100,98],
       "weibo":[100,100,100,100,100,100,100],
-      "zhihu":[60,60,60,58,100,100,100],
+      "zhihu":[60,60,58,100,100,100,100],
       "xiaohongshu":[20,20,20,20,20,20,20],
       "baidu":[100,100,100,100,100,100,100],
       "bilibili":[100,100,100,100,100,100,100]
     }
   },
   "topics": [
-    {"id":"france-protests-context-and-safety","rank":1,"title":"法国抗议跨三榜：国际突发内容先把现场、背景与不确定性拆开","brief":"法国多地抗议和骚乱相关条目同时位于抖音、微博和知乎原榜前列。国际新闻、时事与旅行创作者可用地点、时间线、信息来源和对普通人的影响组织内容；未取得权威通报前，不扩写伤亡、责任或事件起因。","category":"国际与公共议题","momentum":"peak","urgency":"now","heat":96,"crossPlatform":3,"mathFit":93,"visualFit":82,"lifeFit":78,"questionDensity":96,"priority":95,"platforms":[{"id":"zhihu","rank":1,"score":100,"trend":"高位讨论（partial 快照）"},{"id":"weibo","rank":18,"score":82,"trend":"持续热议"},{"id":"douyin","rank":9,"score":90,"trend":"高位扩散"}],"keywords":["法国","抗议","国际新闻","信息核验","旅行安全"],"mathAngles":["用地点、时间、来源和已知/未知字段建立事件卡片","区分现场视频、机构通报和观点评论","把安全提醒写成条件化建议而非预测"],"hooks":["一条国际突发视频，哪四项信息不齐就不能下结论？","为什么同一场抗议，在不同平台看起来像三件事？"],"recommendedFormat":{"duration":"60–90 秒","structure":"热榜切片 → 时间地点核验 → 已知/未知分栏 → 信息源与安全提示"},"factStatus":"needs-review","sources":[{"name":"知乎原榜：法国学校抗议讨论","url":"https://www.zhihu.com/question/2090011710354633282","type":"platform"},{"name":"微博原榜：欧洲多国示威","url":"https://s.weibo.com/weibo?q=%23%E6%AC%A7%E6%B4%B2%E5%A4%9A%E5%9B%BD%E7%88%86%E5%8F%91%E7%A4%BA%E5%A8%81%23","type":"platform"}],"updatedAt":"2026-10-19T04:00:45Z"},
-    {"id":"gdp-data-explainer","rank":2,"title":"GDP 增速上抖音榜：宏观数据内容先让观众看懂口径与自己有什么关系","brief":"“前三季度我国GDP同比增长4.6%”位列抖音原榜第 2 位。财经、职场、消费和城市生活创作者可把同比、时间区间、统计范围与个人感受分开讲；具体指标与原始发布须再回查权威统计来源。","category":"财经与生活","momentum":"peak","urgency":"today","heat":94,"crossPlatform":1,"mathFit":98,"visualFit":76,"lifeFit":94,"questionDensity":95,"priority":93,"platforms":[{"id":"douyin","rank":2,"score":98,"trend":"高位"}],"keywords":["GDP","同比","宏观数据","消费","就业"],"mathAngles":["用同比、环比、总量和人均四格避免混用概念","将统计周期与观众关心的消费、工作和行业观察分层","任何数字先标来源、口径和发布日期"],"hooks":["GDP 增长 4.6%，到底是哪一段时间、和谁相比？","宏观数字上热搜，普通人最该先补的不是观点而是哪三个标签？"],"recommendedFormat":{"duration":"55–85 秒","structure":"原榜数字 → 口径翻译 → 日常关联的边界 → 权威数据入口"},"factStatus":"needs-review","sources":[{"name":"抖音原榜：前三季度我国GDP同比增长4.6%","url":"https://www.douyin.com/search/%E5%89%8D%E4%B8%89%E5%AD%A3%E5%BA%A6%E6%88%91%E5%9B%BDGDP%E5%90%8C%E6%AF%94%E5%A2%9E%E9%95%BF4.6%25%20%E2%80%8B","type":"platform"}],"updatedAt":"2026-10-19T04:00:45Z"},
-    {"id":"victoria-secret-show-production","rank":3,"title":"维密大秀多榜刷屏：时尚内容可以从“谁出场”升级为一场秀怎样被制作","brief":"2026 维密大秀及相关模特、造型话题分布在抖音、微博和百度。时尚、摄影、品牌与幕后创作者可从试装、舞台、镜头调度和传播素材切入，区分官方发布、现场观感与未经证实的花絮。","category":"时尚与娱乐","momentum":"peak","urgency":"now","heat":93,"crossPlatform":3,"mathFit":82,"visualFit":99,"lifeFit":85,"questionDensity":83,"priority":92,"platforms":[{"id":"weibo","rank":4,"score":95,"trend":"高位"},{"id":"douyin","rank":10,"score":89,"trend":"高位"},{"id":"baidu","rank":9,"score":90,"trend":"高位"}],"keywords":["维密大秀","时尚","模特","舞台制作","品牌传播"],"mathAngles":["拆解一场大秀的造型、灯光、走位和镜头工序","用一条时间线区分官方物料、媒体报道和观众二创","比较“看秀”与“做秀”各自需要的专业环节"],"hooks":["一场时尚大秀，真正决定刷屏的只有翅膀吗？","从后台到热搜，一条 60 秒视频怎样讲清一场秀的生产链？"],"recommendedFormat":{"duration":"45–75 秒","structure":"高光画面 → 幕后工序 → 镜头拆解 → 来源标注"},"factStatus":"needs-review","sources":[{"name":"微博原榜：科比大女儿娜塔莉亚亮相维密大秀","url":"https://s.weibo.com/weibo?q=%23%E7%A7%91%E6%AF%94%E5%A4%A7%E5%A5%B3%E5%84%BF%E5%A8%9C%E5%A1%94%E8%8E%89%E4%BA%9A%E4%BA%AE%E7%9B%B8%E7%BB%B4%E5%AF%86%E5%A4%A7%E7%A7%80%23","type":"platform"},{"name":"百度原榜：刘雯第10次登上维密大秀","url":"https://m.baidu.com/s?word=%E5%88%98%E9%9B%AF%E7%AC%AC10%E6%AC%A1%E7%99%BB%E4%B8%8A%E7%BB%B4%E5%AF%86%E5%A4%A7%E7%A7%80&sa=fyb_news","type":"platform"}],"updatedAt":"2026-10-19T04:00:45Z"},
-    {"id":"s16-esports-draw-to-story","rank":4,"title":"S16 瑞士轮跨三榜：电竞赛前内容别只报抽签，做一张人人看得懂的对阵图","brief":"S16 瑞士轮首轮抽签、T1 开门红和赛程讨论同时出现于抖音、微博与知乎。电竞、数据和观赛陪伴型创作者可解释赛制、对阵、战队状态和观赛入口，避免把单场结果提前写成整个赛事结论。","category":"电竞与体育","momentum":"rising","urgency":"now","heat":92,"crossPlatform":3,"mathFit":94,"visualFit":91,"lifeFit":82,"questionDensity":94,"priority":92,"platforms":[{"id":"douyin","rank":6,"score":93,"trend":"高位"},{"id":"zhihu","rank":11,"score":88,"trend":"深度讨论（partial 快照）"},{"id":"weibo","rank":41,"score":64,"trend":"赛果扩散"}],"keywords":["S16","瑞士轮","电竞","抽签","赛制"],"mathAngles":["把抽签、轮次、晋级条件和赛程画成一张分支图","区分赛制信息、选手状态和观众预测","用对阵历史时标注样本与比赛版本"],"hooks":["抽签出来以后，最该先看的是对手名字还是晋级规则？","为什么一张对阵图比“强强对话”更能留住非核心观众？"],"recommendedFormat":{"duration":"50–80 秒","structure":"抽签结果 → 赛制图解 → 两组看点 → 观赛时间与来源"},"factStatus":"needs-review","sources":[{"name":"抖音原榜：S16瑞士轮首轮抽签结果","url":"https://www.douyin.com/search/S16%E7%91%9E%E5%A3%AB%E8%BD%AE%E9%A6%96%E8%BD%AE%E6%8A%BD%E7%AD%BE%E7%BB%93%E6%9E%9C","type":"platform"},{"name":"知乎原榜：S16瑞士轮首轮讨论","url":"https://www.zhihu.com/question/2095381840173471314","type":"platform"}],"updatedAt":"2026-10-19T04:00:45Z"},
-    {"id":"travel-poetry-and-place","rank":5,"title":"旅行出片与古诗词都在榜：文旅内容可把滤镜升级为一条真实可走的路线","brief":"旅行拍照、古诗词里的中国与贵州、秦岭等景观条目分布在抖音和小红书。文旅、摄影与本地生活创作者可把景点、季节、拍摄窗口、交通和环境保护同框呈现，不以单条“万能模板”代替具体路线。","category":"旅行与文化","momentum":"peak","urgency":"today","heat":91,"crossPlatform":2,"mathFit":89,"visualFit":99,"lifeFit":95,"questionDensity":89,"priority":91,"platforms":[{"id":"xiaohongshu","rank":1,"score":98,"trend":"高位（partial 快照）"},{"id":"douyin","rank":1,"score":98,"trend":"高位"}],"keywords":["旅行摄影","古诗词","贵州","路线","出片"],"mathAngles":["把光线、天气、交通、步行和客流做成路线变量","给诗词意境补上地点出处与当下拍摄条件","将个人审美体验与公共安全、环保提示并列"],"hooks":["一条“美美出片”攻略，少了哪三项信息就很难复刻？","把古诗词拍成旅行片，怎样不只剩一层滤镜？"],"recommendedFormat":{"duration":"50–90 秒","structure":"景别钩子 → 路线变量 → 拍摄窗口 → 出处与安全备注"},"factStatus":"needs-review","sources":[{"name":"小红书原榜：用万能旅行拍照姿势美美出片","url":"https://www.xiaohongshu.com/search_result?keyword=%E7%94%A8%E4%B8%87%E8%83%BD%E6%97%85%E8%A1%8C%E6%8B%8D%E7%85%A7%E5%A7%BF%E5%8A%BF%E7%BE%8E%E7%BE%8E%E5%87%BA%E7%89%87&type=51","type":"platform"},{"name":"抖音原榜：坐红飘带游遍贵州美景","url":"https://www.douyin.com/search/%E5%9D%90%E7%BA%A2%E9%A3%98%E5%B8%A6%E6%B8%B8%E9%81%8D%E8%B4%B5%E5%B7%9E%E7%BE%8E%E6%99%AF","type":"platform"}],"updatedAt":"2026-10-19T04:00:45Z"},
-    {"id":"chinese-kungfu-physical-craft","rank":6,"title":"中国功夫跨两榜：动作内容别只靠燃点，带观众看见训练与身体控制","brief":"“中国功夫”的短视频和B站内容同时进入两榜前列。武术、健身、文化与影像创作者可从动作分解、训练安全、师承背景和拍摄节奏切入，避免把高难动作包装成人人可直接模仿的挑战。","category":"运动与文化","momentum":"rising","urgency":"today","heat":89,"crossPlatform":2,"mathFit":86,"visualFit":98,"lifeFit":87,"questionDensity":84,"priority":89,"platforms":[{"id":"douyin","rank":4,"score":96,"trend":"高位"},{"id":"bilibili","rank":3,"score":95,"trend":"高位"}],"keywords":["中国功夫","武术","训练","动作分解","传统文化"],"mathAngles":["用慢放、重心线和动作阶段解释完成过程","区分展示级动作、训练动作与安全要求","把武术文化背景和短视频镜头语言分别讲清"],"hooks":["一记看起来很燃的动作，拆开到底有几段控制？","功夫视频最容易被忽略的，不是力量而是什么？"],"recommendedFormat":{"duration":"45–75 秒","structure":"高光动作 → 分段慢放 → 训练边界 → 文化出处"},"factStatus":"needs-review","sources":[{"name":"抖音原榜：这才是中国功夫的魅力","url":"https://www.douyin.com/search/%E8%BF%99%E6%89%8D%E6%98%AF%E4%B8%AD%E5%9B%BD%E5%8A%9F%E5%A4%AB%E7%9A%84%E9%AD%85%E5%8A%9B","type":"platform"},{"name":"B站原榜：中国功夫内容","url":"https://www.bilibili.com/video/BV1MHJB63Emv","type":"platform"}],"updatedAt":"2026-10-19T04:00:45Z"},
-    {"id":"consumer-proof-and-digital-evidence","rank":7,"title":"订单、截图与冒领争议同在榜：消费维权内容先讲证据链，不急着下责任结论","brief":"订单价格、聊天记录截图与物流冒领讨论位于微博、百度和知乎原榜。法律、消费与数码创作者可教观众保留原始记录、时间线和平台工单，说明不同案件的责任认定需要完整事实和适用规则。","category":"消费与法律常识","momentum":"rising","urgency":"today","heat":88,"crossPlatform":3,"mathFit":95,"visualFit":81,"lifeFit":96,"questionDensity":96,"priority":89,"platforms":[{"id":"baidu","rank":27,"score":74,"trend":"实用讨论"},{"id":"zhihu","rank":22,"score":81,"trend":"责任讨论（partial 快照）"},{"id":"weibo","rank":44,"score":61,"trend":"订单争议扩散"}],"keywords":["订单","聊天记录","物流冒领","证据","消费维权"],"mathAngles":["把截图、原件、平台记录和时间线分为四类材料","区分个人经验、平台规则与法律责任结论","呈现证据保存顺序而非给出个案裁决"],"hooks":["一张聊天截图想当证据，最容易少掉哪几项信息？","订单被压价、物流被冒领，为什么不能只靠情绪判断责任？"],"recommendedFormat":{"duration":"60–90 秒","structure":"热榜案例 → 证据链图 → 平台处理步骤 → 个案咨询边界"},"factStatus":"needs-review","sources":[{"name":"百度原榜：微信聊天记录截图如何当证据使用","url":"https://m.baidu.com/s?word=%E5%BE%AE%E4%BF%A1%E8%81%8A%E5%A4%A9%E8%AE%B0%E5%BD%95%E6%88%AA%E5%9B%BE+%E5%A6%82%E4%BD%95%E5%BD%93%E8%AF%81%E6%8D%AE%E4%BD%BF%E7%94%A8&sa=fyb_news","type":"platform"},{"name":"知乎原榜：iPhone订单与物流冒领讨论","url":"https://www.zhihu.com/question/2093988287304284100","type":"platform"}],"updatedAt":"2026-10-19T04:00:45Z"},
-    {"id":"ai-search-and-compute-claims","rank":8,"title":"搜索、芯片与太空算力齐上榜：科技内容应把“能做”与“能规模化”分开","brief":"DeepSeek 搜索、手机芯片、太空算力和RTX Spark相关讨论分布在微博、知乎与B站。科技创作者可用任务、成本、散热、能耗和部署条件解释概念，避免从一段演示或厂商说法跳到“全面替代”。","category":"科技与产业","momentum":"rising","urgency":"today","heat":87,"crossPlatform":3,"mathFit":98,"visualFit":88,"lifeFit":86,"questionDensity":97,"priority":88,"platforms":[{"id":"weibo","rank":9,"score":90,"trend":"新品讨论"},{"id":"zhihu","rank":9,"score":90,"trend":"搜索讨论（partial 快照）"},{"id":"bilibili","rank":42,"score":63,"trend":"硬件评测"}],"keywords":["DeepSeek","搜索","芯片","算力","AI"],"mathAngles":["为性能讨论补上任务、输入、时延、能耗与成本五个条件","区分实验演示、产品功能和规模化部署","用能力边界替代“颠覆/淘汰”式标题"],"hooks":["一条“算力上天”新闻，先问哪五个工程条件？","AI 搜索的冲击，为什么不能只拿一个回答速度比较？"],"recommendedFormat":{"duration":"65–100 秒","structure":"热榜拼图 → 条件清单 → 三层能力边界 → 可核验资料"},"factStatus":"needs-review","sources":[{"name":"知乎原榜：DeepSeek对百度搜索的冲击","url":"https://www.zhihu.com/question/13453602540","type":"platform"},{"name":"B站原榜：RTX Spark笔记本电脑讨论","url":"https://www.bilibili.com/video/BV1HhnM62ER1","type":"platform"}],"updatedAt":"2026-10-19T04:00:45Z"},
-    {"id":"health-claims-evidence-ladder","rank":9,"title":"HPV 存活与伤口愈合讨论：健康内容先给证据等级，不替观众做诊断","brief":"高铁座椅与HPV、伤口愈合相关问题分别出现在抖音与知乎原榜。健康创作者可说明科普信息、一般风险沟通与个人医疗建议并不相同；涉及感染、症状与治疗时应引用权威医学来源并提示就医。","category":"健康与生活","momentum":"rising","urgency":"today","heat":85,"crossPlatform":2,"mathFit":96,"visualFit":72,"lifeFit":98,"questionDensity":97,"priority":87,"platforms":[{"id":"douyin","rank":14,"score":84,"trend":"高位问答"},{"id":"zhihu","rank":15,"score":83,"trend":"健康讨论（partial 快照）"}],"keywords":["HPV","伤口愈合","健康科普","证据等级","就医"],"mathAngles":["将机制研究、流行病学证据、临床指南和个体建议分层","明确科普视频不构成诊断或治疗建议","给出需咨询专业人士的情形，而非自行判断"],"hooks":["健康热搜最怕一句“不会”：证据等级该怎样说清？","同样是科普，为什么不能把群体结论直接套到一个人身上？"],"recommendedFormat":{"duration":"60–90 秒","structure":"原榜问题 → 证据四层 → 误读边界 → 正规就医提示"},"factStatus":"needs-review","sources":[{"name":"抖音原榜：高铁座椅与HPV讨论","url":"https://www.douyin.com/search/%E9%AB%98%E9%93%81%E5%BA%A7%E6%A4%85%E4%B8%8D%E9%80%82%E5%90%88HPV%E7%97%85%E6%AF%92%E5%AD%98%E6%B4%BB","type":"platform"},{"name":"知乎原榜：伤口愈合问题","url":"https://www.zhihu.com/question/2078484653460276011","type":"platform"}],"updatedAt":"2026-10-19T04:00:45Z"},
-    {"id":"golden-rooster-nominations-viewing-guide","rank":10,"title":"金鸡奖提名跨两榜：电影内容别只念名单，把作品与观看路径做成指南","brief":"金鸡奖提名名单同时出现在微博和百度原榜。影视、文化与生活方式创作者可从作品、角色、主创与观影入口组织一条选片指南，避免把提名、获奖、口碑和票房混为同一项结论。","category":"影视与文化","momentum":"peak","urgency":"now","heat":84,"crossPlatform":2,"mathFit":83,"visualFit":91,"lifeFit":88,"questionDensity":82,"priority":86,"platforms":[{"id":"weibo","rank":2,"score":98,"trend":"高位"},{"id":"baidu","rank":19,"score":80,"trend":"名单扩散"}],"keywords":["金鸡奖","电影","提名","观影指南","主创"],"mathAngles":["把奖项节点、作品类型和观影入口串成时间线","区分提名事实、个人评价和市场数据","用一部作品的角色与创作背景替代名单复读"],"hooks":["一张提名名单，怎样做成一条真正有用的看片指南？","提名不等于获奖：影视热点最常被混掉的三件事是什么？"],"recommendedFormat":{"duration":"45–70 秒","structure":"提名切片 → 作品卡片 → 观看选择 → 来源标注"},"factStatus":"needs-review","sources":[{"name":"微博原榜：金鸡奖提名","url":"https://s.weibo.com/weibo?q=%E9%87%91%E9%B8%A1%E5%A5%96%E6%8F%90%E5%90%8D","type":"platform"},{"name":"百度原榜：金鸡奖提名名单","url":"https://m.baidu.com/s?word=%E9%87%91%E9%B8%A1%E5%A5%96%E6%8F%90%E5%90%8D%E5%90%8D%E5%8D%95&sa=fyb_news","type":"platform"}],"updatedAt":"2026-10-19T04:00:45Z"},
-    {"id":"china-haul-commerce-story","rank":11,"title":"“China Haul”进广交会：跨境消费内容别只晒战利品，讲清商品怎样抵达用户","brief":"“China Haul”火到广交会位列百度原榜第 3 位。跨境电商、消费、品牌和供应链创作者可从选品、展示、物流、售后与文化翻译切入，具体交易、价格和平台规则仍需回查公开页面或当事方信息。","category":"商业与消费","momentum":"rising","urgency":"today","heat":82,"crossPlatform":1,"mathFit":91,"visualFit":87,"lifeFit":90,"questionDensity":91,"priority":84,"platforms":[{"id":"baidu","rank":3,"score":96,"trend":"高位"}],"keywords":["China Haul","广交会","跨境电商","供应链","消费"],"mathAngles":["用选品、内容展示、下单、运输和售后画出消费链条","区分用户晒物、品牌营销与平台交易规则","避免用单一爆款外推整个跨境市场"],"hooks":["一条“China Haul”视频，背后经过了几道真正的商品环节？","跨境好物为什么不能只讲便宜，还要讲什么？"],"recommendedFormat":{"duration":"50–80 秒","structure":"热词画面 → 商品旅程图 → 交易信息核验 → 消费提示"},"factStatus":"needs-review","sources":[{"name":"百度原榜：“China Haul”火到广交会","url":"https://m.baidu.com/s?word=%E2%80%9CChina+Haul%E2%80%9D%E7%81%AB%E5%88%B0%E5%B9%BF%E4%BA%A4%E4%BC%9A&sa=fyb_news","type":"platform"}],"updatedAt":"2026-10-19T04:00:45Z"},
-    {"id":"serious-work-human-stories","rank":12,"title":"“认真谋生的人”登B站热门：人物内容可以拍职业技能，而不只拍苦情","brief":"“每一位认真谋生的人都值得被仰望”位列B站热门第 2 位。人物、城市、职业与品牌创作者可通过一个具体工序、一段服务流程或一项专业判断讲故事，尊重受访者并避免把个体困境当作流量背景。","category":"人物与城市生活","momentum":"steady","urgency":"evergreen","heat":78,"crossPlatform":1,"mathFit":86,"visualFit":90,"lifeFit":97,"questionDensity":88,"priority":81,"platforms":[{"id":"bilibili","rank":2,"score":98,"trend":"高位"}],"keywords":["职业故事","城市生活","普通人","技能","人物纪录"],"mathAngles":["用一个工序、一个标准和一个选择呈现职业价值","区分尊重劳动者的记录与消费苦难的叙事","让受访者确认自己的表达边界和画面使用方式"],"hooks":["拍普通人的一天，怎样不把他拍成背景板？","比“感动”更有力量的职业内容，往往多了哪一个细节？"],"recommendedFormat":{"duration":"60–100 秒","structure":"人物开场 → 一个专业工序 → 工作选择 → 尊重与署名"},"factStatus":"needs-review","sources":[{"name":"B站原榜：每一位认真谋生的人都值得被仰望","url":"https://www.bilibili.com/video/BV1Jonu6mEwN","type":"platform"}],"updatedAt":"2026-10-19T04:00:45Z"}
+    {
+      "id":"iphone-duo-foldable-evaluation","rank":1,
+      "title":"iPhone Duo 同时占四个平台：评测内容别只折一万次，要说明“代价”在哪里",
+      "brief":"iPhone Duo 的上手、耐折和双屏体验在抖音、微博、百度与 B 站同时出现。数码、消费和影像创作者可把耐用性、交互、维修、价格与适用人群拆开讲，避免把单支评测外推成所有人的购买结论。",
+      "category":"数码与消费","momentum":"peak","urgency":"now","heat":98,"crossPlatform":4,"mathFit":95,"visualFit":94,"lifeFit":90,"questionDensity":96,"priority":97,
+      "platforms":[{"id":"bilibili","rank":1,"score":98,"trend":"热门首位"},{"id":"weibo","rank":7,"score":93,"trend":"高位讨论"},{"id":"douyin","rank":12,"score":88,"trend":"深度评测"},{"id":"baidu","rank":42,"score":62,"trend":"消费追问"}],
+      "keywords":["iPhone Duo","折叠屏","评测","耐用性","消费决策"],
+      "mathAngles":["把折叠次数、铰链、屏幕、维修和价格拆成独立变量","区分首发体验、长期耐用与购买建议","用真实使用场景而非品牌立场组织对比"],
+      "hooks":["一万次折叠是噱头还是信息？先看这四个条件。","折叠屏评测里，最容易被一句“能折”藏掉的代价是什么？"],
+      "recommendedFormat":{"duration":"60–90 秒","structure":"高光演示 → 条件拆解 → 使用场景 → 购买边界"},"factStatus":"needs-review",
+      "sources":[{"name":"B站原榜：iPhone Duo 深度评测","url":"https://www.bilibili.com/video/BV1xrnz6gEVD","type":"platform"},{"name":"微博原榜：影视飓风 iPhone Duo 评测","url":"https://s.weibo.com/weibo?q=%E5%BD%B1%E8%A7%86%E9%A3%93%E9%A3%8EiPhoneDuo%E8%AF%84%E6%B5%8B","type":"platform"}],"updatedAt":"2026-10-21T15:53:14.014Z"
+    },
+    {
+      "id":"ai-short-drama-attention-economy","rank":2,
+      "title":"AI 短剧与“职业剧”同时上榜：内容行业该怎样讨论注意力，而不只争论上头",
+      "brief":"红果短剧、AI 短剧与“职业剧”相关条目分布在微博、知乎、百度和 B 站。影视、商业、亲子与媒介创作者可讨论内容供给、观看时长、制作岗位与家庭沟通，不把单个用户体验直接当成行业全貌。",
+      "category":"影视与内容产业","momentum":"rising","urgency":"now","heat":95,"crossPlatform":4,"mathFit":96,"visualFit":88,"lifeFit":92,"questionDensity":98,"priority":95,
+      "platforms":[{"id":"weibo","rank":2,"score":98,"trend":"热搜高位"},{"id":"zhihu","rank":37,"score":65,"trend":"行业追问（partial 快照）"},{"id":"baidu","rank":4,"score":96,"trend":"职业话题"},{"id":"bilibili","rank":14,"score":87,"trend":"AI 创作内容"}],
+      "keywords":["AI短剧","红果短剧","注意力","内容产业","职业剧"],
+      "mathAngles":["用观看动机、时长、付费与创作成本组成完整链路","区分个人沉迷叙事、平台机制和行业就业议题","让当事人经验与可核验数据各自归位"],
+      "hooks":["“上头”的短剧，到底是故事强还是分发强？","AI 短剧在改什么：制作流程、观看时间，还是职业分工？"],
+      "recommendedFormat":{"duration":"70–100 秒","structure":"热榜拼图 → 注意力链路 → 两类创作者影响 → 待核验数据"},"factStatus":"needs-review",
+      "sources":[{"name":"微博原榜：红果短剧自砍摇钱树","url":"https://s.weibo.com/weibo?q=%E7%BA%A2%E6%9E%9C%E7%9F%AD%E5%89%A7%E8%87%AA%E7%A0%8D%E6%91%87%E9%92%B1%E6%A0%91","type":"platform"},{"name":"知乎原榜：AI 短剧讨论","url":"https://www.zhihu.com/question/2090228809819862141","type":"platform"}],"updatedAt":"2026-10-21T15:53:14.014Z"
+    },
+    {
+      "id":"long-march-cultural-memory","rank":3,
+      "title":"“长征”横跨三榜：历史文化选题适合从一个名称讲到一条可核验的时间线",
+      "brief":"长征文物、二万五千里与“为什么都叫长征”同时进入抖音、微博和百度原榜。历史、教育、文旅与品牌创作者可从名称出处、文物信息、叙事边界和参观路径切入，发布前应回查机构资料。",
+      "category":"历史与文化","momentum":"rising","urgency":"today","heat":93,"crossPlatform":3,"mathFit":93,"visualFit":89,"lifeFit":84,"questionDensity":94,"priority":93,
+      "platforms":[{"id":"douyin","rank":3,"score":97,"trend":"高位"},{"id":"weibo","rank":3,"score":97,"trend":"高位"},{"id":"baidu","rank":3,"score":96,"trend":"高位"}],
+      "keywords":["长征","文物","历史叙事","时间线","文化传播"],
+      "mathAngles":["用时间线说明不同语境中的“长征”而不混为一谈","用馆藏、地点、人物和出处构成可回查信息卡","把情感表达与事实说明放在不同叙事层"],
+      "hooks":["为什么这么多事物都叫“长征”？先别急着只讲一个答案。","一条历史短片怎样有情绪，也让观众能回查出处？"],
+      "recommendedFormat":{"duration":"60–90 秒","structure":"名称钩子 → 三个语境 → 文物/出处卡 → 延伸阅读"},"factStatus":"needs-review",
+      "sources":[{"name":"抖音原榜：长征文物资源家底基本摸清","url":"https://www.douyin.com/search/%E9%95%BF%E5%BE%81%E6%96%87%E7%89%A9%E8%B5%84%E6%BA%90%E5%AE%B6%E5%BA%95%E5%9F%BA%E6%9C%AC%E6%91%B8%E6%B8%85","type":"platform"},{"name":"百度原榜：它们为什么都叫长征","url":"https://m.baidu.com/s?word=%E5%AE%83%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E9%83%BD%E5%8F%AB%E2%80%9C%E9%95%BF%E5%BE%81%E2%80%9D&sa=fyb_news","type":"platform"}],"updatedAt":"2026-10-21T15:53:14.014Z"
+    },
+    {
+      "id":"esports-roster-and-promotion","rank":4,
+      "title":"AG 退役与 VCT 晋升赛同日出现：电竞内容可把赛制、阵容和情绪分开讲",
+      "brief":"AG 相关讨论在微博居前，VCT CN 晋升赛位于抖音高位。电竞、体育和游戏创作者可先画清赛制与时间节点，再讨论选手、战队和观众情绪，避免将传言或单场结果包装成确定结论。",
+      "category":"电竞与游戏","momentum":"rising","urgency":"now","heat":92,"crossPlatform":2,"mathFit":94,"visualFit":92,"lifeFit":84,"questionDensity":95,"priority":92,
+      "platforms":[{"id":"weibo","rank":1,"score":98,"trend":"热搜首位"},{"id":"douyin","rank":4,"score":96,"trend":"赛事开赛"}],
+      "keywords":["AG","VCT CN","晋升赛","电竞","赛制"],
+      "mathAngles":["用一张分支图呈现赛制、晋级和时间节点","区分已公布阵容、赛事结果与社群推测","让战队情绪叙事不替代赛事信息"],
+      "hooks":["退役与开赛同时发生，观众最该先看哪一张图？","为什么电竞热搜越大，越要先把“已知”和“猜测”分开？"],
+      "recommendedFormat":{"duration":"50–80 秒","structure":"榜单切片 → 赛制图 → 阵容信息 → 观赛边界"},"factStatus":"needs-review",
+      "sources":[{"name":"微博原榜：AG 退役","url":"https://s.weibo.com/weibo?q=AG%20%E9%80%80%E5%BD%B9","type":"platform"},{"name":"抖音原榜：2026 VCT CN 晋升赛开赛","url":"https://www.douyin.com/search/2026VCTCN%E6%99%8B%E5%8D%87%E8%B5%9B%E5%BC%80%E8%B5%9B","type":"platform"}],"updatedAt":"2026-10-21T15:53:14.014Z"
+    },
+    {
+      "id":"travel-photo-poetry-route","rank":5,
+      "title":"旅行姿势与古诗词影像都在榜：文旅创作把“出片”升级成一条能走的路线",
+      "brief":"旅行拍照、古诗词影像与家庭旅行相关条目集中在小红书，抖音也出现赏秋与出行内容。文旅、摄影与本地生活创作者可同时交代地点、季节、交通、拍摄条件与安全提醒，不用万能模板覆盖每条路线。",
+      "category":"旅行与文化","momentum":"peak","urgency":"today","heat":90,"crossPlatform":2,"mathFit":89,"visualFit":99,"lifeFit":96,"questionDensity":88,"priority":91,
+      "platforms":[{"id":"xiaohongshu","rank":1,"score":98,"trend":"高位（partial 快照）"},{"id":"douyin","rank":16,"score":82,"trend":"赏秋出行"}],
+      "keywords":["旅行摄影","古诗词","赏秋","路线","家庭旅行"],
+      "mathAngles":["用天气、光线、步行和客流组成拍摄条件清单","让诗词出处、地点与当下影像分别可回查","为家庭出行保留安全和无障碍信息"],
+      "hooks":["一条“美美出片”攻略，缺哪三项信息就很难复刻？","古诗词里的景色怎样拍，才不只是一层滤镜？"],
+      "recommendedFormat":{"duration":"50–90 秒","structure":"画面钩子 → 路线变量 → 诗词出处 → 出行提示"},"factStatus":"needs-review",
+      "sources":[{"name":"小红书原榜：用万能旅行拍照姿势美美出片","url":"https://www.xiaohongshu.com/search_result?keyword=%E7%94%A8%E4%B8%87%E8%83%BD%E6%97%85%E8%A1%8C%E6%8B%8D%E7%85%A7%E5%A7%BF%E5%8A%BF%E7%BE%8E%E7%BE%8E%E5%87%BA%E7%89%87&type=51","type":"platform"},{"name":"抖音原榜：全国已开始进入赏秋模式","url":"https://www.douyin.com/search/%E5%85%A8%E5%9B%BD%E5%B7%B2%E5%BC%80%E5%A7%8B%E8%BF%9B%E5%85%A5%E8%B5%8F%E7%A7%8B%E6%A8%A1%E5%BC%8F","type":"platform"}],"updatedAt":"2026-10-21T15:53:14.014Z"
+    },
+    {
+      "id":"high-fashion-credit-and-claims","rank":6,
+      "title":"高定争议跨两榜：时尚内容先讲来源、借用和署名，别把爆料当结论",
+      "brief":"自费高定、品牌公关和婚纱店认领等话题集中在微博，并出现在百度原榜。时尚、娱乐与品牌创作者可围绕服装来源、创作署名、公开回应与流程知识做解释；涉及人物与交易的判断需以当事方或品牌资料复核。",
+      "category":"时尚与娱乐","momentum":"peak","urgency":"today","heat":88,"crossPlatform":2,"mathFit":88,"visualFit":97,"lifeFit":80,"questionDensity":91,"priority":89,
+      "platforms":[{"id":"weibo","rank":12,"score":91,"trend":"多条扩散"},{"id":"baidu","rank":8,"score":94,"trend":"高位争议"}],
+      "keywords":["高定","红毯","品牌公关","署名","时尚产业"],
+      "mathAngles":["将爆料、公开回应、品牌资料与评论意见分层","从一件衣服解释借用、定制、署名和传播流程","避免由热度推断人物事实"],
+      "hooks":["一件高定上热搜，哪些信息能说、哪些必须等回应？","时尚争议如何从吃瓜变成一条真正有用的行业科普？"],
+      "recommendedFormat":{"duration":"45–75 秒","structure":"热榜现象 → 信息分层 → 行业流程 → 来源提示"},"factStatus":"needs-review",
+      "sources":[{"name":"微博原榜：曝自费高定艺人名字","url":"https://s.weibo.com/weibo?q=%23%E6%9B%9D%E8%87%AA%E8%B4%B9%E9%AB%98%E5%AE%9A%E8%89%BA%E4%BA%BA%E5%90%8D%E5%AD%97%23","type":"platform"},{"name":"百度原榜：赵露思被质疑自费购买高定","url":"https://m.baidu.com/s?word=%E8%B5%B5%E9%9C%B2%E6%80%9D%E8%A2%AB%E8%B4%A8%E7%96%91%E8%87%AA%E8%B4%B9%E8%B4%AD%E4%B9%B0%E9%AB%98%E5%AE%9A&sa=fyb_news","type":"platform"}],"updatedAt":"2026-10-21T15:53:14.014Z"
+    },
+    {
+      "id":"intergenerational-living-and-work","rank":7,
+      "title":"养老院新职业与“夕阳红”旅行上榜：代际内容别把老年人只拍成一个标签",
+      "brief":"养老院新职业、年轻人参与“夕阳红”旅行与高龄玩家相关内容出现在百度和 B 站。城市生活、职场、旅行与人物创作者可从服务流程、个人选择、无障碍和真实技能切入，避免把年龄当作单一人设。",
+      "category":"人物与城市生活","momentum":"rising","urgency":"today","heat":85,"crossPlatform":2,"mathFit":90,"visualFit":87,"lifeFit":97,"questionDensity":92,"priority":87,
+      "platforms":[{"id":"baidu","rank":1,"score":98,"trend":"新职业高位"},{"id":"bilibili","rank":8,"score":90,"trend":"高龄玩家故事"}],
+      "keywords":["养老院","新职业","夕阳红旅行","高龄玩家","代际"],
+      "mathAngles":["用一个服务流程说明职业价值而非泛泛煽情","呈现个人选择、陪伴成本与无障碍需求","区分趋势观察与对特定群体的刻板印象"],
+      "hooks":["养老院里的新职业，最重要的能力究竟是什么？","拍“夕阳红”时，怎样不把一个人拍成一个年龄标签？"],
+      "recommendedFormat":{"duration":"60–90 秒","structure":"人物/岗位开场 → 一个流程 → 真实选择 → 尊重边界"},"factStatus":"needs-review",
+      "sources":[{"name":"百度原榜：年轻人盯上养老院里的新职业","url":"https://m.baidu.com/s?word=%E5%B9%B4%E8%BD%BB%E4%BA%BA%E7%9B%AF%E4%B8%8A%E5%85%BB%E8%80%81%E9%99%A2%E9%87%8C%E7%9A%84%E6%96%B0%E8%81%8C%E4%B8%9A&sa=fyb_news","type":"platform"},{"name":"B站原榜：给91岁的超级玩家老爷爷爆改电竞房","url":"https://www.bilibili.com/video/BV1MNnw6gErt","type":"platform"}],"updatedAt":"2026-10-21T15:53:14.014Z"
+    },
+    {
+      "id":"ai-image-fashion-creator-rights","rank":8,
+      "title":"AI 模特、独立游戏与 AI 作品同屏：创作内容该把效率、署名与授权一起说",
+      "brief":"AI 模特图、独立开发者担心作品被模仿，以及 AI 创作视频同时进入百度、知乎和 B 站原榜。设计、游戏、时尚与科技创作者可讨论工具能力、数据来源、署名和授权边界，不应由热榜标题替代版权或合规判断。",
+      "category":"AI与创意产业","momentum":"rising","urgency":"today","heat":84,"crossPlatform":3,"mathFit":97,"visualFit":91,"lifeFit":86,"questionDensity":98,"priority":88,
+      "platforms":[{"id":"baidu","rank":29,"score":72,"trend":"行业讨论"},{"id":"zhihu","rank":14,"score":85,"trend":"创作者追问（partial 快照）"},{"id":"bilibili","rank":14,"score":85,"trend":"AI 创作内容"}],
+      "keywords":["AI模特","独立游戏","创作者","版权","授权"],
+      "mathAngles":["用输入、生成、发布和商业化四步定位责任问题","区分风格借鉴、训练数据与具体作品复制","让技术能力、合同约定和法律结论各自有来源"],
+      "hooks":["AI 图能省时间，但谁该为它的来源负责？","独立创作者怕的不是工具快，而是哪一环无法回查？"],
+      "recommendedFormat":{"duration":"60–100 秒","structure":"三个热榜切片 → 创作链路 → 授权问题 → 资料回查"},"factStatus":"needs-review",
+      "sources":[{"name":"百度原榜：AI模特图占领女装行业","url":"https://m.baidu.com/s?word=AI%E6%A8%A1%E7%89%B9%E5%9B%BE%E5%8D%A0%E9%A2%86%E5%A5%B3%E8%A3%85%E8%A1%8C%E4%B8%9A&sa=fyb_news","type":"platform"},{"name":"知乎原榜：独立游戏开发者与 AI 讨论","url":"https://www.zhihu.com/question/2095491583533658157","type":"platform"}],"updatedAt":"2026-10-21T15:53:14.014Z"
+    },
+    {
+      "id":"consumer-scam-digital-safety","rank":9,
+      "title":"骗局提示与远程控机同榜：反诈内容要讲操作步骤，不复述恐慌",
+      "brief":"骗局风险提示和手机遭远程操控等条目位于百度原榜。公共安全、数码和家庭创作者可用“停止操作、保存信息、联系官方渠道”的结构讲常识；具体事件、部门通报与处置细节应以原始公告核验。",
+      "category":"公共安全与生活","momentum":"rising","urgency":"today","heat":82,"crossPlatform":1,"mathFit":94,"visualFit":75,"lifeFit":98,"questionDensity":94,"priority":86,
+      "platforms":[{"id":"baidu","rank":11,"score":89,"trend":"风险提示"}],
+      "keywords":["反诈","远程操控","手机安全","风险提示","官方渠道"],
+      "mathAngles":["把可疑来电、远程控制和转账请求按风险步骤排序","只给通用防护流程，不替个案判断责任","用官方渠道替代二手截图和情绪转述"],
+      "hooks":["手机被要求远程操作时，第一步不是争辩，而是什么？","反诈视频怎样让人记住步骤，而不是只记住恐惧？"],
+      "recommendedFormat":{"duration":"45–70 秒","structure":"风险场景 → 停止清单 → 官方求助 → 不确定项说明"},"factStatus":"needs-review",
+      "sources":[{"name":"百度原榜：五部门发布骗局风险提示","url":"https://m.baidu.com/s?word=%E4%BA%94%E9%83%A8%E9%97%A8%E5%8F%91%E5%B8%83%E9%AA%97%E5%B1%80%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA&sa=fyb_news","type":"platform"},{"name":"百度原榜：手机遭骗子远程操控","url":"https://m.baidu.com/s?word=%E6%89%8B%E6%9C%BA%E9%81%AD%E9%AA%97%E5%AD%90%E8%BF%9C%E7%A8%8B%E6%93%8D%E6%8E%A7+%E6%B0%91%E8%AD%A6%E6%9E%9C%E6%96%AD%E7%A0%B8%E6%9C%BA&sa=fyb_news","type":"platform"}],"updatedAt":"2026-10-21T15:53:14.014Z"
+    },
+    {
+      "id":"food-culture-and-kitchen-method","rank":10,
+      "title":"糖葫芦、馒头与去腥争论同日出现：美食内容可以好看，也要讲清方法边界",
+      "brief":"车厘子糖葫芦、奶香爆米花馒头、日常美食教程与料酒去腥讨论分布在抖音、小红书和微博。美食创作者可把配比、火候、替代材料和食品安全条件写清，避免将个人口味或单一技巧包装为万能结论。",
+      "category":"美食与生活","momentum":"rising","urgency":"today","heat":80,"crossPlatform":3,"mathFit":86,"visualFit":96,"lifeFit":95,"questionDensity":84,"priority":84,
+      "platforms":[{"id":"douyin","rank":6,"score":94,"trend":"季节食物"},{"id":"xiaohongshu","rank":4,"score":96,"trend":"教程高位（partial 快照）"},{"id":"weibo","rank":23,"score":75,"trend":"技巧争论"}],
+      "keywords":["糖葫芦","馒头","美食教程","料酒","烹饪方法"],
+      "mathAngles":["用配比、温度、时间和食材状态描述可复现步骤","区分个人口味、经验技巧与食品安全信息","让失败条件和替代方案同样上镜"],
+      "hooks":["为什么同一份美食教程，换一个锅就可能翻车？","去腥到底靠什么？先把味道、温度和时间拆开讲。"],
+      "recommendedFormat":{"duration":"45–75 秒","structure":"成品钩子 → 参数卡 → 易错点 → 口味与安全边界"},"factStatus":"needs-review",
+      "sources":[{"name":"抖音原榜：冬天第一串车厘子糖葫芦","url":"https://www.douyin.com/search/%E5%86%AC%E5%A4%A9%E7%AC%AC%E4%B8%80%E4%B8%B2%E8%BD%A6%E5%8E%98%E5%AD%90%E7%B3%96%E8%91%AB%E8%8A%A6","type":"platform"},{"name":"小红书原榜：蒸出了奶香爆米花馒头","url":"https://www.xiaohongshu.com/search_result?keyword=%E8%92%B8%E5%87%BA%E4%BA%86%E5%A5%B6%E9%A6%99%E7%88%86%E7%B1%B3%E8%8A%B1%E9%A6%92%E5%A4%B4&type=51","type":"platform"}],"updatedAt":"2026-10-21T15:53:14.014Z"
+    },
+    {
+      "id":"classroom-learning-not-slides","rank":11,
+      "title":"“学知识不烧心”与 PPT 争议相遇：教育内容更该展示学习过程，而非替代课堂",
+      "brief":"“学知识不烧心”与高校课堂不宜全程依赖 PPT 的话题出现在抖音和百度原榜。教师、学生与知识创作者可分享问题设计、板书、练习反馈和工具使用的边界，不把一条通知或个人经验上升为普遍教育结论。",
+      "category":"教育与成长","momentum":"rising","urgency":"today","heat":78,"crossPlatform":2,"mathFit":96,"visualFit":82,"lifeFit":91,"questionDensity":95,"priority":83,
+      "platforms":[{"id":"douyin","rank":11,"score":89,"trend":"学习话题"},{"id":"baidu","rank":26,"score":74,"trend":"课堂讨论"}],
+      "keywords":["学习","PPT","课堂","知识内容","教学设计"],
+      "mathAngles":["将讲授、练习、反馈和工具支持画成学习闭环","区分展示材料与实际教学互动","避免把课堂质量简化为是否使用 PPT"],
+      "hooks":["课堂里最不能被一页 PPT 替代的东西是什么？","“不烧心”的学习，少的不是难度，而是哪一种摩擦？"],
+      "recommendedFormat":{"duration":"50–80 秒","structure":"热榜现象 → 学习闭环 → 可用工具 → 不确定性说明"},"factStatus":"needs-review",
+      "sources":[{"name":"抖音原榜：全民进入学知识不烧心时代","url":"https://www.douyin.com/search/%E5%85%A8%E6%B0%91%E8%BF%9B%E5%85%A5%E5%AD%A6%E7%9F%A5%E8%AF%86%E4%B8%8D%E7%83%A7%E5%BF%83%E6%97%B6%E4%BB%A3","type":"platform"},{"name":"百度原榜：高校通知老师上课严禁全程依赖PPT","url":"https://m.baidu.com/s?word=%E9%AB%98%E6%A0%A1%E9%80%9A%E7%9F%A5%EF%BC%9A%E8%80%81%E5%B8%88%E4%B8%8A%E8%AF%BE%E4%B8%A5%E7%A6%81%E5%85%A8%E7%A8%8B%E4%BE%9D%E8%B5%96PPT&sa=fyb_news","type":"platform"}],"updatedAt":"2026-10-21T15:53:14.014Z"
+    },
+    {
+      "id":"math-ai-public-conversation","rank":12,
+      "title":"数学与 AI 的对谈登知乎热榜：知识型创作者可从“问题怎么被定义”讲起",
+      "brief":"关于数学与 AI 关系的对谈进入知乎原榜，同时王虹获奖与量子学习准备等知识话题也在榜。科普、教育和职业成长创作者可解释研究问题、工具能力与学习路径，不把学术头衔或热门标题替代原始材料。",
+      "category":"科学与知识","momentum":"rising","urgency":"evergreen","heat":76,"crossPlatform":2,"mathFit":100,"visualFit":78,"lifeFit":79,"questionDensity":100,"priority":82,
+      "platforms":[{"id":"zhihu","rank":9,"score":90,"trend":"深度讨论（partial 快照）"},{"id":"baidu","rank":2,"score":96,"trend":"知识人物"}],
+      "keywords":["数学","AI","王虹","量子力学","学习路径"],
+      "mathAngles":["从一个可定义的问题解释数学推理与模型生成的区别","区分访谈观点、研究成果与大众解读","为学习建议补齐先修知识、练习和资料来源"],
+      "hooks":["数学和 AI 的关系，为什么先要问“你说的 AI 是什么”？","想学量子之前先学概率吗？这类问题最怕跳过哪一步？"],
+      "recommendedFormat":{"duration":"70–110 秒","structure":"问题钩子 → 概念边界 → 学习地图 → 原始资料入口"},"factStatus":"needs-review",
+      "sources":[{"name":"知乎原榜：数学与AI究竟是什么关系","url":"https://www.zhihu.com/question/2095840244973004152","type":"platform"},{"name":"百度原榜：王虹再获大奖","url":"https://m.baidu.com/s?word=%E7%8E%8B%E8%99%B9%E5%86%8D%E8%8E%B7%E5%A4%A7%E5%A5%96&sa=fyb_news","type":"platform"}],"updatedAt":"2026-10-21T15:53:14.014Z"
+    }
   ]
 }
