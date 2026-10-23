@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "dataMode": "live",
-  "date": "2026-10-22",
-  "generatedAt": "2026-10-22T04:00:54.367Z",
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-23T04:00:46.083Z",
   "timezone": "Asia/Shanghai",
   "summary": {
     "topicCount": 12,
-    "urgentCount": 4,
+    "urgentCount": 3,
     "crossPlatformCount": 10,
-    "formulaReadyCount": 9
+    "formulaReadyCount": 10
   },
   "sourceStatus": [
     {
@@ -16,61 +16,61 @@
       "name": "抖音",
       "status": "fresh",
       "items": 49,
-      "updatedAt": "2026-10-22T03:59:36.506Z"
+      "updatedAt": "2026-10-23T03:59:30.393Z"
     },
     {
       "id": "weibo",
       "name": "微博",
       "status": "fresh",
       "items": 50,
-      "updatedAt": "2026-10-22T03:59:36.506Z"
+      "updatedAt": "2026-10-23T03:59:30.393Z"
     },
     {
       "id": "zhihu",
       "name": "知乎",
       "status": "partial",
-      "items": 50,
-      "updatedAt": "2026-10-22T03:59:36.506Z"
+      "items": 30,
+      "updatedAt": "2026-10-23T03:59:30.393Z"
     },
     {
       "id": "xiaohongshu",
       "name": "小红书",
       "status": "partial",
       "items": 10,
-      "updatedAt": "2026-10-22T03:59:36.506Z"
+      "updatedAt": "2026-10-23T03:59:30.393Z"
     },
     {
       "id": "baidu",
       "name": "百度",
       "status": "fresh",
       "items": 50,
-      "updatedAt": "2026-10-22T03:59:36.506Z"
+      "updatedAt": "2026-10-23T03:59:30.393Z"
     },
     {
       "id": "bilibili",
       "name": "B站",
       "status": "fresh",
       "items": 50,
-      "updatedAt": "2026-10-22T03:59:36.506Z"
+      "updatedAt": "2026-10-23T03:59:30.393Z"
     }
   ],
   "trendHistory": {
     "times": [
-      "2026-10-15",
       "2026-10-16",
       "2026-10-17",
       "2026-10-18",
       "2026-10-19",
       "2026-10-21",
-      "2026-10-22"
+      "2026-10-22",
+      "2026-10-23"
     ],
     "series": {
       "douyin": [
         100,
-        100,
         98,
         98,
         100,
+        98,
         98,
         98
       ],
@@ -84,13 +84,13 @@
         100
       ],
       "zhihu": [
-        60,
         58,
         100,
         100,
         100,
         100,
-        100
+        100,
+        60
       ],
       "xiaohongshu": [
         20,
@@ -123,82 +123,177 @@
   },
   "topics": [
     {
-      "id": "iphone-duo-foldable-compatibility",
+      "id": "nagqu-earthquake-response",
       "rank": 1,
-      "title": "iPhone Duo 反复占榜：评测内容别只比参数，要把兼容性与代价说清",
-      "brief": "折叠形态、应用适配和耐久讨论同日出现。适合数码与消费创作者用真实使用场景拆开“能不能用”“适不适合”和“值不值得”，不根据热榜替任何产品下结论。",
-      "category": "数码与消费",
-      "momentum": "rising",
+      "title": "那曲地震救援占据多榜：公共安全内容先分清实时信息与待核信息",
+      "brief": "多份公开热榜同时出现震情、救援和亲历叙述。适合做信息辨别、避险准备与救援协同的解释内容；伤亡、余震与现场细节必须以权威部门通报复核，不转述未核实的个人内容。",
+      "category": "公共安全与灾害应对",
+      "momentum": "peak",
       "urgency": "now",
       "heat": 100,
       "crossPlatform": 4,
-      "mathFit": 94,
-      "visualFit": 96,
-      "lifeFit": 95,
-      "questionDensity": 98,
+      "mathFit": 93,
+      "visualFit": 92,
+      "lifeFit": 96,
+      "questionDensity": 97,
       "priority": 97,
       "platforms": [
         {
-          "id": "weibo",
+          "id": "douyin",
           "rank": 1,
           "score": 100,
-          "trend": "微博"
-        },
-        {
-          "id": "douyin",
-          "rank": 25,
-          "score": 76,
           "trend": "抖音"
         },
         {
-          "id": "baidu",
-          "rank": 13,
-          "score": 88,
-          "trend": "百度"
+          "id": "weibo",
+          "rank": 7,
+          "score": 91,
+          "trend": "微博"
         },
         {
-          "id": "bilibili",
+          "id": "zhihu",
           "rank": 2,
           "score": 99,
-          "trend": "B站"
+          "trend": "知乎"
+        },
+        {
+          "id": "baidu",
+          "rank": 1,
+          "score": 100,
+          "trend": "百度"
         }
       ],
       "keywords": [
-        "iPhoneDuo微信不适配",
-        "iPhone",
-        "Duo深度评测",
-        "Duo折叠3000次后折痕加深",
-        "折1万次",
-        "会坏吗"
+        "那曲地震",
+        "救援",
+        "余震",
+        "信息核验"
       ],
       "mathAngles": [
-        "按通勤、工作、创作三种场景展示取舍",
-        "区分实测结果、厂商承诺与用户偏好",
-        "说明折痕、适配等结论所需的测试条件"
+        "用时间线区分通报、救援进展与个人目击",
+        "说明避险建议的适用场景与来源",
+        "把已证实事实和待核信息分屏呈现"
       ],
       "hooks": [
-        "兼容性问题应怎样解释，才不沦为参数吵架？",
-        "一台新形态设备，谁真的需要它？"
+        "灾害热点里，哪一条信息可以立刻转发？",
+        "救援新闻怎样讲，才不把灾情做成情绪素材？"
       ],
       "recommendedFormat": {
-        "duration": "75–110 秒",
-        "structure": "现象 → 场景测试 → 取舍表 → 复核入口"
+        "duration": "70–100 秒",
+        "structure": "多源榜单 → 信息分层 → 权威复核入口 → 行动建议"
       },
       "factStatus": "needs-review",
       "sources": [
         {
-          "name": "微博原榜：iPhoneDuo微信不适配",
-          "url": "https://s.weibo.com/weibo?q=%23iPhoneDuo%E5%BE%AE%E4%BF%A1%E4%B8%8D%E9%80%82%E9%85%8D%23",
+          "name": "抖音原榜：西藏7.0级地震已致16死54伤",
+          "url": "https://www.douyin.com/search/%E8%A5%BF%E8%97%8F7.0%E7%BA%A7%E5%9C%B0%E9%9C%87%E5%B7%B2%E8%87%B416%E6%AD%BB54%E4%BC%A4",
           "type": "platform"
         },
         {
-          "name": "抖音原榜：iPhone Duo深度评测",
-          "url": "https://www.douyin.com/search/iPhone%20Duo%E6%B7%B1%E5%BA%A6%E8%AF%84%E6%B5%8B",
+          "name": "微博原榜：西藏7级地震",
+          "url": "https://s.weibo.com/weibo?q=%E8%A5%BF%E8%97%8F7%E7%BA%A7%E5%9C%B0%E9%9C%87",
           "type": "platform"
         },
         {
-          "name": "百度原榜：iPhone Duo折叠3000次后折痕加深",
-          "url": "https://m.baidu.com/s?word=iPhone+Duo%E6%8A%98%E5%8F%A03000%E6%AC%A1%E5%90%8E%E6%8A%98%E7%97%95%E5%8A%A0%E6%B7%B1&sa=fyb_news",
+          "name": "知乎原榜：西藏巴青县7.0级地震已致16死65伤，为今年以来中国最大地震，当地目前情况如何？你那边有震感吗？",
+          "url": "https://www.zhihu.com/question/2096734873637445705",
+          "type": "platform"
+        },
+        {
+          "name": "百度原榜：西藏那曲地震已致16死65伤",
+          "url": "https://m.baidu.com/s?word=%E8%A5%BF%E8%97%8F%E9%82%A3%E6%9B%B2%E5%9C%B0%E9%9C%87%E5%B7%B2%E8%87%B416%E6%AD%BB65%E4%BC%A4&sa=fyb_news",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-10-23T04:00:46.083Z"
+    },
+    {
+      "id": "iphone-duo-launch-pricing",
+      "rank": 2,
+      "title": "iPhone Duo首售持续占榜：数码评测该从溢价、耐用与适配拆开说",
+      "brief": "首售、回收溢价、评测和应用适配在多个原榜出现。内容可以用真实使用场景讲价格、功能与长期成本的取舍，避免把单一门店报价或个案评测说成普遍结论。",
+      "category": "数码与消费",
+      "momentum": "peak",
+      "urgency": "now",
+      "heat": 98,
+      "crossPlatform": 5,
+      "mathFit": 92,
+      "visualFit": 96,
+      "lifeFit": 93,
+      "questionDensity": 95,
+      "priority": 95,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 27,
+          "score": 61,
+          "trend": "抖音"
+        },
+        {
+          "id": "weibo",
+          "rank": 8,
+          "score": 90,
+          "trend": "微博"
+        },
+        {
+          "id": "zhihu",
+          "rank": 13,
+          "score": 82,
+          "trend": "知乎"
+        },
+        {
+          "id": "baidu",
+          "rank": 44,
+          "score": 36,
+          "trend": "百度"
+        },
+        {
+          "id": "bilibili",
+          "rank": 49,
+          "score": 28,
+          "trend": "B站"
+        }
+      ],
+      "keywords": [
+        "iPhone Duo",
+        "折叠设备",
+        "评测",
+        "溢价",
+        "应用适配"
+      ],
+      "mathAngles": [
+        "列出首发价格、转售价与长期使用成本的不同口径",
+        "用通勤、工作和拍摄三个场景比较需求",
+        "将实测、商家报价和用户体验分别标注"
+      ],
+      "hooks": [
+        "新机最容易被忽略的成本，到底是什么？",
+        "一条评测怎样才算把耐用性讲清楚？"
+      ],
+      "recommendedFormat": {
+        "duration": "75–110 秒",
+        "structure": "占榜现象 → 场景拆解 → 成本/风险表 → 复核提示"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "抖音原榜：iPhone Duo最高溢价降至3000元",
+          "url": "https://www.douyin.com/search/iPhone%20Duo%E6%9C%80%E9%AB%98%E6%BA%A2%E4%BB%B7%E9%99%8D%E8%87%B33000%E5%85%83",
+          "type": "platform"
+        },
+        {
+          "name": "微博原榜：iPhoneDuo仅被加价2000回收",
+          "url": "https://s.weibo.com/weibo?q=%23iPhoneDuo%E4%BB%85%E8%A2%AB%E5%8A%A0%E4%BB%B72000%E5%9B%9E%E6%94%B6%23",
+          "type": "platform"
+        },
+        {
+          "name": "知乎原榜：iPhone Duo 正式发售，相关媒体评论已解禁，哪些新要点值得关注？你最关注哪家测评？",
+          "url": "https://www.zhihu.com/question/2096540962457478717",
+          "type": "platform"
+        },
+        {
+          "name": "百度原榜：iPhone Duo正式开售每人限购2部",
+          "url": "https://m.baidu.com/s?word=iPhone+Duo%E6%AD%A3%E5%BC%8F%E5%BC%80%E5%94%AE%E6%AF%8F%E4%BA%BA%E9%99%90%E8%B4%AD2%E9%83%A8&sa=fyb_news",
           "type": "platform"
         },
         {
@@ -207,766 +302,723 @@
           "type": "platform"
         }
       ],
-      "updatedAt": "2026-10-22T04:00:54.367Z"
+      "updatedAt": "2026-10-23T04:00:46.083Z"
     },
     {
-      "id": "long-march-memory-and-evidence",
-      "rank": 2,
-      "title": "长征纪念信号横跨三榜：历史内容可从一条时间线讲到史料证据",
-      "brief": "纪念日、文化表达与历史资料话题在多个榜单出现。历史、教育与旅行创作者可从时间、地点和史料出处切入，避免让情绪化转述替代来源核验。",
-      "category": "历史与文化",
+      "id": "a-share-3600-volatility",
+      "rank": 3,
+      "title": "A股3600点讨论升温：财经内容先讲波动机制，再谈个人选择",
+      "brief": "指数点位与下跌原因同时进入微博、百度原榜。适合解释指数、个股、估值和风险承受能力不是同一件事；不依据热榜作出行情预测或个股建议。",
+      "category": "财经与消费决策",
       "momentum": "rising",
-      "urgency": "now",
-      "heat": 100,
-      "crossPlatform": 3,
-      "mathFit": 91,
-      "visualFit": 93,
-      "lifeFit": 92,
+      "urgency": "today",
+      "heat": 92,
+      "crossPlatform": 2,
+      "mathFit": 95,
+      "visualFit": 78,
+      "lifeFit": 88,
       "questionDensity": 95,
-      "priority": 94,
+      "priority": 91,
       "platforms": [
         {
-          "id": "douyin",
+          "id": "weibo",
           "rank": 2,
           "score": 99,
-          "trend": "抖音"
+          "trend": "微博"
         },
         {
           "id": "weibo",
-          "rank": 3,
-          "score": 98,
+          "rank": 5,
+          "score": 94,
           "trend": "微博"
         },
         {
           "id": "baidu",
-          "rank": 3,
-          "score": 98,
+          "rank": 23,
+          "score": 67,
           "trend": "百度"
-        }
-      ],
-      "keywords": [
-        "红军长征胜利90周年纪念日",
-        "走好属于我们这一代的长征路",
-        "回望长征岁月",
-        "奋进复兴征程"
-      ],
-      "mathAngles": [
-        "制作可核验的时间线与地点图",
-        "区分纪念表达、史料发现与二次创作",
-        "把图像出处列为片尾资料"
-      ],
-      "hooks": [
-        "一张历史照片，怎么确认它真的来自那个时刻？",
-        "纪念内容怎样既有共鸣又不牺牲证据？"
-      ],
-      "recommendedFormat": {
-        "duration": "70–100 秒",
-        "structure": "纪念节点 → 史料问题 → 时间线 → 来源说明"
-      },
-      "factStatus": "needs-review",
-      "sources": [
-        {
-          "name": "抖音原榜：红军长征胜利90周年纪念日",
-          "url": "https://www.douyin.com/search/%E7%BA%A2%E5%86%9B%E9%95%BF%E5%BE%81%E8%83%9C%E5%88%A990%E5%91%A8%E5%B9%B4%E7%BA%AA%E5%BF%B5%E6%97%A5",
-          "type": "platform"
-        },
-        {
-          "name": "微博原榜：走好属于我们这一代的长征路",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%B5%B0%E5%A5%BD%E5%B1%9E%E4%BA%8E%E6%88%91%E4%BB%AC%E8%BF%99%E4%B8%80%E4%BB%A3%E7%9A%84%E9%95%BF%E5%BE%81%E8%B7%AF%23",
-          "type": "platform"
-        },
-        {
-          "name": "百度原榜：回望长征岁月 奋进复兴征程",
-          "url": "https://m.baidu.com/s?word=%E5%9B%9E%E6%9C%9B%E9%95%BF%E5%BE%81%E5%B2%81%E6%9C%88+%E5%A5%8B%E8%BF%9B%E5%A4%8D%E5%85%B4%E5%BE%81%E7%A8%8B&sa=fyb_news",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-10-22T04:00:54.367Z"
-    },
-    {
-      "id": "typhoon-qiongpia-risk-communication",
-      "rank": 3,
-      "title": "台风“蔷琵”多平台升温：天气内容先讲预警与行动，不渲染灾情",
-      "brief": "台风相关标题在短视频、搜索和视频榜单同时出现。天气、生活和城市创作者可以解释预警信息的阅读方法与家庭准备清单；具体路径、强度和影响范围必须回到气象部门的实时发布。",
-      "category": "天气与公共安全",
-      "momentum": "rising",
-      "urgency": "now",
-      "heat": 90,
-      "crossPlatform": 3,
-      "mathFit": 89,
-      "visualFit": 91,
-      "lifeFit": 90,
-      "questionDensity": 93,
-      "priority": 92,
-      "platforms": [
-        {
-          "id": "douyin",
-          "rank": 4,
-          "score": 97,
-          "trend": "抖音"
         },
         {
           "id": "baidu",
-          "rank": 26,
-          "score": 75,
-          "trend": "百度"
-        },
-        {
-          "id": "bilibili",
-          "rank": 37,
-          "score": 64,
-          "trend": "B站"
-        }
-      ],
-      "keywords": [
-        "台风蔷琵正向我国方向靠近",
-        "超强台风蔷琵逼近中国",
-        "超强台风来了",
-        "江浙沪台周末要下台风雨",
-        "华南福建先降温后又升温"
-      ],
-      "mathAngles": [
-        "展示预警颜色、更新时间和地理范围",
-        "给出可执行的出行与物资检查表",
-        "避免预测未被官方确认的风雨影响"
-      ],
-      "hooks": [
-        "看到台风热搜后，普通人第一步该查什么？",
-        "“逼近”不等于你所在城市一定受灾，差别在哪？"
-      ],
-      "recommendedFormat": {
-        "duration": "45–75 秒",
-        "structure": "热榜提醒 → 预警读取 → 行动清单 → 官方入口"
-      },
-      "factStatus": "needs-review",
-      "sources": [
-        {
-          "name": "抖音原榜：台风蔷琵正向我国方向靠近",
-          "url": "https://www.douyin.com/search/%E5%8F%B0%E9%A3%8E%E8%94%B7%E7%90%B5%E6%AD%A3%E5%90%91%E6%88%91%E5%9B%BD%E6%96%B9%E5%90%91%E9%9D%A0%E8%BF%91",
-          "type": "platform"
-        },
-        {
-          "name": "百度原榜：超强台风蔷琵逼近中国",
-          "url": "https://m.baidu.com/s?word=%E8%B6%85%E5%BC%BA%E5%8F%B0%E9%A3%8E%E8%94%B7%E7%90%B5%E9%80%BC%E8%BF%91%E4%B8%AD%E5%9B%BD&sa=fyb_news",
-          "type": "platform"
-        },
-        {
-          "name": "B站原榜：超强台风来了：江浙沪台周末要下台风雨，华南福建先降温后又升温",
-          "url": "https://www.bilibili.com/video/BV1fjnr6NEyk",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-10-22T04:00:54.367Z"
-    },
-    {
-      "id": "women-gymnastics-team-performance",
-      "rank": 4,
-      "title": "中国体操女队话题跨三榜：体育内容可把成绩、规则与人物故事分开讲",
-      "brief": "关于体操女队的成绩讨论进入多个榜单。体育、人物与教育创作者可以用比赛规则、动作难度和团队协作组织叙事；名次、资格和具体技术分数发布前应核对赛事官方成绩。",
-      "category": "体育与人物",
-      "momentum": "rising",
-      "urgency": "now",
-      "heat": 85,
-      "crossPlatform": 3,
-      "mathFit": 87,
-      "visualFit": 89,
-      "lifeFit": 88,
-      "questionDensity": 91,
-      "priority": 90,
-      "platforms": [
-        {
-          "id": "weibo",
-          "rank": 41,
-          "score": 60,
-          "trend": "微博"
-        },
-        {
-          "id": "zhihu",
-          "rank": 28,
-          "score": 73,
-          "trend": "知乎"
-        },
-        {
-          "id": "baidu",
-          "rank": 12,
-          "score": 89,
+          "rank": 17,
+          "score": 76,
           "trend": "百度"
         }
       ],
       "keywords": [
-        "中国体操女团夺冠解说哽咽了",
-        "中国体操女队时隔",
-        "20",
-        "年再夺世锦赛女团金牌",
-        "如何评价姑娘们的发挥",
-        "中国体操女队终结美国7连冠"
+        "A股",
+        "3600点",
+        "指数",
+        "波动",
+        "风险"
       ],
       "mathAngles": [
-        "用团体赛评分流程解释叙事",
-        "区分官方成绩与观众情绪",
-        "人物故事避免过度消费伤病与压力"
+        "解释点位变化和收益率不是一个概念",
+        "展示不同时间窗口的比较为何会产生不同观感",
+        "将行情事实、原因假设和投资建议严格分层"
       ],
       "hooks": [
-        "一枚团体金牌，究竟由哪些分数和协作组成？",
-        "体育热搜里，怎样把“赢了”讲得更有信息量？"
+        "指数跌破整数关口，为什么会激发这么多讨论？",
+        "看到市场热搜后，普通人先该看哪三个信息？"
       ],
       "recommendedFormat": {
         "duration": "60–90 秒",
-        "structure": "结果 → 规则 → 团队视角 → 成绩单入口"
+        "structure": "热榜现象 → 基础概念 → 风险框架 → 数据来源"
       },
       "factStatus": "needs-review",
       "sources": [
         {
-          "name": "微博原榜：中国体操女团夺冠解说哽咽了",
-          "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E4%BD%93%E6%93%8D%E5%A5%B3%E5%9B%A2%E5%A4%BA%E5%86%A0%E8%A7%A3%E8%AF%B4%E5%93%BD%E5%92%BD%E4%BA%86%23",
+          "name": "微博原榜：A股跌破3600点原因曝光",
+          "url": "https://s.weibo.com/weibo?q=%23A%E8%82%A1%E8%B7%8C%E7%A0%B43600%E7%82%B9%E5%8E%9F%E5%9B%A0%E6%9B%9D%E5%85%89%23",
           "type": "platform"
         },
         {
-          "name": "知乎原榜：中国体操女队时隔 20 年再夺世锦赛女团金牌，如何评价姑娘们的发挥？",
-          "url": "https://www.zhihu.com/question/2096473940185162293",
+          "name": "微博原榜：A股跌破3600点",
+          "url": "https://s.weibo.com/weibo?q=A%E8%82%A1%E8%B7%8C%E7%A0%B43600%E7%82%B9",
           "type": "platform"
         },
         {
-          "name": "百度原榜：中国体操女队终结美国7连冠",
-          "url": "https://m.baidu.com/s?word=%E4%B8%AD%E5%9B%BD%E4%BD%93%E6%93%8D%E5%A5%B3%E9%98%9F%E7%BB%88%E7%BB%93%E7%BE%8E%E5%9B%BD7%E8%BF%9E%E5%86%A0&sa=fyb_news",
+          "name": "百度原榜：沪指盘中失守3600点关口",
+          "url": "https://m.baidu.com/s?word=%E6%B2%AA%E6%8C%87%E7%9B%98%E4%B8%AD%E5%A4%B1%E5%AE%883600%E7%82%B9%E5%85%B3%E5%8F%A3&sa=fyb_news",
+          "type": "platform"
+        },
+        {
+          "name": "百度原榜：创业板指跌破2500点",
+          "url": "https://m.baidu.com/s?word=%E5%88%9B%E4%B8%9A%E6%9D%BF%E6%8C%87%E8%B7%8C%E7%A0%B42500%E7%82%B9&sa=fyb_news",
           "type": "platform"
         }
       ],
-      "updatedAt": "2026-10-22T04:00:54.367Z"
+      "updatedAt": "2026-10-23T04:00:46.083Z"
     },
     {
-      "id": "short-drama-monetization-change",
-      "rank": 5,
-      "title": "红果短剧商业讨论跨三榜：创作者可把免费、金币与广告模式拆开讲",
-      "brief": "短剧平台的功能与商业化讨论同时进入热榜。影视、商业和用户体验创作者可以比较观看门槛、激励机制与广告变现，但不将单一标题外推为完整的产品或行业结论。",
-      "category": "影视与内容产业",
+      "id": "education-professionalism-evidence",
+      "rank": 4,
+      "title": "教育与医疗专业性被热议：解释内容要把称谓、能力与证据分开",
+      "brief": "教师称谓规范、家校举报和医疗诊断争议分布在多个榜单。可以讨论专业关系中的边界、沟通与证据，不据热榜认定具体个人或机构的是非。",
+      "category": "教育与职业伦理",
       "momentum": "rising",
       "urgency": "today",
-      "heat": 91,
+      "heat": 88,
       "crossPlatform": 3,
-      "mathFit": 86,
-      "visualFit": 88,
-      "lifeFit": 87,
-      "questionDensity": 90,
+      "mathFit": 91,
+      "visualFit": 79,
+      "lifeFit": 91,
+      "questionDensity": 94,
       "priority": 89,
       "platforms": [
         {
-          "id": "weibo",
-          "rank": 22,
-          "score": 79,
-          "trend": "微博"
+          "id": "douyin",
+          "rank": 10,
+          "score": 87,
+          "trend": "抖音"
         },
         {
           "id": "zhihu",
-          "rank": 4,
+          "rank": 3,
           "score": 97,
           "trend": "知乎"
         },
         {
-          "id": "baidu",
-          "rank": 36,
-          "score": 65,
-          "trend": "百度"
-        }
-      ],
-      "keywords": [
-        "红果短剧暂无全面收费计划",
-        "红果短剧宣布将下线金币功能",
-        "这一商业决策背后有哪些考虑",
-        "是不需要靠「薅羊毛」引流实现增长了吗",
-        "红果把观众的时间标好了价"
-      ],
-      "mathAngles": [
-        "画出用户时间、内容供给与收入的关系",
-        "区分平台公告、用户体验与行业推断",
-        "提示政策与产品机制可能快速变化"
-      ],
-      "hooks": [
-        "“免费”内容到底由谁买单？",
-        "金币、广告、订阅三种设计，分别在换什么？"
-      ],
-      "recommendedFormat": {
-        "duration": "60–90 秒",
-        "structure": "热榜现象 → 商业模型 → 用户体验 → 证据边界"
-      },
-      "factStatus": "needs-review",
-      "sources": [
-        {
-          "name": "微博原榜：红果短剧暂无全面收费计划",
-          "url": "https://s.weibo.com/weibo?q=%E7%BA%A2%E6%9E%9C%E7%9F%AD%E5%89%A7%E6%9A%82%E6%97%A0%E5%85%A8%E9%9D%A2%E6%94%B6%E8%B4%B9%E8%AE%A1%E5%88%92",
-          "type": "platform"
-        },
-        {
-          "name": "知乎原榜：红果短剧宣布将下线金币功能，这一商业决策背后有哪些考虑？是不需要靠「薅羊毛」引流实现增长了吗？",
-          "url": "https://www.zhihu.com/question/2096299255153391558",
-          "type": "platform"
-        },
-        {
-          "name": "百度原榜：红果把观众的时间标好了价",
-          "url": "https://m.baidu.com/s?word=%E7%BA%A2%E6%9E%9C%E6%8A%8A%E8%A7%82%E4%BC%97%E7%9A%84%E6%97%B6%E9%97%B4%E6%A0%87%E5%A5%BD%E4%BA%86%E4%BB%B7&sa=fyb_news",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-10-22T04:00:54.367Z"
-    },
-    {
-      "id": "ai-writing-trace-and-integrity",
-      "rank": 6,
-      "title": "AI 写论文“留痕”上榜：教育内容该讨论证据链，而非制造检测焦虑",
-      "brief": "AI 生成与技术迁移话题同时出现。教育、科技和职业创作者可讨论引用、过程记录、作者责任与工具边界；任何检测结论、学校规则或技术能力都需要查询对应机构与产品的原始说明。",
-      "category": "AI与教育",
-      "momentum": "steady",
-      "urgency": "today",
-      "heat": 100,
-      "crossPlatform": 2,
-      "mathFit": 84,
-      "visualFit": 86,
-      "lifeFit": 85,
-      "questionDensity": 88,
-      "priority": 87,
-      "platforms": [
-        {
-          "id": "weibo",
-          "rank": 6,
-          "score": 95,
-          "trend": "微博"
-        },
-        {
           "id": "zhihu",
-          "rank": 9,
-          "score": 92,
-          "trend": "知乎"
-        }
-      ],
-      "keywords": [
-        "原来用AI写论文是会有痕迹的",
-        "多款",
-        "3A",
-        "老游戏被",
-        "AI",
-        "光速反编译并移植网页端"
-      ],
-      "mathAngles": [
-        "用资料、提纲、版本记录展示过程证据",
-        "区分辅助、代写与可验证引用",
-        "不把检测工具输出当成唯一裁决"
-      ],
-      "hooks": [
-        "一篇作品的“作者性”，除了结果还能怎么证明？",
-        "AI 能帮到哪一步，责任又从哪一步开始？"
-      ],
-      "recommendedFormat": {
-        "duration": "55–85 秒",
-        "structure": "争议钩子 → 过程证据 → 责任边界 → 规则入口"
-      },
-      "factStatus": "needs-review",
-      "sources": [
-        {
-          "name": "微博原榜：原来用AI写论文是会有痕迹的",
-          "url": "https://s.weibo.com/weibo?q=%E5%8E%9F%E6%9D%A5%E7%94%A8AI%E5%86%99%E8%AE%BA%E6%96%87%E6%98%AF%E4%BC%9A%E6%9C%89%E7%97%95%E8%BF%B9%E7%9A%84",
-          "type": "platform"
-        },
-        {
-          "name": "知乎原榜：多款 3A 老游戏被 AI 光速反编译并移植网页端，将对游戏行业带来哪些冲击？",
-          "url": "https://www.zhihu.com/question/2094620721343481537",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-10-22T04:00:54.367Z"
-    },
-    {
-      "id": "a-share-valuation-and-risk",
-      "rank": 7,
-      "title": "A 股与“白马股”同日上榜：财经内容先把波动、估值和风险分层",
-      "brief": "市场波动与个股讨论进入搜索及社交热榜。财经创作者可解释价格、估值、流动性和个人风险承受能力的不同，不把热榜情绪、个案或短期走势写成投资建议。",
-      "category": "财经与消费决策",
-      "momentum": "steady",
-      "urgency": "today",
-      "heat": 96,
-      "crossPlatform": 2,
-      "mathFit": 82,
-      "visualFit": 84,
-      "lifeFit": 83,
-      "questionDensity": 86,
-      "priority": 85,
-      "platforms": [
-        {
-          "id": "weibo",
-          "rank": 18,
-          "score": 83,
-          "trend": "微博"
-        },
-        {
-          "id": "baidu",
-          "rank": 6,
-          "score": 95,
-          "trend": "百度"
-        }
-      ],
-      "keywords": [
-        "一天杀一只白马股",
-        "A股",
-        "A股千元股仅剩两只"
-      ],
-      "mathAngles": [
-        "用风险收益与信息时点解释差异",
-        "明确内容不构成投资建议",
-        "引用公告、交易所数据或财报时标明日期"
-      ],
-      "hooks": [
-        "一条“白马股”热搜，信息量到底有多少？",
-        "股价、公司价值和投资回报，为什么不是同一个词？"
-      ],
-      "recommendedFormat": {
-        "duration": "70–100 秒",
-        "structure": "情绪热搜 → 概念拆分 → 风险框架 → 数据来源"
-      },
-      "factStatus": "needs-review",
-      "sources": [
-        {
-          "name": "微博原榜：一天杀一只白马股",
-          "url": "https://s.weibo.com/weibo?q=%E4%B8%80%E5%A4%A9%E6%9D%80%E4%B8%80%E5%8F%AA%E7%99%BD%E9%A9%AC%E8%82%A1",
-          "type": "platform"
-        },
-        {
-          "name": "微博原榜：A股",
-          "url": "https://s.weibo.com/weibo?q=A%E8%82%A1",
-          "type": "platform"
-        },
-        {
-          "name": "百度原榜：A股千元股仅剩两只",
-          "url": "https://m.baidu.com/s?word=A%E8%82%A1%E5%8D%83%E5%85%83%E8%82%A1%E4%BB%85%E5%89%A9%E4%B8%A4%E5%8F%AA&sa=fyb_news",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-10-22T04:00:54.367Z"
-    },
-    {
-      "id": "metro-station-reading-fee",
-      "rank": 8,
-      "title": "地铁站看书收费讨论跨两榜：城市生活选题要从规则、证据与体验讲起",
-      "brief": "同一则地铁站内看书与收费的讨论登上微博、百度原榜。城市生活与法律常识创作者可以讨论场地规则、收费依据与申诉流程，但不在未查明公告、票据与当事方回应前认定责任。",
-      "category": "城市生活与公共规则",
-      "momentum": "steady",
-      "urgency": "today",
-      "heat": 100,
-      "crossPlatform": 2,
-      "mathFit": 81,
-      "visualFit": 83,
-      "lifeFit": 82,
-      "questionDensity": 85,
-      "priority": 84,
-      "platforms": [
-        {
-          "id": "weibo",
-          "rank": 2,
-          "score": 99,
-          "trend": "微博"
-        },
-        {
-          "id": "baidu",
           "rank": 5,
-          "score": 96,
-          "trend": "百度"
-        }
-      ],
-      "keywords": [
-        "女子称地铁站内看5小时书被扣15元",
-        "地铁站内看书5小时被扣15元"
-      ],
-      "mathAngles": [
-        "按公告、票据、工作人员说明排序证据",
-        "解释规则与合理性是两层问题",
-        "不公开当事人隐私或引导网暴"
-      ],
-      "hooks": [
-        "在公共空间停留，什么情况下会产生费用？",
-        "热搜里最该先找的一份文件是什么？"
-      ],
-      "recommendedFormat": {
-        "duration": "45–70 秒",
-        "structure": "事件标题 → 证据清单 → 规则阅读 → 待核验项"
-      },
-      "factStatus": "needs-review",
-      "sources": [
-        {
-          "name": "微博原榜：女子称地铁站内看5小时书被扣15元",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E7%A7%B0%E5%9C%B0%E9%93%81%E7%AB%99%E5%86%85%E7%9C%8B5%E5%B0%8F%E6%97%B6%E4%B9%A6%E8%A2%AB%E6%89%A315%E5%85%83%23",
-          "type": "platform"
-        },
-        {
-          "name": "百度原榜：地铁站内看书5小时被扣15元",
-          "url": "https://m.baidu.com/s?word=%E5%9C%B0%E9%93%81%E7%AB%99%E5%86%85%E7%9C%8B%E4%B9%A65%E5%B0%8F%E6%97%B6%E8%A2%AB%E6%89%A315%E5%85%83&sa=fyb_news",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-10-22T04:00:54.367Z"
-    },
-    {
-      "id": "health-treatment-claims-and-evidence",
-      "rank": 9,
-      "title": "乙肝与癌症话题同时在榜：健康内容先识别证据等级，再谈希望",
-      "brief": "治疗进展和癌症数据相关话题同日出现。健康创作者适合讲清论文、临床试验、监管批准与个体就医建议的证据等级；不能依据热榜标题判断疗效、适用人群或替代医生建议。",
-      "category": "健康与科学",
-      "momentum": "steady",
-      "urgency": "today",
-      "heat": 96,
-      "crossPlatform": 3,
-      "mathFit": 80,
-      "visualFit": 82,
-      "lifeFit": 81,
-      "questionDensity": 84,
-      "priority": 83,
-      "platforms": [
-        {
-          "id": "weibo",
-          "rank": 25,
-          "score": 76,
-          "trend": "微博"
-        },
-        {
-          "id": "zhihu",
-          "rank": 7,
           "score": 94,
           "trend": "知乎"
         },
         {
           "id": "baidu",
-          "rank": 17,
-          "score": 84,
+          "rank": 31,
+          "score": 55,
           "trend": "百度"
         }
       ],
       "keywords": [
-        "全球首款乙肝功能性治愈药物",
-        "国家癌症中心发布数据",
-        "甲状腺癌跃居发病第",
-        "20～39",
-        "岁男女发病率最高",
-        "为什么会这样"
+        "教师称谓",
+        "家校沟通",
+        "医疗专业性",
+        "证据"
       ],
       "mathAngles": [
-        "用证据等级表区分研究、试验和获批",
-        "提示数据年份、样本与人群范围",
-        "明确不提供诊疗或用药建议"
+        "用决策链展示“感觉不对”到正式申诉的证据门槛",
+        "区分节目表达、专业服务和事实认定",
+        "设计不伤害当事人的问题清单"
       ],
       "hooks": [
-        "看到“治愈”两个字，先要问哪三个问题？",
-        "一份癌症统计，怎样读才不会制造恐慌？"
+        "为什么一场争议，常常混进了三种不同的问题？",
+        "专业性怎样用普通人也能核验的方式讲？"
       ],
       "recommendedFormat": {
-        "duration": "70–105 秒",
-        "structure": "热榜标题 → 证据分级 → 阅读清单 → 权威查询"
+        "duration": "70–100 秒",
+        "structure": "两类争议 → 概念拆分 → 证据链 → 沟通边界"
       },
       "factStatus": "needs-review",
       "sources": [
         {
-          "name": "微博原榜：全球首款乙肝功能性治愈药物",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%85%A8%E7%90%83%E9%A6%96%E6%AC%BE%E4%B9%99%E8%82%9D%E5%8A%9F%E8%83%BD%E6%80%A7%E6%B2%BB%E6%84%88%E8%8D%AF%E7%89%A9%23",
+          "name": "抖音原榜：人民日报评老师被家长无理举报",
+          "url": "https://www.douyin.com/search/%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%E8%AF%84%E8%80%81%E5%B8%88%E8%A2%AB%E5%AE%B6%E9%95%BF%E6%97%A0%E7%90%86%E4%B8%BE%E6%8A%A5",
           "type": "platform"
         },
         {
-          "name": "知乎原榜：国家癌症中心发布数据，甲状腺癌跃居发病第 3 位，20～39 岁男女发病率最高，为什么会这样？",
-          "url": "https://www.zhihu.com/question/2096183185604399797",
+          "name": "知乎原榜：高校发倡议规范使用得体庄重的「老师」称谓，严禁学生称辅导员为「哥、姐」，你怎么看？",
+          "url": "https://www.zhihu.com/question/2096519816542736864",
           "type": "platform"
         },
         {
-          "name": "百度原榜：全球首款乙肝功能性治愈药物",
-          "url": "https://m.baidu.com/s?word=%E5%85%A8%E7%90%83%E9%A6%96%E6%AC%BE%E4%B9%99%E8%82%9D%E5%8A%9F%E8%83%BD%E6%80%A7%E6%B2%BB%E6%84%88%E8%8D%AF%E7%89%A9&sa=fyb_news",
+          "name": "知乎原榜：如何看待《令人心动的offer8》李子祺在节目里诊断用盲猜，称专博不临床，10篇SCI被指为水刊凑数？",
+          "url": "https://www.zhihu.com/question/2096626576456507559",
+          "type": "platform"
+        },
+        {
+          "name": "百度原榜：医学博士称“诊断靠盲猜” 校方回应",
+          "url": "https://m.baidu.com/s?word=%E5%8C%BB%E5%AD%A6%E5%8D%9A%E5%A3%AB%E7%A7%B0%E2%80%9C%E8%AF%8A%E6%96%AD%E9%9D%A0%E7%9B%B2%E7%8C%9C%E2%80%9D+%E6%A0%A1%E6%96%B9%E5%9B%9E%E5%BA%94&sa=fyb_news",
           "type": "platform"
         }
       ],
-      "updatedAt": "2026-10-22T04:00:54.367Z"
+      "updatedAt": "2026-10-23T04:00:46.083Z"
     },
     {
-      "id": "vehicle-lighting-and-driving-liability",
+      "id": "ai-network-backdoor-security",
+      "rank": 5,
+      "title": "“AI发现网络暗门”登百度热榜：安全内容要先说明发现、验证与修复",
+      "brief": "关于AI发现长期潜伏网络风险的标题进入百度原榜。这个选题适合讲安全研究的验证流程与负责任披露；原榜标题不足以证明技术细节，须在发布前找到原始研究或官方通报。",
+      "category": "网络安全与AI",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 84,
+      "crossPlatform": 2,
+      "mathFit": 96,
+      "visualFit": 89,
+      "lifeFit": 82,
+      "questionDensity": 92,
+      "priority": 87,
+      "platforms": [
+        {
+          "id": "baidu",
+          "rank": 2,
+          "score": 99,
+          "trend": "百度"
+        },
+        {
+          "id": "bilibili",
+          "rank": 12,
+          "score": 84,
+          "trend": "B站"
+        }
+      ],
+      "keywords": [
+        "AI",
+        "网络安全",
+        "漏洞",
+        "验证",
+        "披露"
+      ],
+      "mathAngles": [
+        "画出发现—复现—评估—修复—披露的工作流",
+        "解释风险评级不等于恐慌指数",
+        "说明为什么需要原始报告和受影响范围"
+      ],
+      "hooks": [
+        "一条“发现暗门”的新闻，先该问什么？",
+        "AI能帮安全研究做什么，又不能替谁背书？"
+      ],
+      "recommendedFormat": {
+        "duration": "70–105 秒",
+        "structure": "热榜标题 → 验证链 → 风险边界 → 原始资料入口"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "百度原榜：AI发现人类网络潜伏多年的“暗门”",
+          "url": "https://m.baidu.com/s?word=AI%E5%8F%91%E7%8E%B0%E4%BA%BA%E7%B1%BB%E7%BD%91%E7%BB%9C%E6%BD%9C%E4%BC%8F%E5%A4%9A%E5%B9%B4%E7%9A%84%E2%80%9C%E6%9A%97%E9%97%A8%E2%80%9D&sa=fyb_news",
+          "type": "platform"
+        },
+        {
+          "name": "B站原榜：史上第一个智械危机受害者",
+          "url": "https://www.bilibili.com/video/BV1EJnp6nEoR",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-10-23T04:00:46.083Z"
+    },
+    {
+      "id": "starbucks-public-space-rules",
+      "rank": 6,
+      "title": "星巴克点单提醒跨榜：公共空间规则如何兼顾经营与体验",
+      "brief": "关于在咖啡店开会被提醒点单的讨论同时出现于微博和百度。适合用场地成本、座位周转和顾客体验解释冲突，避免把网传个案推广为品牌统一规则。",
+      "category": "城市生活与消费",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 83,
+      "crossPlatform": 2,
+      "mathFit": 86,
+      "visualFit": 82,
+      "lifeFit": 95,
+      "questionDensity": 91,
+      "priority": 86,
+      "platforms": [
+        {
+          "id": "weibo",
+          "rank": 20,
+          "score": 72,
+          "trend": "微博"
+        },
+        {
+          "id": "baidu",
+          "rank": 6,
+          "score": 93,
+          "trend": "百度"
+        }
+      ],
+      "keywords": [
+        "咖啡店",
+        "公共空间",
+        "点单",
+        "顾客体验",
+        "经营"
+      ],
+      "mathAngles": [
+        "比较座位周转、停留时长和消费门槛的不同指标",
+        "讨论规则公开程度如何影响体验",
+        "用多方视角写出低冲突解决方案"
+      ],
+      "hooks": [
+        "一张座位，到底同时服务了几种需求？",
+        "公共消费空间的规则怎样才算说清楚？"
+      ],
+      "recommendedFormat": {
+        "duration": "55–85 秒",
+        "structure": "冲突场景 → 多方成本 → 规则设计 → 留言问题"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "微博原榜：在星巴克开会1小时被提醒点单5次",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%9C%A8%E6%98%9F%E5%B7%B4%E5%85%8B%E5%BC%80%E4%BC%9A1%E5%B0%8F%E6%97%B6%E8%A2%AB%E6%8F%90%E9%86%92%E7%82%B9%E5%8D%955%E6%AC%A1%23",
+          "type": "platform"
+        },
+        {
+          "name": "百度原榜：在星巴克开会1小时被提醒点单5次",
+          "url": "https://m.baidu.com/s?word=%E5%9C%A8%E6%98%9F%E5%B7%B4%E5%85%8B%E5%BC%80%E4%BC%9A1%E5%B0%8F%E6%97%B6%E8%A2%AB%E6%8F%90%E9%86%92%E7%82%B9%E5%8D%955%E6%AC%A1&sa=fyb_news",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-10-23T04:00:46.083Z"
+    },
+    {
+      "id": "smoke-free-bar-startup",
+      "rank": 7,
+      "title": "无烟酒吧创业故事走热：生活方式生意要把理想、客流与现金流分开",
+      "brief": "微博原榜出现无烟酒吧投资后关停的讨论，B站也在讨论探店赛道与线下生意。适合用不涉及当事人判断的方式讲选址、复购、毛利和现金流的关系。",
+      "category": "创业与线下消费",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 79,
+      "crossPlatform": 2,
+      "mathFit": 94,
+      "visualFit": 90,
+      "lifeFit": 88,
+      "questionDensity": 91,
+      "priority": 84,
+      "platforms": [
+        {
+          "id": "weibo",
+          "rank": 13,
+          "score": 82,
+          "trend": "微博"
+        },
+        {
+          "id": "bilibili",
+          "rank": 36,
+          "score": 48,
+          "trend": "B站"
+        }
+      ],
+      "keywords": [
+        "无烟酒吧",
+        "创业",
+        "探店",
+        "现金流",
+        "线下消费"
+      ],
+      "mathAngles": [
+        "用盈亏平衡点说明客流与客单价的关系",
+        "区分品牌故事、单店经营与行业结论",
+        "提示公开案例不等于完整账本"
+      ],
+      "hooks": [
+        "一个很有共鸣的店，为什么仍可能撑不住？",
+        "探店流量真的能替代回头客吗？"
+      ],
+      "recommendedFormat": {
+        "duration": "70–100 秒",
+        "structure": "故事 → 简化账本 → 决策变量 → 不确定性"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "微博原榜：两女生投150万开无烟酒吧倒闭",
+          "url": "https://s.weibo.com/weibo?q=%E4%B8%A4%E5%A5%B3%E7%94%9F%E6%8A%95150%E4%B8%87%E5%BC%80%E6%97%A0%E7%83%9F%E9%85%92%E5%90%A7%E5%80%92%E9%97%AD",
+          "type": "platform"
+        },
+        {
+          "name": "B站原榜：厨子探店频频翻车，混子探店秒变进店要饭，行业黑幕防不胜防，探店赛道神仙频出，新手是否还能入场？",
+          "url": "https://www.bilibili.com/video/BV1X4nz6SETe",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-10-23T04:00:46.083Z"
+    },
+    {
+      "id": "frost-descent-cultural-visuals",
+      "rank": 8,
+      "title": "霜降与古诗词旅行同日上榜：文化内容可把节气知识拍成可感知的日常",
+      "brief": "霜降、古诗词影像和山水旅行内容在不同平台出现。适合用实景、物候和地方生活讲节气，而不是把诗句、地名和历史典故混为可直接证实的事实。",
+      "category": "文化与旅行",
+      "momentum": "peak",
+      "urgency": "today",
+      "heat": 76,
+      "crossPlatform": 3,
+      "mathFit": 82,
+      "visualFit": 97,
+      "lifeFit": 85,
+      "questionDensity": 78,
+      "priority": 83,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 6,
+          "score": 93,
+          "trend": "抖音"
+        },
+        {
+          "id": "xiaohongshu",
+          "rank": 2,
+          "score": 99,
+          "trend": "小红书"
+        },
+        {
+          "id": "xiaohongshu",
+          "rank": 9,
+          "score": 88,
+          "trend": "小红书"
+        },
+        {
+          "id": "baidu",
+          "rank": 34,
+          "score": 51,
+          "trend": "百度"
+        }
+      ],
+      "keywords": [
+        "霜降",
+        "节气",
+        "古诗词",
+        "旅行",
+        "物候"
+      ],
+      "mathAngles": [
+        "把节气日期、当地天气和物候现象分开讲",
+        "用镜头前后对照呈现诗意与现实",
+        "给出典故出处与拍摄地点的核验方式"
+      ],
+      "hooks": [
+        "霜降到底“降”的是什么？",
+        "古诗词里的风景，怎样拍才不是摆拍滤镜？"
+      ],
+      "recommendedFormat": {
+        "duration": "45–75 秒",
+        "structure": "节气钩子 → 实景镜头 → 物候解释 → 出处/地点"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "抖音原榜：今日霜降",
+          "url": "https://www.douyin.com/search/%E4%BB%8A%E6%97%A5%E9%9C%9C%E9%99%8D",
+          "type": "platform"
+        },
+        {
+          "name": "小红书原榜：耗时三年拍下古诗词里的中国",
+          "url": "https://www.xiaohongshu.com/search_result?keyword=%E8%80%97%E6%97%B6%E4%B8%89%E5%B9%B4%E6%8B%8D%E4%B8%8B%E5%8F%A4%E8%AF%97%E8%AF%8D%E9%87%8C%E7%9A%84%E4%B8%AD%E5%9B%BD&type=51",
+          "type": "platform"
+        },
+        {
+          "name": "小红书原榜：原来古诗词里的河南真的存在",
+          "url": "https://www.xiaohongshu.com/search_result?keyword=%E5%8E%9F%E6%9D%A5%E5%8F%A4%E8%AF%97%E8%AF%8D%E9%87%8C%E7%9A%84%E6%B2%B3%E5%8D%97%E7%9C%9F%E7%9A%84%E5%AD%98%E5%9C%A8&type=51",
+          "type": "platform"
+        },
+        {
+          "name": "百度原榜：霜降不止有霜",
+          "url": "https://m.baidu.com/s?word=%E9%9C%9C%E9%99%8D%E4%B8%8D%E6%AD%A2%E6%9C%89%E9%9C%9C&sa=fyb_news",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-10-23T04:00:46.083Z"
+    },
+    {
+      "id": "young-people-senior-tour-groups",
+      "rank": 9,
+      "title": "年轻人扎堆老年旅游团：旅行内容可以重估性价比与陪伴需求",
+      "brief": "“年轻人扎堆老年旅游团”进入百度原榜，小红书原榜也集中呈现家庭旅行内容。适合讨论价格、节奏、服务和代际陪伴的不同价值，不将个体选择概括为统一趋势。",
+      "category": "旅行与代际生活",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 74,
+      "crossPlatform": 2,
+      "mathFit": 89,
+      "visualFit": 88,
+      "lifeFit": 93,
+      "questionDensity": 86,
+      "priority": 81,
+      "platforms": [
+        {
+          "id": "baidu",
+          "rank": 46,
+          "score": 33,
+          "trend": "百度"
+        },
+        {
+          "id": "xiaohongshu",
+          "rank": 8,
+          "score": 90,
+          "trend": "小红书"
+        },
+        {
+          "id": "xiaohongshu",
+          "rank": 6,
+          "score": 93,
+          "trend": "小红书"
+        }
+      ],
+      "keywords": [
+        "老年旅游团",
+        "年轻人旅行",
+        "家庭旅行",
+        "性价比",
+        "陪伴"
+      ],
+      "mathAngles": [
+        "把团费、自由时间、服务密度和风险保障列成比较表",
+        "比较旅行产品的显性与隐性成本",
+        "提醒“热搜现象”需要样本数据验证"
+      ],
+      "hooks": [
+        "年轻人为什么开始抢老年团的座位？",
+        "旅行真正的性价比，是省钱还是省心？"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90 秒",
+        "structure": "热榜现象 → 体验比较 → 成本表 → 适合谁"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "百度原榜：年轻人扎堆老年旅游团",
+          "url": "https://m.baidu.com/s?word=%E5%B9%B4%E8%BD%BB%E4%BA%BA%E6%89%8E%E5%A0%86%E8%80%81%E5%B9%B4%E6%97%85%E6%B8%B8%E5%9B%A2&sa=fyb_news",
+          "type": "platform"
+        },
+        {
+          "name": "小红书原榜：我的家庭旅行更像是打副本",
+          "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%88%91%E7%9A%84%E5%AE%B6%E5%BA%AD%E6%97%85%E8%A1%8C%E6%9B%B4%E5%83%8F%E6%98%AF%E6%89%93%E5%89%AF%E6%9C%AC&type=51",
+          "type": "platform"
+        },
+        {
+          "name": "小红书原榜：你可以永远相信赛里木湖的美景",
+          "url": "https://www.xiaohongshu.com/search_result?keyword=%E4%BD%A0%E5%8F%AF%E4%BB%A5%E6%B0%B8%E8%BF%9C%E7%9B%B8%E4%BF%A1%E8%B5%9B%E9%87%8C%E6%9C%A8%E6%B9%96%E7%9A%84%E7%BE%8E%E6%99%AF&type=51",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-10-23T04:00:46.083Z"
+    },
+    {
+      "id": "probability-gambling-literacy",
       "rank": 10,
-      "title": "车灯新规与智驾提示同日出现：汽车内容要讲功能边界与责任归属",
-      "brief": "汽车灯光、辅助驾驶和安全功能讨论进入热榜。汽车、科技和公共安全创作者可比较标准、功能提示与驾驶员责任；法规生效时间、具体配置和安全效果须查询主管部门或厂商技术资料。",
-      "category": "汽车与科技",
+      "title": "“十赌九输”引出概率讨论：把赔率、期望与风险讲给普通人听",
+      "brief": "知乎原榜以抛硬币为例追问赌博为什么长期不利。可用清晰的概率模型解释期望值、抽水与风险，不展示或教授任何赌博玩法。",
+      "category": "生活决策与概率",
       "momentum": "steady",
       "urgency": "evergreen",
-      "heat": 90,
-      "crossPlatform": 2,
-      "mathFit": 79,
-      "visualFit": 81,
-      "lifeFit": 80,
-      "questionDensity": 83,
-      "priority": 82,
+      "heat": 70,
+      "crossPlatform": 1,
+      "mathFit": 100,
+      "visualFit": 86,
+      "lifeFit": 90,
+      "questionDensity": 94,
+      "priority": 80,
       "platforms": [
         {
           "id": "zhihu",
-          "rank": 16,
-          "score": 85,
+          "rank": 8,
+          "score": 90,
+          "trend": "知乎"
+        }
+      ],
+      "keywords": [
+        "概率",
+        "期望值",
+        "风险",
+        "赌博",
+        "决策"
+      ],
+      "mathAngles": [
+        "用公平抛硬币和带抽水游戏对照期望值",
+        "解释短期偶然与长期规律的区别",
+        "讨论为什么亏损体验常被幸存者故事遮住"
+      ],
+      "hooks": [
+        "同样是五五开，为什么长期结果并不五五开？",
+        "我们为什么会把一次赢当成策略有效？"
+      ],
+      "recommendedFormat": {
+        "duration": "60–95 秒",
+        "structure": "反直觉问题 → 简单模型 → 长期模拟 → 风险提醒"
+      },
+      "factStatus": "verified",
+      "sources": [
+        {
+          "name": "知乎原榜：以抛硬币为例，赌博为什么是“十赌九输”，而不是“二赌一输”？",
+          "url": "https://www.zhihu.com/question/2083081409120433686",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-10-23T04:00:46.083Z"
+    },
+    {
+      "id": "industrial-robots-cost-logic",
+      "rank": 11,
+      "title": "24小时机器人设想上榜：制造业内容要把设备、维护与组织成本一起算",
+      "brief": "知乎原榜讨论可连续工作的机器人会否改变制造业成本逻辑。适合解释自动化并非只比较工资，还涉及设备折旧、维护、良率、能耗和岗位重组；具体产品消息需另行核验。",
+      "category": "科技与产业",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 69,
+      "crossPlatform": 2,
+      "mathFit": 97,
+      "visualFit": 91,
+      "lifeFit": 79,
+      "questionDensity": 90,
+      "priority": 79,
+      "platforms": [
+        {
+          "id": "zhihu",
+          "rank": 15,
+          "score": 79,
           "trend": "知乎"
         },
         {
           "id": "baidu",
-          "rank": 33,
-          "score": 68,
+          "rank": 47,
+          "score": 31,
           "trend": "百度"
         }
       ],
       "keywords": [
-        "车灯新国标公布后",
-        "「外显大屏」形态的像素灯将成为历史",
-        "汽车大灯的技术发展方向将如何调整",
-        "遇到碰撞起火事故",
-        "车企宣传的AEB",
-        "真的能救命吗"
+        "机器人",
+        "制造业",
+        "自动化",
+        "成本",
+        "物理AI"
       ],
       "mathAngles": [
-        "用功能、限制、责任三栏讲清产品边界",
-        "区分标准文本、厂商宣传和道路场景",
-        "不把个案或演示等同于安全证明"
+        "用总拥有成本替代单纯人力成本比较",
+        "展示良率、停机时间和维护对结果的影响",
+        "区分技术演示、试点与规模化部署"
       ],
       "hooks": [
-        "一个提示灯，为什么会改变责任的理解？",
-        "辅助驾驶能做什么，又绝不能替你做什么？"
+        "机器人不休息，成本就一定更低吗？",
+        "一台设备的价格之外，还该算哪些账？"
       ],
       "recommendedFormat": {
-        "duration": "60–90 秒",
-        "structure": "热点提问 → 边界图 → 场景提醒 → 原文入口"
+        "duration": "75–105 秒",
+        "structure": "设想 → 成本模型 → 变量敏感性 → 现实边界"
       },
       "factStatus": "needs-review",
       "sources": [
         {
-          "name": "知乎原榜：车灯新国标公布后，「外显大屏」形态的像素灯将成为历史，汽车大灯的技术发展方向将如何调整？",
-          "url": "https://www.zhihu.com/question/2095889644000733143",
+          "name": "知乎原榜：三星研发24小时工作机器人，正在执行搬运货物等工作，如果机器人不用休息，制造业成本逻辑会彻底变吗？",
+          "url": "https://www.zhihu.com/question/2096004164606243451",
           "type": "platform"
         },
         {
-          "name": "知乎原榜：遇到碰撞起火事故，车企宣传的AEB，真的能救命吗？",
-          "url": "https://www.zhihu.com/question/2096295258988474476",
-          "type": "platform"
-        },
-        {
-          "name": "百度原榜：一盏智驾小蓝灯明确“谁在承担后果”",
-          "url": "https://m.baidu.com/s?word=%E4%B8%80%E7%9B%8F%E6%99%BA%E9%A9%BE%E5%B0%8F%E8%93%9D%E7%81%AF%E6%98%8E%E7%A1%AE%E2%80%9C%E8%B0%81%E5%9C%A8%E6%89%BF%E6%8B%85%E5%90%8E%E6%9E%9C%E2%80%9D&sa=fyb_news",
+          "name": "百度原榜：宇树十年 王兴兴的下一关是物理AI",
+          "url": "https://m.baidu.com/s?word=%E5%AE%87%E6%A0%91%E5%8D%81%E5%B9%B4+%E7%8E%8B%E5%85%B4%E5%85%B4%E7%9A%84%E4%B8%8B%E4%B8%80%E5%85%B3%E6%98%AF%E7%89%A9%E7%90%86AI&sa=fyb_news",
           "type": "platform"
         }
       ],
-      "updatedAt": "2026-10-22T04:00:54.367Z"
+      "updatedAt": "2026-10-23T04:00:46.083Z"
     },
     {
-      "id": "high-fashion-credit-and-provenance",
-      "rank": 11,
-      "title": "高定争议持续上榜：时尚内容应先核对来源、署名与合作关系",
-      "brief": "围绕高定、租借与署名的讨论在微博热榜持续出现。时尚、娱乐和品牌创作者可从作品来源、合作方式、借用与购买的区别切入；未有当事方或品牌资料时，不能把传言写成事实。",
-      "category": "时尚与娱乐",
-      "momentum": "steady",
-      "urgency": "evergreen",
-      "heat": 87,
-      "crossPlatform": 1,
-      "mathFit": 77,
-      "visualFit": 79,
-      "lifeFit": 78,
-      "questionDensity": 81,
-      "priority": 80,
-      "platforms": [
-        {
-          "id": "weibo",
-          "rank": 36,
-          "score": 65,
-          "trend": "微博"
-        }
-      ],
-      "keywords": [
-        "上海婚纱店疑删除祖海高定内容",
-        "曝自费高定艺人名字",
-        "业内澄清给艺人买高定"
-      ],
-      "mathAngles": [
-        "做来源追溯时间线",
-        "标注当事方、品牌、媒体各自的说法",
-        "避免扩散未经证实的艺人名单"
-      ],
-      "hooks": [
-        "一件红毯礼服，信息从哪一步开始失真？",
-        "借穿、购买、赞助和定制，差别在哪里？"
-      ],
-      "recommendedFormat": {
-        "duration": "50–80 秒",
-        "structure": "争议 → 概念拆分 → 来源核验 → 边界提示"
-      },
-      "factStatus": "needs-review",
-      "sources": [
-        {
-          "name": "微博原榜：上海婚纱店疑删除祖海高定内容",
-          "url": "https://s.weibo.com/weibo?q=%23%E4%B8%8A%E6%B5%B7%E5%A9%9A%E7%BA%B1%E5%BA%97%E7%96%91%E5%88%A0%E9%99%A4%E7%A5%96%E6%B5%B7%E9%AB%98%E5%AE%9A%E5%86%85%E5%AE%B9%23",
-          "type": "platform"
-        },
-        {
-          "name": "微博原榜：曝自费高定艺人名字",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9D%E8%87%AA%E8%B4%B9%E9%AB%98%E5%AE%9A%E8%89%BA%E4%BA%BA%E5%90%8D%E5%AD%97%23",
-          "type": "platform"
-        },
-        {
-          "name": "微博原榜：业内澄清给艺人买高定",
-          "url": "https://s.weibo.com/weibo?q=%23%E4%B8%9A%E5%86%85%E6%BE%84%E6%B8%85%E7%BB%99%E8%89%BA%E4%BA%BA%E4%B9%B0%E9%AB%98%E5%AE%9A%23",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-10-22T04:00:54.367Z"
-    },
-    {
-      "id": "game-industry-closure-and-preservation",
+      "id": "table-tennis-asian-championship",
       "rank": 12,
-      "title": "BioWare 关闭与 AI 移植讨论上榜：游戏内容可把行业变迁与作品保存分开谈",
-      "brief": "游戏工作室变动与旧作技术迁移在知乎热榜并列。游戏、技术与文化创作者可讨论制作链条、授权边界与数字保存；公司状态、版权归属及工具效果应以当事方或权利方公开信息核验。",
-      "category": "游戏与创意产业",
-      "momentum": "steady",
-      "urgency": "evergreen",
-      "heat": 98,
+      "title": "国乒亚锦赛热度并行：体育内容适合把赛果、规则与叙事分层",
+      "brief": "国乒男团夺冠、女团决赛赛果与赛程同时出现在抖音原榜。可用比分、赛制和运动员故事做有节奏的解读，但具体赛果、时间和球员信息应在发布前交叉核验。",
+      "category": "体育与人物",
+      "momentum": "peak",
+      "urgency": "now",
+      "heat": 72,
       "crossPlatform": 1,
-      "mathFit": 75,
-      "visualFit": 77,
-      "lifeFit": 76,
-      "questionDensity": 79,
+      "mathFit": 84,
+      "visualFit": 95,
+      "lifeFit": 80,
+      "questionDensity": 83,
       "priority": 78,
       "platforms": [
         {
-          "id": "zhihu",
+          "id": "douyin",
+          "rank": 7,
+          "score": 91,
+          "trend": "抖音"
+        },
+        {
+          "id": "douyin",
           "rank": 9,
-          "score": 92,
-          "trend": "知乎"
+          "score": 88,
+          "trend": "抖音"
+        },
+        {
+          "id": "douyin",
+          "rank": 15,
+          "score": 79,
+          "trend": "抖音"
         }
       ],
       "keywords": [
-        "如何评价",
-        "BioWare",
-        "10",
-        "22",
-        "日宣布关闭",
-        "为何一个诞生过《博德之门》等游戏的公司最终走向如此下场"
+        "国乒",
+        "亚锦赛",
+        "乒乓球",
+        "赛制",
+        "比分"
       ],
       "mathAngles": [
-        "分开讨论技术可行性与版权许可",
-        "展示开发、发行、社区保存的不同角色",
-        "避免用单一热搜解释整个行业"
+        "把团体赛赛制和单场比分拆开说明",
+        "用关键回合而非情绪标签复盘比赛",
+        "为赛果补上协会或赛事官方链接"
       ],
       "hooks": [
-        "一款老游戏“能跑起来”，就等于能被合法保存吗？",
-        "工作室消失后，留下来的除了作品还有什么？"
+        "一场团体赛，最容易被误读的规则是什么？",
+        "赛果热搜之外，怎样讲出真正的比赛过程？"
       ],
       "recommendedFormat": {
-        "duration": "75–110 秒",
-        "structure": "行业消息 → 技术现象 → 权利边界 → 资料入口"
+        "duration": "55–85 秒",
+        "structure": "赛果 → 赛制图解 → 关键节点 → 官方复核"
       },
       "factStatus": "needs-review",
       "sources": [
         {
-          "name": "知乎原榜：如何评价 BioWare 于 10 月 22 日宣布关闭，为何一个诞生过《博德之门》等游戏的公司最终走向如此下场？",
-          "url": "https://www.zhihu.com/question/2096410582849163598",
+          "name": "抖音原榜：国乒男团亚锦赛四连冠",
+          "url": "https://www.douyin.com/search/%E5%9B%BD%E4%B9%92%E7%94%B7%E5%9B%A2%E4%BA%9A%E9%94%A6%E8%B5%9B%E5%9B%9B%E8%BF%9E%E5%86%A0",
           "type": "platform"
         },
         {
-          "name": "知乎原榜：多款 3A 老游戏被 AI 光速反编译并移植网页端，将对游戏行业带来哪些冲击？",
-          "url": "https://www.zhihu.com/question/2094620721343481537",
+          "name": "抖音原榜：亚锦赛国乒女团决赛不敌日本",
+          "url": "https://www.douyin.com/search/%E4%BA%9A%E9%94%A6%E8%B5%9B%E5%9B%BD%E4%B9%92%E5%A5%B3%E5%9B%A2%E5%86%B3%E8%B5%9B%E4%B8%8D%E6%95%8C%E6%97%A5%E6%9C%AC",
+          "type": "platform"
+        },
+        {
+          "name": "抖音原榜：乒乓球亚锦赛国乒今日赛程",
+          "url": "https://www.douyin.com/search/%E4%B9%92%E4%B9%93%E7%90%83%E4%BA%9A%E9%94%A6%E8%B5%9B%E5%9B%BD%E4%B9%92%E4%BB%8A%E6%97%A5%E8%B5%9B%E7%A8%8B",
           "type": "platform"
         }
       ],
-      "updatedAt": "2026-10-22T04:00:54.367Z"
+      "updatedAt": "2026-10-23T04:00:46.083Z"
     }
   ]
 }
