@@ -1,0 +1,879 @@
+{
+  "schemaVersion": 1,
+  "dataMode": "live",
+  "date": "2026-10-30",
+  "generatedAt": "2026-10-30T04:04:32.000Z",
+  "timezone": "Asia/Shanghai",
+  "summary": {
+    "topicCount": 12,
+    "urgentCount": 5,
+    "crossPlatformCount": 7,
+    "formulaReadyCount": 12
+  },
+  "sourceStatus": [
+    {
+      "id": "douyin",
+      "name": "抖音",
+      "status": "fresh",
+      "items": 49,
+      "updatedAt": "2026-10-30T04:03:01.811Z"
+    },
+    {
+      "id": "weibo",
+      "name": "微博",
+      "status": "fresh",
+      "items": 50,
+      "updatedAt": "2026-10-30T04:03:01.811Z"
+    },
+    {
+      "id": "zhihu",
+      "name": "知乎",
+      "status": "partial",
+      "items": 50,
+      "updatedAt": "2026-10-30T04:03:01.811Z"
+    },
+    {
+      "id": "xiaohongshu",
+      "name": "小红书",
+      "status": "partial",
+      "items": 10,
+      "updatedAt": "2026-10-30T04:03:01.811Z"
+    },
+    {
+      "id": "baidu",
+      "name": "百度",
+      "status": "fresh",
+      "items": 50,
+      "updatedAt": "2026-10-30T04:03:01.811Z"
+    },
+    {
+      "id": "bilibili",
+      "name": "B站",
+      "status": "fresh",
+      "items": 50,
+      "updatedAt": "2026-10-30T04:03:01.811Z"
+    }
+  ],
+  "trendHistory": {
+    "times": [
+      "2026-10-21",
+      "2026-10-22",
+      "2026-10-23",
+      "2026-10-24",
+      "2026-10-25",
+      "2026-10-29",
+      "2026-10-30"
+    ],
+    "series": {
+      "douyin": [
+        98,
+        98,
+        98,
+        98,
+        100,
+        98,
+        98
+      ],
+      "weibo": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "zhihu": [
+        100,
+        100,
+        60,
+        100,
+        100,
+        100,
+        100
+      ],
+      "xiaohongshu": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "baidu": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "bilibili": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ]
+    }
+  },
+  "topics": [
+    {
+      "id": "tes-blg-worlds-knockout",
+      "rank": 1,
+      "title": "TES 与 BLG 八强战：电竞赛果怎样讲成大众也能跟上的故事",
+      "brief": "TES、BLG 的赛果与后续对阵同时出现于多个平台。可从赛制、关键节点、选手叙事和观赛门槛解释赛事，而非只复述胜负；具体赛况与赛程应以赛事官方信息复核。",
+      "category": "电竞与体育",
+      "momentum": "peak",
+      "urgency": "now",
+      "heat": 97,
+      "crossPlatform": 4,
+      "mathFit": 82,
+      "visualFit": 92,
+      "lifeFit": 80,
+      "questionDensity": 88,
+      "priority": 95,
+      "platforms": [
+        {
+          "id": "weibo",
+          "rank": 7,
+          "score": 94,
+          "trend": "微博"
+        },
+        {
+          "id": "zhihu",
+          "rank": 21,
+          "score": 78,
+          "trend": "知乎"
+        },
+        {
+          "id": "baidu",
+          "rank": 22,
+          "score": 77,
+          "trend": "百度"
+        },
+        {
+          "id": "bilibili",
+          "rank": 1,
+          "score": 100,
+          "trend": "B站"
+        }
+      ],
+      "keywords": [
+        "TES",
+        "BLG",
+        "全球总决赛",
+        "八强",
+        "电竞"
+      ],
+      "mathAngles": [
+        "用赛制图解释一场胜负如何改变后续路径",
+        "把操作高光、团队决策和赛后叙事分成不同信息层",
+        "为非粉丝补齐选手、队伍与赛事的最小背景"
+      ],
+      "hooks": [
+        "一场电竞比赛，为什么能让没玩过的人也愿意看完？",
+        "赛果之后，真正值得讲的是哪一个转折点？"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90 秒",
+        "structure": "赛果线索 → 赛制地图 → 关键转折 → 非粉丝入口"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "B站热门：2026 全球总决赛 BLG vs TES",
+          "url": "https://www.bilibili.com/video/BV17XxP6CE7n",
+          "type": "platform"
+        },
+        {
+          "name": "知乎热榜：TES 晋级八强讨论",
+          "url": "https://www.zhihu.com/question/2099388952088264855",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-10-30T04:04:32.000Z"
+    },
+    {
+      "id": "shadowblade-zero-launch-discussion",
+      "rank": 2,
+      "title": "《影之刃零》集中讨论：国产动作游戏的难度与期待如何拆开讲",
+      "brief": "《影之刃零》的流程、Boss 设计与国产 3A 投入在四个平台出现。创作者可从难度反馈、玩家分层和长周期开发成本进入，避免将个人体验直接等同于产品整体评价。",
+      "category": "游戏与文娱",
+      "momentum": "peak",
+      "urgency": "now",
+      "heat": 95,
+      "crossPlatform": 4,
+      "mathFit": 86,
+      "visualFit": 94,
+      "lifeFit": 76,
+      "questionDensity": 92,
+      "priority": 94,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 27,
+          "score": 66,
+          "trend": "抖音"
+        },
+        {
+          "id": "zhihu",
+          "rank": 3,
+          "score": 98,
+          "trend": "知乎"
+        },
+        {
+          "id": "baidu",
+          "rank": 8,
+          "score": 88,
+          "trend": "百度"
+        },
+        {
+          "id": "bilibili",
+          "rank": 16,
+          "score": 76,
+          "trend": "B站"
+        }
+      ],
+      "keywords": [
+        "影之刃零",
+        "动作游戏",
+        "Boss",
+        "国产3A",
+        "玩家反馈"
+      ],
+      "mathAngles": [
+        "把试玩体验、难度曲线和商业判断拆成可分别验证的命题",
+        "用玩家目标差异解释同一 Boss 的两极反馈",
+        "呈现游戏开发的时间、资金与风险约束"
+      ],
+      "hooks": [
+        "同一个 Boss，为什么有人说神作、有人说劝退？",
+        "国产 3A 的讨论，别只停在‘难不难’。"
+      ],
+      "recommendedFormat": {
+        "duration": "70–100 秒",
+        "structure": "热榜现象 → 体验分歧 → 开发约束 → 多受众结论"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "知乎热榜：影之刃零能否达到黑猴热度",
+          "url": "https://www.zhihu.com/question/2098507381420319426",
+          "type": "platform"
+        },
+        {
+          "name": "B站热门：影之刃零全流程实况",
+          "url": "https://www.bilibili.com/video/BV17zsd6nE1Y",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-10-30T04:04:32.000Z"
+    },
+    {
+      "id": "red-fruit-content-platform-discussion",
+      "rank": 3,
+      "title": "红果短剧热度：内容平台为什么开始争夺用户的碎片时间",
+      "brief": "红果短剧的市场位置与内容平台策略进入微博、知乎讨论。可做成平台分发、用户时间和创作者供给的拆解；市场排名、业务规模和策略动机均需用平台披露或可靠研究复核。",
+      "category": "互联网与内容产业",
+      "momentum": "peak",
+      "urgency": "now",
+      "heat": 93,
+      "crossPlatform": 2,
+      "mathFit": 87,
+      "visualFit": 72,
+      "lifeFit": 86,
+      "questionDensity": 91,
+      "priority": 93,
+      "platforms": [
+        {
+          "id": "weibo",
+          "rank": 25,
+          "score": 68,
+          "trend": "微博"
+        },
+        {
+          "id": "zhihu",
+          "rank": 1,
+          "score": 100,
+          "trend": "知乎"
+        }
+      ],
+      "keywords": [
+        "红果短剧",
+        "内容平台",
+        "用户时长",
+        "短剧",
+        "创作者生态"
+      ],
+      "mathAngles": [
+        "区分热榜、下载、使用时长、留存和商业化这几类指标",
+        "用供给、分发、用户习惯画出平台竞争关系",
+        "将市场排名与长期经营趋势标成不同证据等级"
+      ],
+      "hooks": [
+        "一款短剧 App，为什么会被讨论成‘时间战争’？",
+        "内容平台最想争的，真的是用户的注意力吗？"
+      ],
+      "recommendedFormat": {
+        "duration": "70–100 秒",
+        "structure": "热榜线索 → 指标拆解 → 创作者影响 → 待核验结论"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "知乎热榜：红果短剧跃升讨论",
+          "url": "https://www.zhihu.com/question/2099125476149274126",
+          "type": "platform"
+        },
+        {
+          "name": "微博热榜：红果红了",
+          "url": "https://s.weibo.com/weibo?q=%23%E7%BA%A2%E6%9E%9C%E7%BA%A2%E4%BA%86%23",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-10-30T04:04:32.000Z"
+    },
+    {
+      "id": "ten-yuan-haircut-industry",
+      "rank": 4,
+      "title": "10 元快剪排长队：理发行业的价格与体验如何重排",
+      "brief": "“10 元快剪”同时进入微博、知乎、百度讨论。可从消费者时间成本、标准化服务、门店经营和审美预期切入；店铺注销、行业规模等量化说法应追溯统计口径。",
+      "category": "消费与商业",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 91,
+      "crossPlatform": 3,
+      "mathFit": 89,
+      "visualFit": 75,
+      "lifeFit": 94,
+      "questionDensity": 90,
+      "priority": 92,
+      "platforms": [
+        {
+          "id": "weibo",
+          "rank": 39,
+          "score": 54,
+          "trend": "微博"
+        },
+        {
+          "id": "zhihu",
+          "rank": 9,
+          "score": 92,
+          "trend": "知乎"
+        },
+        {
+          "id": "baidu",
+          "rank": 32,
+          "score": 61,
+          "trend": "百度"
+        }
+      ],
+      "keywords": [
+        "10元快剪",
+        "理发店",
+        "服务业",
+        "消费",
+        "定价"
+      ],
+      "mathAngles": [
+        "把客单价、等候时间、复购和人工成本放进同一张服务模型",
+        "对比低价标准化与高价个性化各自服务的人群",
+        "明确注销数量、门店密度等数据的统计口径"
+      ],
+      "hooks": [
+        "10 元快剪赢的到底是价格，还是时间？",
+        "设计感生意，为什么会被一次理发重新定义？"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90 秒",
+        "structure": "排队现象 → 成本拆解 → 两种服务模式 → 消费者选择"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "知乎热榜：10 元快剪与理发行业",
+          "url": "https://www.zhihu.com/question/2099409874731758206",
+          "type": "platform"
+        },
+        {
+          "name": "百度热榜：10元快剪正暴打全国的设计总监",
+          "url": "https://m.baidu.com/s?word=10%E5%85%83%E5%BF%AB%E5%89%AA%E6%AD%A3%E6%9A%B4%E6%89%93%E5%85%A8%E5%9B%BD%E7%9A%84%E2%80%9C%E8%AE%BE%E8%AE%A1%E6%80%BB%E7%9B%91%E2%80%9D&sa=fyb_news",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-10-30T04:04:32.000Z"
+    },
+    {
+      "id": "ai-content-creation-contest",
+      "rank": 5,
+      "title": "AI 音乐与 AI 视频上榜：创作门槛降低后，作者性怎么讲",
+      "brief": "B站热门中多条 AI MV、AI 全民制作人内容集中出现。可从工具能力、素材权利、作者署名和观众审美谈起，避免把生成工具的热度直接解释为行业共识。",
+      "category": "AI与创作",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 88,
+      "crossPlatform": 1,
+      "mathFit": 90,
+      "visualFit": 94,
+      "lifeFit": 80,
+      "questionDensity": 91,
+      "priority": 90,
+      "platforms": [
+        {
+          "id": "bilibili",
+          "rank": 3,
+          "score": 96,
+          "trend": "B站"
+        }
+      ],
+      "keywords": [
+        "AI音乐",
+        "AI视频",
+        "AI MV",
+        "创作者",
+        "版权"
+      ],
+      "mathAngles": [
+        "区分生成、编辑、表演与发行环节中的作者贡献",
+        "让样本热度、创作成本和版权判断各归各位",
+        "用一次作品拆解呈现人机协作的实际工作流"
+      ],
+      "hooks": [
+        "AI 作品冲上热门后，‘作者’到底是谁？",
+        "看似一键生成，创作劳动真的消失了吗？"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90 秒",
+        "structure": "热门样本 → 创作链条 → 权利问题 → 开放提问"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "B站热门：AI MV 大赛作品",
+          "url": "https://www.bilibili.com/video/BV1dEsX6TEGx",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-10-30T04:04:32.000Z"
+    },
+    {
+      "id": "six-g-application-path",
+      "rank": 6,
+      "title": "6G 走向应用：别只说网速，怎样讲清一项通信技术的现实路径",
+      "brief": "“6G 技术加速走向应用”位列抖音热榜前列。适合把实验、标准、基础设施、终端与实际场景拆开讲；任何商用时间表、性能比较或政策表述需回到主管部门和标准组织资料核验。",
+      "category": "科技与产业",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 86,
+      "crossPlatform": 1,
+      "mathFit": 94,
+      "visualFit": 84,
+      "lifeFit": 74,
+      "questionDensity": 89,
+      "priority": 89,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 3,
+          "score": 96,
+          "trend": "抖音"
+        }
+      ],
+      "keywords": [
+        "6G",
+        "通信",
+        "网络",
+        "标准",
+        "产业化"
+      ],
+      "mathAngles": [
+        "用技术成熟度路径区分论文、试验、标准和商用",
+        "将速率、时延、覆盖、能耗等指标拆开而非混为‘更快’",
+        "用一个日常场景说明网络能力需要哪些配套"
+      ],
+      "hooks": [
+        "6G 真正走到你手里之前，要跨过几道门？",
+        "别再只讲网速：6G 的现实故事应该怎么拍？"
+      ],
+      "recommendedFormat": {
+        "duration": "70–100 秒",
+        "structure": "热榜标题 → 技术路径 → 指标拆分 → 场景边界"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "抖音热榜：6G技术加速走向应用",
+          "url": "https://www.douyin.com/search/6G%E6%8A%80%E6%9C%AF%E5%8A%A0%E9%80%9F%E8%B5%B0%E5%90%91%E5%BA%94%E7%94%A8",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-10-30T04:04:32.000Z"
+    },
+    {
+      "id": "google-market-reaction-ai",
+      "rank": 7,
+      "title": "谷歌股价与大模型讨论：技术叙事为什么不等于市场叙事",
+      "brief": "谷歌市场表现与大模型竞争同时出现于知乎、百度。可用“产品能力、商业化预期、市场定价”三层解释为何同一家公司会出现相反情绪；涨跌幅与财务事实须回看交易所、公司公告或可靠财经报道。",
+      "category": "商业与科技",
+      "momentum": "rising",
+      "urgency": "now",
+      "heat": 85,
+      "crossPlatform": 2,
+      "mathFit": 95,
+      "visualFit": 78,
+      "lifeFit": 73,
+      "questionDensity": 93,
+      "priority": 88,
+      "platforms": [
+        {
+          "id": "zhihu",
+          "rank": 6,
+          "score": 94,
+          "trend": "知乎"
+        },
+        {
+          "id": "baidu",
+          "rank": 24,
+          "score": 71,
+          "trend": "百度"
+        }
+      ],
+      "keywords": [
+        "谷歌",
+        "股价",
+        "大模型",
+        "市场预期",
+        "科技公司"
+      ],
+      "mathAngles": [
+        "把产品指标、营收预期和二级市场价格拆成三条线",
+        "解释百分比跌幅、总市值变化和长期估值的区别",
+        "避免用单日行情代替公司长期竞争力"
+      ],
+      "hooks": [
+        "大模型被看好，为什么股价不一定买账？",
+        "一条科技新闻，怎么同时影响产品和资本市场？"
+      ],
+      "recommendedFormat": {
+        "duration": "70–100 秒",
+        "structure": "热榜分歧 → 三层叙事 → 指标边界 → 风险提示"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "知乎热榜：谷歌股价与大模型讨论",
+          "url": "https://www.zhihu.com/question/2099258545564643597",
+          "type": "platform"
+        },
+        {
+          "name": "百度热榜：谷歌重夺大模型第一 华尔街却不买账",
+          "url": "https://m.baidu.com/s?word=%E8%B0%B7%E6%AD%8C%E9%87%8D%E5%A4%BA%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%AC%AC%E4%B8%80+%E5%8D%8E%E5%B0%94%E8%A1%97%E5%8D%B4%E4%B8%8D%E4%B9%B0%E8%B4%A6&sa=fyb_news",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-10-30T04:04:32.000Z"
+    },
+    {
+      "id": "ustc-ai-token-quota",
+      "rank": 8,
+      "title": "高校给学生 AI Token 额度：工具普及后，学习方式会怎么变",
+      "brief": "关于高校为学生提供 AI Token 额度的讨论登上知乎热榜。适合讨论资源配置、课堂规范、能力边界与学术诚信；学校政策、额度和适用范围应以校方正式通知核验。",
+      "category": "教育与AI",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 83,
+      "crossPlatform": 1,
+      "mathFit": 91,
+      "visualFit": 74,
+      "lifeFit": 86,
+      "questionDensity": 94,
+      "priority": 87,
+      "platforms": [
+        {
+          "id": "zhihu",
+          "rank": 2,
+          "score": 99,
+          "trend": "知乎"
+        }
+      ],
+      "keywords": [
+        "高校",
+        "AI Token",
+        "学生",
+        "学习工具",
+        "学术诚信"
+      ],
+      "mathAngles": [
+        "把额度、成本、使用频率与学习结果区分开来",
+        "用真实任务比较 AI 作为脚手架与代做的边界",
+        "讨论学校规则应覆盖哪些可观察的风险"
+      ],
+      "hooks": [
+        "每天一亿 Token，学生究竟会拿它做什么？",
+        "AI 进校园后，最难制定的其实不是额度。"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90 秒",
+        "structure": "热榜问题 → 使用场景 → 规则边界 → 待核验政策"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "知乎热榜：中科大学生 AI Token 额度讨论",
+          "url": "https://www.zhihu.com/question/2098940094346433079",
+          "type": "platform"
+        },
+        {
+          "name": "Tophub：知乎热榜公开快照（第三方）",
+          "url": "https://tophub.today/n/mproPpoq6O",
+          "type": "media"
+        }
+      ],
+      "updatedAt": "2026-10-30T04:04:32.000Z"
+    },
+    {
+      "id": "electric-bike-charging-friction",
+      "rank": 9,
+      "title": "电动车充电为什么麻烦：日常基础设施怎样拍出真实痛点",
+      "brief": "电动车充电便利性位于百度热榜前列。可从居住空间、充电桩可得性、消防安全、价格与出行半径呈现普通人的使用体验；地方规则和事故信息不能脱离官方通知转述。",
+      "category": "生活与城市",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 81,
+      "crossPlatform": 1,
+      "mathFit": 88,
+      "visualFit": 83,
+      "lifeFit": 96,
+      "questionDensity": 86,
+      "priority": 86,
+      "platforms": [
+        {
+          "id": "baidu",
+          "rank": 2,
+          "score": 99,
+          "trend": "百度"
+        }
+      ],
+      "keywords": [
+        "电动车",
+        "充电",
+        "基础设施",
+        "社区",
+        "出行"
+      ],
+      "mathAngles": [
+        "以一次充电旅程量化距离、时间、费用与不确定性",
+        "区分私人方便、公共安全与管理成本三类约束",
+        "用不同居住类型比较充电可得性"
+      ],
+      "hooks": [
+        "电动车最难的不是骑，是给它充上一次电？",
+        "一个充电插座，能照见多少城市生活的摩擦？"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90 秒",
+        "structure": "个人经历 → 路径地图 → 多方约束 → 可验证的提问"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "百度热榜：电动车充个电能不能别那么麻烦",
+          "url": "https://m.baidu.com/s?word=%E7%94%B5%E5%8A%A8%E8%BD%A6%E5%85%85%E4%B8%AA%E7%94%B5%E8%83%BD%E4%B8%8D%E8%83%BD%E5%88%AB%E9%82%A3%E4%B9%88%E9%BA%BB%E7%83%A6&sa=fyb_news",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-10-30T04:04:32.000Z"
+    },
+    {
+      "id": "travel-poetry-visual-storytelling",
+      "rank": 10,
+      "title": "古诗词里的中国上热榜：旅行影像怎样避免只剩滤镜",
+      "brief": "小红书“古诗词里的中国”、山野与河南相关内容同日上榜。适合从取景、文本、地方文化和观众想象讨论旅行影像；地点、作者经历与历史解释均需用当地权威资料或当事人内容复核。",
+      "category": "旅行与文化",
+      "momentum": "steady",
+      "urgency": "today",
+      "heat": 80,
+      "crossPlatform": 2,
+      "mathFit": 78,
+      "visualFit": 98,
+      "lifeFit": 84,
+      "questionDensity": 81,
+      "priority": 85,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 43,
+          "score": 54,
+          "trend": "抖音"
+        },
+        {
+          "id": "xiaohongshu",
+          "rank": 2,
+          "score": 99,
+          "trend": "小红书"
+        }
+      ],
+      "keywords": [
+        "古诗词",
+        "旅行影像",
+        "中国风景",
+        "河南",
+        "内容创作"
+      ],
+      "mathAngles": [
+        "拆开文学意象、地理事实和画面风格三种叙事层",
+        "用拍摄前后对照说明一条旅行视频的取舍",
+        "把‘出片’转译为可学习的构图与观察方法"
+      ],
+      "hooks": [
+        "古诗词里的中国，怎样拍才不只是‘景美’？",
+        "一条旅行视频，能不能让人看见风景背后的文本？"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90 秒",
+        "structure": "热榜画面 → 文本线索 → 拍摄方法 → 地方验证"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "小红书热门：耗时三年拍下古诗词里的中国",
+          "url": "https://www.xiaohongshu.com/search_result?keyword=%E8%80%97%E6%97%B6%E4%B8%89%E5%B9%B4%E6%8B%8D%E4%B8%8B%E5%8F%A4%E8%AF%97%E8%AF%8D%E9%87%8C%E7%9A%84%E4%B8%AD%E5%9B%BD&type=51",
+          "type": "platform"
+        },
+        {
+          "name": "抖音热榜：秋日山野漫游",
+          "url": "https://www.douyin.com/search/%E7%A7%8B%E6%97%A5%E5%B1%B1%E9%87%8E%E6%BC%AB%E6%B8%B8",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-10-30T04:04:32.000Z"
+    },
+    {
+      "id": "school-return-sunday-anxiety",
+      "rank": 11,
+      "title": "周日返校焦虑讨论：教育安排如何不只剩“该不该”",
+      "brief": "有关学生周日返校与焦虑的提问进入知乎热榜。创作者可从作息、通勤、家庭支持与学校管理的不同立场切入；个案背景、校规和心理健康建议都需要当事校方或专业机构进一步核验。",
+      "category": "教育与家庭",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 78,
+      "crossPlatform": 1,
+      "mathFit": 85,
+      "visualFit": 69,
+      "lifeFit": 94,
+      "questionDensity": 92,
+      "priority": 84,
+      "platforms": [
+        {
+          "id": "zhihu",
+          "rank": 5,
+          "score": 95,
+          "trend": "知乎"
+        }
+      ],
+      "keywords": [
+        "周日返校",
+        "学生焦虑",
+        "作息",
+        "学校管理",
+        "家庭"
+      ],
+      "mathAngles": [
+        "把个案感受、学校安排与普遍性结论严格区分",
+        "用一周时间表呈现不同家庭的实际约束",
+        "把支持措施写成可落实、可评估的细节"
+      ],
+      "hooks": [
+        "周日返校，为什么会提前影响整个周末？",
+        "教育安排的争议，怎样从站队变成解决问题？"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90 秒",
+        "structure": "个案线索 → 多方时间表 → 支持选择 → 审慎结论"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "知乎热榜：周日返校与学生焦虑讨论",
+          "url": "https://www.zhihu.com/question/2098745060527432814",
+          "type": "platform"
+        },
+        {
+          "name": "Tophub：知乎热榜公开快照（第三方）",
+          "url": "https://tophub.today/n/mproPpoq6O",
+          "type": "media"
+        }
+      ],
+      "updatedAt": "2026-10-30T04:04:32.000Z"
+    },
+    {
+      "id": "medical-donation-ethics-education",
+      "rank": 12,
+      "title": "医学捐献教育争议：公共讨论如何兼顾尊重与事实",
+      "brief": "与大体老师相关的教育伦理讨论出现在微博、知乎。内容可围绕尊重、教学规范、机构责任和网络传播边界展开；涉事经过、处罚和管理制度须核对院校或主管部门正式信息，避免扩散未经证实细节。",
+      "category": "公共伦理与教育",
+      "momentum": "rising",
+      "urgency": "now",
+      "heat": 77,
+      "crossPlatform": 2,
+      "mathFit": 90,
+      "visualFit": 61,
+      "lifeFit": 82,
+      "questionDensity": 95,
+      "priority": 83,
+      "platforms": [
+        {
+          "id": "weibo",
+          "rank": 4,
+          "score": 97,
+          "trend": "微博"
+        },
+        {
+          "id": "zhihu",
+          "rank": 12,
+          "score": 87,
+          "trend": "知乎"
+        }
+      ],
+      "keywords": [
+        "医学教育",
+        "遗体捐献",
+        "伦理",
+        "尊重",
+        "网络传播"
+      ],
+      "mathAngles": [
+        "区分个案事实、制度责任和情绪判断",
+        "用责任链梳理个人、机构与平台各自应承担的边界",
+        "讨论伦理内容时把可核验信息与价值判断并列呈现"
+      ],
+      "hooks": [
+        "一场医学教育争议，最该先被看见的是什么？",
+        "严肃议题上热搜后，怎样讲才不会二次伤害？"
+      ],
+      "recommendedFormat": {
+        "duration": "70–100 秒",
+        "structure": "热榜线索 → 伦理边界 → 责任链 → 谨慎信息提示"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "微博热榜：摆拍大体老师头骨学生被处分",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%91%86%E6%8B%8D%E5%A4%A7%E4%BD%93%E8%80%81%E5%B8%88%E5%A4%B4%E9%AA%A8%E5%AD%A6%E7%94%9F%E8%A2%AB%E5%A4%84%E5%88%86%23",
+          "type": "platform"
+        },
+        {
+          "name": "知乎热榜：大体老师骨骼教育讨论",
+          "url": "https://www.zhihu.com/question/2099145641355994025",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-10-30T04:04:32.000Z"
+    }
+  ]
+}
