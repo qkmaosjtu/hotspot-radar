@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "dataMode": "live",
+  "date": "2026-11-01",
+  "generatedAt": "2026-11-01T07:58:30.000Z",
+  "timezone": "Asia/Shanghai",
+  "summary": {
+    "topicCount": 10,
+    "urgentCount": 3,
+    "crossPlatformCount": 5,
+    "formulaReadyCount": 10
+  },
+  "sourceStatus": [
+    {"id":"douyin","name":"抖音","status":"fresh","items":50,"updatedAt":"2026-11-01T07:56:42.521Z"},
+    {"id":"weibo","name":"微博","status":"fresh","items":50,"updatedAt":"2026-11-01T07:56:42.521Z"},
+    {"id":"zhihu","name":"知乎","status":"partial","items":50,"updatedAt":"2026-11-01T07:56:42.521Z"},
+    {"id":"xiaohongshu","name":"小红书","status":"partial","items":10,"updatedAt":"2026-11-01T07:56:42.521Z"},
+    {"id":"baidu","name":"百度","status":"fresh","items":50,"updatedAt":"2026-11-01T07:56:42.521Z"},
+    {"id":"bilibili","name":"B站","status":"fresh","items":50,"updatedAt":"2026-11-01T07:56:42.521Z"}
+  ],
+  "trendHistory": {
+    "times": ["2026-10-23","2026-10-24","2026-10-25","2026-10-29","2026-10-30","2026-10-31","2026-11-01"],
+    "series": {
+      "douyin":[98,98,100,98,98,96,100],
+      "weibo":[100,100,100,100,100,100,100],
+      "zhihu":[60,100,100,100,100,100,100],
+      "xiaohongshu":[20,20,20,20,20,20,20],
+      "baidu":[100,100,100,100,100,100,100],
+      "bilibili":[100,100,100,100,100,100,100]
+    }
+  },
+  "topics": [
+    {
+      "id":"blg-hle-knockout","rank":1,"title":"BLG 晋级八强：一场电竞胜负如何讲出多人共鸣","brief":"BLG 与 HLE 的赛果同时出现在短视频、讨论社区和赛事视频中；可从临场决策、粉丝情绪和赛后复盘切入。赛事细节以官方赛程与当日平台内容为准。","category":"电竞","momentum":"peak","urgency":"now","heat":99,"crossPlatform":4,"mathFit":82,"visualFit":94,"lifeFit":78,"questionDensity":92,"priority":96,
+      "platforms":[{"id":"douyin","rank":2,"score":99,"trend":"抖音"},{"id":"zhihu","rank":2,"score":99,"trend":"知乎"},{"id":"weibo","rank":27,"score":74,"trend":"微博"},{"id":"bilibili","rank":1,"score":100,"trend":"B站"}],
+      "keywords":["BLG","HLE","S16","八强","赛后复盘"],"mathAngles":["用关键团战时间线还原转折","用选手与队伍视角拆解同一场胜负","把赛后数据图与观赛情绪并置"],"hooks":["同一场 2:0，为什么有人只看到结果，有人记住了转折？","晋级之后，观众最想复盘的到底是哪一分钟？"],"recommendedFormat":{"duration":"60–90 秒","structure":"赛果开场 → 转折时间线 → 三个关键判断 → 评论区提问"},"factStatus":"needs-review","sources":[{"name":"抖音热榜：BLG零封HLE晋级八强","url":"https://www.douyin.com/search/BLG%E9%9B%B6%E5%B0%81HLE%E6%99%8B%E7%BA%A7%E5%85%AB%E5%BC%BA","type":"platform"},{"name":"知乎热榜讨论","url":"https://www.zhihu.com/question/2100108531160687738","type":"platform"},{"name":"B站赛事直播回放","url":"https://www.bilibili.com/video/BV1C8xn6YEDA","type":"platform"}],"updatedAt":"2026-11-01T07:58:30.000Z"
+    },
+    {
+      "id":"gold-price-wedding-demand","rank":2,"title":"金价下跌与婚嫁需求：价格波动怎样进入普通人的决定","brief":"金价及婚嫁需求的关联在微博、百度同时出现。适合把“价格变化”落到预算、购买时点和风险提示，不替代专业投资建议。","category":"消费","momentum":"rising","urgency":"now","heat":94,"crossPlatform":2,"mathFit":90,"visualFit":82,"lifeFit":96,"questionDensity":88,"priority":93,
+      "platforms":[{"id":"weibo","rank":2,"score":98,"trend":"微博"},{"id":"baidu","rank":34,"score":66,"trend":"百度"}],"keywords":["金价","婚嫁","消费决策","预算"],"mathAngles":["把总价、克重和加工费拆开讲","用情景表比较一次性购买与分段购买","说明价格新闻与个人风险承受能力不是一回事"],"hooks":["金价跌了，为什么最先被讨论的是婚嫁预算？","同一条金价新闻，买首饰和做投资该看什么？"],"recommendedFormat":{"duration":"75–100 秒","structure":"热榜现象 → 一张预算拆解图 → 两种消费场景 → 风险边界"},"factStatus":"needs-review","sources":[{"name":"微博热搜：金价大跌与婚嫁需求","url":"https://s.weibo.com/weibo?q=%23%E9%87%91%E4%BB%B7%E5%A4%A7%E8%B7%8C%E7%A7%AF%E5%8E%8B%E5%8D%8A%E5%B9%B4%E5%A9%9A%E5%AB%81%E9%9C%80%E6%B1%82%E9%9B%86%E4%B8%AD%E9%87%8A%E6%94%BE%23","type":"platform"},{"name":"百度热搜：金价大跌","url":"https://m.baidu.com/s?word=%E9%87%91%E4%BB%B7%E5%A4%A7%E8%B7%8C+%E7%A7%AF%E5%8E%8B%E5%8D%8A%E5%B9%B4%E5%A9%9A%E5%AB%81%E9%9C%80%E6%B1%82%E9%9B%86%E4%B8%AD%E9%87%8A%E6%94%BE&sa=fyb_news","type":"platform"}],"updatedAt":"2026-11-01T07:58:30.000Z"
+    },
+    {
+      "id":"public-holiday-calendar","rank":3,"title":"法定节假日讨论：多出来的一天假，怎样改变一年的安排","brief":"法定放假总数与春节连休预期同时登上榜单。内容应以权威放假通知为准，并把讨论落到请假、返乡、旅游和排班的真实约束。","category":"生活方式","momentum":"rising","urgency":"today","heat":88,"crossPlatform":2,"mathFit":86,"visualFit":80,"lifeFit":99,"questionDensity":86,"priority":90,
+      "platforms":[{"id":"weibo","rank":6,"score":94,"trend":"微博"},{"id":"baidu","rank":17,"score":82,"trend":"百度"}],"keywords":["法定节假日","春节","请假","排班"],"mathAngles":["把自然日、工作日和调休日放到同一张日历","按不同城市与职业比较可支配假期","区分已发布安排和网传预期"],"hooks":["一年多一天假，为什么有人觉得没变、有人觉得差很多？","一张日历怎么把调休、请假和返乡成本讲清楚？"],"recommendedFormat":{"duration":"60–90 秒","structure":"榜单问题 → 年度日历可视化 → 三类人情景 → 权威信息提醒"},"factStatus":"needs-review","sources":[{"name":"微博热搜：法定放假总数","url":"https://s.weibo.com/weibo?q=%23%E6%B3%95%E5%AE%9A%E6%94%BE%E5%81%87%E6%80%BB%E6%95%B0%E5%B7%B2%E5%A2%9E%E8%87%B313%E5%A4%A9%23","type":"platform"},{"name":"百度热搜：2027年春节连休","url":"https://m.baidu.com/s?word=2027%E5%B9%B4%E6%98%A5%E8%8A%82%E6%9C%89%E6%9C%9B%E8%BF%9E%E4%BC%919%E5%A4%A9&sa=fyb_news","type":"platform"}],"updatedAt":"2026-11-01T07:58:30.000Z"
+    },
+    {
+      "id":"shi-yuqi-wedding","rank":4,"title":"石宇奇婚讯：体育明星的私人时刻为何会成公共话题","brief":"石宇奇相关婚讯在三平台同时出现。适合讨论体育人物、粉丝文化与隐私边界，避免拼接未经证实的个人信息。","category":"体育","momentum":"peak","urgency":"now","heat":90,"crossPlatform":3,"mathFit":72,"visualFit":86,"lifeFit":84,"questionDensity":87,"priority":89,
+      "platforms":[{"id":"douyin","rank":32,"score":68,"trend":"抖音"},{"id":"weibo","rank":14,"score":86,"trend":"微博"},{"id":"baidu","rank":10,"score":90,"trend":"百度"}],"keywords":["石宇奇","羽毛球","婚讯","隐私"],"mathAngles":["区分赛事成绩、公开声明和二次传播","用信息传播链解释热度形成","讨论公共人物的可报道边界"],"hooks":["一条婚讯为什么会从体育区扩散到全网？","喜欢一名运动员，关注可以到哪里为止？"],"recommendedFormat":{"duration":"45–75 秒","structure":"多平台热度 → 信息边界 → 粉丝视角 → 克制收束"},"factStatus":"needs-review","sources":[{"name":"微博热搜：石宇奇结婚","url":"https://s.weibo.com/weibo?q=%23%E7%9F%B3%E5%AE%87%E5%A5%87%E7%BB%93%E5%A9%9A%23","type":"platform"},{"name":"百度热搜：石宇奇婚讯","url":"https://m.baidu.com/s?word=%E2%80%9C%E5%9B%BD%E7%BE%BD%E4%B8%80%E5%93%A5%E2%80%9D%E7%9F%B3%E5%AE%87%E5%A5%87%E4%BB%8A%E6%97%A5%E4%BD%8E%E8%B0%83%E5%A4%A7%E5%A9%9A&sa=fyb_news","type":"platform"}],"updatedAt":"2026-11-01T07:58:30.000Z"
+    },
+    {
+      "id":"ai-short-drama-history","rank":5,"title":"AI短剧不再拍清宫戏：题材选择背后的制作逻辑","brief":"“AI短剧为何放弃清宫戏”位居微博热搜。它适合从版权、制作成本、审美风险与题材叙事空间展开；具体行业判断需补充从业者和平台资料。","category":"影视娱乐","momentum":"rising","urgency":"today","heat":86,"crossPlatform":1,"mathFit":88,"visualFit":92,"lifeFit":76,"questionDensity":93,"priority":88,
+      "platforms":[{"id":"weibo","rank":1,"score":100,"trend":"微博"}],"keywords":["AI短剧","清宫戏","版权","内容制作"],"mathAngles":["用制作流程图说明生成环节与人工环节","比较题材风险而非把原因简化为技术好坏","让创作者讲一个镜头如何从脚本到成片"],"hooks":["AI短剧为什么偏偏放弃了最成熟的古装母题？","当技术能生成画面，题材选择反而更重要了吗？"],"recommendedFormat":{"duration":"75–120 秒","structure":"热搜提问 → 制作链路 → 三类约束 → 开放式结论"},"factStatus":"needs-review","sources":[{"name":"微博热搜：AI短剧为何放弃清宫戏","url":"https://s.weibo.com/weibo?q=AI%E7%9F%AD%E5%89%A7%E4%B8%BA%E4%BD%95%E6%94%BE%E5%BC%83%E6%B8%85%E5%AE%AB%E6%88%8F","type":"platform"}],"updatedAt":"2026-11-01T07:58:30.000Z"
+    },
+    {
+      "id":"xiaomi-auto-delivery","rank":6,"title":"小米汽车交付讨论：一条销量数字该怎样被读懂","brief":"小米汽车 10 月交付量相关讨论进入知乎热榜，微博也有车企月度销量话题。可用交付、订单、产能和同比基数四个概念避免“一个数字定胜负”。","category":"汽车产业","momentum":"rising","urgency":"today","heat":84,"crossPlatform":2,"mathFit":93,"visualFit":78,"lifeFit":82,"questionDensity":90,"priority":87,
+      "platforms":[{"id":"zhihu","rank":4,"score":96,"trend":"知乎"},{"id":"weibo","rank":19,"score":76,"trend":"微博"}],"keywords":["小米汽车","交付量","车企销量","产能"],"mathAngles":["解释交付量、订单量与销量的口径差异","用月度序列避免只看单月峰值","补充同比、环比与产能利用率的阅读边界"],"hooks":["一条“交付过五万”，到底说明了什么？","看车企月报，最容易被忽略的三个口径是什么？"],"recommendedFormat":{"duration":"60–100 秒","structure":"热榜数字 → 口径拆解 → 一张趋势图 → 待核验来源"},"factStatus":"needs-review","sources":[{"name":"知乎热榜：小米汽车交付量讨论","url":"https://www.zhihu.com/question/2100160196362384887","type":"platform"},{"name":"微博热搜：车企10月份销量数据","url":"https://s.weibo.com/weibo?q=%23%E8%BD%A6%E4%BC%8110%E6%9C%88%E4%BB%BD%E9%94%80%E9%87%8F%E6%95%B0%E6%8D%AE%23","type":"platform"}],"updatedAt":"2026-11-01T07:58:30.000Z"
+    },
+    {
+      "id":"deepseek-harness-agent","rank":7,"title":"DeepSeek Harness 与 super-agent：从概念热度到真实能力","brief":"DeepSeek Harness 的 super-agent 构想进入知乎热榜。适合把“代理”拆成规划、调用工具、检查结果和失败恢复四个可见步骤，避免将设想直接表述为已验证能力。","category":"科技","momentum":"rising","urgency":"today","heat":80,"crossPlatform":1,"mathFit":95,"visualFit":84,"lifeFit":74,"questionDensity":92,"priority":85,
+      "platforms":[{"id":"zhihu","rank":12,"score":84,"trend":"知乎"}],"keywords":["DeepSeek","Harness","super-agent","AI代理"],"mathAngles":["用任务流图区分模型与代理系统","展示工具调用、校验与重试的闭环","给出可复现实验而非能力口号"],"hooks":["所谓 super-agent，到底比聊天机器人多了哪几步？","能自己调用工具的 AI，最容易在哪一步翻车？"],"recommendedFormat":{"duration":"75–120 秒","structure":"概念钩子 → 流程图 → 小实验 → 能力边界"},"factStatus":"needs-review","sources":[{"name":"知乎热榜：DeepSeek Harness","url":"https://www.zhihu.com/question/2099984457524572950","type":"platform"}],"updatedAt":"2026-11-01T07:58:30.000Z"
+    },
+    {
+      "id":"rebuild-web-minecraft","rank":8,"title":"重制网页版 MC：个人项目怎样把过程做成内容","brief":"“耗资上万重制网页版 MC”进入 B 站热门。它适合面向开发、游戏与创作赛道，讲功能取舍、成本预算、公开迭代与用户反馈。","category":"游戏开发","momentum":"rising","urgency":"today","heat":79,"crossPlatform":1,"mathFit":91,"visualFit":92,"lifeFit":70,"questionDensity":85,"priority":83,
+      "platforms":[{"id":"bilibili","rank":22,"score":76,"trend":"B站"}],"keywords":["网页版MC","独立开发","游戏制作","AI创造公开赛"],"mathAngles":["用版本时间线表现开发迭代","把性能、成本和功能范围放进同一张取舍表","从玩家反馈反推下一版优先级"],"hooks":["为什么有人愿意花钱重制一款网页版游戏？","一个个人项目，先做“能玩”还是先做“像原作”？"],"recommendedFormat":{"duration":"90–150 秒","structure":"项目展示 → 技术取舍 → 成本时间线 → 玩家反馈"},"factStatus":"needs-review","sources":[{"name":"B站热门：重制网页版MC","url":"https://www.bilibili.com/video/BV1Nxxr6oES2","type":"platform"}],"updatedAt":"2026-11-01T07:58:30.000Z"
+    },
+    {
+      "id":"branch-monkey-craft","rank":9,"title":"枯枝齐天大圣走红：为什么手作过程比成品更能传播","brief":"用枯枝搭建巨型齐天大圣的创作在知乎热榜居首。适合从材料限制、逐步显形和传统符号的再表达切入，不把网络传播等同于艺术价值判断。","category":"文化创作","momentum":"peak","urgency":"today","heat":82,"crossPlatform":1,"mathFit":82,"visualFit":98,"lifeFit":78,"questionDensity":82,"priority":82,
+      "platforms":[{"id":"zhihu","rank":1,"score":100,"trend":"知乎"}],"keywords":["齐天大圣","枯枝手作","传统文化","创作过程"],"mathAngles":["用延时过程呈现结构如何逐步长出来","解释材料、尺度与观看距离的关系","把传统角色转成当代手作叙事"],"hooks":["一堆枯枝，为什么能让人一眼认出齐天大圣？","手作视频最有力量的瞬间，为什么常常不是完成那一刻？"],"recommendedFormat":{"duration":"45–90 秒","structure":"成品反差 → 制作过程 → 材料限制 → 文化符号收束"},"factStatus":"needs-review","sources":[{"name":"知乎热榜：枯枝巨型齐天大圣","url":"https://www.zhihu.com/question/2098799350503699522","type":"platform"}],"updatedAt":"2026-11-01T07:58:30.000Z"
+    },
+    {
+      "id":"poetry-travel-visuals","rank":10,"title":"古诗词里的中国：旅行影像怎样拍出具体的文化感","brief":"小红书“古诗词里的中国”与相关地域影像上榜。适合旅行、文化与摄影创作者做“文本—地点—镜头”三段式内容；小红书来源为公开第三方快照，应以应用内热度复核。","category":"旅行文化","momentum":"steady","urgency":"evergreen","heat":76,"crossPlatform":1,"mathFit":78,"visualFit":96,"lifeFit":86,"questionDensity":76,"priority":80,
+      "platforms":[{"id":"xiaohongshu","rank":2,"score":98,"trend":"小红书"}],"keywords":["古诗词","旅行影像","河南","摄影"],"mathAngles":["让诗句、地点和镜头运动一一对应","以地理方位与时间光线组织拍摄","避免只用滤镜替代现场信息"],"hooks":["一条旅行片，怎样让古诗不是贴在画面上的文案？","诗里的地点真的到了镜头前，应该先拍什么？"],"recommendedFormat":{"duration":"45–75 秒","structure":"诗句开场 → 实景对照 → 三个镜头技巧 → 地点信息"},"factStatus":"needs-review","sources":[{"name":"小红书热榜快照：古诗词里的中国","url":"https://www.xiaohongshu.com/search_result?keyword=%E8%80%97%E6%97%B6%E4%B8%89%E5%B9%B4%E6%8B%8D%E4%B8%8B%E5%8F%A4%E8%AF%97%E8%AF%8D%E9%87%8C%E7%9A%84%E4%B8%AD%E5%9B%BD&type=51","type":"platform"}],"updatedAt":"2026-11-01T07:58:30.000Z"
+    }
+  ]
+}
