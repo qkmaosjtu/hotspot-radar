@@ -1,0 +1,749 @@
+{
+  "schemaVersion": 1,
+  "dataMode": "live",
+  "date": "2026-11-02",
+  "generatedAt": "2026-11-02T04:00:29.682Z",
+  "timezone": "Asia/Shanghai",
+  "summary": {
+    "topicCount": 10,
+    "urgentCount": 3,
+    "crossPlatformCount": 9,
+    "formulaReadyCount": 10
+  },
+  "sourceStatus": [
+    {
+      "id": "douyin",
+      "name": "抖音",
+      "status": "fresh",
+      "items": 49,
+      "updatedAt": "2026-11-02T03:56:53.260Z"
+    },
+    {
+      "id": "weibo",
+      "name": "微博",
+      "status": "fresh",
+      "items": 50,
+      "updatedAt": "2026-11-02T03:56:53.260Z"
+    },
+    {
+      "id": "zhihu",
+      "name": "知乎",
+      "status": "partial",
+      "items": 50,
+      "updatedAt": "2026-11-02T03:56:53.260Z"
+    },
+    {
+      "id": "xiaohongshu",
+      "name": "小红书",
+      "status": "partial",
+      "items": 10,
+      "updatedAt": "2026-11-02T03:56:53.260Z"
+    },
+    {
+      "id": "baidu",
+      "name": "百度",
+      "status": "fresh",
+      "items": 50,
+      "updatedAt": "2026-11-02T03:56:53.260Z"
+    },
+    {
+      "id": "bilibili",
+      "name": "B站",
+      "status": "fresh",
+      "items": 50,
+      "updatedAt": "2026-11-02T03:56:53.260Z"
+    }
+  ],
+  "trendHistory": {
+    "times": [
+      "2026-10-24",
+      "2026-10-25",
+      "2026-10-29",
+      "2026-10-30",
+      "2026-10-31",
+      "2026-11-01",
+      "2026-11-02"
+    ],
+    "series": {
+      "douyin": [
+        98,
+        100,
+        98,
+        98,
+        96,
+        100,
+        98
+      ],
+      "weibo": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "zhihu": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "xiaohongshu": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "baidu": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "bilibili": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ]
+    }
+  },
+  "topics": [
+    {
+      "id": "business-jet-crash-information",
+      "rank": 1,
+      "title": "公务机坠毁热议：突发事故内容怎样快而不失真",
+      "brief": "多平台正在讨论公务机坠毁相关信息；发布前应把已证实、待核实和不应转述的信息分开。",
+      "category": "公共安全",
+      "momentum": "peak",
+      "urgency": "now",
+      "heat": 98,
+      "crossPlatform": 3,
+      "mathFit": 87,
+      "visualFit": 72,
+      "lifeFit": 86,
+      "questionDensity": 94,
+      "priority": 96,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 9,
+          "score": 96,
+          "trend": "抖音"
+        },
+        {
+          "id": "weibo",
+          "rank": 7,
+          "score": 96,
+          "trend": "微博"
+        },
+        {
+          "id": "baidu",
+          "rank": 25,
+          "score": 92,
+          "trend": "百度"
+        }
+      ],
+      "keywords": [
+        "公务机坠毁",
+        "突发事故",
+        "信息核验"
+      ],
+      "mathAngles": [
+        "用时间线标出消息源、更新时间和证据等级。"
+      ],
+      "hooks": [
+        "突发事故上热搜后，最快的内容为什么最容易出错？"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90 秒",
+        "structure": "热榜现象 → 信息分层 → 时间线 → 权威渠道提示"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "抖音热榜：美公务机坠毁致9死",
+          "url": "https://www.douyin.com/search/%E7%BE%8E%E5%85%AC%E5%8A%A1%E6%9C%BA%E5%9D%A0%E6%AF%81%E8%87%B49%E6%AD%BB",
+          "type": "platform"
+        },
+        {
+          "name": "微博热榜：美公务机坠毁前1分钟下降超8000米",
+          "url": "https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%85%AC%E5%8A%A1%E6%9C%BA%E5%9D%A0%E6%AF%81%E5%89%8D1%E5%88%86%E9%92%9F%E4%B8%8B%E9%99%8D%E8%B6%858000%E7%B1%B3%23",
+          "type": "platform"
+        },
+        {
+          "name": "百度热榜：美飞机1分钟急坠万米 究竟发生了什么",
+          "url": "https://m.baidu.com/s?word=%E7%BE%8E%E9%A3%9E%E6%9C%BA1%E5%88%86%E9%92%9F%E6%80%A5%E5%9D%A0%E4%B8%87%E7%B1%B3+%E7%A9%B6%E7%AB%9F%E5%8F%91%E7%94%9F%E4%BA%86%E4%BB%80%E4%B9%88&sa=fyb_news",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-02T04:00:29.682Z"
+    },
+    {
+      "id": "blg-worlds-knockout",
+      "rank": 2,
+      "title": "BLG 赛事热度：一场电竞胜负如何被做成多种内容",
+      "brief": "BLG 相关赛事内容同时出现在多个平台，适合从赛果、转折和观众表达切入。",
+      "category": "电竞",
+      "momentum": "peak",
+      "urgency": "now",
+      "heat": 97,
+      "crossPlatform": 3,
+      "mathFit": 85,
+      "visualFit": 95,
+      "lifeFit": 82,
+      "questionDensity": 91,
+      "priority": 95,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 35,
+          "score": 78,
+          "trend": "抖音"
+        },
+        {
+          "id": "zhihu",
+          "rank": 33,
+          "score": 80,
+          "trend": "知乎"
+        },
+        {
+          "id": "bilibili",
+          "rank": 30,
+          "score": 100,
+          "trend": "B站"
+        }
+      ],
+      "keywords": [
+        "BLG",
+        "全球总决赛",
+        "赛事复盘"
+      ],
+      "mathAngles": [
+        "把赛果、关键回合和观众情绪放到一条时间线上。"
+      ],
+      "hooks": [
+        "同一场比赛，为什么有人只要 30 秒赛果、有人要 30 分钟复盘？"
+      ],
+      "recommendedFormat": {
+        "duration": "60–100 秒",
+        "structure": "赛事片段 → 转折时间线 → 三种切口 → 评论区提问"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "抖音热榜：Xun说要相信BLG",
+          "url": "https://www.douyin.com/search/Xun%E8%AF%B4%E8%A6%81%E7%9B%B8%E4%BF%A1BLG",
+          "type": "platform"
+        },
+        {
+          "name": "知乎热榜：三连冠选手 Gumayusi 生涯首次无缘 S 赛八强，如何评价他本届赛事的表现？",
+          "url": "https://www.zhihu.com/question/2100140951066894432",
+          "type": "platform"
+        },
+        {
+          "name": "B站热榜：【2026全球总决赛】11月1日 HLE vs BLG",
+          "url": "https://www.bilibili.com/video/BV1C8xn6YEDA",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-02T04:00:29.682Z"
+    },
+    {
+      "id": "ai-short-drama-industry",
+      "rank": 3,
+      "title": "AI 短剧热议：技术进入影视后，创作者真正要讲什么",
+      "brief": "AI 短剧与影视行业进入热榜讨论，适合把技术热度转为可解释的制作流程。",
+      "category": "影视科技",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 93,
+      "crossPlatform": 2,
+      "mathFit": 91,
+      "visualFit": 92,
+      "lifeFit": 80,
+      "questionDensity": 94,
+      "priority": 93,
+      "platforms": [
+        {
+          "id": "weibo",
+          "rank": 10,
+          "score": 94,
+          "trend": "微博"
+        },
+        {
+          "id": "zhihu",
+          "rank": 4,
+          "score": 98,
+          "trend": "知乎"
+        }
+      ],
+      "keywords": [
+        "AI短剧",
+        "影视行业",
+        "内容制作"
+      ],
+      "mathAngles": [
+        "区分脚本、生成、后期和发行环节中仍需要的人工判断。"
+      ],
+      "hooks": [
+        "AI 能做出短剧画面后，最稀缺的东西还是镜头吗？"
+      ],
+      "recommendedFormat": {
+        "duration": "75–120 秒",
+        "structure": "热榜提问 → 制作链路图 → 镜头案例 → 能力边界"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "微博热榜：AI短剧 影视行业",
+          "url": "https://s.weibo.com/weibo?q=AI%E7%9F%AD%E5%89%A7%20%E5%BD%B1%E8%A7%86%E8%A1%8C%E4%B8%9A",
+          "type": "platform"
+        },
+        {
+          "name": "知乎热榜：为何 AI 短剧好像放弃了清宫戏，而更倾向于唐 / 宋 / 架空朝代？跟观众偏好、技术、选题、价值观有啥关系吗？",
+          "url": "https://www.zhihu.com/question/2100281204884731770",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-02T04:00:29.682Z"
+    },
+    {
+      "id": "sun-yingsha-wtt-champion",
+      "rank": 4,
+      "title": "孙颖莎夺冠讨论：体育高光怎样讲出比赛之外的故事",
+      "brief": "孙颖莎夺冠相关内容跨平台出现，适合把赛场高光、赛后表达与信息核验分层讲述。",
+      "category": "体育",
+      "momentum": "peak",
+      "urgency": "now",
+      "heat": 92,
+      "crossPlatform": 3,
+      "mathFit": 80,
+      "visualFit": 94,
+      "lifeFit": 84,
+      "questionDensity": 83,
+      "priority": 91,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 5,
+          "score": 98,
+          "trend": "抖音"
+        },
+        {
+          "id": "weibo",
+          "rank": 30,
+          "score": 82,
+          "trend": "微博"
+        },
+        {
+          "id": "baidu",
+          "rank": 32,
+          "score": 78,
+          "trend": "百度"
+        }
+      ],
+      "keywords": [
+        "孙颖莎",
+        "WTT",
+        "乒乓球"
+      ],
+      "mathAngles": [
+        "用回合节奏而非只用结果讲比赛张力。"
+      ],
+      "hooks": [
+        "冠军时刻之外，观众为什么会记住一张赛后照片？"
+      ],
+      "recommendedFormat": {
+        "duration": "45–75 秒",
+        "structure": "高光开场 → 情绪转折 → 信息边界 → 温和收束"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "抖音热榜：孙颖莎夺WTT蒙彼利埃站冠军",
+          "url": "https://www.douyin.com/search/%E5%AD%99%E9%A2%96%E8%8E%8E%E5%A4%BAWTT%E8%92%99%E5%BD%BC%E5%88%A9%E5%9F%83%E7%AB%99%E5%86%A0%E5%86%9B",
+          "type": "platform"
+        },
+        {
+          "name": "微博热榜：国家队祝贺孙颖莎夺冠",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%9B%BD%E5%AE%B6%E9%98%9F%E7%A5%9D%E8%B4%BA%E5%AD%99%E9%A2%96%E8%8E%8E%E5%A4%BA%E5%86%A0%23",
+          "type": "platform"
+        },
+        {
+          "name": "百度热榜：孙颖莎回应夺冠",
+          "url": "https://m.baidu.com/s?word=%E5%AD%99%E9%A2%96%E8%8E%8E%E5%9B%9E%E5%BA%94%E5%A4%BA%E5%86%A0&sa=fyb_news",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-02T04:00:29.682Z"
+    },
+    {
+      "id": "robot-climb-mount-tai",
+      "rank": 5,
+      "title": "机器人登泰山：一场挑战赛怎样把技术讲得可看可懂",
+      "brief": "机器人登泰山相关话题出现于两个平台，适合用环境约束替代笼统的“黑科技”叙事。",
+      "category": "机器人",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 90,
+      "crossPlatform": 2,
+      "mathFit": 94,
+      "visualFit": 97,
+      "lifeFit": 76,
+      "questionDensity": 91,
+      "priority": 90,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 7,
+          "score": 93,
+          "trend": "抖音"
+        },
+        {
+          "id": "baidu",
+          "rank": 35,
+          "score": 84,
+          "trend": "百度"
+        }
+      ],
+      "keywords": [
+        "机器人",
+        "登泰山",
+        "机器狗"
+      ],
+      "mathAngles": [
+        "把台阶、坡度、续航和路线拆成可视化任务约束。"
+      ],
+      "hooks": [
+        "机器人爬山好看，但它真正难在哪一阶台阶？"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90 秒",
+        "structure": "挑战画面 → 环境约束 → 成败对照 → 指标核验提示"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "抖音热榜：首届CMG世界机器人登泰山大赛",
+          "url": "https://www.douyin.com/search/%E9%A6%96%E5%B1%8ACMG%E4%B8%96%E7%95%8C%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%99%BB%E6%B3%B0%E5%B1%B1%E5%A4%A7%E8%B5%9B",
+          "type": "platform"
+        },
+        {
+          "name": "百度热榜：机器人登泰山大赛",
+          "url": "https://m.baidu.com/s?word=%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%99%BB%E6%B3%B0%E5%B1%B1%E5%A4%A7%E8%B5%9B&sa=fyb_news",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-02T04:00:29.682Z"
+    },
+    {
+      "id": "logitech-user-backlash",
+      "rank": 6,
+      "title": "罗技广告争议：品牌沟通翻车后怎样读用户反应",
+      "brief": "罗技广告争议在两个平台热榜出现，适合从原始内容、用户反馈与官方回应构成的信息链切入。",
+      "category": "品牌营销",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 88,
+      "crossPlatform": 2,
+      "mathFit": 84,
+      "visualFit": 82,
+      "lifeFit": 85,
+      "questionDensity": 90,
+      "priority": 88,
+      "platforms": [
+        {
+          "id": "weibo",
+          "rank": 4,
+          "score": 94,
+          "trend": "微博"
+        },
+        {
+          "id": "baidu",
+          "rank": 20,
+          "score": 78,
+          "trend": "百度"
+        }
+      ],
+      "keywords": [
+        "罗技",
+        "广告争议",
+        "用户沟通"
+      ],
+      "mathAngles": [
+        "区分单个热评、群体情绪和实际产品问题。"
+      ],
+      "hooks": [
+        "一句广告文案，为什么会让用户觉得自己被嘲讽？"
+      ],
+      "recommendedFormat": {
+        "duration": "45–75 秒",
+        "structure": "争议截图 → 三层反馈 → 沟通失配点 → 追问回应"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "微博热榜：罗技广告再被指侮辱用户",
+          "url": "https://s.weibo.com/weibo?q=%E7%BD%97%E6%8A%80%E5%B9%BF%E5%91%8A%E5%86%8D%E8%A2%AB%E6%8C%87%E4%BE%AE%E8%BE%B1%E7%94%A8%E6%88%B7",
+          "type": "platform"
+        },
+        {
+          "name": "百度热榜：罗技跟用户干上了",
+          "url": "https://m.baidu.com/s?word=%E7%BD%97%E6%8A%80%E8%B7%9F%E7%94%A8%E6%88%B7%E5%B9%B2%E4%B8%8A%E4%BA%86&sa=fyb_news",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-02T04:00:29.682Z"
+    },
+    {
+      "id": "right-to-disconnect",
+      "rank": 7,
+      "title": "休息日未回消息争议：工作边界为什么总能引发共鸣",
+      "brief": "休息日未回工作消息的话题跨平台出现，可从岗位约定、紧急程度和补偿安排讨论工作边界。",
+      "category": "职场生活",
+      "momentum": "peak",
+      "urgency": "today",
+      "heat": 87,
+      "crossPlatform": 2,
+      "mathFit": 89,
+      "visualFit": 72,
+      "lifeFit": 98,
+      "questionDensity": 94,
+      "priority": 87,
+      "platforms": [
+        {
+          "id": "weibo",
+          "rank": 37,
+          "score": 78,
+          "trend": "微博"
+        },
+        {
+          "id": "baidu",
+          "rank": 8,
+          "score": 90,
+          "trend": "百度"
+        }
+      ],
+      "keywords": [
+        "休息日",
+        "工作消息",
+        "劳动边界"
+      ],
+      "mathAngles": [
+        "用一周时间预算展示隐形待命成本。"
+      ],
+      "hooks": [
+        "工作群里的“随时在线”，到底算不算劳动时间？"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90 秒",
+        "structure": "热榜场景 → 时间预算图 → 三类岗位情境 → 信息待核验"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "微博热榜：休息日5小时没回消息老师申请仲裁",
+          "url": "https://s.weibo.com/weibo?q=%23%E4%BC%91%E6%81%AF%E6%97%A55%E5%B0%8F%E6%97%B6%E6%B2%A1%E5%9B%9E%E6%B6%88%E6%81%AF%E8%80%81%E5%B8%88%E7%94%B3%E8%AF%B7%E4%BB%B2%E8%A3%81%23",
+          "type": "platform"
+        },
+        {
+          "name": "百度热榜：休息日爬山5小时未回工作消息遭辞退",
+          "url": "https://m.baidu.com/s?word=%E4%BC%91%E6%81%AF%E6%97%A5%E7%88%AC%E5%B1%B15%E5%B0%8F%E6%97%B6%E6%9C%AA%E5%9B%9E%E5%B7%A5%E4%BD%9C%E6%B6%88%E6%81%AF%E9%81%AD%E8%BE%9E%E9%80%80&sa=fyb_news",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-02T04:00:29.682Z"
+    },
+    {
+      "id": "lunar-landing-public-imagination",
+      "rank": 8,
+      "title": "载人登月想象：一条航天热榜怎样做成全民参与的叙事",
+      "brief": "载人登月相关话题进入多平台榜单，适合区分公众愿望、公开计划与已确认任务信息。",
+      "category": "航天科普",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 85,
+      "crossPlatform": 2,
+      "mathFit": 96,
+      "visualFit": 95,
+      "lifeFit": 79,
+      "questionDensity": 88,
+      "priority": 86,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 10,
+          "score": 94,
+          "trend": "抖音"
+        },
+        {
+          "id": "zhihu",
+          "rank": 2,
+          "score": 99,
+          "trend": "知乎"
+        }
+      ],
+      "keywords": [
+        "载人登月",
+        "航天员",
+        "月球"
+      ],
+      "mathAngles": [
+        "用地月距离与通信延迟建立直观尺度。"
+      ],
+      "hooks": [
+        "登月第一句话为什么能让网友吵起来？"
+      ],
+      "recommendedFormat": {
+        "duration": "60–100 秒",
+        "structure": "网友提问 → 地月尺度动画 → 信息分层 → 官方发布提示"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "抖音热榜：将有2名中国人登陆月球",
+          "url": "https://www.douyin.com/search/%E5%B0%86%E6%9C%892%E5%90%8D%E4%B8%AD%E5%9B%BD%E4%BA%BA%E7%99%BB%E9%99%86%E6%9C%88%E7%90%83",
+          "type": "platform"
+        },
+        {
+          "name": "知乎热榜：中国首次载人登月时，航天员走出舱门后的第一句话适合说什么？",
+          "url": "https://www.zhihu.com/question/2099962739854669782",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-02T04:00:29.682Z"
+    },
+    {
+      "id": "phantom-blade-zero-sales",
+      "rank": 9,
+      "title": "游戏销量热度：一个“破百万”数字应该怎么被解读",
+      "brief": "游戏销量相关讨论跨平台出现，可借此说明销量、出货、玩家数等统计口径不应混用。",
+      "category": "游戏产业",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 84,
+      "crossPlatform": 3,
+      "mathFit": 92,
+      "visualFit": 86,
+      "lifeFit": 75,
+      "questionDensity": 90,
+      "priority": 85,
+      "platforms": [
+        {
+          "id": "weibo",
+          "rank": 6,
+          "score": 93,
+          "trend": "微博"
+        },
+        {
+          "id": "zhihu",
+          "rank": 1,
+          "score": 100,
+          "trend": "知乎"
+        },
+        {
+          "id": "baidu",
+          "rank": 39,
+          "score": 74,
+          "trend": "百度"
+        }
+      ],
+      "keywords": [
+        "影之刃零",
+        "游戏销量",
+        "统计口径"
+      ],
+      "mathAngles": [
+        "把累计数、单日数与不同平台口径分开说明。"
+      ],
+      "hooks": [
+        "一个“销量破 400 万”，到底能说明游戏卖得有多好？"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90 秒",
+        "structure": "热榜数字 → 四个口径卡片 → 比较边界 → 官方来源核验"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "微博热榜：影之刃零销量破400万",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B6%E9%94%80%E9%87%8F%E7%A0%B4400%E4%B8%87%23",
+          "type": "platform"
+        },
+        {
+          "name": "知乎热榜：《影之刃零》能复刻《黑神话：悟空》的千万级销量神话吗？",
+          "url": "https://www.zhihu.com/question/2098861445219985178",
+          "type": "platform"
+        },
+        {
+          "name": "百度热榜：《影之刃零》销量破400万",
+          "url": "https://m.baidu.com/s?word=%E3%80%8A%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B6%E3%80%8B%E9%94%80%E9%87%8F%E7%A0%B4400%E4%B8%87&sa=fyb_news",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-02T04:00:29.682Z"
+    },
+    {
+      "id": "poetry-travel-visuals",
+      "rank": 10,
+      "title": "古诗词旅行影像：文化感不是把诗句贴上画面",
+      "brief": "古诗词旅行影像位列小红书热榜，适合为旅拍与文化内容创作者提供具体镜头组织方法。",
+      "category": "旅行文化",
+      "momentum": "steady",
+      "urgency": "evergreen",
+      "heat": 78,
+      "crossPlatform": 1,
+      "mathFit": 81,
+      "visualFit": 98,
+      "lifeFit": 88,
+      "questionDensity": 79,
+      "priority": 80,
+      "platforms": [
+        {
+          "id": "xiaohongshu",
+          "rank": 2,
+          "score": 99,
+          "trend": "小红书"
+        }
+      ],
+      "keywords": [
+        "古诗词",
+        "旅行影像",
+        "摄影"
+      ],
+      "mathAngles": [
+        "让诗句、地点、季节和镜头运动逐一对应。"
+      ],
+      "hooks": [
+        "诗里的地点到了镜头前，第一镜应该拍什么？"
+      ],
+      "recommendedFormat": {
+        "duration": "45–75 秒",
+        "structure": "诗句开场 → 实景对照 → 三个镜头提示 → 地点信息"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "小红书热榜：耗时三年拍下古诗词里的中国",
+          "url": "https://www.xiaohongshu.com/search_result?keyword=%E8%80%97%E6%97%B6%E4%B8%89%E5%B9%B4%E6%8B%8D%E4%B8%8B%E5%8F%A4%E8%AF%97%E8%AF%8D%E9%87%8C%E7%9A%84%E4%B8%AD%E5%9B%BD&type=51",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-02T04:00:29.682Z"
+    }
+  ]
+}
