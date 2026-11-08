@@ -1,78 +1,78 @@
 {
   "schemaVersion": 1,
   "dataMode": "live",
-  "date": "2026-11-05",
-  "generatedAt": "2026-11-05T04:06:55.861Z",
+  "date": "2026-11-08",
+  "generatedAt": "2026-11-08T02:20:32.053Z",
   "timezone": "Asia/Shanghai",
   "summary": {
-    "topicCount": 12,
-    "urgentCount": 5,
-    "crossPlatformCount": 11,
-    "formulaReadyCount": 12
+    "topicCount": 13,
+    "urgentCount": 11,
+    "crossPlatformCount": 13,
+    "formulaReadyCount": 13
   },
   "sourceStatus": [
     {
       "id": "douyin",
       "name": "抖音",
       "status": "fresh",
-      "items": 49,
-      "updatedAt": "2026-11-05T04:00:35.622Z"
+      "items": 50,
+      "updatedAt": "2026-11-08T02:15:49.195Z"
     },
     {
       "id": "weibo",
       "name": "微博",
       "status": "fresh",
       "items": 50,
-      "updatedAt": "2026-11-05T04:00:35.622Z"
+      "updatedAt": "2026-11-08T02:15:49.195Z"
     },
     {
       "id": "zhihu",
       "name": "知乎",
       "status": "partial",
-      "items": 30,
-      "updatedAt": "2026-11-05T04:00:35.622Z"
+      "items": 29,
+      "updatedAt": "2026-11-08T02:15:49.195Z"
     },
     {
       "id": "xiaohongshu",
       "name": "小红书",
       "status": "partial",
       "items": 10,
-      "updatedAt": "2026-11-05T04:00:35.622Z"
+      "updatedAt": "2026-11-08T02:15:49.195Z"
     },
     {
       "id": "baidu",
       "name": "百度",
       "status": "fresh",
       "items": 50,
-      "updatedAt": "2026-11-05T04:00:35.622Z"
+      "updatedAt": "2026-11-08T02:15:49.195Z"
     },
     {
       "id": "bilibili",
       "name": "B站",
       "status": "fresh",
       "items": 50,
-      "updatedAt": "2026-11-05T04:00:35.622Z"
+      "updatedAt": "2026-11-08T02:15:49.195Z"
     }
   ],
   "trendHistory": {
     "times": [
-      "2026-10-30",
       "2026-10-31",
       "2026-11-01",
       "2026-11-02",
       "2026-11-03",
       "2026-11-04",
-      "2026-11-05"
+      "2026-11-05",
+      "2026-11-08"
     ],
     "series": {
       "douyin": [
-        98,
         96,
         100,
         98,
         96,
         100,
-        98
+        98,
+        100
       ],
       "weibo": [
         100,
@@ -88,9 +88,9 @@
         100,
         100,
         100,
-        100,
         60,
-        60
+        60,
+        58
       ],
       "xiaohongshu": [
         20,
@@ -123,916 +123,957 @@
   },
   "topics": [
     {
-      "id": "s16-gen-lyon-fan-discussion",
+      "id": "winter-storm-life-service",
       "rank": 1,
-      "title": "GEN 与 LYON 赛果讨论：赛事热点如何延展为多层内容",
-      "brief": "GEN、LYON 与 S16 相关条目同时进入抖音、微博和知乎原榜。适合从赛果、选手状态、战术复盘与观赛社群四层切入，不把单条热榜标题当成全部比赛事实。",
-      "category": "电竞与社群",
+      "title": "雨雪降温同时上榜：天气预警怎样变成真正有用的生活内容",
+      "brief": "多平台都在讨论本轮雨雪和降温。选题重点不该是重复播报，而是把出行、保暖、囤货与信息核验做成可执行的清单。",
+      "category": "天气与生活",
       "momentum": "peak",
       "urgency": "now",
       "heat": 97,
-      "crossPlatform": 3,
-      "mathFit": 88,
-      "visualFit": 94,
-      "lifeFit": 80,
+      "crossPlatform": 4,
+      "mathFit": 86,
+      "visualFit": 90,
+      "lifeFit": 98,
       "questionDensity": 91,
-      "priority": 95,
+      "priority": 96,
       "platforms": [
         {
           "id": "douyin",
-          "rank": 1,
-          "score": 100,
-          "trend": "当日原榜"
-        },
-        {
-          "id": "weibo",
-          "rank": 9,
-          "score": 92,
-          "trend": "当日原榜"
-        },
-        {
-          "id": "zhihu",
-          "rank": 4,
-          "score": 96,
-          "trend": "当日原榜"
-        }
-      ],
-      "keywords": [
-        "GEN",
-        "LYON",
-        "S16",
-        "电竞",
-        "赛事复盘"
-      ],
-      "mathAngles": [
-        "把赛果、评价与粉丝二创拆成不同内容层",
-        "用时间线标记比赛节点与赛后讨论节点",
-        "解释同一场赛事为何在不同平台形成不同话题"
-      ],
-      "hooks": [
-        "一场比赛，为什么能同时成为三个平台的讨论入口？",
-        "赛后内容真正比拼的，往往不是复述比分。"
-      ],
-      "recommendedFormat": {
-        "duration": "90 秒",
-        "structure": "赛果钩子—讨论地图—创作者切入点"
-      },
-      "factStatus": "needs-review",
-      "sources": [
-        {
-          "name": "抖音热榜：GEN战胜LYON挺进半决赛",
-          "url": "https://www.douyin.com/search/GEN%E6%88%98%E8%83%9CLYON%E6%8C%BA%E8%BF%9B%E5%8D%8A%E5%86%B3%E8%B5%9B",
-          "type": "platform"
-        },
-        {
-          "name": "微博热榜：LYON不敌GEN后台画面曝光",
-          "url": "https://s.weibo.com/weibo?q=%23LYON%E4%B8%8D%E6%95%8CGEN%E5%90%8E%E5%8F%B0%E7%94%BB%E9%9D%A2%E6%9B%9D%E5%85%89%23",
-          "type": "platform"
-        },
-        {
-          "name": "知乎热榜：S16淘汰赛GEN 3:0 击败 LYON进入四强，如何评价这场比赛？",
-          "url": "https://www.zhihu.com/question/2101542785706890207",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-11-05T04:06:55.861Z"
-    },
-    {
-      "id": "ig-tes-content-chain",
-      "rank": 2,
-      "title": "iG 与 TES 赛事链路：从直播赛场到赛后解释内容",
-      "brief": "iG、TES 相关条目在抖音、微博和B站原榜持续出现。可用“即时赛况—选手与队伍叙事—技术复盘”串联，而非把不同内容混作一条未经核验的新闻。",
-      "category": "电竞与内容",
-      "momentum": "peak",
-      "urgency": "now",
-      "heat": 95,
-      "crossPlatform": 3,
-      "mathFit": 90,
-      "visualFit": 93,
-      "lifeFit": 82,
-      "questionDensity": 90,
-      "priority": 94,
-      "platforms": [
-        {
-          "id": "weibo",
-          "rank": 2,
-          "score": 99,
-          "trend": "当日原榜"
-        },
-        {
-          "id": "douyin",
-          "rank": 26,
-          "score": 78,
-          "trend": "当日原榜"
-        },
-        {
-          "id": "bilibili",
-          "rank": 14,
-          "score": 90,
-          "trend": "当日原榜"
-        }
-      ],
-      "keywords": [
-        "iG",
-        "TES",
-        "S16",
-        "直播赛事",
-        "复盘"
-      ],
-      "mathAngles": [
-        "比较直播、热搜和长视频各自承担的信息角色",
-        "把一场赛事拆成可视化赛程与讨论路径",
-        "区分已发生的赛果和赛后主观评价"
-      ],
-      "hooks": [
-        "为什么同一场赛事，有人看直播、有人只看复盘？",
-        "比赛结束后，真正的内容战才刚开始。"
-      ],
-      "recommendedFormat": {
-        "duration": "90 秒",
-        "structure": "赛场片段—传播链路—三类观众入口"
-      },
-      "factStatus": "needs-review",
-      "sources": [
-        {
-          "name": "微博热榜：Ruler谈iG",
-          "url": "https://s.weibo.com/weibo?q=%23Ruler%E8%B0%88iG%23",
-          "type": "platform"
-        },
-        {
-          "name": "抖音热榜：媒体评IG战胜TES",
-          "url": "https://www.douyin.com/search/%E5%AA%92%E4%BD%93%E8%AF%84IG%E6%88%98%E8%83%9CTES",
-          "type": "platform"
-        },
-        {
-          "name": "B站热榜：【2026全球总决赛】11月4日 TES vs IG",
-          "url": "https://www.bilibili.com/video/BV1XwxU6xEnL",
-          "type": "platform"
-        },
-        {
-          "name": "B站热榜：LPL赛区内战 IG战胜TES晋级四强【2026英雄联盟全球总决赛】",
-          "url": "https://www.bilibili.com/video/BV1fDxS6rEeK",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-11-05T04:06:55.861Z"
-    },
-    {
-      "id": "gold-price-volatility-literacy",
-      "rank": 3,
-      "title": "金价快速波动：普通人怎样拆开“价格”与“决策”",
-      "brief": "“金价”“金价急涨买还是卖”与黄金价格讨论同时进入微博、知乎和百度原榜。适合讲清价格波动、个人目标和风险承受力是三件事；具体报价与走势须在发布前回到可核验行情来源。",
-      "category": "财经与消费",
-      "momentum": "peak",
-      "urgency": "now",
-      "heat": 94,
-      "crossPlatform": 3,
-      "mathFit": 95,
-      "visualFit": 82,
-      "lifeFit": 94,
-      "questionDensity": 95,
-      "priority": 93,
-      "platforms": [
-        {
-          "id": "weibo",
-          "rank": 4,
-          "score": 100,
-          "trend": "当日原榜"
-        },
-        {
-          "id": "zhihu",
-          "rank": 23,
-          "score": 82,
-          "trend": "当日原榜"
-        },
-        {
-          "id": "baidu",
-          "rank": 13,
-          "score": 86,
-          "trend": "当日原榜"
-        }
-      ],
-      "keywords": [
-        "金价",
-        "黄金",
-        "投资决策",
-        "风险",
-        "消费"
-      ],
-      "mathAngles": [
-        "用成本、期限与流动性替代单一涨跌情绪",
-        "区分国际价格、零售报价与回收价格的口径",
-        "演示如何避免把短期波动直接等同于建议"
-      ],
-      "hooks": [
-        "金价急涨时，最不该先问的可能就是“现在买不买”？",
-        "同样叫金价，为什么你看到的数字可能不是同一个？"
-      ],
-      "recommendedFormat": {
-        "duration": "75 秒",
-        "structure": "热榜价格—口径拆分—个人决策清单"
-      },
-      "factStatus": "needs-review",
-      "sources": [
-        {
-          "name": "微博热榜：金价",
-          "url": "https://s.weibo.com/weibo?q=%E9%87%91%E4%BB%B7",
-          "type": "platform"
-        },
-        {
-          "name": "微博热榜：金价急涨买还是卖",
-          "url": "https://s.weibo.com/weibo?q=%E9%87%91%E4%BB%B7%E6%80%A5%E6%B6%A8%E4%B9%B0%E8%BF%98%E6%98%AF%E5%8D%96",
-          "type": "platform"
-        },
-        {
-          "name": "知乎热榜：黄金重回4000美元上方，此前一度跌破3800美元，白银向上触及52美元，如何看待这波快速反弹？",
-          "url": "https://www.zhihu.com/question/2101363971957834936",
-          "type": "platform"
-        },
-        {
-          "name": "百度热榜：男子花光积蓄买7斤黄金亏了114万",
-          "url": "https://m.baidu.com/s?word=%E7%94%B7%E5%AD%90%E8%8A%B1%E5%85%89%E7%A7%AF%E8%93%84%E4%B9%B07%E6%96%A4%E9%BB%84%E9%87%91%E4%BA%8F%E4%BA%86114%E4%B8%87&sa=fyb_news",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-11-05T04:06:55.861Z"
-    },
-    {
-      "id": "public-prosecution-information-check",
-      "rank": 4,
-      "title": "公共案件信息上榜：如何看待进展而不越过证据边界",
-      "brief": "同一公共案件进展条目位列抖音、微博和百度原榜。可做信息素养内容：分清平台标题、程序节点与最终裁判，提醒观众回到正式公开文书或权威发布核验。",
-      "category": "公共事件与信息素养",
-      "momentum": "peak",
-      "urgency": "now",
-      "heat": 93,
-      "crossPlatform": 3,
-      "mathFit": 96,
-      "visualFit": 70,
-      "lifeFit": 89,
-      "questionDensity": 94,
-      "priority": 92,
-      "platforms": [
-        {
-          "id": "baidu",
-          "rank": 1,
-          "score": 100,
-          "trend": "当日原榜"
-        },
-        {
-          "id": "douyin",
-          "rank": 4,
+          "rank": 6,
           "score": 95,
           "trend": "当日原榜"
         },
         {
           "id": "weibo",
-          "rank": 43,
-          "score": 62,
-          "trend": "当日原榜"
-        }
-      ],
-      "keywords": [
-        "公共案件",
-        "程序进展",
-        "信息核验",
-        "公开发布"
-      ],
-      "mathAngles": [
-        "把新闻标题改写成可核验的程序时间线",
-        "解释提起公诉、审理与裁判不是同一阶段",
-        "列出发布前应核对的来源层级"
-      ],
-      "hooks": [
-        "热榜里一句“被提起公诉”，究竟已经说明了什么？",
-        "公共案件热度越高，越要分清“进展”与“结论”。"
-      ],
-      "recommendedFormat": {
-        "duration": "75 秒",
-        "structure": "热榜标题—程序地图—信息边界提醒"
-      },
-      "factStatus": "needs-review",
-      "sources": [
-        {
-          "name": "百度热榜：马兴瑞被提起公诉",
-          "url": "https://m.baidu.com/s?word=%E9%A9%AC%E5%85%B4%E7%91%9E%E8%A2%AB%E6%8F%90%E8%B5%B7%E5%85%AC%E8%AF%89&sa=fyb_news",
-          "type": "platform"
-        },
-        {
-          "name": "抖音热榜：马兴瑞被提起公诉",
-          "url": "https://www.douyin.com/search/%E9%A9%AC%E5%85%B4%E7%91%9E%E8%A2%AB%E6%8F%90%E8%B5%B7%E5%85%AC%E8%AF%89",
-          "type": "platform"
-        },
-        {
-          "name": "微博热榜：马兴瑞被提起公诉",
-          "url": "https://s.weibo.com/weibo?q=%23%E9%A9%AC%E5%85%B4%E7%91%9E%E8%A2%AB%E6%8F%90%E8%B5%B7%E5%85%AC%E8%AF%89%23",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-11-05T04:06:55.861Z"
-    },
-    {
-      "id": "ai-creation-and-model-discussion",
-      "rank": 5,
-      "title": "AI 创作与模型讨论同日上榜：怎样不把热词当结论",
-      "brief": "AI 歌曲、模型竞争、产品对比与技术讨论分别出现在抖音、知乎、百度和B站原榜。适合用“作品效果、产品功能、技术主张”三层框架表达，并将性能类说法保留为待核验。",
-      "category": "科技与创作",
-      "momentum": "rising",
-      "urgency": "today",
-      "heat": 91,
-      "crossPlatform": 4,
-      "mathFit": 98,
-      "visualFit": 88,
-      "lifeFit": 85,
-      "questionDensity": 96,
-      "priority": 91,
-      "platforms": [
-        {
-          "id": "douyin",
-          "rank": 30,
-          "score": 83,
+          "rank": 19,
+          "score": 91,
           "trend": "当日原榜"
         },
         {
           "id": "zhihu",
-          "rank": 14,
+          "rank": 11,
           "score": 92,
           "trend": "当日原榜"
         },
         {
           "id": "baidu",
-          "rank": 30,
-          "score": 80,
-          "trend": "当日原榜"
-        },
-        {
-          "id": "bilibili",
-          "rank": 2,
-          "score": 97,
+          "rank": 1,
+          "score": 100,
           "trend": "当日原榜"
         }
       ],
       "keywords": [
-        "AI创作",
-        "大模型",
-        "AI歌曲",
-        "产品对比",
-        "技术核验"
+        "暴雪",
+        "降温",
+        "预警",
+        "出行",
+        "生活服务"
       ],
       "mathAngles": [
-        "区分一首 AI 作品的传播与模型能力的证明",
-        "把产品对比拆成具体任务而非总分排名",
-        "用公开材料标注已证实、待证实和主观评价"
+        "风险分级与行动阈值",
+        "天气信息的时间线核验",
+        "城市出行场景拆解"
       ],
       "hooks": [
-        "AI 热词越来越多，但哪一句才算可验证的信息？",
-        "一首出圈的 AI 歌，能证明模型到底什么能力？"
+        "同一场降温，为什么有人只看到雪景、有人已经改了行程？",
+        "天气内容怎样从“看到了”变成“用得上”？"
       ],
       "recommendedFormat": {
-        "duration": "90 秒",
-        "structure": "热词拼图—三层框架—核验入口"
+        "duration": "60–90 秒",
+        "structure": "预警截图 → 场景分流 → 行动清单 → 信息来源提示"
       },
       "factStatus": "needs-review",
       "sources": [
         {
-          "name": "抖音热榜：苹果国行AI与努比亚智能体对比",
-          "url": "https://www.douyin.com/search/%E8%8B%B9%E6%9E%9C%E5%9B%BD%E8%A1%8CAI%E4%B8%8E%E5%8A%AA%E6%AF%94%E4%BA%9A%E6%99%BA%E8%83%BD%E4%BD%93%E5%AF%B9%E6%AF%94",
+          "name": "抖音 · 第6位 · 两部门部署暴雪暴雨防范应对",
+          "url": "https://www.douyin.com/search/%E4%B8%A4%E9%83%A8%E9%97%A8%E9%83%A8%E7%BD%B2%E6%9A%B4%E9%9B%AA%E6%9A%B4%E9%9B%A8%E9%98%B2%E8%8C%83%E5%BA%94%E5%AF%B9",
           "type": "platform"
         },
         {
-          "name": "知乎热榜：为什么 GPT 先起飞，Claude 现在却断档领先？他们有独特的训练方法吗？",
-          "url": "https://www.zhihu.com/question/2100991081307453217",
+          "name": "微博 · 第19位 · 8省份大到暴雪",
+          "url": "https://s.weibo.com/weibo?q=%238%E7%9C%81%E4%BB%BD%E5%A4%A7%E5%88%B0%E6%9A%B4%E9%9B%AA%23",
           "type": "platform"
         },
         {
-          "name": "知乎热榜：如何评价 DeepSeek 工程师高熙说的「AI竞赛中，真正的对手不是其他大模型公司，而是时间」？",
-          "url": "https://www.zhihu.com/question/2101053619059389232",
+          "name": "知乎 · 第11位 · 11 月 7-8日京津冀、山西、辽宁等地有大到暴雪，目前情况如何？你那里雪大吗？",
+          "url": "https://www.zhihu.com/question/2102391137847567698",
           "type": "platform"
         },
         {
-          "name": "百度热榜：人民日报评AI歌曲《过来人》出圈",
-          "url": "https://m.baidu.com/s?word=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%E8%AF%84AI%E6%AD%8C%E6%9B%B2%E3%80%8A%E8%BF%87%E6%9D%A5%E4%BA%BA%E3%80%8B%E5%87%BA%E5%9C%88&sa=fyb_news",
-          "type": "platform"
-        },
-        {
-          "name": "B站热榜：阿黄有房了【AI全民制作人】",
-          "url": "https://www.bilibili.com/video/BV17d4g6fEAi",
-          "type": "platform"
-        },
-        {
-          "name": "B站热榜：大模型坦克动荡 Astra vs Fable",
-          "url": "https://www.bilibili.com/video/BV1Q84A6YEiV",
+          "name": "百度 · 第1位 · 暴雨暴雪大降温来了",
+          "url": "https://m.baidu.com/s?word=%E6%9A%B4%E9%9B%A8%E6%9A%B4%E9%9B%AA%E5%A4%A7%E9%99%8D%E6%B8%A9%E6%9D%A5%E4%BA%86&sa=fyb_news",
           "type": "platform"
         }
       ],
-      "updatedAt": "2026-11-05T04:06:55.861Z"
+      "updatedAt": "2026-11-08T02:20:32.053Z"
     },
     {
-      "id": "fujian-carrier-tech-explainer",
-      "rank": 6,
-      "title": "福建舰相关讨论：军事科技内容怎样讲清概念与边界",
-      "brief": "福建舰与电磁弹射相关条目进入抖音、百度原榜。创作可从“系统原理—公开可见信息—不宜推断的能力”展开，避免把视频画面或标题直接外推为完整性能结论。",
-      "category": "科技与国防",
-      "momentum": "rising",
-      "urgency": "today",
-      "heat": 88,
-      "crossPlatform": 2,
-      "mathFit": 97,
-      "visualFit": 91,
+      "id": "s16-gen-ig-storyline",
+      "rank": 2,
+      "title": "GEN 与 iG 赛果刷屏：一场比赛怎样延展出赛后内容链",
+      "brief": "赛事结果同时进入多平台高位。可从战术复盘、选手状态、观赛情绪、赛事记忆四个层次切入，避免只复述比分。",
+      "category": "电竞与体育",
+      "momentum": "peak",
+      "urgency": "now",
+      "heat": 98,
+      "crossPlatform": 5,
+      "mathFit": 88,
+      "visualFit": 93,
       "lifeFit": 74,
-      "questionDensity": 93,
-      "priority": 89,
+      "questionDensity": 90,
+      "priority": 95,
       "platforms": [
         {
           "id": "douyin",
-          "rank": 10,
-          "score": 93,
+          "rank": 11,
+          "score": 97,
           "trend": "当日原榜"
         },
-        {
-          "id": "baidu",
-          "rank": 34,
-          "score": 72,
-          "trend": "当日原榜"
-        }
-      ],
-      "keywords": [
-        "福建舰",
-        "电磁弹射",
-        "军事科技",
-        "公开信息"
-      ],
-      "mathAngles": [
-        "用动画说明弹射系统的基本问题而非未公开参数",
-        "区分技术概念、公开报道与性能推断",
-        "把复杂装备讲成可理解的系统协同"
-      ],
-      "hooks": [
-        "电磁弹射到底在解决什么问题？",
-        "一段装备画面，为什么不能直接等于全部性能？"
-      ],
-      "recommendedFormat": {
-        "duration": "90 秒",
-        "structure": "视觉钩子—原理动画—信息边界"
-      },
-      "factStatus": "needs-review",
-      "sources": [
-        {
-          "name": "抖音热榜：福建舰电磁弹射实战价值解析",
-          "url": "https://www.douyin.com/search/%E7%A6%8F%E5%BB%BA%E8%88%B0%E7%94%B5%E7%A3%81%E5%BC%B9%E5%B0%84%E5%AE%9E%E6%88%98%E4%BB%B7%E5%80%BC%E8%A7%A3%E6%9E%90",
-          "type": "platform"
-        },
-        {
-          "name": "百度热榜：福建舰的这一“弹” 到底有多猛",
-          "url": "https://m.baidu.com/s?word=%E7%A6%8F%E5%BB%BA%E8%88%B0%E7%9A%84%E8%BF%99%E4%B8%80%E2%80%9C%E5%BC%B9%E2%80%9D+%E5%88%B0%E5%BA%95%E6%9C%89%E5%A4%9A%E7%8C%9B&sa=fyb_news",
-          "type": "platform"
-        },
-        {
-          "name": "百度热榜：福建舰战斗力到了哪一步",
-          "url": "https://m.baidu.com/s?word=%E7%A6%8F%E5%BB%BA%E8%88%B0%E6%88%98%E6%96%97%E5%8A%9B%E5%88%B0%E4%BA%86%E5%93%AA%E4%B8%80%E6%AD%A5&sa=fyb_news",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-11-05T04:06:55.861Z"
-    },
-    {
-      "id": "memory-price-cycle",
-      "rank": 7,
-      "title": "内存涨价讨论：把一条消费抱怨讲成行业周期",
-      "brief": "内存涨价与价格周期相关条目出现在微博和B站原榜。可从供需、库存、产品代际和终端价格传导解释，不据此断言某一品牌或单一环节的真实定价动机。",
-      "category": "产业与消费",
-      "momentum": "rising",
-      "urgency": "today",
-      "heat": 86,
-      "crossPlatform": 2,
-      "mathFit": 94,
-      "visualFit": 84,
-      "lifeFit": 90,
-      "questionDensity": 90,
-      "priority": 87,
-      "platforms": [
         {
           "id": "weibo",
-          "rank": 24,
-          "score": 90,
-          "trend": "当日原榜"
-        },
-        {
-          "id": "bilibili",
-          "rank": 39,
-          "score": 86,
-          "trend": "当日原榜"
-        }
-      ],
-      "keywords": [
-        "内存",
-        "涨价",
-        "行业周期",
-        "消费电子"
-      ],
-      "mathAngles": [
-        "用供需与库存解释价格为何不是一条直线",
-        "区分芯片现货、模组与终端设备的价格",
-        "比较消费者感受与产业链周期的不同时间尺度"
-      ],
-      "hooks": [
-        "内存为什么会从暴涨走到大跌，再回到涨价？",
-        "一块内存的价格，究竟由谁决定？"
-      ],
-      "recommendedFormat": {
-        "duration": "90 秒",
-        "structure": "价格抱怨—周期图解—消费判断"
-      },
-      "factStatus": "needs-review",
-      "sources": [
-        {
-          "name": "微博热榜：内存涨价就是为了做这些东西吗",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%86%85%E5%AD%98%E6%B6%A8%E4%BB%B7%E5%B0%B1%E6%98%AF%E4%B8%BA%E4%BA%86%E5%81%9A%E8%BF%99%E4%BA%9B%E4%B8%9C%E8%A5%BF%E5%90%97%23",
-          "type": "platform"
-        },
-        {
-          "name": "B站热榜：暴涨→大跌→倒闭 从行业周期看内存何时降价",
-          "url": "https://www.bilibili.com/video/BV1ZwxR6SEaV",
-          "type": "platform"
-        }
-      ],
-      "updatedAt": "2026-11-05T04:06:55.861Z"
-    },
-    {
-      "id": "university-performance-pressure",
-      "rank": 8,
-      "title": "高校评价压力：怎样从个案讨论走向制度问题地图",
-      "brief": "高校教师科研指标、聘期考核与“业务员”相关条目分别进入微博、知乎和百度原榜。适合把个案、学校制度、学科差异和调查进展分开呈现，避免把单条热榜等同于整体结论。",
-      "category": "教育与职场",
-      "momentum": "rising",
-      "urgency": "today",
-      "heat": 85,
-      "crossPlatform": 3,
-      "mathFit": 97,
-      "visualFit": 75,
-      "lifeFit": 88,
-      "questionDensity": 96,
-      "priority": 87,
-      "platforms": [
-        {
-          "id": "weibo",
-          "rank": 20,
-          "score": 86,
+          "rank": 2,
+          "score": 100,
           "trend": "当日原榜"
         },
         {
           "id": "zhihu",
-          "rank": 18,
-          "score": 89,
+          "rank": 1,
+          "score": 99,
           "trend": "当日原榜"
         },
         {
           "id": "baidu",
+          "rank": 7,
+          "score": 96,
+          "trend": "当日原榜"
+        },
+        {
+          "id": "bilibili",
           "rank": 14,
-          "score": 90,
+          "score": 85,
           "trend": "当日原榜"
         }
       ],
       "keywords": [
-        "高校教师",
-        "科研指标",
-        "聘期考核",
-        "教育评价"
+        "S16",
+        "GEN",
+        "iG",
+        "电竞",
+        "赛后复盘"
       ],
       "mathAngles": [
-        "用问题地图区分教学、科研、服务与行政考核",
-        "呈现制度文本与个人经历之间的差异",
-        "把争议落到可查询的规则和程序"
+        "比赛叙事的关键回合结构",
+        "数据复盘与情绪叙事的边界",
+        "社群讨论的扩散路径"
       ],
       "hooks": [
-        "为什么教钢琴的副教授也要背科研指标？",
-        "一则高校热议，怎样不只停在情绪对立？"
+        "比分定格之后，内容创作才刚刚开始。",
+        "为什么同一场 3:0，能讲出五条不同的视频？"
       ],
       "recommendedFormat": {
         "duration": "90 秒",
-        "structure": "个案钩子—问题地图—待核验边界"
+        "structure": "赛果钩子 → 四层话题树 → 一个复盘样例 → 互动提问"
       },
       "factStatus": "needs-review",
       "sources": [
         {
-          "name": "微博热榜：教钢琴的副教授为何要背科研指标",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%95%99%E9%92%A2%E7%90%B4%E7%9A%84%E5%89%AF%E6%95%99%E6%8E%88%E4%B8%BA%E4%BD%95%E8%A6%81%E8%83%8C%E7%A7%91%E7%A0%94%E6%8C%87%E6%A0%87%23",
+          "name": "抖音 · 第11位 · GEN零封IG晋级决赛",
+          "url": "https://www.douyin.com/search/GEN%E9%9B%B6%E5%B0%81IG%E6%99%8B%E7%BA%A7%E5%86%B3%E8%B5%9B",
           "type": "platform"
         },
         {
-          "name": "知乎热榜：陕西教育厅通报「延安大学一副教授去世留疑似遗书质疑聘期考核制度不合理」，已成立调查组，哪些疑点待查清？",
-          "url": "https://www.zhihu.com/question/2101574299043586869",
+          "name": "微博 · 第2位 · GEN战胜iG",
+          "url": "https://s.weibo.com/weibo?q=GEN%E6%88%98%E8%83%9CiG",
           "type": "platform"
         },
         {
-          "name": "百度热榜：谁把高校教师逼成了“业务员”",
-          "url": "https://m.baidu.com/s?word=%E8%B0%81%E6%8A%8A%E9%AB%98%E6%A0%A1%E6%95%99%E5%B8%88%E9%80%BC%E6%88%90%E4%BA%86%E2%80%9C%E4%B8%9A%E5%8A%A1%E5%91%98%E2%80%9D&sa=fyb_news",
+          "name": "知乎 · 第1位 · S16 半决赛 GEN 3:0 淘汰 iG 晋级决赛，如何评价这场比赛？",
+          "url": "https://www.zhihu.com/question/2102631107258750557",
+          "type": "platform"
+        },
+        {
+          "name": "百度 · 第7位 · iG0比3不敌GEN 无缘S16决赛",
+          "url": "https://m.baidu.com/s?word=iG0%E6%AF%943%E4%B8%8D%E6%95%8CGEN+%E6%97%A0%E7%BC%98S16%E5%86%B3%E8%B5%9B&sa=fyb_news",
+          "type": "platform"
+        },
+        {
+          "name": "B站 · 第14位 · S赛怀旧金曲《BLG带带我》",
+          "url": "https://www.bilibili.com/video/BV1mK4E6NE82",
           "type": "platform"
         }
       ],
-      "updatedAt": "2026-11-05T04:06:55.861Z"
+      "updatedAt": "2026-11-08T02:20:32.053Z"
     },
     {
-      "id": "hidden-camera-risk-awareness",
-      "rank": 9,
-      "title": "偷拍黑产上榜：一条风险提示如何避免二次伤害",
-      "brief": "与偷拍黑产、未成年人和设备改装相关的多条目同时位于百度原榜。适合做隐私安全常识：受害者保护、证据留存、举报路径与平台责任；具体案件数据和处置结果须回到权威来源复核。",
-      "category": "社会与隐私安全",
-      "momentum": "peak",
-      "urgency": "now",
-      "heat": 84,
-      "crossPlatform": 1,
-      "mathFit": 96,
-      "visualFit": 68,
-      "lifeFit": 96,
-      "questionDensity": 93,
-      "priority": 86,
+      "id": "consumer-device-security-literacy",
+      "rank": 3,
+      "title": "设备安全争议上榜：普通人如何核验“系统级风险”说法",
+      "brief": "热榜出现关于设备预装与控制权的严重指控。内容应以公告、复现、漏洞编号与受影响范围为核验框架，而非据单一标题断言事实。",
+      "category": "数字安全",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 89,
+      "crossPlatform": 2,
+      "mathFit": 94,
+      "visualFit": 82,
+      "lifeFit": 88,
+      "questionDensity": 96,
+      "priority": 93,
       "platforms": [
         {
-          "id": "baidu",
+          "id": "zhihu",
           "rank": 2,
-          "score": 98,
+          "score": 100,
+          "trend": "当日原榜"
+        },
+        {
+          "id": "bilibili",
+          "rank": 7,
+          "score": 83,
           "trend": "当日原榜"
         }
       ],
       "keywords": [
-        "偷拍",
-        "隐私安全",
-        "黑产",
-        "举报",
-        "二次伤害"
+        "设备安全",
+        "系统权限",
+        "后门",
+        "账号保护",
+        "信息核验"
       ],
       "mathAngles": [
-        "避免展示或传播可能造成二次伤害的细节",
-        "用流程图说明发现风险后的合法求助路径",
-        "区分风险科普、个案消息与处理结论"
+        "证据链的最小闭环",
+        "风险范围与样本规模",
+        "权限模型与普通用户自查"
       ],
       "hooks": [
-        "讲偷拍风险时，怎样既有用又不造成二次伤害？",
-        "发现疑似偷拍设备，第一步不该是拍短视频。"
+        "看到“系统级后门”四个字，第一步该做什么？",
+        "一条热榜标题，离可验证事实还差哪几层证据？"
       ],
       "recommendedFormat": {
-        "duration": "75 秒",
-        "structure": "风险提示—保护原则—求助与核验入口"
+        "duration": "90 秒",
+        "structure": "争议标题 → 四项核验清单 → 用户自查边界 → 官方通报入口"
+      },
+      "factStatus": "blocked",
+      "sources": [
+        {
+          "name": "知乎 · 第2位 · 如何看待深圳一机顶盒厂商在 130 万台出厂设备中预埋系统级后门，并将控制权出售给黑产的行为？",
+          "url": "https://www.zhihu.com/question/2101846693520085716",
+          "type": "platform"
+        },
+        {
+          "name": "B站 · 第7位 · 我183怎么没了？谁把我B站账号给盗了？",
+          "url": "https://www.bilibili.com/video/BV1X74J62EkV",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-08T02:20:32.053Z"
+    },
+    {
+      "id": "ai-short-drama-industry-shift",
+      "rank": 4,
+      "title": "AI 短剧讨论升温：创作者怎样讲清“技术替代”而不制造恐慌",
+      "brief": "真人短剧从业压力与 AI 短剧内容同时进入原榜。可比较制作环节、岗位变化、观众选择与作品质量，避免把单一案例扩大成行业结论。",
+      "category": "影视与 AI",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 87,
+      "crossPlatform": 3,
+      "mathFit": 91,
+      "visualFit": 94,
+      "lifeFit": 81,
+      "questionDensity": 94,
+      "priority": 92,
+      "platforms": [
+        {
+          "id": "zhihu",
+          "rank": 9,
+          "score": 98,
+          "trend": "当日原榜"
+        },
+        {
+          "id": "baidu",
+          "rank": 50,
+          "score": 85,
+          "trend": "当日原榜"
+        },
+        {
+          "id": "bilibili",
+          "rank": 13,
+          "score": 80,
+          "trend": "当日原榜"
+        }
+      ],
+      "keywords": [
+        "AI短剧",
+        "真人短剧",
+        "创作岗位",
+        "影视行业",
+        "观众"
+      ],
+      "mathAngles": [
+        "生产流程拆分",
+        "岗位替代与新增的区别",
+        "成本、速度与质量的三角权衡"
+      ],
+      "hooks": [
+        "AI 短剧火了，真人短剧真的只剩“被替代”吗？",
+        "不要急着问 AI 能不能取代人，先问它替代了哪一步。"
+      ],
+      "recommendedFormat": {
+        "duration": "90–120 秒",
+        "structure": "当事人视角 → 流程图 → 三个误解 → 创作者可做的切口"
       },
       "factStatus": "needs-review",
       "sources": [
         {
-          "name": "百度热榜：“偷拍黑产”调查：约14万女性被偷拍",
-          "url": "https://m.baidu.com/s?word=%E2%80%9C%E5%81%B7%E6%8B%8D%E9%BB%91%E4%BA%A7%E2%80%9D%E8%B0%83%E6%9F%A5%EF%BC%9A%E7%BA%A614%E4%B8%87%E5%A5%B3%E6%80%A7%E8%A2%AB%E5%81%B7%E6%8B%8D&sa=fyb_news",
+          "name": "知乎 · 第9位 · 横店短剧女主半年接不到戏，选择摆摊交房租，当 AI 短剧越来越火，未来真人短剧行业将如何发展？",
+          "url": "https://www.zhihu.com/question/2101613309371986604",
           "type": "platform"
         },
         {
-          "name": "百度热榜：“厕所偷拍黑产”涉及未成年",
-          "url": "https://m.baidu.com/s?word=%E2%80%9C%E5%8E%95%E6%89%80%E5%81%B7%E6%8B%8D%E9%BB%91%E4%BA%A7%E2%80%9D%E6%B6%89%E5%8F%8A%E6%9C%AA%E6%88%90%E5%B9%B4&sa=fyb_news",
+          "name": "百度 · 第50位 · AI短剧成了台湾观众的电子下饭菜",
+          "url": "https://m.baidu.com/s?word=AI%E7%9F%AD%E5%89%A7%E6%88%90%E4%BA%86%E5%8F%B0%E6%B9%BE%E8%A7%82%E4%BC%97%E7%9A%84%E7%94%B5%E5%AD%90%E4%B8%8B%E9%A5%AD%E8%8F%9C&sa=fyb_news",
           "type": "platform"
         },
         {
-          "name": "百度热榜：偷拍设备卖家称可加钱改装成日常用品",
-          "url": "https://m.baidu.com/s?word=%E5%81%B7%E6%8B%8D%E8%AE%BE%E5%A4%87%E5%8D%96%E5%AE%B6%E7%A7%B0%E5%8F%AF%E5%8A%A0%E9%92%B1%E6%94%B9%E8%A3%85%E6%88%90%E6%97%A5%E5%B8%B8%E7%94%A8%E5%93%81&sa=fyb_news",
+          "name": "B站 · 第13位 · 【数据删除】基金会最欢乐的特战队，三名让异常破防的不死大爹——《SCP-2639-电子游戏暴力》",
+          "url": "https://www.bilibili.com/video/BV1474i6DEzi",
           "type": "platform"
         }
       ],
-      "updatedAt": "2026-11-05T04:06:55.861Z"
+      "updatedAt": "2026-11-08T02:20:32.053Z"
     },
     {
-      "id": "seasonal-home-food",
-      "rank": 10,
-      "title": "换季家常食物内容：如何让“好吃”变成可复用的表达",
-      "brief": "冬天热乎菜、地方烧烤、速成大餐与小红书美食教程同时出现在抖音、小红书和B站原榜。适合做低门槛生活内容：用食材、预算、时间与失败点把“好吃”讲清楚。",
-      "category": "生活与美食",
-      "momentum": "rising",
+      "id": "ai-tool-reliability-and-adoption",
+      "rank": 5,
+      "title": "AI 工具故障与“越用越累”：如何判断一项工具是否真在帮忙",
+      "brief": "从 AI 服务可用性到教师使用负担，热榜提供了一个反直觉切口：工具更强，不等于流程更轻。适合做工作流复盘与体验测评。",
+      "category": "职场与科技",
+      "momentum": "steady",
+      "urgency": "today",
+      "heat": 84,
+      "crossPlatform": 2,
+      "mathFit": 95,
+      "visualFit": 85,
+      "lifeFit": 89,
+      "questionDensity": 93,
+      "priority": 90,
+      "platforms": [
+        {
+          "id": "zhihu",
+          "rank": 19,
+          "score": 94,
+          "trend": "当日原榜"
+        },
+        {
+          "id": "bilibili",
+          "rank": 35,
+          "score": 86,
+          "trend": "当日原榜"
+        }
+      ],
+      "keywords": [
+        "AI工具",
+        "教师",
+        "工作流",
+        "DeepSeek",
+        "效率"
+      ],
+      "mathAngles": [
+        "节省时间与新增协调成本",
+        "任务成功率和返工率",
+        "工具评估的前后对照"
+      ],
+      "hooks": [
+        "AI 用得越多，为什么有些人反而更累？",
+        "不要只看“能不能用”，还要看“少了哪一步、又多了哪一步”。"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90 秒",
+        "structure": "反直觉提问 → 工作流对比 → 三项判断指标 → 评论区征集"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "知乎 · 第19位 · 教育部推行教师 AI 全覆盖培训，部分教师却表示「越用 AI 反而越累」，为什么会出现这种现象？",
+          "url": "https://www.zhihu.com/question/2101733537099559120",
+          "type": "platform"
+        },
+        {
+          "name": "B站 · 第35位 · 【小白必看】DeepSeek Harness零基础教程！附大肥鱼全套案例！",
+          "url": "https://www.bilibili.com/video/BV1DY4v6DEtz",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-08T02:20:32.053Z"
+    },
+    {
+      "id": "consumption-and-packaging-experience",
+      "rank": 6,
+      "title": "消费体验与快递包装：消费者真正为哪一层价值买单",
+      "brief": "消费动能、包装体验与年末购物讨论同日出现。可把“包装变差”拆成保护性、信息性、环保性和仪式感，避免泛泛吐槽。",
+      "category": "消费观察",
+      "momentum": "steady",
       "urgency": "today",
       "heat": 82,
-      "crossPlatform": 3,
-      "mathFit": 76,
-      "visualFit": 97,
-      "lifeFit": 96,
-      "questionDensity": 79,
-      "priority": 84,
+      "crossPlatform": 2,
+      "mathFit": 89,
+      "visualFit": 88,
+      "lifeFit": 93,
+      "questionDensity": 87,
+      "priority": 88,
       "platforms": [
         {
           "id": "douyin",
-          "rank": 5,
-          "score": 96,
+          "rank": 3,
+          "score": 92,
+          "trend": "当日原榜"
+        },
+        {
+          "id": "baidu",
+          "rank": 38,
+          "score": 91,
+          "trend": "当日原榜"
+        }
+      ],
+      "keywords": [
+        "消费",
+        "双11",
+        "快递包装",
+        "体验",
+        "价值"
+      ],
+      "mathAngles": [
+        "用户体验的分层指标",
+        "包装成本与损耗的取舍",
+        "评论样本如何避免以偏概全"
+      ],
+      "hooks": [
+        "包装变薄，到底是降本，还是更聪明的设计？",
+        "消费者吐槽的从来不只是一个纸箱。"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90 秒",
+        "structure": "开箱对比 → 四层体验框架 → 评论样本 → 结尾投票"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "抖音 · 第3位 · 三个维度看消费市场动能",
+          "url": "https://www.douyin.com/search/%E4%B8%89%E4%B8%AA%E7%BB%B4%E5%BA%A6%E7%9C%8B%E6%B6%88%E8%B4%B9%E5%B8%82%E5%9C%BA%E5%8A%A8%E8%83%BD",
+          "type": "platform"
+        },
+        {
+          "name": "百度 · 第38位 · 为什么今年双11的快递包装变烂了",
+          "url": "https://m.baidu.com/s?word=%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BB%8A%E5%B9%B4%E5%8F%8C11%E7%9A%84%E5%BF%AB%E9%80%92%E5%8C%85%E8%A3%85%E5%8F%98%E7%83%82%E4%BA%86&sa=fyb_news",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-08T02:20:32.053Z"
+    },
+    {
+      "id": "gold-reserve-and-personal-finance",
+      "rank": 7,
+      "title": "黄金关注度上升：怎样区分宏观信号和个人决策",
+      "brief": "黄金相关话题进入短视频与财经内容原榜。适合讲“信息是什么、风险偏好是什么、个人是否需要行动”三层，不给具体买卖建议。",
+      "category": "财经与生活",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 83,
+      "crossPlatform": 2,
+      "mathFit": 93,
+      "visualFit": 78,
+      "lifeFit": 91,
+      "questionDensity": 92,
+      "priority": 87,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 18,
+          "score": 94,
+          "trend": "当日原榜"
+        },
+        {
+          "id": "bilibili",
+          "rank": 49,
+          "score": 84,
+          "trend": "当日原榜"
+        }
+      ],
+      "keywords": [
+        "黄金",
+        "央行",
+        "投资",
+        "风险偏好",
+        "财经科普"
+      ],
+      "mathAngles": [
+        "宏观新闻与个人目标的错位",
+        "波动、期限与仓位概念",
+        "数据图表的时间尺度"
+      ],
+      "hooks": [
+        "一条“增持黄金”的新闻，为什么不能直接变成你的买入按钮？",
+        "先把宏观信号和家庭账本分开，才谈得上决策。"
+      ],
+      "recommendedFormat": {
+        "duration": "90 秒",
+        "structure": "新闻钩子 → 三层决策框架 → 常见误读 → 风险提示"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "抖音 · 第18位 · 央行连续第24个月增持黄金",
+          "url": "https://www.douyin.com/search/%E5%A4%AE%E8%A1%8C%E8%BF%9E%E7%BB%AD%E7%AC%AC24%E4%B8%AA%E6%9C%88%E5%A2%9E%E6%8C%81%E9%BB%84%E9%87%91",
+          "type": "platform"
+        },
+        {
+          "name": "B站 · 第49位 · 从上证指数看A股这36年【1990-2026】【特效数据可视化】",
+          "url": "https://www.bilibili.com/video/BV1uJ476qEDo",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-08T02:20:32.053Z"
+    },
+    {
+      "id": "winter-food-and-kitchen-physics",
+      "rank": 8,
+      "title": "冬日火锅与不粘锅内容：家常美食怎么讲出可靠方法",
+      "brief": "火锅、日常美食与厨房技巧同时高热。可将口感、食材处理和热量控制拆成可验证步骤，让美食内容既有画面也有复用价值。",
+      "category": "美食与生活",
+      "momentum": "peak",
+      "urgency": "today",
+      "heat": 92,
+      "crossPlatform": 3,
+      "mathFit": 84,
+      "visualFit": 97,
+      "lifeFit": 97,
+      "questionDensity": 83,
+      "priority": 89,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 1,
+          "score": 100,
           "trend": "当日原榜"
         },
         {
           "id": "xiaohongshu",
           "rank": 4,
-          "score": 92,
+          "score": 94,
           "trend": "当日原榜"
         },
         {
           "id": "bilibili",
-          "rank": 4,
-          "score": 90,
+          "rank": 47,
+          "score": 93,
           "trend": "当日原榜"
         }
       ],
       "keywords": [
-        "家常菜",
-        "地方美食",
-        "换季",
-        "教程",
-        "预算"
+        "火锅",
+        "冬日美食",
+        "厨房技巧",
+        "不粘锅",
+        "教程"
       ],
       "mathAngles": [
-        "把菜谱改写为时间、成本和替代材料的可执行表",
-        "比较探店视频与家庭复刻视频的不同叙事",
-        "以失败点提升教程可信度"
+        "步骤变量控制",
+        "温度、时间与食材状态",
+        "失败案例的复盘表达"
       ],
       "hooks": [
-        "一道热乎菜，为什么总能打开换季的流量入口？",
-        "美食教程里最有价值的，可能不是成品镜头。"
+        "同一口锅，为什么有人煎鱼不粘、有人一翻面就碎？",
+        "冬天第一顿火锅，怎样拍得让人想学而不只想点外卖？"
       ],
       "recommendedFormat": {
         "duration": "60 秒",
-        "structure": "成品钩子—四步过程—省时替代方案"
+        "structure": "成品特写 → 关键步骤 → 常见翻车点 → 配方备注"
       },
       "factStatus": "needs-review",
       "sources": [
         {
-          "name": "抖音热榜：一道热乎菜开启各地冬天",
-          "url": "https://www.douyin.com/search/%E4%B8%80%E9%81%93%E7%83%AD%E4%B9%8E%E8%8F%9C%E5%BC%80%E5%90%AF%E5%90%84%E5%9C%B0%E5%86%AC%E5%A4%A9",
+          "name": "抖音 · 第1位 · 入冬第一顿火锅爆爽不烧心",
+          "url": "https://www.douyin.com/search/%E5%85%A5%E5%86%AC%E7%AC%AC%E4%B8%80%E9%A1%BF%E7%81%AB%E9%94%85%E7%88%86%E7%88%BD%E4%B8%8D%E7%83%A7%E5%BF%83",
           "type": "platform"
         },
         {
-          "name": "抖音热榜：60块逛吃川菜博物馆",
-          "url": "https://www.douyin.com/search/60%E5%9D%97%E9%80%9B%E5%90%83%E5%B7%9D%E8%8F%9C%E5%8D%9A%E7%89%A9%E9%A6%86",
-          "type": "platform"
-        },
-        {
-          "name": "小红书热榜：超日常美食教程速来 get",
+          "name": "小红书 · 第4位 · 超日常美食教程速来 get",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E8%B6%85%E6%97%A5%E5%B8%B8%E7%BE%8E%E9%A3%9F%E6%95%99%E7%A8%8B%E9%80%9F%E6%9D%A5get&type=51",
           "type": "platform"
         },
         {
-          "name": "小红书热榜：蒸出了奶香爆米花馒头",
-          "url": "https://www.xiaohongshu.com/search_result?keyword=%E8%92%B8%E5%87%BA%E4%BA%86%E5%A5%B6%E9%A6%99%E7%88%86%E7%B1%B3%E8%8A%B1%E9%A6%92%E5%A4%B4&type=51",
-          "type": "platform"
-        },
-        {
-          "name": "B站热榜：懒人不开火速成大餐，虾滑肥牛乌冬面！",
-          "url": "https://www.bilibili.com/video/BV16Fxe6hE74",
-          "type": "platform"
-        },
-        {
-          "name": "B站热榜：康康炸猪排 外酥里嫩",
-          "url": "https://www.bilibili.com/video/BV1sAxQ6pE3Y",
+          "name": "B站 · 第47位 · 铁锅/不锈钢锅都能用：一套物理不粘公式，煎鱼豆腐都不粘",
+          "url": "https://www.bilibili.com/video/BV1VS4i6fEw2",
           "type": "platform"
         }
       ],
-      "updatedAt": "2026-11-05T04:06:55.861Z"
+      "updatedAt": "2026-11-08T02:20:32.053Z"
     },
     {
-      "id": "travel-visual-storytelling",
-      "rank": 11,
-      "title": "旅行影像热词：如何从“出片”走到可被记住的故事",
-      "brief": "天门山跑酷与小红书多条旅行影像内容分别进入抖音、小红书原榜。可围绕取景、人物行动、地点信息和可验证背景搭建叙事，避免用滤镜替代旅行体验。",
+      "id": "travel-photography-and-memory",
+      "rank": 9,
+      "title": "旅行“出片”热词：从万能姿势到可被记住的影像",
+      "brief": "旅行姿势、日照金山和赛里木湖画面集中上榜。可从构图技巧进一步转向“人在景里为何有故事”的叙事方法。",
       "category": "旅行与影像",
-      "momentum": "rising",
+      "momentum": "peak",
       "urgency": "today",
-      "heat": 78,
-      "crossPlatform": 2,
+      "heat": 91,
+      "crossPlatform": 3,
       "mathFit": 82,
-      "visualFit": 98,
-      "lifeFit": 85,
-      "questionDensity": 82,
-      "priority": 81,
+      "visualFit": 99,
+      "lifeFit": 86,
+      "questionDensity": 80,
+      "priority": 86,
       "platforms": [
         {
           "id": "douyin",
-          "rank": 23,
+          "rank": 29,
           "score": 82,
           "trend": "当日原榜"
         },
         {
           "id": "xiaohongshu",
           "rank": 1,
-          "score": 99,
+          "score": 100,
+          "trend": "当日原榜"
+        },
+        {
+          "id": "bilibili",
+          "rank": 33,
+          "score": 84,
           "trend": "当日原榜"
         }
       ],
       "keywords": [
         "旅行",
-        "影像",
         "出片",
-        "跑酷",
-        "自然景观"
+        "构图",
+        "赛里木湖",
+        "第一视角"
       ],
       "mathAngles": [
-        "从风景镜头补上人物目标和行动线",
-        "拆解广角、近景和环境声的叙事功能",
-        "给出地点背景信息的核验清单"
+        "镜头内信息的取舍",
+        "前景、中景、远景的叙事顺序",
+        "目的地内容的差异化"
       ],
       "hooks": [
-        "旅行视频为什么拍得美，却常常让人记不住？",
-        "一条真正有故事感的旅行影像，少不了哪一个镜头？"
+        "“万能姿势”能让照片好看，为什么不一定让人记住？",
+        "把景点拍成故事，只需要补上哪一个镜头？"
       ],
       "recommendedFormat": {
-        "duration": "75 秒",
-        "structure": "景观钩子—镜头拆解—叙事回收"
+        "duration": "60–90 秒",
+        "structure": "热门画面 → 三层景别 → 人物动作 → 前后对比"
       },
       "factStatus": "needs-review",
       "sources": [
         {
-          "name": "抖音热榜：第一视角沉浸式体验天门山跑酷",
-          "url": "https://www.douyin.com/search/%E7%AC%AC%E4%B8%80%E8%A7%86%E8%A7%92%E6%B2%89%E6%B5%B8%E5%BC%8F%E4%BD%93%E9%AA%8C%E5%A4%A9%E9%97%A8%E5%B1%B1%E8%B7%91%E9%85%B7",
+          "name": "抖音 · 第29位 · 拉宏骑粉凤凰闯哈萨克斯坦",
+          "url": "https://www.douyin.com/search/%E6%8B%89%E5%AE%8F%E9%AA%91%E7%B2%89%E5%87%A4%E5%87%B0%E9%97%AF%E5%93%88%E8%90%A8%E5%85%8B%E6%96%AF%E5%9D%A6",
           "type": "platform"
         },
         {
-          "name": "小红书热榜：用万能旅行拍照姿势美美出片",
+          "name": "小红书 · 第1位 · 用万能旅行拍照姿势美美出片",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E7%94%A8%E4%B8%87%E8%83%BD%E6%97%85%E8%A1%8C%E6%8B%8D%E7%85%A7%E5%A7%BF%E5%8A%BF%E7%BE%8E%E7%BE%8E%E5%87%BA%E7%89%87&type=51",
           "type": "platform"
         },
         {
-          "name": "小红书热榜：定格这一刻的日照金山",
-          "url": "https://www.xiaohongshu.com/search_result?keyword=%E5%AE%9A%E6%A0%BC%E8%BF%99%E4%B8%80%E5%88%BB%E7%9A%84%E6%97%A5%E7%85%A7%E9%87%91%E5%B1%B1&type=51",
-          "type": "platform"
-        },
-        {
-          "name": "小红书热榜：你可以永远相信赛里木湖的美景",
-          "url": "https://www.xiaohongshu.com/search_result?keyword=%E4%BD%A0%E5%8F%AF%E4%BB%A5%E6%B0%B8%E8%BF%9C%E7%9B%B8%E4%BF%A1%E8%B5%9B%E9%87%8C%E6%9C%A8%E6%B9%96%E7%9A%84%E7%BE%8E%E6%99%AF&type=51",
+          "name": "B站 · 第33位 · 2026年天门山跑酷大赛竞速预赛！第一视角一镜到底！",
+          "url": "https://www.bilibili.com/video/BV12Y4h6NEoT",
           "type": "platform"
         }
       ],
-      "updatedAt": "2026-11-05T04:06:55.861Z"
+      "updatedAt": "2026-11-08T02:20:32.053Z"
     },
     {
-      "id": "game-culture-and-explainer",
-      "rank": 12,
-      "title": "游戏文化讨论：怎样把高光片段讲出机制与审美",
-      "brief": "《影之刃零》相关条目在抖音、知乎和B站原榜出现。可从动作设计、配乐、观众感受和玩法机制切入，明确“风格评价”与“已公开游戏信息”的边界。",
-      "category": "游戏与文化",
+      "id": "poetry-landscape-cultural-route",
+      "rank": 10,
+      "title": "古诗词里的中国：文化旅行内容怎样避免只剩滤镜",
+      "brief": "古诗词、洛阳初雪与河南实景共同提供了文化旅行入口。内容可以从一句诗、一个地点、一段历史线索建立可验证的路线。",
+      "category": "文化与旅行",
       "momentum": "rising",
       "urgency": "today",
-      "heat": 77,
-      "crossPlatform": 3,
+      "heat": 86,
+      "crossPlatform": 2,
       "mathFit": 88,
       "visualFit": 96,
-      "lifeFit": 80,
+      "lifeFit": 78,
       "questionDensity": 87,
-      "priority": 80,
+      "priority": 85,
       "platforms": [
         {
           "id": "douyin",
-          "rank": 20,
-          "score": 87,
+          "rank": 15,
+          "score": 90,
+          "trend": "当日原榜"
+        },
+        {
+          "id": "xiaohongshu",
+          "rank": 2,
+          "score": 99,
+          "trend": "当日原榜"
+        }
+      ],
+      "keywords": [
+        "古诗词",
+        "洛阳",
+        "河南",
+        "文化旅行",
+        "历史"
+      ],
+      "mathAngles": [
+        "一条文化路线的证据层级",
+        "文本、地点与时代的交叉核验",
+        "景观叙事的时间轴"
+      ],
+      "hooks": [
+        "古诗词里的“同款风景”，到底怎样才拍得不空？",
+        "从一句诗出发，怎样走到一段可信的地方故事？"
+      ],
+      "recommendedFormat": {
+        "duration": "90 秒",
+        "structure": "诗句开场 → 地点还原 → 史料/地图提示 → 旅行镜头设计"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "抖音 · 第15位 · 盛唐初雪飘落洛阳城",
+          "url": "https://www.douyin.com/search/%E7%9B%9B%E5%94%90%E5%88%9D%E9%9B%AA%E9%A3%98%E8%90%BD%E6%B4%9B%E9%98%B3%E5%9F%8E",
+          "type": "platform"
+        },
+        {
+          "name": "小红书 · 第2位 · 耗时三年拍下古诗词里的中国",
+          "url": "https://www.xiaohongshu.com/search_result?keyword=%E8%80%97%E6%97%B6%E4%B8%89%E5%B9%B4%E6%8B%8D%E4%B8%8B%E5%8F%A4%E8%AF%97%E8%AF%8D%E9%87%8C%E7%9A%84%E4%B8%AD%E5%9B%BD&type=51",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-08T02:20:32.053Z"
+    },
+    {
+      "id": "collaboration-and-code-review",
+      "rank": 11,
+      "title": "不用邮件与代码走查：团队协作里哪些“麻烦”其实在省时间",
+      "brief": "办公沟通习惯和 Code Review 同时在讨论区出现。适合比较“即时沟通快”与“可追溯协作稳”的不同场景，而非替某个工具站队。",
+      "category": "职场与效率",
+      "momentum": "steady",
+      "urgency": "evergreen",
+      "heat": 78,
+      "crossPlatform": 2,
+      "mathFit": 93,
+      "visualFit": 76,
+      "lifeFit": 90,
+      "questionDensity": 91,
+      "priority": 84,
+      "platforms": [
+        {
+          "id": "weibo",
+          "rank": 4,
+          "score": 92,
           "trend": "当日原榜"
         },
         {
           "id": "zhihu",
           "rank": 24,
-          "score": 84,
-          "trend": "当日原榜"
-        },
-        {
-          "id": "bilibili",
-          "rank": 25,
-          "score": 82,
+          "score": 91,
           "trend": "当日原榜"
         }
       ],
       "keywords": [
-        "影之刃零",
-        "游戏文化",
-        "动作设计",
-        "配乐",
-        "审美"
+        "协作",
+        "邮件",
+        "Code Review",
+        "工作流",
+        "职场"
       ],
       "mathAngles": [
-        "把一段高光拆成动作、镜头和声音三个层次",
-        "区分玩家审美争论与游戏事实信息",
-        "用具体机制替代空泛的“含金量”形容"
+        "同步与异步沟通的成本",
+        "可追溯性与响应速度",
+        "评审规则如何降低返工"
       ],
       "hooks": [
-        "一段游戏高光，为什么有人看的是操作、有人听的是配乐？",
-        "游戏内容怎么从“燃”讲到真正有信息量？"
+        "不发邮件真的更高效吗？关键不在工具，在信息有没有留下来。",
+        "Code Review 最浪费时间的方式，往往也是最容易被误解为“认真”的方式。"
       ],
       "recommendedFormat": {
-        "duration": "75 秒",
-        "structure": "高光片段—三层拆解—观众互动问题"
+        "duration": "60–90 秒",
+        "structure": "冲突问题 → 两种场景 → 协作成本表 → 可执行规则"
       },
       "factStatus": "needs-review",
       "sources": [
         {
-          "name": "抖音热榜：谁懂影之刃零中华武术的含金量",
-          "url": "https://www.douyin.com/search/%E8%B0%81%E6%87%82%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B6%E4%B8%AD%E5%8D%8E%E6%AD%A6%E6%9C%AF%E7%9A%84%E5%90%AB%E9%87%91%E9%87%8F",
+          "name": "微博 · 第4位 · 外国人不理解中国人不用邮件办公",
+          "url": "https://s.weibo.com/weibo?q=%E5%A4%96%E5%9B%BD%E4%BA%BA%E4%B8%8D%E7%90%86%E8%A7%A3%E4%B8%AD%E5%9B%BD%E4%BA%BA%E4%B8%8D%E7%94%A8%E9%82%AE%E4%BB%B6%E5%8A%9E%E5%85%AC",
           "type": "platform"
         },
         {
-          "name": "知乎热榜：有人吐槽《影之刃零》的BOSS战配乐中的摇滚重金属太燥了，不是想象中那种传统的中式风格，你怎么看？",
-          "url": "https://www.zhihu.com/question/2099183260962243982",
-          "type": "platform"
-        },
-        {
-          "name": "B站热榜：【影之刃零】⚡超⚡级⚡爆⚡爆⚡回⚡",
-          "url": "https://www.bilibili.com/video/BV1bn4P6bEpL",
+          "name": "知乎 · 第24位 · 大家的公司里，代码走查（Code Review）是流于形式还是真有用？",
+          "url": "https://www.zhihu.com/question/2077788758137632359",
           "type": "platform"
         }
       ],
-      "updatedAt": "2026-11-05T04:06:55.861Z"
+      "updatedAt": "2026-11-08T02:20:32.053Z"
+    },
+    {
+      "id": "food-health-common-sense",
+      "rank": 12,
+      "title": "“清淡饮食”到底怎么吃：健康内容如何把概念讲具体",
+      "brief": "大众常用的“清淡”概念与饮食对比内容同时上榜。可以从烹饪方式、盐油糖、分量和个体差异四个维度给出可理解的框架。",
+      "category": "健康与饮食",
+      "momentum": "steady",
+      "urgency": "evergreen",
+      "heat": 76,
+      "crossPlatform": 3,
+      "mathFit": 90,
+      "visualFit": 84,
+      "lifeFit": 95,
+      "questionDensity": 88,
+      "priority": 83,
+      "platforms": [
+        {
+          "id": "baidu",
+          "rank": 22,
+          "score": 95,
+          "trend": "当日原榜"
+        },
+        {
+          "id": "bilibili",
+          "rank": 38,
+          "score": 84,
+          "trend": "当日原榜"
+        },
+        {
+          "id": "zhihu",
+          "rank": 5,
+          "score": 76,
+          "trend": "当日原榜"
+        }
+      ],
+      "keywords": [
+        "清淡饮食",
+        "营养",
+        "热量",
+        "健康",
+        "习惯"
+      ],
+      "mathAngles": [
+        "“清淡”的可观察指标",
+        "总量与频率的区别",
+        "健康建议的个体边界"
+      ],
+      "hooks": [
+        "“清淡”不是白水煮一切，它至少包含四层意思。",
+        "为什么同样叫健康饮食，答案常常完全不同？"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90 秒",
+        "structure": "概念误区 → 四个维度 → 一餐对照 → 就医提示"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "百度 · 第22位 · 医生口中的“清淡饮食”到底指什么",
+          "url": "https://m.baidu.com/s?word=%E5%8C%BB%E7%94%9F%E5%8F%A3%E4%B8%AD%E7%9A%84%E2%80%9C%E6%B8%85%E6%B7%A1%E9%A5%AE%E9%A3%9F%E2%80%9D%E5%88%B0%E5%BA%95%E6%8C%87%E4%BB%80%E4%B9%88&sa=fyb_news",
+          "type": "platform"
+        },
+        {
+          "name": "B站 · 第38位 · 全球最肥胖 VS 全球最健康！热量相差100倍！一日三餐吃什么？",
+          "url": "https://www.bilibili.com/video/BV1cr476pETN",
+          "type": "platform"
+        },
+        {
+          "name": "知乎 · 第5位 · 为什么说健身房练完后器械上面的杠铃片要归位？",
+          "url": "https://www.zhihu.com/question/470350250",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-08T02:20:32.053Z"
+    },
+    {
+      "id": "friendship-variety-show-discussion",
+      "rank": 13,
+      "title": "友情综艺为何引发共鸣：把情绪话题做成可讨论的内容",
+      "brief": "友情议题与综艺片段跨平台出现。适合从关系叙事、观众投射和节目机制分析，而不是替真人关系下结论。",
+      "category": "娱乐与关系",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 80,
+      "crossPlatform": 4,
+      "mathFit": 85,
+      "visualFit": 89,
+      "lifeFit": 92,
+      "questionDensity": 90,
+      "priority": 82,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 45,
+          "score": 81,
+          "trend": "当日原榜"
+        },
+        {
+          "id": "zhihu",
+          "rank": 28,
+          "score": 94,
+          "trend": "当日原榜"
+        },
+        {
+          "id": "baidu",
+          "rank": 8,
+          "score": 92,
+          "trend": "当日原榜"
+        },
+        {
+          "id": "bilibili",
+          "rank": 42,
+          "score": 88,
+          "trend": "当日原榜"
+        }
+      ],
+      "keywords": [
+        "友情",
+        "综艺",
+        "后会友期",
+        "关系叙事",
+        "情绪"
+      ],
+      "mathAngles": [
+        "情绪共鸣的叙事节点",
+        "角色关系的冲突与和解",
+        "评论区问题设计"
+      ],
+      "hooks": [
+        "友情题材为什么比爱情更难拍，但一旦拍中就很难绕开？",
+        "综艺里最能留下来的，不一定是名场面，而是观众替自己问出的那句话。"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90 秒",
+        "structure": "高光片段 → 关系问题 → 叙事拆解 → 观众提问"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "抖音 · 第45位 · 当曹操参加后会友期",
+          "url": "https://www.douyin.com/search/%E5%BD%93%E6%9B%B9%E6%93%8D%E5%8F%82%E5%8A%A0%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F",
+          "type": "platform"
+        },
+        {
+          "name": "知乎 · 第28位 · 友情题材综艺之前少有成功案例，《后会友期》为什么能精准击中观众情绪？",
+          "url": "https://www.zhihu.com/question/2100578658863637098",
+          "type": "platform"
+        },
+        {
+          "name": "百度 · 第8位 · 当我们终于开始认真谈论友情",
+          "url": "https://m.baidu.com/s?word=%E5%BD%93%E6%88%91%E4%BB%AC%E7%BB%88%E4%BA%8E%E5%BC%80%E5%A7%8B%E8%AE%A4%E7%9C%9F%E8%B0%88%E8%AE%BA%E5%8F%8B%E6%83%85&sa=fyb_news",
+          "type": "platform"
+        },
+        {
+          "name": "B站 · 第42位 · 当曹操参加《后会友期》",
+          "url": "https://www.bilibili.com/video/BV12m4j6bEFx",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-08T02:20:32.053Z"
     }
   ]
 }
