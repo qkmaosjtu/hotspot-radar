@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "dataMode": "live",
+  "date": "2026-11-12",
+  "generatedAt": "2026-11-12T04:01:08.000Z",
+  "timezone": "Asia/Shanghai",
+  "summary": {
+    "topicCount": 12,
+    "urgentCount": 10,
+    "crossPlatformCount": 9,
+    "formulaReadyCount": 12
+  },
+  "sourceStatus": [
+    {"id": "douyin", "name": "抖音", "status": "fresh", "items": 49, "updatedAt": "2026-11-12T04:00:05.145Z"},
+    {"id": "weibo", "name": "微博", "status": "fresh", "items": 50, "updatedAt": "2026-11-12T04:00:05.145Z"},
+    {"id": "zhihu", "name": "知乎", "status": "partial", "items": 30, "updatedAt": "2026-11-12T04:00:05.145Z"},
+    {"id": "xiaohongshu", "name": "小红书", "status": "partial", "items": 10, "updatedAt": "2026-11-12T04:00:05.145Z"},
+    {"id": "baidu", "name": "百度", "status": "fresh", "items": 50, "updatedAt": "2026-11-12T04:00:05.145Z"},
+    {"id": "bilibili", "name": "B站", "status": "fresh", "items": 50, "updatedAt": "2026-11-12T04:00:05.145Z"}
+  ],
+  "trendHistory": {
+    "times": ["2026-11-02", "2026-11-03", "2026-11-04", "2026-11-05", "2026-11-08", "2026-11-11", "2026-11-12"],
+    "series": {
+      "douyin": [98, 96, 100, 98, 100, 98, 98],
+      "weibo": [100, 100, 100, 100, 100, 100, 100],
+      "zhihu": [100, 100, 60, 60, 58, 60, 60],
+      "xiaohongshu": [20, 20, 20, 20, 20, 20, 20],
+      "baidu": [100, 100, 100, 100, 100, 100, 100],
+      "bilibili": [100, 100, 100, 100, 100, 100, 100]
+    }
+  },
+  "topics": [
+    {
+      "id": "oil-price-watch", "rank": 1, "title": "油价下调预期：把“今晚会不会变”讲成家庭账本", "brief": "抖音、微博和百度原榜都出现油价相关讨论，适合把即时关注转成通勤、配送与家庭预算的可操作信息。", "category": "消费与民生", "momentum": "rising", "urgency": "now", "heat": 96, "crossPlatform": 3, "mathFit": 88, "visualFit": 76, "lifeFit": 98, "questionDensity": 91, "priority": 96,
+      "platforms": [{"id":"douyin","rank":9,"score":92,"trend":"当日原榜"},{"id":"weibo","rank":6,"score":95,"trend":"当日原榜"},{"id":"baidu","rank":4,"score":97,"trend":"当日原榜"}],
+      "keywords": ["油价", "成品油", "通勤", "家庭预算"], "mathAngles": ["按通勤距离估算单箱油费用变化", "把油价消息与实际调价窗口分开说清"], "hooks": ["油价消息刷屏，普通人真正该盯哪一个数字？", "一辆车每月能省多少，别只看‘大幅下降’"], "recommendedFormat": {"duration":"45–60秒","structure":"热榜原句→费用计算→核验调价信息"}, "factStatus": "needs-review", "sources": [{"name":"百度原榜第4位：油价今晚有望大幅下降","url":"https://m.baidu.com/s?word=%E6%B2%B9%E4%BB%B7%E4%BB%8A%E6%99%9A%E6%9C%89%E6%9C%9B%E5%A4%A7%E5%B9%85%E4%B8%8B%E9%99%8D&sa=fyb_news","type":"platform"}], "updatedAt":"2026-11-12T04:01:08.000Z"
+    },
+    {
+      "id": "ai-compute-consumption", "rank": 2, "title": "AI算力成消费热点：需求、芯片与普通用户之间隔着什么", "brief": "抖音将AI算力列为高位话题，知乎与百度分别出现本地AI服务器和芯片适配讨论，适合做一条从消费感知到基础设施的解释内容。", "category": "科技与商业", "momentum": "rising", "urgency": "today", "heat": 94, "crossPlatform": 3, "mathFit": 94, "visualFit": 84, "lifeFit": 75, "questionDensity": 93, "priority": 94,
+      "platforms": [{"id":"douyin","rank":3,"score":98,"trend":"当日原榜"},{"id":"zhihu","rank":20,"score":73,"trend":"当日原榜"},{"id":"baidu","rank":20,"score":62,"trend":"当日原榜"}],
+      "keywords": ["AI算力", "芯片", "本地部署", "消费"], "mathAngles": ["用功耗、成本和使用频率解释本地部署取舍", "区分产品热词与可验证的性能指标"], "hooks": ["AI算力成了消费热点，买到的到底是什么？", "8张V100值不值，先算清三笔账"], "recommendedFormat": {"duration":"60–90秒","structure":"热榜切入→成本拆解→适用人群"}, "factStatus": "needs-review", "sources": [{"name":"抖音原榜第3位：AI算力成消费新热点","url":"https://www.douyin.com/search/AI%E7%AE%97%E5%8A%9B%E6%88%90%E6%B6%88%E8%B4%B9%E6%96%B0%E7%83%AD%E7%82%B9","type":"platform"}], "updatedAt":"2026-11-12T04:01:08.000Z"
+    },
+    {
+      "id": "sun-yat-sen-memory", "rank": 3, "title": "孙中山相关内容刷屏：历史人物怎样从纪念日走进今天", "brief": "抖音、微博和百度原榜都出现孙中山相关内容，适合历史、城市与家族叙事创作者从不同材料入口做短内容。", "category": "历史与文化", "momentum": "peak", "urgency": "today", "heat": 90, "crossPlatform": 3, "mathFit": 86, "visualFit": 89, "lifeFit": 68, "questionDensity": 86, "priority": 91,
+      "platforms": [{"id":"douyin","rank":1,"score":100,"trend":"当日原榜"},{"id":"weibo","rank":19,"score":74,"trend":"当日原榜"},{"id":"baidu","rank":30,"score":56,"trend":"当日原榜"}],
+      "keywords": ["孙中山", "历史记忆", "纪念日", "口述史"], "mathAngles": ["将纪念、家族叙事与原始史料分层呈现", "用时间轴还原人物、声音与时代背景"], "hooks": ["为什么同一位历史人物会同时出现在三个热榜？", "一段留声背后，历史短视频怎样避免只做金句"], "recommendedFormat": {"duration":"60秒","structure":"当日热榜→一件材料→历史边界"}, "factStatus": "needs-review", "sources": [{"name":"抖音原榜第1位：纪念孙中山先生诞辰160周年","url":"https://www.douyin.com/search/%E7%BA%AA%E5%BF%B5%E5%AD%99%E4%B8%AD%E5%B1%B1%E5%85%88%E7%94%9F%E8%AF%9E%E8%BE%B0160%E5%91%A8%E5%B9%B4","type":"platform"}], "updatedAt":"2026-11-12T04:01:08.000Z"
+    },
+    {
+      "id": "school-half-day-discussion", "rank": 4, "title": "“小学生只上半天学”讨论：家长最想问的其实是什么", "brief": "百度原榜高位出现家长圈教育安排讨论，可从接送、托管、家庭时间和教育目标切入，避免将单一网传说法当作普遍政策。", "category": "教育与家庭", "momentum": "rising", "urgency": "now", "heat": 89, "crossPlatform": 1, "mathFit": 88, "visualFit": 74, "lifeFit": 95, "questionDensity": 94, "priority": 90,
+      "platforms": [{"id":"baidu","rank":2,"score":99,"trend":"当日原榜"}],
+      "keywords": ["小学", "家长", "托管", "家庭时间"], "mathAngles": ["把上学时长、通勤和托管成本列成家庭时间表", "核验地区、学校和正式通知的适用范围"], "hooks": ["半天上学为什么会让家长吵起来？", "先别站队：把一张家庭时间表算出来"], "recommendedFormat": {"duration":"45–60秒","structure":"热榜问题→家长视角→信息核验"}, "factStatus": "needs-review", "sources": [{"name":"百度原榜第2位：家长圈热议“小学生只上半天学”","url":"https://m.baidu.com/s?word=%E5%AE%B6%E9%95%BF%E5%9C%88%E7%83%AD%E8%AE%AE%E2%80%9C%E5%B0%8F%E5%AD%A6%E7%94%9F%E5%8F%AA%E4%B8%8A%E5%8D%8A%E5%A4%A9%E5%AD%A6%E2%80%9D&sa=fyb_news","type":"platform"}], "updatedAt":"2026-11-12T04:01:08.000Z"
+    },
+    {
+      "id": "sam-down-jacket-demand", "rank": 5, "title": "羽绒服断货讨论：一件爆品怎样讲出冬季消费决策", "brief": "微博和百度原榜出现同一羽绒服断货话题，适合服饰、消费和零售赛道比较参数、需求与替代方案，而不是跟随情绪下单。", "category": "消费与零售", "momentum": "rising", "urgency": "today", "heat": 87, "crossPlatform": 2, "mathFit": 84, "visualFit": 87, "lifeFit": 92, "questionDensity": 87, "priority": 88,
+      "platforms": [{"id":"weibo","rank":17,"score":78,"trend":"当日原榜"},{"id":"baidu","rank":24,"score":65,"trend":"当日原榜"}],
+      "keywords": ["羽绒服", "断货", "保暖", "零售"], "mathAngles": ["比较充绒量、蓬松度与价格时说明口径", "用替代品清单降低抢购焦虑"], "hooks": ["一件羽绒服为什么能冲上热榜？", "断货不是参数：冬季外套怎么比才有用"], "recommendedFormat": {"duration":"45秒","structure":"热榜现象→参数框架→购买建议"}, "factStatus": "needs-review", "sources": [{"name":"微博原榜第17位：山姆399元充绒量300克羽绒服断货","url":"https://s.weibo.com/weibo?q=%23%E5%B1%B1%E5%A7%86399%E5%85%83%E5%85%85%E7%BB%92%E9%87%8F300%E5%85%8B%E7%BE%BD%E7%BB%92%E6%9C%8D%E6%96%AD%E8%B4%A7%23","type":"platform"}], "updatedAt":"2026-11-12T04:01:08.000Z"
+    },
+    {
+      "id": "warm-food-season", "rank": 6, "title": "天凉热乎美食登场：季节内容如何拍得既香又有用", "brief": "抖音高位的季节美食趋势与小红书日常美食教程形成不同表达方向，适合餐饮、家庭和生活方式创作者做低门槛可复刻内容。", "category": "美食与生活", "momentum": "rising", "urgency": "today", "heat": 86, "crossPlatform": 2, "mathFit": 75, "visualFit": 96, "lifeFit": 94, "questionDensity": 76, "priority": 87,
+      "platforms": [{"id":"douyin","rank":2,"score":99,"trend":"当日原榜"},{"id":"xiaohongshu","rank":4,"score":96,"trend":"当日原榜"}],
+      "keywords": ["热乎美食", "秋冬", "家常菜", "教程"], "mathAngles": ["用食材克数、火候与时长替代空泛‘凭感觉’", "把出餐成本和复刻难度说清"], "hooks": ["降温后，什么内容最容易让人停下来？", "一锅热乎的，拍成能让人照着做的教程"], "recommendedFormat": {"duration":"30–45秒","structure":"成品特写→关键步骤→复刻提示"}, "factStatus": "needs-review", "sources": [{"name":"抖音原榜第2位：天凉热乎美食登场","url":"https://www.douyin.com/search/%E5%A4%A9%E5%87%89%E7%83%AD%E4%B9%8E%E7%BE%8E%E9%A3%9F%E7%99%BB%E5%9C%BA","type":"platform"}], "updatedAt":"2026-11-12T04:01:08.000Z"
+    },
+    {
+      "id": "poetry-travel-visual", "rank": 7, "title": "古诗词里的中国：旅行影像怎样从“出片”变成叙事", "brief": "小红书原榜同时出现古诗词影像和旅行拍照内容，适合文旅、摄影和文化赛道用地理、诗句与拍摄过程组织一条有记忆点的短片。", "category": "旅行与文化", "momentum": "steady", "urgency": "today", "heat": 83, "crossPlatform": 1, "mathFit": 86, "visualFit": 98, "lifeFit": 83, "questionDensity": 79, "priority": 85,
+      "platforms": [{"id":"xiaohongshu","rank":2,"score":98,"trend":"当日原榜"}],
+      "keywords": ["古诗词", "旅行", "摄影", "文旅"], "mathAngles": ["用地图与镜头位置连接诗句和实景", "讲清拍摄周期、路线与版权来源"], "hooks": ["一条旅行片，怎么拍出‘古诗词里的中国’？", "先找到一句诗，再决定镜头往哪儿走"], "recommendedFormat": {"duration":"45–75秒","structure":"诗句钩子→实景对照→拍摄幕后"}, "factStatus": "needs-review", "sources": [{"name":"小红书原榜第2位：耗时三年拍下古诗词里的中国","url":"https://www.xiaohongshu.com/search_result?keyword=%E8%80%97%E6%97%B6%E4%B8%89%E5%B9%B4%E6%8B%8D%E4%B8%8B%E5%8F%A4%E8%AF%97%E8%AF%8D%E9%87%8C%E7%9A%84%E4%B8%AD%E5%9B%BD&type=51","type":"platform"}], "updatedAt":"2026-11-12T04:01:08.000Z"
+    },
+    {
+      "id": "blg-match-analysis", "rank": 8, "title": "BLG赛前讨论升温：把“胜负预测”做成看得懂的战术内容", "brief": "知乎的赛前概率提问和B站的赛事复盘同在原榜，适合电竞创作者从阵容、节奏与证据链讲比赛，避免把情绪当分析。", "category": "电竞与体育", "momentum": "rising", "urgency": "now", "heat": 84, "crossPlatform": 2, "mathFit": 90, "visualFit": 91, "lifeFit": 72, "questionDensity": 90, "priority": 86,
+      "platforms": [{"id":"zhihu","rank":3,"score":100,"trend":"当日原榜"},{"id":"bilibili","rank":41,"score":52,"trend":"当日原榜"}],
+      "keywords": ["BLG", "电竞", "比赛预测", "战术复盘"], "mathAngles": ["明确概率预测的前提，不把它说成赛果", "用关键回合和数据支持战术结论"], "hooks": ["预测一场比赛，最容易被忽略的变量是什么？", "别只喊加油：三分钟看懂这场对局"], "recommendedFormat": {"duration":"60–90秒","structure":"赛前问题→关键变量→复盘框架"}, "factStatus": "needs-review", "sources": [{"name":"知乎原榜第3位：BLG打赢GenG的概率有多大？","url":"https://www.zhihu.com/question/2103283329470566406","type":"platform"}], "updatedAt":"2026-11-12T04:01:08.000Z"
+    },
+    {
+      "id": "boonie-bears-rumor-check", "rank": 9, "title": "《熊出没》辟谣热议：IP传言为什么总能跑得比事实快", "brief": "微博和百度原榜均出现《熊出没》相关辟谣话题，适合动画、媒介和家长赛道示范如何辨认权威账号、原帖和二次传播。", "category": "动画与媒介", "momentum": "rising", "urgency": "now", "heat": 82, "crossPlatform": 2, "mathFit": 87, "visualFit": 85, "lifeFit": 84, "questionDensity": 91, "priority": 85,
+      "platforms": [{"id":"weibo","rank":2,"score":99,"trend":"当日原榜"},{"id":"baidu","rank":21,"score":68,"trend":"当日原榜"}],
+      "keywords": ["熊出没", "辟谣", "动画IP", "信息核验"], "mathAngles": ["演示从转述回到首发信息源的核验顺序", "区分官方回应、媒体转述与网友截图"], "hooks": ["一个动画传言，怎么在十分钟内核验？", "别急着转：这三步找回消息的第一现场"], "recommendedFormat": {"duration":"45–60秒","structure":"传言样本→核验路径→转发提醒"}, "factStatus": "needs-review", "sources": [{"name":"微博原榜第2位：熊出没官方辟谣熊大被写死了","url":"https://s.weibo.com/weibo?q=%23%E7%86%8A%E5%87%BA%E6%B2%A1%E5%AE%98%E6%96%B9%E8%BE%9F%E8%B0%A3%E7%86%8A%E5%A4%A7%E8%A2%AB%E5%86%99%E6%AD%BB%E4%BA%86%23","type":"platform"}], "updatedAt":"2026-11-12T04:01:08.000Z"
+    },
+    {
+      "id": "star-rail-launch", "rank": 10, "title": "星穹铁道新角色话题：游戏热点怎样兼顾剧情与玩家体验", "brief": "抖音和B站原榜都出现星穹铁道相关内容，适合游戏创作者用角色设定、版本内容和新手入口组织系列选题。", "category": "游戏与二次元", "momentum": "peak", "urgency": "today", "heat": 81, "crossPlatform": 2, "mathFit": 80, "visualFit": 94, "lifeFit": 73, "questionDensity": 78, "priority": 83,
+      "platforms": [{"id":"douyin","rank":25,"score":67,"trend":"当日原榜"},{"id":"bilibili","rank":30,"score":63,"trend":"当日原榜"}],
+      "keywords": ["星穹铁道", "阿哈", "角色PV", "版本内容"], "mathAngles": ["用版本时间线区分官方内容与传言", "按新手、剧情党和强度党拆分叙事"], "hooks": ["一个新角色话题，怎么讲给没玩过的人听？", "PV刷屏后，先分清哪些是官方内容"], "recommendedFormat": {"duration":"45–75秒","structure":"角色钩子→版本背景→玩家入口"}, "factStatus": "needs-review", "sources": [{"name":"B站原榜第30位：星穹铁道动画短片","url":"https://www.bilibili.com/video/BV1gHWg6GEqj","type":"platform"}], "updatedAt":"2026-11-12T04:01:08.000Z"
+    },
+    {
+      "id": "moving-service-pricing", "rank": 11, "title": "搬家报价争议：服务消费里最容易漏掉的价格清单", "brief": "知乎原榜出现高额搬家收费提问，适合生活服务、法律常识和消费维权赛道从报价单、留痕与投诉路径做预防型内容。", "category": "消费与维权", "momentum": "steady", "urgency": "evergreen", "heat": 78, "crossPlatform": 1, "mathFit": 91, "visualFit": 73, "lifeFit": 93, "questionDensity": 95, "priority": 82,
+      "platforms": [{"id":"zhihu","rank":5,"score":94,"trend":"当日原榜"}],
+      "keywords": ["搬家", "报价", "消费维权", "服务合同"], "mathAngles": ["把基础费、楼层费、拆装费等项目列为可核对清单", "说明内容不能代替报警、投诉或法律咨询"], "hooks": ["搬家前少问一个问题，可能多花一大笔钱", "服务报价单，哪些空白最危险？"], "recommendedFormat": {"duration":"60秒","structure":"场景警示→报价清单→求助路径"}, "factStatus": "needs-review", "sources": [{"name":"知乎原榜第5位：搬家公司9公里收费13900元讨论","url":"https://www.zhihu.com/question/2103329149985231030","type":"platform"}], "updatedAt":"2026-11-12T04:01:08.000Z"
+    },
+    {
+      "id": "cooking-creator-tutorial", "rank": 12, "title": "日常美食教程热度：简单食材如何做出可复刻内容", "brief": "小红书原榜的日常美食教程与抖音季节美食话题构成生活创作窗口，适合用明确用量、步骤和失败补救提升收藏价值。", "category": "美食与生活", "momentum": "steady", "urgency": "evergreen", "heat": 76, "crossPlatform": 2, "mathFit": 78, "visualFit": 95, "lifeFit": 89, "questionDensity": 75, "priority": 80,
+      "platforms": [{"id":"xiaohongshu","rank":4,"score":96,"trend":"当日原榜"},{"id":"douyin","rank":2,"score":99,"trend":"当日原榜"}],
+      "keywords": ["美食教程", "家常菜", "食材", "复刻"], "mathAngles": ["交代食材用量、火候和时间的可复刻范围", "设计一个低成本替代食材方案"], "hooks": ["美食视频被收藏，不是因为滤镜好看", "把一份食谱拍成普通人也不会翻车的版本"], "recommendedFormat": {"duration":"30–60秒","structure":"成品钩子→三步制作→失败补救"}, "factStatus": "needs-review", "sources": [{"name":"小红书原榜第4位：超日常美食教程速来 get","url":"https://www.xiaohongshu.com/search_result?keyword=%E8%B6%85%E6%97%A5%E5%B8%B8%E7%BE%8E%E9%A3%9F%E6%95%99%E7%A8%8B%E9%80%9F%E6%9D%A5get&type=51","type":"platform"}], "updatedAt":"2026-11-12T04:01:08.000Z"
+    }
+  ]
+}
