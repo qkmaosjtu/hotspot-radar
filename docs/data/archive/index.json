@@ -1,7 +1,12 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T04:00:38.608Z",
+  "updatedAt": "2026-11-17T17:06:48.871Z",
   "entries": [
+    {
+      "date": "2026-11-17",
+      "file": "2026-11-17-daily-hotspots.json",
+      "topicCount": 12
+    },
     {
       "date": "2026-11-16",
       "file": "2026-11-16-daily-hotspots.json",
