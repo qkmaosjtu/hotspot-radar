@@ -1,416 +1,89 @@
 {
   "schemaVersion": 1,
   "dataMode": "live",
-  "date": "2026-11-17",
-  "generatedAt": "2026-11-17T16:10:55.000Z",
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-18T04:05:20.000Z",
   "timezone": "Asia/Shanghai",
-  "summary": {
-    "topicCount": 12,
-    "urgentCount": 4,
-    "crossPlatformCount": 11,
-    "formulaReadyCount": 12
-  },
+  "summary": {"topicCount": 12, "urgentCount": 4, "crossPlatformCount": 10, "formulaReadyCount": 12},
   "sourceStatus": [
-    {"id": "douyin", "name": "抖音", "status": "fresh", "items": 50, "updatedAt": "2026-11-17T16:00:20.293Z"},
-    {"id": "weibo", "name": "微博", "status": "fresh", "items": 50, "updatedAt": "2026-11-17T16:00:20.293Z"},
-    {"id": "zhihu", "name": "知乎", "status": "partial", "items": 30, "updatedAt": "2026-11-17T16:00:20.293Z"},
-    {"id": "xiaohongshu", "name": "小红书", "status": "partial", "items": 10, "updatedAt": "2026-11-17T16:00:20.293Z"},
-    {"id": "baidu", "name": "百度", "status": "fresh", "items": 50, "updatedAt": "2026-11-17T16:00:20.293Z"},
-    {"id": "bilibili", "name": "B站", "status": "fresh", "items": 50, "updatedAt": "2026-11-17T16:00:20.293Z"}
+    {"id":"douyin","name":"抖音","status":"fresh","items":49,"updatedAt":"2026-11-18T04:04:43.376Z"},
+    {"id":"weibo","name":"微博","status":"fresh","items":50,"updatedAt":"2026-11-18T04:04:43.376Z"},
+    {"id":"zhihu","name":"知乎","status":"partial","items":30,"updatedAt":"2026-11-18T04:04:43.376Z"},
+    {"id":"xiaohongshu","name":"小红书","status":"partial","items":10,"updatedAt":"2026-11-18T04:04:43.376Z"},
+    {"id":"baidu","name":"百度","status":"fresh","items":50,"updatedAt":"2026-11-18T04:04:43.376Z"},
+    {"id":"bilibili","name":"B站","status":"fresh","items":50,"updatedAt":"2026-11-18T04:04:43.376Z"}
   ],
   "trendHistory": {
-    "times": ["2026-11-08", "2026-11-11", "2026-11-12", "2026-11-14", "2026-11-15", "2026-11-16", "2026-11-17"],
+    "times": ["2026-11-11","2026-11-12","2026-11-14","2026-11-15","2026-11-16","2026-11-17","2026-11-18"],
     "series": {
-      "douyin": [100, 98, 98, 98, 96, 98, 100],
-      "weibo": [100, 100, 100, 100, 100, 100, 100],
-      "zhihu": [58, 60, 60, 60, 60, 60, 60],
-      "xiaohongshu": [20, 20, 20, 20, 20, 20, 20],
-      "baidu": [100, 100, 100, 100, 100, 100, 100],
-      "bilibili": [100, 100, 100, 100, 100, 100, 100]
+      "douyin":[98,98,98,96,98,100,98],
+      "weibo":[100,100,100,100,100,100,100],
+      "zhihu":[60,60,60,60,60,60,60],
+      "xiaohongshu":[20,20,20,20,20,20,20],
+      "baidu":[100,100,100,100,100,100,100],
+      "bilibili":[100,100,100,100,100,100,100]
     }
   },
   "topics": [
     {
-      "id": "apec-shenzhen-city-story",
-      "rank": 1,
-      "title": "APEC在深圳：公共议题怎样落到城市里的普通人",
-      "brief": "APEC、深圳与经贸通道相关讨论占据四个平台高位。适合用“峰会热词—城市细节—普通人能看见什么”的三段式讲法；参会、行程和具体议题须在发布前另行核验。",
-      "category": "公共议题与城市",
-      "momentum": "peak",
-      "urgency": "now",
-      "heat": 100,
-      "crossPlatform": 4,
-      "mathFit": 91,
-      "visualFit": 91,
-      "lifeFit": 84,
-      "questionDensity": 94,
-      "priority": 99,
-      "platforms": [
-        {"id": "douyin", "rank": 2, "score": 98, "trend": "高位"},
-        {"id": "weibo", "rank": 1, "score": 100, "trend": "榜首"},
-        {"id": "zhihu", "rank": 1, "score": 100, "trend": "榜首"},
-        {"id": "baidu", "rank": 3, "score": 96, "trend": "高位"}
-      ],
-      "keywords": ["APEC", "深圳", "经贸", "城市观察", "公共叙事"],
-      "mathAngles": ["把峰会热榜拆为议题、城市服务和大众体验三层", "用一张时间线区分已证实信息、热榜表达与待核验说法"],
-      "hooks": ["为什么一场峰会会同时变成深圳人的穿搭、餐食和通勤话题？", "峰会离普通人很远吗？先看热榜里的城市细节。"],
-      "recommendedFormat": {"duration": "75—120秒", "structure": "高位热榜开场 → 城市细节切片 → 议题与生活的连接 → 核验提示"},
-      "factStatus": "needs-review",
-      "sources": [
-        {"name": "抖音热榜：APEC峰会有哪些领导人参加", "url": "https://www.douyin.com/search/APEC%E5%B3%B0%E4%BC%9A%E6%9C%89%E5%93%AA%E4%BA%9B%E9%A2%86%E5%AF%BC%E4%BA%BA%E5%8F%82%E5%8A%A0", "type": "platform"},
-        {"name": "微博热搜：雷军APEC现场挨个发名片", "url": "https://s.weibo.com/weibo?q=%23%E9%9B%B7%E5%86%9BAPEC%E7%8E%B0%E5%9C%BA%E6%8C%A8%E4%B8%AA%E5%8F%91%E5%90%8D%E7%89%87%23", "type": "platform"},
-        {"name": "知乎热榜：特朗普启程亚洲行与APEC会议", "url": "https://www.zhihu.com/question/2105949199779086374", "type": "platform"}
-      ],
-      "updatedAt": "2026-11-17T16:10:55.000Z"
+      "id":"apec-shenzhen-everyday-story","rank":1,"title":"APEC落到深圳日常：公共盛会怎样成为城市叙事","brief":"四个平台同时出现峰会、迎宾与城市生活线索。创作者可避开宏大口号，用机场、公交、妆容和餐桌等具体观察讲“城市如何接住一场大事”。","category":"城市与公共议题","momentum":"peak","urgency":"now","heat":99,"crossPlatform":4,"mathFit":82,"visualFit":94,"lifeFit":88,"questionDensity":90,"priority":96,
+      "platforms":[{"id":"douyin","rank":1,"score":100,"trend":"榜首"},{"id":"weibo","rank":1,"score":100,"trend":"榜首"},{"id":"baidu","rank":2,"score":98,"trend":"高位"},{"id":"zhihu","rank":6,"score":90,"trend":"高位"}],
+      "keywords":["APEC","深圳","城市服务","公共叙事"],"mathAngles":["从一个普通人的动线拆解大型活动的城市体验","用前后对比呈现城市服务的细节而非堆砌口号"],"hooks":["一场国际会议，为什么先刷屏的是深圳人的妆和出行？","别急着拍大场面，先看城市里谁的生活被改变了。"],"recommendedFormat":{"duration":"60–90 秒","structure":"三个日常场景开场→解释公共事件如何进入城市生活→给出可拍的观察清单"},"factStatus":"needs-review","sources":[{"name":"抖音热榜：APEC工商领导人峰会开幕式举行","url":"https://www.douyin.com/search/APEC%E5%B7%A5%E5%95%86%E9%A2%86%E5%AF%BC%E4%BA%BA%E5%B3%B0%E4%BC%9A%E5%BC%80%E5%B9%95%E5%BC%8F%E4%B8%BE%E8%A1%8C","type":"platform"},{"name":"微博热搜：APEC","url":"https://s.weibo.com/weibo?q=APEC","type":"platform"},{"name":"百度热搜：深圳人全妆出街迎APEC","url":"https://m.baidu.com/s?word=%E6%B7%B1%E5%9C%B3%E4%BA%BA%E5%85%A8%E5%A6%86%E5%87%BA%E8%A1%97%E8%BF%8EAPEC&sa=fyb_news","type":"platform"}],"updatedAt":"2026-11-18T04:05:20.000Z"
     },
     {
-      "id": "china-football-two-matches",
-      "rank": 2,
-      "title": "国足热榜的一夜：平局、夺冠与球迷情绪怎么讲",
-      "brief": "成年队战平巴林与U19夺冠相关条目同时进入多平台原榜。可以将比分、青年赛事和观赛情绪放进同一叙事，但赛况、球员与赛事背景应以赛事官方记录复核。",
-      "category": "体育与社群",
-      "momentum": "peak",
-      "urgency": "now",
-      "heat": 97,
-      "crossPlatform": 4,
-      "mathFit": 84,
-      "visualFit": 94,
-      "lifeFit": 88,
-      "questionDensity": 89,
-      "priority": 96,
-      "platforms": [
-        {"id": "douyin", "rank": 1, "score": 100, "trend": "榜首"},
-        {"id": "weibo", "rank": 30, "score": 46, "trend": "在榜"},
-        {"id": "zhihu", "rank": 6, "score": 90, "trend": "高位"},
-        {"id": "baidu", "rank": 2, "score": 98, "trend": "高位"}
-      ],
-      "keywords": ["国足", "巴林", "U19", "熊猫杯", "球迷"],
-      "mathAngles": ["用两条赛后时间线解释为什么‘平局’与‘夺冠’能同时成为热词", "把战术复盘、球迷情绪和青训期待分层，避免只做情绪标题"],
-      "hooks": ["同一晚，为什么国足的平局和夺冠都冲上了热榜？", "比分之外，球迷究竟在讨论什么？"],
-      "recommendedFormat": {"duration": "60—90秒", "structure": "比分画面开场 → 两条热榜线对照 → 球迷情绪拆解 → 赛后资料来源"},
-      "factStatus": "needs-review",
-      "sources": [
-        {"name": "抖音热榜：国足2:2战平巴林", "url": "https://www.douyin.com/search/%E5%9B%BD%E8%B6%B32%3A2%E6%88%98%E5%B9%B3%E5%B7%B4%E6%9E%97", "type": "platform"},
-        {"name": "知乎热榜：国足友谊赛中国男足2-2巴林", "url": "https://www.zhihu.com/question/2106123425273968487", "type": "platform"},
-        {"name": "百度热榜：U19国足2比1韩国夺冠", "url": "https://m.baidu.com/s?word=U19%E5%9B%BD%E8%B6%B32%E6%AF%941%E9%9F%A9%E5%9B%BD%E5%A4%BA%E5%86%A0&sa=fyb_news", "type": "platform"}
-      ],
-      "updatedAt": "2026-11-17T16:10:55.000Z"
+      "id":"ai-embodied-intelligence-business","rank":2,"title":"具身智能热议：把“产业想象力”拆成可验证的问题","brief":"AI、具身智能与企业发言同时出现在知乎、百度和微博相关讨论中。适合做观点拆解：哪些是产品能力，哪些是商业化判断，哪些仍需要数据验证。","category":"科技与商业","momentum":"rising","urgency":"today","heat":91,"crossPlatform":3,"mathFit":91,"visualFit":78,"lifeFit":68,"questionDensity":96,"priority":92,
+      "platforms":[{"id":"zhihu","rank":1,"score":100,"trend":"榜首"},{"id":"baidu","rank":33,"score":54,"trend":"在榜"},{"id":"weibo","rank":44,"score":32,"trend":"在榜"}],
+      "keywords":["AI","具身智能","商业化","产业"],"mathAngles":["把“未来会颠覆”拆成成本、能力、场景和收入四个可检查维度","区分企业家的预期表述与已经发生的经营事实"],"hooks":["“想象力超过汽车”这句话，到底能不能拿来做判断？","AI 最容易被讲混的，恰好是能力、产品和生意。"],"recommendedFormat":{"duration":"75–120 秒","structure":"抛出热榜观点→四格拆解判断标准→列出需要补证的公开信息"},"factStatus":"needs-review","sources":[{"name":"知乎热榜：雷军谈 AI 与具身智能","url":"https://www.zhihu.com/question/2106085808956560064","type":"platform"},{"name":"百度热搜：雷军谈 AI","url":"https://m.baidu.com/s?word=%E9%9B%B7%E5%86%9B%EF%BC%9A%E6%9C%AA%E6%9D%A5%E4%B8%89%E5%9B%9B%E5%B9%B4AI%E4%BC%9A%E6%9C%89%E9%A2%A0%E8%A6%86%E6%80%A7%E6%97%B6%E5%88%BB&sa=fyb_news","type":"platform"}],"updatedAt":"2026-11-18T04:05:20.000Z"
     },
     {
-      "id": "xiaomi-public-response-cycle",
-      "rank": 3,
-      "title": "小米高位热榜：产品传闻与企业回应怎样分开讲",
-      "brief": "小米、雷军和汽车相关条目横跨抖音、微博、知乎与百度，其中包含回应与辟谣表述。内容应把‘热搜中的说法’和‘企业可核验公告’分开，不应由标题推导产品或召回结论。",
-      "category": "数码与企业传播",
-      "momentum": "rising",
-      "urgency": "now",
-      "heat": 95,
-      "crossPlatform": 4,
-      "mathFit": 89,
-      "visualFit": 82,
-      "lifeFit": 78,
-      "questionDensity": 93,
-      "priority": 94,
-      "platforms": [
-        {"id": "douyin", "rank": 15, "score": 70, "trend": "在榜"},
-        {"id": "weibo", "rank": 1, "score": 100, "trend": "榜首"},
-        {"id": "zhihu", "rank": 3, "score": 96, "trend": "高位"},
-        {"id": "baidu", "rank": 1, "score": 100, "trend": "榜首"}
-      ],
-      "keywords": ["小米", "雷军", "回应", "辟谣", "汽车"],
-      "mathAngles": ["演示传闻、回应、官方公告三种信息源的证据等级", "用传播链路解释一条企业话题怎样在不同平台变形"],
-      "hooks": ["一条企业回应为什么能同时占据两个榜首？", "看见‘曝光’和‘辟谣’时，创作者该先做哪一步？"],
-      "recommendedFormat": {"duration": "60—90秒", "structure": "热榜并列开场 → 信息源分层卡片 → 可验证清单 → 不替企业下结论"},
-      "factStatus": "needs-review",
-      "sources": [
-        {"name": "微博热搜：小米回应雷军APEC发言紧张", "url": "https://s.weibo.com/weibo?q=%23%E5%B0%8F%E7%B1%B3%E5%9B%9E%E5%BA%94%E9%9B%B7%E5%86%9BAPEC%E5%8F%91%E8%A8%80%E7%B4%A7%E5%BC%A0%23", "type": "platform"},
-        {"name": "知乎热榜：车企供应商账款调研评估", "url": "https://www.zhihu.com/question/2105956358176469828", "type": "platform"},
-        {"name": "百度热榜：小米回应雷军APEC发言紧张", "url": "https://m.baidu.com/s?word=%E5%B0%8F%E7%B1%B3%E5%9B%9E%E5%BA%94%E9%9B%B7%E5%86%9BAPEC%E5%8F%91%E8%A8%80%E7%B4%A7%E5%BC%A0&sa=fyb_news", "type": "platform"}
-      ],
-      "updatedAt": "2026-11-17T16:10:55.000Z"
+      "id":"china-football-draw-and-youth-title","rank":3,"title":"国足热榜的两种情绪：平局与青年队夺冠如何同讲","brief":"成年队比赛与 U19 夺冠线索同日出现在抖音、知乎和百度。可从“同一球迷为何同时失落与振奋”切入，而非只做赛果复读。","category":"体育","momentum":"peak","urgency":"now","heat":89,"crossPlatform":3,"mathFit":76,"visualFit":89,"lifeFit":82,"questionDensity":86,"priority":90,
+      "platforms":[{"id":"douyin","rank":6,"score":90,"trend":"高位"},{"id":"zhihu","rank":14,"score":74,"trend":"在榜"},{"id":"baidu","rank":44,"score":34,"trend":"在榜"}],
+      "keywords":["国足","熊猫杯","球迷","足球"],"mathAngles":["用两场比赛的不同叙事解释球迷预期如何形成","把情绪、赛果和长期培养分成三条线讲"],"hooks":["同一天，球迷为什么能又失望又兴奋？","别只问赢没赢：两条足球热搜讲的是两种期待。"],"recommendedFormat":{"duration":"60–90 秒","structure":"并置两条热搜→拆解两种情绪→用一个问题收束到长期足球叙事"},"factStatus":"needs-review","sources":[{"name":"抖音热榜：国足2:2战平巴林","url":"https://www.douyin.com/search/%E5%9B%BD%E8%B6%B32%3A2%E6%88%98%E5%B9%B3%E5%B7%B4%E6%9E%97","type":"platform"},{"name":"知乎热榜：U19 国足熊猫杯讨论","url":"https://www.zhihu.com/question/2106138950708323501","type":"platform"},{"name":"百度热搜：邵佳一回应国足战平巴林","url":"https://m.baidu.com/s?word=%E9%82%B5%E4%BD%B3%E4%B8%80%E5%9B%9E%E5%BA%94%E5%9B%BD%E8%B6%B32%E6%AF%942%E6%88%98%E5%B9%B3%E5%B7%B4%E6%9E%97&sa=fyb_news","type":"platform"}],"updatedAt":"2026-11-18T04:05:20.000Z"
     },
     {
-      "id": "ai-chat-and-organization",
-      "rank": 4,
-      "title": "AI聊天产品与组织变革：别把热榜当成产品路线图",
-      "brief": "聊天产品竞争、AI组织调整与AI内容生产均出现在知乎、微博和百度原榜。适合做‘产品能力、商业判断、组织口号’三者的边界说明，避免依据单条热榜预测平台胜负。",
-      "category": "AI与数字产品",
-      "momentum": "rising",
-      "urgency": "today",
-      "heat": 90,
-      "crossPlatform": 3,
-      "mathFit": 92,
-      "visualFit": 76,
-      "lifeFit": 76,
-      "questionDensity": 96,
-      "priority": 91,
-      "platforms": [
-        {"id": "weibo", "rank": 25, "score": 56, "trend": "在榜"},
-        {"id": "zhihu", "rank": 7, "score": 88, "trend": "高位"},
-        {"id": "baidu", "rank": 20, "score": 64, "trend": "在榜"}
-      ],
-      "keywords": ["AI", "聊天软件", "字节", "腾讯", "组织变革"],
-      "mathAngles": ["用功能、用户迁移和商业化三个指标拆开讨论竞争", "区分热榜讨论、公开产品功能与推测性结论"],
-      "hooks": ["一条‘聊天软件能否超越’的问题，为什么比答案更值得讲？", "AI时代再创业，到底是口号、组织动作还是产品能力？"],
-      "recommendedFormat": {"duration": "75—105秒", "structure": "三个热榜问题开场 → 指标框架 → 已知与未知分栏 → 观众提问"},
-      "factStatus": "needs-review",
-      "sources": [
-        {"name": "知乎热榜：字节能做出超越腾讯的聊天软件吗", "url": "https://www.zhihu.com/question/2106049410635231561", "type": "platform"},
-        {"name": "微博热搜：字节 微信", "url": "https://s.weibo.com/weibo?q=%E5%AD%97%E8%8A%82%20%E5%BE%AE%E4%BF%A1", "type": "platform"},
-        {"name": "百度热榜：Anthropic纳斯达克IPO获准", "url": "https://m.baidu.com/s?word=Anthropic%E7%BA%B3%E6%96%AF%E8%BE%BE%E5%85%8BIPO%E8%8E%B7%E5%87%86&sa=fyb_news", "type": "platform"}
-      ],
-      "updatedAt": "2026-11-17T16:10:55.000Z"
+      "id":"shenzhou-24-launch-watch","rank":4,"title":"神舟二十四号发射在即：怎样做一份不抢跑的观测指南","brief":"神舟二十四号的发射线索同时进入抖音和百度热榜。适合把内容做成“等官方窗口确认后再行动”的科普与观看清单，避免将热榜标题当作发射时刻。","category":"科学与航天","momentum":"rising","urgency":"now","heat":86,"crossPlatform":2,"mathFit":89,"visualFit":93,"lifeFit":73,"questionDensity":88,"priority":89,
+      "platforms":[{"id":"douyin","rank":18,"score":66,"trend":"在榜"},{"id":"baidu","rank":16,"score":70,"trend":"在榜"}],
+      "keywords":["神舟二十四号","航天","发射","观测"],"mathAngles":["讲清“计划”“窗口”“发射”不是同一个时间承诺","用轨道、天气与直播信息做观测前的核验表"],"hooks":["看到“发射在即”，到底该等什么官方信息？","一次火箭发射，最不该被热榜催着抢跑。"],"recommendedFormat":{"duration":"60–90 秒","structure":"热榜提示→解释三个时间概念→展示官方信息核验清单"},"factStatus":"needs-review","sources":[{"name":"抖音热榜：神舟二十四号计划近日择机发射","url":"https://www.douyin.com/search/%E7%A5%9E%E8%88%9F%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B7%E8%AE%A1%E5%88%92%E8%BF%91%E6%97%A5%E6%8B%A9%E6%9C%BA%E5%8F%91%E5%B0%84","type":"platform"},{"name":"百度热搜：神舟二十四号发射在即","url":"https://m.baidu.com/s?word=%E7%A5%9E%E8%88%9F%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B7%E5%8F%91%E5%B0%84%E5%9C%A8%E5%8D%B3&sa=fyb_news","type":"platform"}],"updatedAt":"2026-11-18T04:05:20.000Z"
     },
     {
-      "id": "blg-championship-longtail",
-      "rank": 5,
-      "title": "BLG夺冠余温：一场赛事为何还能持续占榜",
-      "brief": "BLG冠军、赛后采访和选手话题同时停留在抖音、微博、知乎与B站。可从赛事切片、官方内容与二创扩散解释长尾热度；冠军及阵容相关细节应以赛事方和队伍公告为准。",
-      "category": "电竞与社群",
-      "momentum": "steady",
-      "urgency": "today",
-      "heat": 89,
-      "crossPlatform": 4,
-      "mathFit": 85,
-      "visualFit": 98,
-      "lifeFit": 82,
-      "questionDensity": 87,
-      "priority": 90,
-      "platforms": [
-        {"id": "douyin", "rank": 29, "score": 42, "trend": "在榜"},
-        {"id": "weibo", "rank": 31, "score": 40, "trend": "在榜"},
-        {"id": "zhihu", "rank": 23, "score": 56, "trend": "在榜"},
-        {"id": "bilibili", "rank": 3, "score": 96, "trend": "高位"}
-      ],
-      "keywords": ["BLG", "电竞", "冠军", "赛后", "二创"],
-      "mathAngles": ["比较赛场瞬间、官方麦克风和粉丝二创的生命周期", "将赛事成绩与社群解释分开，避免以热度代替赛果"],
-      "hooks": ["比赛结束后，为什么冠军内容反而更容易持续出圈？", "一支队伍的热度，究竟来自比赛还是来自赛后讲述？"],
-      "recommendedFormat": {"duration": "60—90秒", "structure": "冠军镜头开场 → 四平台内容类型对照 → 长尾机制 → 赛事信息复核"},
-      "factStatus": "needs-review",
-      "sources": [
-        {"name": "抖音热榜：BLG获赠NBA专属球衣", "url": "https://www.douyin.com/search/BLG%E8%8E%B7%E8%B5%A0NBA%E4%B8%93%E5%B1%9E%E7%90%83%E8%A1%A3", "type": "platform"},
-        {"name": "知乎热榜：为什么BLG放弃全华班就夺冠了", "url": "https://www.zhihu.com/question/2105323260577633530", "type": "platform"},
-        {"name": "B站热门：BLG冠军麦克风", "url": "https://www.bilibili.com/video/BV1JNsr67EbT", "type": "platform"}
-      ],
-      "updatedAt": "2026-11-17T16:10:55.000Z"
+      "id":"whole-lamb-consumer-evidence","rank":5,"title":"1600元烤全羊争议：消费避坑视频该怎么留证","brief":"同一消费争议在微博与百度热榜均居前。适合做证据型消费内容：订单、重量、菜单、沟通记录和平台规则各自能证明什么，不先替任何一方下结论。","category":"消费与维权","momentum":"peak","urgency":"today","heat":85,"crossPlatform":2,"mathFit":85,"visualFit":76,"lifeFit":94,"questionDensity":91,"priority":88,
+      "platforms":[{"id":"weibo","rank":12,"score":78,"trend":"高位"},{"id":"baidu","rank":12,"score":78,"trend":"高位"}],
+      "keywords":["烤全羊","消费","维权","证据"],"mathAngles":["将情绪化投诉拆成价格、规格、承诺与证据四栏","教观众分辨主张、截图与可核验记录的差异"],"hooks":["一张“翻车”照片，够不够证明消费纠纷？","消费避坑最有用的不是骂得响，而是证据链够不够。"],"recommendedFormat":{"duration":"60 秒","structure":"争议素材开场→证据四栏→给出消费者和商家的沟通模板"},"factStatus":"needs-review","sources":[{"name":"微博热搜：游客曝1600的烤全羊剥不出1两肉","url":"https://s.weibo.com/weibo?q=%23%E6%B8%B8%E5%AE%A2%E6%9B%9D1600%E7%9A%84%E7%83%A4%E5%85%A8%E7%BE%8A%E5%89%A5%E4%B8%8D%E5%87%BA1%E4%B8%A4%E8%82%89%23","type":"platform"},{"name":"百度热搜：游客曝1600的烤全羊剥不出1两肉","url":"https://m.baidu.com/s?word=%E6%B8%B8%E5%AE%A2%E6%9B%9D1600%E7%9A%84%E7%83%A4%E5%85%A8%E7%BE%8A%E5%89%A5%E4%B8%8D%E5%87%BA1%E4%B8%A4%E8%82%89&sa=fyb_news","type":"platform"}],"updatedAt":"2026-11-18T04:05:20.000Z"
     },
     {
-      "id": "leonid-meteor-shower",
-      "rank": 6,
-      "title": "狮子座流星雨：一条夜空热点怎样做成可用观测指南",
-      "brief": "‘狮子座流星雨迎来极大期’进入抖音前十。适合围绕观测窗口、天气、光污染和手机拍摄误区做实用内容；具体峰值时间与可见条件必须引用权威天文机构预报。",
-      "category": "自然与科学观察",
-      "momentum": "peak",
-      "urgency": "now",
-      "heat": 85,
-      "crossPlatform": 1,
-      "mathFit": 94,
-      "visualFit": 99,
-      "lifeFit": 72,
-      "questionDensity": 88,
-      "priority": 88,
-      "platforms": [
-        {"id": "douyin", "rank": 8, "score": 86, "trend": "高位"}
-      ],
-      "keywords": ["狮子座流星雨", "天文", "观测", "夜空", "拍摄"],
-      "mathAngles": ["把‘极大期’解释为概率窗口而非保证看到流星", "用光污染、云量和视野三个变量说明观测差异"],
-      "hooks": ["热搜说流星雨到极大期，今晚抬头前先看这三个变量。", "拍不到流星，不一定是手机不够好。"],
-      "recommendedFormat": {"duration": "45—75秒", "structure": "夜空画面开场 → 三个观测变量 → 拍摄误区 → 权威预报入口"},
-      "factStatus": "needs-review",
-      "sources": [
-        {"name": "抖音热榜：狮子座流星雨迎来极大期", "url": "https://www.douyin.com/search/%E7%8B%AE%E5%AD%90%E5%BA%A7%E6%B5%81%E6%98%9F%E9%9B%A8%E8%BF%8E%E6%9D%A5%E6%9E%81%E5%A4%A7%E6%9C%9F", "type": "platform"}
-      ],
-      "updatedAt": "2026-11-17T16:10:55.000Z"
+      "id":"refund-compulsion-and-platform-rules","rank":6,"title":"400次仅退款讨论：规则、心理与责任别混成一团","brief":"微博和知乎同时出现“仅退款”相关讨论。创作者可以把平台规则、个人行为动机与商家损失拆开，避免把单一热搜加工成普遍结论。","category":"消费与社会","momentum":"rising","urgency":"today","heat":81,"crossPlatform":2,"mathFit":88,"visualFit":70,"lifeFit":92,"questionDensity":95,"priority":87,
+      "platforms":[{"id":"weibo","rank":20,"score":62,"trend":"在榜"},{"id":"zhihu","rank":2,"score":98,"trend":"高位"}],
+      "keywords":["仅退款","平台规则","消费心理","商家"],"mathAngles":["区分事实陈述、心理解释与平台治理三种不同命题","用流程图解释一次退款从下单到申诉的关键节点"],"hooks":["同一件“仅退款”事，为什么不能只问谁对谁错？","把心理、规则和责任混着讲，内容就会失真。"],"recommendedFormat":{"duration":"75 秒","structure":"热榜问题→三层拆分→以公开规则与个案证据为下一步核验"},"factStatus":"needs-review","sources":[{"name":"微博热搜：盒马仅退款400次女子认罪认罚","url":"https://s.weibo.com/weibo?q=%23%E7%9B%92%E9%A9%AC%E4%BB%85%E9%80%80%E6%AC%BE400%E6%AC%A1%E5%A5%B3%E5%AD%90%E8%AE%A4%E7%BD%AA%E8%AE%A4%E7%BD%9A%23","type":"platform"},{"name":"知乎热榜：四百多次仅退款讨论","url":"https://www.zhihu.com/question/2106047811234030236","type":"platform"}],"updatedAt":"2026-11-18T04:05:20.000Z"
     },
     {
-      "id": "euv-chip-explainer",
-      "rank": 7,
-      "title": "EUV光刻机为什么总能出圈：把硬科技讲清楚而不神化",
-      "brief": "B站热门中的EUV光刻机内容与百度芯片股话题形成技术—市场双入口。可讲关键工序、产业链和大众误解，但技术参数、公司与市场信息不应从标题推断。",
-      "category": "科技与产业",
-      "momentum": "steady",
-      "urgency": "today",
-      "heat": 79,
-      "crossPlatform": 2,
-      "mathFit": 97,
-      "visualFit": 90,
-      "lifeFit": 62,
-      "questionDensity": 92,
-      "priority": 84,
-      "platforms": [
-        {"id": "baidu", "rank": 13, "score": 70, "trend": "在榜"},
-        {"id": "bilibili", "rank": 5, "score": 92, "trend": "高位"}
-      ],
-      "keywords": ["EUV", "光刻机", "芯片", "制造", "产业链"],
-      "mathAngles": ["用‘光源—掩模—镜组—晶圆’拆开复杂设备而非神秘化", "分开讲技术原理、供应链和资本市场三个层次"],
-      "hooks": ["一台光刻机为什么会被叫作‘上帝的手术刀’？", "硬科技最怕的不是讲难，而是只讲神话。"],
-      "recommendedFormat": {"duration": "90—120秒", "structure": "设备细节开场 → 一次曝光流程 → 常见误解 → 技术与市场分栏"},
-      "factStatus": "needs-review",
-      "sources": [
-        {"name": "B站热门：EUV光刻机｜上帝的手术刀", "url": "https://www.bilibili.com/video/BV1kYsW6NE6E", "type": "platform"},
-        {"name": "百度热榜：美股纳指高开0.01%芯片股小幅反弹", "url": "https://m.baidu.com/s?word=%E7%BE%8E%E8%82%A1%E7%BA%B3%E6%8C%87%E9%AB%98%E5%BC%800.01%25+%E8%8A%AF%E7%89%87%E8%82%A1%E5%B0%8F%E5%B9%85%E5%8F%8D%E5%BC%B9&sa=fyb_news", "type": "platform"}
-      ],
-      "updatedAt": "2026-11-17T16:10:55.000Z"
+      "id":"winter-food-short-video","rank":7,"title":"冬日美食为什么容易爆：把教程拍成有记忆点的生活内容","brief":"抖音的过冬美食清单与小红书的日常美食教程同时高位。适合美食创作者从“食材—动作—结果”之外，加入地方口味、预算与失败补救。","category":"美食与生活","momentum":"steady","urgency":"today","heat":80,"crossPlatform":2,"mathFit":72,"visualFit":95,"lifeFit":96,"questionDensity":74,"priority":85,
+      "platforms":[{"id":"douyin","rank":16,"score":70,"trend":"在榜"},{"id":"xiaohongshu","rank":4,"score":94,"trend":"高位"}],
+      "keywords":["冬日美食","教程","家庭厨房","生活方式"],"mathAngles":["用预算、耗时和难度给食谱建立真实选择维度","把味道描述转成可复现的步骤与替代方案"],"hooks":["为什么同一道家常菜，有人拍成教程，有人拍成记忆？","食谱内容最缺的，往往不是食材，而是选择理由。"],"recommendedFormat":{"duration":"45–60 秒","structure":"成品特写→一个生活场景→三步教学与预算/时间标注"},"factStatus":"needs-review","sources":[{"name":"抖音热榜：抄抄老吃家的过冬美食清单","url":"https://www.douyin.com/search/%E6%8A%84%E6%8A%84%E8%80%81%E5%90%83%E5%AE%B6%E7%9A%84%E8%BF%87%E5%86%AC%E7%BE%8E%E9%A3%9F%E6%B8%85%E5%8D%95","type":"platform"},{"name":"小红书热榜：超日常美食教程速来 get","url":"https://www.xiaohongshu.com/search_result?keyword=%E8%B6%85%E6%97%A5%E5%B8%B8%E7%BE%8E%E9%A3%9F%E6%95%99%E7%A8%8B%E9%80%9F%E6%9D%A5get&type=51","type":"platform"}],"updatedAt":"2026-11-18T04:05:20.000Z"
     },
     {
-      "id": "shopping-rules-and-repairs",
-      "rank": 8,
-      "title": "仅退款与维修报价：消费避坑别只靠愤怒截图",
-      "brief": "退款争议和维修报价质疑同时出现在微博与百度。适合做规则说明、报价单证据和维权路径内容；个案责任、平台规则与实际结论都需以当事方材料复核。",
-      "category": "消费与公共服务",
-      "momentum": "rising",
-      "urgency": "today",
-      "heat": 78,
-      "crossPlatform": 2,
-      "mathFit": 88,
-      "visualFit": 77,
-      "lifeFit": 95,
-      "questionDensity": 91,
-      "priority": 83,
-      "platforms": [
-        {"id": "weibo", "rank": 15, "score": 70, "trend": "在榜"},
-        {"id": "baidu", "rank": 39, "score": 38, "trend": "在榜"}
-      ],
-      "keywords": ["仅退款", "维修", "报价", "消费者", "规则"],
-      "mathAngles": ["展示订单、检测、报价和售后承诺的证据链", "用成本、责任和申诉路径替代单纯的站队叙事"],
-      "hooks": ["一张退款截图，能说明谁对谁错吗？", "维修报价看不懂时，先要求哪三样信息？"],
-      "recommendedFormat": {"duration": "60—90秒", "structure": "热榜案例开场 → 证据链清单 → 常见规则盲区 → 合法维权入口"},
-      "factStatus": "needs-review",
-      "sources": [
-        {"name": "微博热搜：女子盒马仅退款400次零食堆成山", "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E7%9B%92%E9%A9%AC%E4%BB%85%E9%80%80%E6%AC%BE400%E6%AC%A1%E9%9B%B6%E9%A3%9F%E5%A0%86%E6%88%90%E5%B1%B1%23", "type": "platform"},
-        {"name": "百度热榜：5个师傅3个虚报谁在逼维修师傅撒谎", "url": "https://m.baidu.com/s?word=5%E4%B8%AA%E5%B8%88%E5%82%853%E4%B8%AA%E8%99%9A%E6%8A%A5+%E8%B0%81%E5%9C%A8%E9%80%BC%E7%BB%B4%E4%BF%AE%E5%B8%88%E5%82%85%E6%92%92%E8%B0%8E&sa=fyb_news", "type": "platform"}
-      ],
-      "updatedAt": "2026-11-17T16:10:55.000Z"
+      "id":"sunrise-mountain-travel-shot","rank":8,"title":"日照金山刷屏：旅行影像如何从风景走到现场感","brief":"南迦巴瓦日照金山与小红书同类影像同时进入高位。适合旅行摄影与目的地创作者讲清等待、天气、机位和现场秩序，而不是只复制一张“神图”。","category":"旅行与影像","momentum":"peak","urgency":"today","heat":79,"crossPlatform":2,"mathFit":77,"visualFit":98,"lifeFit":86,"questionDensity":78,"priority":84,
+      "platforms":[{"id":"douyin","rank":7,"score":88,"trend":"高位"},{"id":"xiaohongshu","rank":5,"score":92,"trend":"高位"}],
+      "keywords":["日照金山","旅行摄影","南迦巴瓦","风景"],"mathAngles":["展示一张风景照片背后的时间、天气和位置变量","用拍摄前后对比替代滤镜神话"],"hooks":["一张日照金山，真正难拍的不是按下快门。","风景视频的可信度，藏在你没拍进画面的准备里。"],"recommendedFormat":{"duration":"45–75 秒","structure":"成片开场→等待条件拆解→机位与安全提醒→失败镜头收尾"},"factStatus":"needs-review","sources":[{"name":"抖音热榜：南迦巴瓦峰日照金山太美了","url":"https://www.douyin.com/search/%E5%8D%97%E8%BF%A6%E5%B7%B4%E7%93%A6%E5%B3%B0%E6%97%A5%E7%85%A7%E9%87%91%E5%B1%B1%E5%A4%AA%E7%BE%8E%E4%BA%86","type":"platform"},{"name":"小红书热榜：定格这一刻的日照金山","url":"https://www.xiaohongshu.com/search_result?keyword=%E5%AE%9A%E6%A0%BC%E8%BF%99%E4%B8%80%E5%88%BB%E7%9A%84%E6%97%A5%E7%85%A7%E9%87%91%E5%B1%B1&type=51","type":"platform"}],"updatedAt":"2026-11-18T04:05:20.000Z"
     },
     {
-      "id": "work-pay-and-benefits",
-      "rank": 9,
-      "title": "月入一万却“不适合普通人”：工作价值怎么拆开讲",
-      "brief": "薪资、校招与五险一金分别出现在微博、知乎和B站。可以把收入、门槛、稳定性和保障拆成四张卡片，而不是把单一工资数字当成职业建议。",
-      "category": "职场与个人财务",
-      "momentum": "steady",
-      "urgency": "today",
-      "heat": 76,
-      "crossPlatform": 3,
-      "mathFit": 92,
-      "visualFit": 70,
-      "lifeFit": 96,
-      "questionDensity": 94,
-      "priority": 82,
-      "platforms": [
-        {"id": "weibo", "rank": 11, "score": 78, "trend": "高位"},
-        {"id": "zhihu", "rank": 10, "score": 80, "trend": "高位"},
-        {"id": "bilibili", "rank": 23, "score": 54, "trend": "在榜"}
-      ],
-      "keywords": ["工作", "薪资", "校招", "五险一金", "职业选择"],
-      "mathAngles": ["把工资、工时、技能门槛、保障和风险放进同一个比较框架", "区分经验分享与可泛化建议，避免将热搜标题当职业结论"],
-      "hooks": ["月入一万，为什么仍可能不是一份‘划算’的工作？", "看工作别只看工资：还有三笔常被忽略的账。"],
-      "recommendedFormat": {"duration": "60—90秒", "structure": "薪资标题开场 → 四维对比表 → 校招/保障示例 → 自测提问"},
-      "factStatus": "needs-review",
-      "sources": [
-        {"name": "微博热搜：一个月一万块这工作普通人干不了", "url": "https://s.weibo.com/weibo?q=%E4%B8%80%E4%B8%AA%E6%9C%88%E4%B8%80%E4%B8%87%E5%9D%97%E8%BF%99%E5%B7%A5%E4%BD%9C%E6%99%AE%E9%80%9A%E4%BA%BA%E5%B9%B2%E4%B8%8D%E4%BA%86", "type": "platform"},
-        {"name": "知乎热榜：校招进新成立部门求经验", "url": "https://www.zhihu.com/question/2104002868328001728", "type": "platform"},
-        {"name": "B站热门：什么是五险一金", "url": "https://www.bilibili.com/video/BV1JRsw66E1s", "type": "platform"}
-      ],
-      "updatedAt": "2026-11-17T16:10:55.000Z"
+      "id":"anxiety-meme-cultural-translation","rank":9,"title":"“慌啥子嘛”为何接住焦虑：一句话的情绪翻译术","brief":"同一口头禅在抖音与微博形成讨论。适合情绪、文化或影视创作者从方言节奏、人物关系和可复用表达切入，少做空泛鸡汤。","category":"文化与情绪","momentum":"rising","urgency":"today","heat":77,"crossPlatform":2,"mathFit":79,"visualFit":82,"lifeFit":93,"questionDensity":84,"priority":83,
+      "platforms":[{"id":"weibo","rank":7,"score":88,"trend":"高位"},{"id":"douyin","rank":28,"score":46,"trend":"在榜"}],
+      "keywords":["慌啥子嘛","焦虑","方言","情绪表达"],"mathAngles":["拆解一句话的语气、关系和场景如何共同构成安慰","比较“建议”“共情”“命令”三种表达带来的不同感受"],"hooks":["一句“慌啥子嘛”，为什么比十句劝人想开更有用？","情绪内容的关键，可能不是答案，而是被怎样接住。"],"recommendedFormat":{"duration":"45–60 秒","structure":"原句/场景→三层表达拆解→邀请观众补充自己的方言安慰语"},"factStatus":"needs-review","sources":[{"name":"微博热搜：赵本山慌啥子嘛接住一代人焦虑","url":"https://s.weibo.com/weibo?q=%23%E8%B5%B5%E6%9C%AC%E5%B1%B1%E6%85%8C%E5%95%A5%E5%AD%90%E5%98%9B%E6%8E%A5%E4%BD%8F%E4%B8%80%E4%BB%A3%E4%BA%BA%E7%84%A6%E8%99%91%23","type":"platform"},{"name":"抖音热榜：被慌啥子嘛慢慢来治愈了","url":"https://www.douyin.com/search/%E8%A2%AB%E6%85%8C%E5%95%A5%E5%AD%90%E5%98%9B%E6%85%A2%E6%85%A2%E6%9D%A5%E6%B2%BB%E6%84%88%E4%BA%86","type":"platform"}],"updatedAt":"2026-11-18T04:05:20.000Z"
     },
     {
-      "id": "poetry-travel-and-place",
-      "rank": 10,
-      "title": "古诗词里的目的地：旅行影像怎样从出片走到讲地方",
-      "brief": "古诗词、旅行出片、冰雪景观和海岛旅行内容分布在小红书、抖音、百度与B站。可用‘一处风景—一个文本线索—一条实际路线’组织内容，地点与季节信息需现场复核。",
-      "category": "旅行与文化",
-      "momentum": "steady",
-      "urgency": "evergreen",
-      "heat": 74,
-      "crossPlatform": 4,
-      "mathFit": 83,
-      "visualFit": 98,
-      "lifeFit": 86,
-      "questionDensity": 81,
-      "priority": 80,
-      "platforms": [
-        {"id": "douyin", "rank": 49, "score": 22, "trend": "在榜"},
-        {"id": "xiaohongshu", "rank": 2, "score": 98, "trend": "高位"},
-        {"id": "baidu", "rank": 50, "score": 20, "trend": "在榜"},
-        {"id": "bilibili", "rank": 26, "score": 50, "trend": "在榜"}
-      ],
-      "keywords": ["古诗词", "旅行", "地方文化", "影像", "路线"],
-      "mathAngles": ["用文本出处、拍摄点位和交通时间构成可复查的旅行叙事", "区分滤镜美感与目的地实际条件"],
-      "hooks": ["旅行视频想被收藏，除了好看还差哪一步？", "一首古诗，能不能带你重新看懂一座城？"],
-      "recommendedFormat": {"duration": "60—90秒", "structure": "诗句与实景并置 → 点位故事 → 路线/季节提醒 → 评论区征集"},
-      "factStatus": "needs-review",
-      "sources": [
-        {"name": "小红书热榜：耗时三年拍下古诗词里的中国", "url": "https://www.xiaohongshu.com/search_result?keyword=%E8%80%97%E6%97%B6%E4%B8%89%E5%B9%B4%E6%8B%8D%E4%B8%8B%E5%8F%A4%E8%AF%97%E8%AF%8D%E9%87%8C%E7%9A%84%E4%B8%AD%E5%9B%BD&type=51", "type": "platform"},
-        {"name": "抖音热榜：哈尔滨把世界冻进园区了", "url": "https://www.douyin.com/search/%E5%93%88%E5%B0%94%E6%BB%A8%E6%8A%8A%E2%80%9C%E4%B8%96%E7%95%8C%E2%80%9D%E5%86%BB%E8%BF%9B%E5%9B%AD%E5%8C%BA%E4%BA%86", "type": "platform"},
-        {"name": "B站热门：坐船去大连", "url": "https://www.bilibili.com/video/BV1P3sP6UENP", "type": "platform"}
-      ],
-      "updatedAt": "2026-11-17T16:10:55.000Z"
+      "id":"blg-esports-longtail","rank":10,"title":"BLG夺冠余温：赛事内容如何从高光走到长期讨论","brief":"知乎与B站仍持续出现 BLG 相关内容。电竞创作者可从高光剪辑之外，讲队伍、联赛和观众为什么会反复回看，避免把单次夺冠当作唯一叙事。","category":"电竞与社区","momentum":"steady","urgency":"today","heat":76,"crossPlatform":2,"mathFit":78,"visualFit":92,"lifeFit":76,"questionDensity":80,"priority":82,
+      "platforms":[{"id":"zhihu","rank":8,"score":86,"trend":"高位"},{"id":"bilibili","rank":18,"score":66,"trend":"在榜"}],
+      "keywords":["BLG","电竞","赛事","社区"],"mathAngles":["把冠军瞬间、战队建设和联赛竞争力分开讨论","用内容生命周期解释比赛结束后为何仍有讨论"],"hooks":["比赛结束了，为什么冠军内容还在继续涨？","一支战队的热度，什么时候才从比分变成社区记忆？"],"recommendedFormat":{"duration":"60–90 秒","structure":"冠军高光→三层长尾内容→给出赛后一个月选题清单"},"factStatus":"needs-review","sources":[{"name":"知乎热榜：BLG联赛竞争力讨论","url":"https://www.zhihu.com/question/2105600105885836887","type":"platform"},{"name":"B站热门：BLG冠军麦克风","url":"https://www.bilibili.com/video/BV1JNsr67EbT","type":"platform"}],"updatedAt":"2026-11-18T04:05:20.000Z"
     },
     {
-      "id": "winter-food-and-taste",
-      "rank": 11,
-      "title": "冬天吃什么为什么总能出圈：把味觉内容拍出层次",
-      "brief": "冬日美食、家常教程、吊汤与美食讨论同时在四个平台出现。创作者可以从味觉记忆、地域食材和家庭操作切入，并给出可替代食材；涉及营养或疾病功效时应另查可靠来源。",
-      "category": "饮食与生活方式",
-      "momentum": "steady",
-      "urgency": "evergreen",
-      "heat": 73,
-      "crossPlatform": 4,
-      "mathFit": 78,
-      "visualFit": 95,
-      "lifeFit": 94,
-      "questionDensity": 78,
-      "priority": 79,
-      "platforms": [
-        {"id": "douyin", "rank": 5, "score": 92, "trend": "高位"},
-        {"id": "zhihu", "rank": 28, "score": 46, "trend": "在榜"},
-        {"id": "xiaohongshu", "rank": 4, "score": 94, "trend": "高位"},
-        {"id": "bilibili", "rank": 2, "score": 98, "trend": "高位"}
-      ],
-      "keywords": ["冬日美食", "家常菜", "味觉", "教程", "食材"],
-      "mathAngles": ["把‘好吃’拆成香气、口感、温度和记忆四个可拍层次", "用分量、时间与替代食材提升教程复用率"],
-      "hooks": ["一碗冬日热食，为什么比精致摆盘更容易被转发？", "美食教程真正让人收藏的，常常不是菜谱本身。"],
-      "recommendedFormat": {"duration": "45—75秒", "structure": "成品特写开场 → 一种味觉记忆 → 关键步骤 → 替代食材提示"},
-      "factStatus": "needs-review",
-      "sources": [
-        {"name": "抖音热榜：抄抄老吃家的过冬美食清单", "url": "https://www.douyin.com/search/%E6%8A%84%E6%8A%84%E8%80%81%E5%90%83%E5%AE%B6%E7%9A%84%E8%BF%87%E5%86%AC%E7%BE%8E%E9%A3%9F%E6%B8%85%E5%8D%95", "type": "platform"},
-        {"name": "小红书热榜：超日常美食教程速来get", "url": "https://www.xiaohongshu.com/search_result?keyword=%E8%B6%85%E6%97%A5%E5%B8%B8%E7%BE%8E%E9%A3%9F%E6%95%99%E7%A8%8B%E9%80%9F%E6%9D%A5get&type=51", "type": "platform"},
-        {"name": "B站热门：这才是真正的吃商高", "url": "https://www.bilibili.com/video/BV1B1sN65E1Y", "type": "platform"}
-      ],
-      "updatedAt": "2026-11-17T16:10:55.000Z"
+      "id":"phd-career-decision","rank":11,"title":"“现在还要不要读博”：把学历焦虑变成决策清单","brief":"“博士是不是不如前几年”进入知乎前列，适合教育和职场创作者做选择框架：研究兴趣、导师与课题、机会成本、行业路径分别怎么问。","category":"教育与职场","momentum":"steady","urgency":"evergreen","heat":70,"crossPlatform":1,"mathFit":90,"visualFit":66,"lifeFit":89,"questionDensity":96,"priority":80,
+      "platforms":[{"id":"zhihu","rank":3,"score":96,"trend":"高位"}],
+      "keywords":["读博","职业选择","研究生","教育"],"mathAngles":["用机会成本和情景分支替代“读或不读”的二元答案","把个人偏好、行业门槛和财务承受力变成可讨论变量"],"hooks":["读博值不值，为什么不能只看“就业好不好”？","先别问该不该读博：你要把哪一种成本算进去？"],"recommendedFormat":{"duration":"75–120 秒","structure":"常见焦虑开场→四项决策变量→给出自查问题，不代替个体决定"},"factStatus":"needs-review","sources":[{"name":"知乎热榜：现在的博士是不是不如前几年","url":"https://www.zhihu.com/question/2104959116976329045","type":"platform"}],"updatedAt":"2026-11-18T04:05:20.000Z"
     },
     {
-      "id": "ai-content-and-advertising-rules",
-      "rank": 12,
-      "title": "AI内容能做什么：从漫剧到代言，边界要先讲清",
-      "brief": "AI剧、聊天产品与AI代言处罚相关条目出现在知乎、微博和百度。适合从创作效率、观众预期、标识与责任讲边界；处罚事由、平台政策和具体案例均应查阅原始公开材料。",
-      "category": "内容产业与规则",
-      "momentum": "rising",
-      "urgency": "today",
-      "heat": 72,
-      "crossPlatform": 3,
-      "mathFit": 91,
-      "visualFit": 87,
-      "lifeFit": 73,
-      "questionDensity": 93,
-      "priority": 78,
-      "platforms": [
-        {"id": "weibo", "rank": 37, "score": 34, "trend": "在榜"},
-        {"id": "zhihu", "rank": 19, "score": 62, "trend": "在榜"},
-        {"id": "baidu", "rank": 25, "score": 52, "trend": "在榜"}
-      ],
-      "keywords": ["AI剧", "AI代言", "内容创作", "标识", "规则"],
-      "mathAngles": ["把创作工具、发布责任和商业代言分成不同风险层", "用‘能做—应披露—不能替代核验’设计一条内容自检表"],
-      "hooks": ["AI剧越来越像真人剧，观众到底该看什么、问什么？", "AI代言不是不能做，关键是哪些信息不能省？"],
-      "recommendedFormat": {"duration": "60—90秒", "structure": "两个热榜标题对照 → 三层责任框架 → 发布前自检 → 原始规则链接"},
-      "factStatus": "needs-review",
-      "sources": [
-        {"name": "知乎热榜：AI剧会完全抢占真人剧市场吗", "url": "https://www.zhihu.com/question/2054598994492396545", "type": "platform"},
-        {"name": "微博热搜：豆包加聊天功能或威胁微信", "url": "https://s.weibo.com/weibo?q=%E8%B1%86%E5%8C%85%E5%8A%A0%E8%81%8A%E5%A4%A9%E5%8A%9F%E8%83%BD%E6%88%96%E5%A8%81%E8%83%81%E5%BE%AE%E4%BF%A1", "type": "platform"},
-        {"name": "百度热榜：方桃子被罚AI代言不能啥都敢说", "url": "https://m.baidu.com/s?word=%E6%96%B9%E6%A1%83%E5%AD%90%E8%A2%AB%E7%BD%9A+AI%E4%BB%A3%E8%A8%80%E4%B8%8D%E8%83%BD%E5%95%A5%E9%83%BD%E6%95%A2%E8%AF%B4&sa=fyb_news", "type": "platform"}
-      ],
-      "updatedAt": "2026-11-17T16:10:55.000Z"
+      "id":"health-technology-claim-check","rank":12,"title":"AI筛查与抗癌药热搜：健康内容先过三道核验门","brief":"AI筛查与高价抗癌药相关话题进入微博热榜。此类内容传播价值高但风险也高，适合做“论文、监管/医保信息、适用人群”三步核验，而不是给出诊疗建议。","category":"健康与医学","momentum":"rising","urgency":"today","heat":72,"crossPlatform":1,"mathFit":94,"visualFit":70,"lifeFit":97,"questionDensity":98,"priority":79,
+      "platforms":[{"id":"weibo","rank":27,"score":68,"trend":"在榜"}],
+      "keywords":["AI筛查","抗癌药","医保","医学传播"],"mathAngles":["将医学热搜拆为研究结果、真实世界应用和个人决策三个层次","任何数字都要问适用人群、比较对象和证据来源"],"hooks":["健康热搜里最危险的四个字：人人都能。","一条医学消息，先核验哪三件事才不误导人？"],"recommendedFormat":{"duration":"60–90 秒","structure":"热搜题目→三道核验门→明确不构成诊疗建议并指向权威渠道"},"factStatus":"blocked","sources":[{"name":"微博热搜：41人没症状被AI查出早期肠癌","url":"https://s.weibo.com/weibo?q=%2341%E4%BA%BA%E6%B2%A1%E7%97%87%E7%8A%B6%E8%A2%ABAI%E6%9F%A5%E5%87%BA%E6%97%A9%E6%9C%9F%E8%82%A0%E7%99%8C%23","type":"platform"},{"name":"微博热搜：129万一针抗癌药进医保","url":"https://s.weibo.com/weibo?q=%23129%E4%B8%87%E4%B8%80%E9%92%88%E6%8A%97%E7%99%8C%E8%8D%AF%E8%BF%9B%E5%8C%BB%E4%BF%9D%23","type":"platform"}],"updatedAt":"2026-11-18T04:05:20.000Z"
     }
   ]
 }
