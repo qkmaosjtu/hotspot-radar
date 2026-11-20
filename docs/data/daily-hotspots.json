@@ -1,94 +1,1089 @@
 {
   "schemaVersion": 1,
   "dataMode": "live",
-  "date": "2026-11-19",
-  "generatedAt": "2026-11-19T04:03:03.000Z",
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-20T04:05:22.771Z",
   "timezone": "Asia/Shanghai",
   "summary": {
     "topicCount": 12,
     "urgentCount": 3,
-    "crossPlatformCount": 10,
+    "crossPlatformCount": 8,
     "formulaReadyCount": 12
   },
   "sourceStatus": [
-    {"id":"douyin","name":"抖音","status":"fresh","items":49,"updatedAt":"2026-11-19T04:02:30.872Z"},
-    {"id":"weibo","name":"微博","status":"fresh","items":50,"updatedAt":"2026-11-19T04:02:30.872Z"},
-    {"id":"zhihu","name":"知乎","status":"partial","items":30,"updatedAt":"2026-11-19T04:02:30.872Z"},
-    {"id":"xiaohongshu","name":"小红书","status":"partial","items":10,"updatedAt":"2026-11-19T04:02:30.872Z"},
-    {"id":"baidu","name":"百度","status":"fresh","items":50,"updatedAt":"2026-11-19T04:02:30.872Z"},
-    {"id":"bilibili","name":"B站","status":"fresh","items":50,"updatedAt":"2026-11-19T04:02:30.872Z"}
+    {
+      "id": "douyin",
+      "name": "抖音",
+      "status": "fresh",
+      "items": 49,
+      "updatedAt": "2026-11-20T04:05:22.771Z"
+    },
+    {
+      "id": "weibo",
+      "name": "微博",
+      "status": "fresh",
+      "items": 50,
+      "updatedAt": "2026-11-20T04:05:22.771Z"
+    },
+    {
+      "id": "zhihu",
+      "name": "知乎",
+      "status": "partial",
+      "items": 30,
+      "updatedAt": "2026-11-20T04:05:22.771Z"
+    },
+    {
+      "id": "xiaohongshu",
+      "name": "小红书",
+      "status": "partial",
+      "items": 10,
+      "updatedAt": "2026-11-20T04:05:22.771Z"
+    },
+    {
+      "id": "baidu",
+      "name": "百度",
+      "status": "fresh",
+      "items": 50,
+      "updatedAt": "2026-11-20T04:05:22.771Z"
+    },
+    {
+      "id": "bilibili",
+      "name": "B站",
+      "status": "fresh",
+      "items": 50,
+      "updatedAt": "2026-11-20T04:05:22.771Z"
+    }
   ],
   "trendHistory": {
-    "times": ["2026-11-12","2026-11-14","2026-11-15","2026-11-16","2026-11-17","2026-11-18","2026-11-19"],
+    "times": [
+      "2026-11-14",
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17",
+      "2026-11-18",
+      "2026-11-19",
+      "2026-11-20"
+    ],
     "series": {
-      "douyin": [98,98,96,98,100,98,98],
-      "weibo": [100,100,100,100,100,100,100],
-      "zhihu": [60,60,60,60,60,60,60],
-      "xiaohongshu": [20,20,20,20,20,20,20],
-      "baidu": [100,100,100,100,100,100,100],
-      "bilibili": [100,100,100,100,100,100,100]
+      "douyin": [
+        98,
+        96,
+        98,
+        100,
+        98,
+        98,
+        98
+      ],
+      "weibo": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "zhihu": [
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60
+      ],
+      "xiaohongshu": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "baidu": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "bilibili": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ]
     }
   },
   "topics": [
     {
-      "id":"apec-shenzhen-global-attention","rank":1,"title":"APEC为何让深圳占据全球镜头","brief":"APEC相关话题占据多平台高位，可做一条以城市、会务与普通人可见场景为线索的即时观察内容；具体议程和人物信息须以权威发布为准。","category":"城市与公共议题","momentum":"peak","urgency":"now","heat":99,"crossPlatform":5,"mathFit":88,"visualFit":95,"lifeFit":84,"questionDensity":90,"priority":97,
-      "platforms":[{"id":"douyin","rank":1,"score":100,"trend":"榜首"},{"id":"weibo","rank":1,"score":100,"trend":"榜首"},{"id":"zhihu","rank":11,"score":80,"trend":"在榜"},{"id":"baidu","rank":1,"score":100,"trend":"榜首"},{"id":"bilibili","rank":14,"score":74,"trend":"在榜"}],
-      "keywords":["APEC","深圳","城市叙事","国际会议"],"mathAngles":["把会议现场、城市运行与市民视角拆成三条叙事线","用一张时间线区分热榜讨论与可核验的正式信息","比较不同平台对同一公共事件的切入点"],"hooks":["为什么今天各个平台都在讲深圳与 APEC？","宏大会议如何变成城市里看得见的日常画面？"],"recommendedFormat":{"duration":"60–90 秒","structure":"现场画面钩子 → 三个可见变化 → 信息边界提示"},"factStatus":"needs-review","sources":[{"name":"抖音热榜：2026年APEC领导人非正式会议","url":"https://www.douyin.com/search/2026%E5%B9%B4APEC%E9%A2%86%E5%AF%BC%E4%BA%BA%E9%9D%9E%E6%AD%A3%E5%BC%8F%E4%BC%9A%E8%AE%AE","type":"platform"},{"name":"微博热搜：APEC重要讲话","url":"https://s.weibo.com/weibo?q=%23APEC%E9%87%8D%E8%A6%81%E8%AE%B2%E8%AF%9D%23","type":"platform"},{"name":"百度热搜：习近平主持APEC领导人非正式会议","url":"https://m.baidu.com/s?word=%E4%B9%A0%E8%BF%91%E5%B9%B3%E4%B8%BB%E6%8C%81APEC%E9%A2%86%E5%AF%BC%E4%BA%BA%E9%9D%9E%E6%AD%A3%E5%BC%8F%E4%BC%9A%E8%AE%AE&sa=fyb_news","type":"platform"}],"updatedAt":"2026-11-19T04:03:03.000Z"
+      "id": "peace-declaration-explainer",
+      "title": "和平宣言刷屏：国际新闻短内容如何先讲清信息边界",
+      "brief": "中俄美元首会晤与和平宣言同时占据多平台高位。适合国际新闻、时政表达和媒体素养创作者，用原始声明、已证实事实与评论观点三层结构完成快速解释。",
+      "category": "国际与公共议题",
+      "momentum": "peak",
+      "urgency": "now",
+      "heat": 98,
+      "crossPlatform": 5,
+      "mathFit": 94,
+      "visualFit": 75,
+      "lifeFit": 70,
+      "questionDensity": 95,
+      "priority": 96,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 1,
+          "score": 98,
+          "trend": "高位"
+        },
+        {
+          "id": "weibo",
+          "rank": 4,
+          "score": 92,
+          "trend": "高位"
+        },
+        {
+          "id": "zhihu",
+          "rank": 1,
+          "score": 98,
+          "trend": "高位"
+        },
+        {
+          "id": "baidu",
+          "rank": 1,
+          "score": 98,
+          "trend": "高位"
+        },
+        {
+          "id": "bilibili",
+          "rank": 17,
+          "score": 66,
+          "trend": "在榜"
+        }
+      ],
+      "keywords": [
+        "和平宣言",
+        "国际新闻",
+        "信息核验",
+        "外交"
+      ],
+      "mathAngles": [
+        "用时间线区分会晤、声明与后续解读",
+        "将原始文件、机构通报和评论性内容分层",
+        "避免把热榜标题当作完整事实结论"
+      ],
+      "hooks": [
+        "一份和平宣言，短视频最容易漏掉哪三层信息？",
+        "国际热点越快，越要先分清“谁说了什么”。"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90 秒",
+        "structure": "热榜信号 → 三层证据框架 → 可复用核验清单"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "douyin 热榜：中俄美元首和平宣言",
+          "url": "https://www.douyin.com/search/%E4%B8%AD%E4%BF%84%E7%BE%8E%E5%85%83%E9%A6%96%E5%92%8C%E5%B9%B3%E5%AE%A3%E8%A8%80",
+          "type": "platform"
+        },
+        {
+          "name": "weibo 热榜：特朗普给中俄美元首会晤打12分",
+          "url": "https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E7%BB%99%E4%B8%AD%E4%BF%84%E7%BE%8E%E5%85%83%E9%A6%96%E4%BC%9A%E6%99%A4%E6%89%9312%E5%88%86%23",
+          "type": "platform"
+        },
+        {
+          "name": "zhihu 热榜：中俄美元首发表和平宣言，三国元首重申核战争打不赢也打不得，哪些信息值得重点关注？",
+          "url": "https://www.zhihu.com/question/2106822157141534109",
+          "type": "platform"
+        },
+        {
+          "name": "baidu 热榜：中俄美元首会晤",
+          "url": "https://m.baidu.com/s?word=%E4%B8%AD%E4%BF%84%E7%BE%8E%E5%85%83%E9%A6%96%E4%BC%9A%E6%99%A4&sa=fyb_news",
+          "type": "platform"
+        },
+        {
+          "name": "bilibili 热榜：中俄美元首和平宣言",
+          "url": "https://www.bilibili.com/video/BV1n2s86SE2E",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-20T04:05:22.771Z",
+      "rank": 1
     },
     {
-      "id":"gta6-launch-community-wave","rank":2,"title":"《GTA 6》首发：一款游戏怎样变成全网共创现场","brief":"游戏首发体验、攻略、评分与直播内容同时进入多个榜单，适合游戏、媒体和社群创作者从“首日内容生态”而非单一测评切入。","category":"游戏与社区","momentum":"peak","urgency":"now","heat":97,"crossPlatform":4,"mathFit":86,"visualFit":96,"lifeFit":76,"questionDensity":88,"priority":95,
-      "platforms":[{"id":"douyin","rank":16,"score":70,"trend":"在榜"},{"id":"zhihu","rank":16,"score":70,"trend":"在榜"},{"id":"baidu","rank":24,"score":62,"trend":"在榜"},{"id":"bilibili","rank":1,"score":100,"trend":"榜首"}],
-      "keywords":["GTA6","首发","游戏评测","攻略","直播"],"mathAngles":["把首发日内容分成通关、评测、直播和二创四类","用时间轴讲清楚玩家内容如何接力","比较短视频平台与长视频社区的不同内容需求"],"hooks":["一款游戏上线，为什么攻略会先冲到榜首？","首日爆款不只靠评分：玩家在围观什么？"],"recommendedFormat":{"duration":"60–90 秒","structure":"首发热度图景 → 内容四象限 → 创作者跟进建议"},"factStatus":"needs-review","sources":[{"name":"B站热门：GTA6全任务全剧情攻略","url":"https://www.bilibili.com/video/BV1NDsS6UE8D","type":"platform"},{"name":"知乎热榜：GTA6 M站开分99讨论","url":"https://www.zhihu.com/question/2106462901686857893","type":"platform"},{"name":"百度热搜：GTA 6首发体验","url":"https://m.baidu.com/s?word=%E3%80%8AGTA+6%E3%80%8B%E9%A6%96%E5%8F%91%E4%BD%93%E9%AA%8C&sa=fyb_news","type":"platform"}],"updatedAt":"2026-11-19T04:03:03.000Z"
+      "id": "apec-city-food-connection",
+      "title": "APEC到深圳：一桌菜、一条围巾怎么讲成城市观察",
+      "brief": "APEC相关的互联互通、外宾体验本地美食与会议物料在多个平台出现，适合城市、旅行、美食与文化创作者从具体物件切入大型议题。",
+      "category": "城市与文化",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 93,
+      "crossPlatform": 3,
+      "mathFit": 89,
+      "visualFit": 95,
+      "lifeFit": 84,
+      "questionDensity": 84,
+      "priority": 93,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 4,
+          "score": 92,
+          "trend": "高位"
+        },
+        {
+          "id": "douyin",
+          "rank": 6,
+          "score": 88,
+          "trend": "高位"
+        },
+        {
+          "id": "weibo",
+          "rank": 3,
+          "score": 94,
+          "trend": "高位"
+        },
+        {
+          "id": "weibo",
+          "rank": 9,
+          "score": 82,
+          "trend": "高位"
+        },
+        {
+          "id": "baidu",
+          "rank": 3,
+          "score": 94,
+          "trend": "高位"
+        },
+        {
+          "id": "baidu",
+          "rank": 36,
+          "score": 30,
+          "trend": "在榜"
+        }
+      ],
+      "keywords": [
+        "APEC",
+        "深圳",
+        "城市叙事",
+        "美食",
+        "设计"
+      ],
+      "mathAngles": [
+        "从一件会议物料拆解城市视觉语言",
+        "以食材、场景和人物组织文化叙事",
+        "标出体验素材与官方议程的不同证据级别"
+      ],
+      "hooks": [
+        "一桌晚宴，能不能拍出城市气质而不是流水账？",
+        "宏大会议怎么从一条围巾讲到普通人的生活？"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90 秒",
+        "structure": "视觉钩子 → 物件细节 → 城市连接"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "douyin 热榜：APEC外宾游深圳邂逅地道美食",
+          "url": "https://www.douyin.com/search/APEC%E5%A4%96%E5%AE%BE%E6%B8%B8%E6%B7%B1%E5%9C%B3%E9%82%82%E9%80%85%E5%9C%B0%E9%81%93%E7%BE%8E%E9%A3%9F",
+          "type": "platform"
+        },
+        {
+          "name": "douyin 热榜：APEC会议围巾的中国式浪漫",
+          "url": "https://www.douyin.com/search/APEC%E4%BC%9A%E8%AE%AE%E5%9B%B4%E5%B7%BE%E7%9A%84%E4%B8%AD%E5%9B%BD%E5%BC%8F%E6%B5%AA%E6%BC%AB",
+          "type": "platform"
+        },
+        {
+          "name": "weibo 热榜：这是APEC互联互通蓝图",
+          "url": "https://s.weibo.com/weibo?q=%23%E8%BF%99%E6%98%AFAPEC%E4%BA%92%E8%81%94%E4%BA%92%E9%80%9A%E8%93%9D%E5%9B%BE%23",
+          "type": "platform"
+        },
+        {
+          "name": "weibo 热榜：一图读懂APEC合作如何惠及百姓生活",
+          "url": "https://s.weibo.com/weibo?q=%23%E4%B8%80%E5%9B%BE%E8%AF%BB%E6%87%82APEC%E5%90%88%E4%BD%9C%E5%A6%82%E4%BD%95%E6%83%A0%E5%8F%8A%E7%99%BE%E5%A7%93%E7%94%9F%E6%B4%BB%23",
+          "type": "platform"
+        },
+        {
+          "name": "baidu 热榜：亚太经合组织互联互通蓝图",
+          "url": "https://m.baidu.com/s?word=%E4%BA%9A%E5%A4%AA%E7%BB%8F%E5%90%88%E7%BB%84%E7%BB%87%E4%BA%92%E8%81%94%E4%BA%92%E9%80%9A%E8%93%9D%E5%9B%BE&sa=fyb_news",
+          "type": "platform"
+        },
+        {
+          "name": "baidu 热榜：APEC带火深圳服装批发市场",
+          "url": "https://m.baidu.com/s?word=APEC%E5%B8%A6%E7%81%AB%E6%B7%B1%E5%9C%B3%E6%9C%8D%E8%A3%85%E6%89%B9%E5%8F%91%E5%B8%82%E5%9C%BA&sa=fyb_news",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-20T04:05:22.771Z",
+      "rank": 2
     },
     {
-      "id":"apec-dinner-food-cultural-exchange","rank":3,"title":"一桌APEC晚宴，怎样拍出食物背后的文化表达","brief":"晚宴菜单与粤菜元素在抖音、微博、知乎和百度均有讨论空间，适合美食、城市与文化创作者做“菜品—地域—叙事”内容，但菜单细节需回到主办方资料核实。","category":"美食与城市文化","momentum":"rising","urgency":"today","heat":93,"crossPlatform":4,"mathFit":82,"visualFit":94,"lifeFit":86,"questionDensity":82,"priority":92,
-      "platforms":[{"id":"douyin","rank":5,"score":92,"trend":"高位"},{"id":"weibo","rank":26,"score":58,"trend":"在榜"},{"id":"zhihu","rank":3,"score":96,"trend":"高位"},{"id":"baidu","rank":22,"score":64,"trend":"在榜"}],
-      "keywords":["APEC晚宴","粤菜","菜单","城市美食"],"mathAngles":["以一桌菜为入口，讲地方食材和待客礼仪","拆分官方菜单、网传画面与二创内容的证据等级","用菜品地图组织视觉转场"],"hooks":["一场晚宴为什么能把粤菜推上热榜？","别只拍菜单：一桌菜里藏着哪些城市表达？"],"recommendedFormat":{"duration":"45–75 秒","structure":"菜单特写 → 三道菜的叙事 → 来源核验提示"},"factStatus":"needs-review","sources":[{"name":"抖音热榜：APEC美食硬控各国来宾","url":"https://www.douyin.com/search/APEC%E7%BE%8E%E9%A3%9F%E7%A1%AC%E6%8E%A7%E5%90%84%E5%9B%BD%E6%9D%A5%E5%AE%BE","type":"platform"},{"name":"知乎热榜：深圳APEC世纪晚宴菜单讨论","url":"https://www.zhihu.com/question/2103409527672591719","type":"platform"},{"name":"百度热搜：APEC世纪晚宴菜单曝光","url":"https://m.baidu.com/s?word=APEC%E4%B8%96%E7%BA%AA%E6%99%9A%E5%AE%B4%E8%8F%9C%E5%8D%95%E6%9B%9D%E5%85%89&sa=fyb_news","type":"platform"}],"updatedAt":"2026-11-19T04:03:03.000Z"
+      "id": "gta6-community-wave",
+      "title": "《GTA 6》热度为什么跨平台：从攻略到吐槽的内容接力",
+      "brief": "《GTA 6》在知乎、百度和B站形成密集讨论，覆盖玩法、地图、直播、技术细节与消费热情，适合游戏、商业和社区创作者拆解同一IP的多种内容入口。",
+      "category": "游戏与社区",
+      "momentum": "peak",
+      "urgency": "today",
+      "heat": 96,
+      "crossPlatform": 3,
+      "mathFit": 90,
+      "visualFit": 94,
+      "lifeFit": 82,
+      "questionDensity": 93,
+      "priority": 94,
+      "platforms": [
+        {
+          "id": "zhihu",
+          "rank": 16,
+          "score": 68,
+          "trend": "在榜"
+        },
+        {
+          "id": "zhihu",
+          "rank": 17,
+          "score": 66,
+          "trend": "在榜"
+        },
+        {
+          "id": "baidu",
+          "rank": 10,
+          "score": 80,
+          "trend": "高位"
+        },
+        {
+          "id": "baidu",
+          "rank": 25,
+          "score": 50,
+          "trend": "在榜"
+        },
+        {
+          "id": "bilibili",
+          "rank": 9,
+          "score": 82,
+          "trend": "高位"
+        },
+        {
+          "id": "bilibili",
+          "rank": 18,
+          "score": 64,
+          "trend": "在榜"
+        }
+      ],
+      "keywords": [
+        "GTA6",
+        "游戏社区",
+        "内容接力",
+        "直播",
+        "攻略"
+      ],
+      "mathAngles": [
+        "区分首发资讯、实机体验和二创评论的受众",
+        "用一条玩法问题而非泛泛热度组织脚本",
+        "明确游戏细节应回到可访问的原始内容验证"
+      ],
+      "hooks": [
+        "一款游戏为什么能把攻略、吐槽和商业分析同时带火？",
+        "GTA热点里，最值得拍的不是“又火了”。"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90 秒",
+        "structure": "跨平台截图 → 三类内容入口 → 选题模板"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "zhihu 热榜：很多人说GTA6或者GTA系列玩法单调，无非就是射击+开车，是不是玩法创新在这种3A上遇到瓶颈了？",
+          "url": "https://www.zhihu.com/question/2106787583531409688",
+          "type": "platform"
+        },
+        {
+          "name": "zhihu 热榜：GTA6是被情怀捧起来的吗？",
+          "url": "https://www.zhihu.com/question/2106690691409633794",
+          "type": "platform"
+        },
+        {
+          "name": "baidu 热榜：《GTA6》主角还没用上全面屏手机",
+          "url": "https://m.baidu.com/s?word=%E3%80%8AGTA6%E3%80%8B%E4%B8%BB%E8%A7%92%E8%BF%98%E6%B2%A1%E7%94%A8%E4%B8%8A%E5%85%A8%E9%9D%A2%E5%B1%8F%E6%89%8B%E6%9C%BA&sa=fyb_news",
+          "type": "platform"
+        },
+        {
+          "name": "baidu 热榜：吧友手搓GTA6地图还带秘籍",
+          "url": "https://m.baidu.com/s?word=%E5%90%A7%E5%8F%8B%E6%89%8B%E6%90%93GTA6%E5%9C%B0%E5%9B%BE%E8%BF%98%E5%B8%A6%E7%A7%98%E7%B1%8D&sa=fyb_news",
+          "type": "platform"
+        },
+        {
+          "name": "bilibili 热榜：以防你不知道GTA6的狗子会开游艇来救你！",
+          "url": "https://www.bilibili.com/video/BV1gcs469Ecu",
+          "type": "platform"
+        },
+        {
+          "name": "bilibili 热榜：GTA背后的千亿豪赌",
+          "url": "https://www.bilibili.com/video/BV1ZDst6uEwJ",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-20T04:05:22.771Z",
+      "rank": 3
     },
     {
-      "id":"global-leaders-meeting-context","rank":4,"title":"高关注会晤：如何把“历史性”讲得有信息量","brief":"多平台都在讨论中俄美领导人会晤及其背景。适合时政解读创作者用“已知、未知、待核验”三层结构降低过度推断风险。","category":"国际与公共议题","momentum":"peak","urgency":"now","heat":94,"crossPlatform":4,"mathFit":92,"visualFit":80,"lifeFit":71,"questionDensity":96,"priority":91,
-      "platforms":[{"id":"douyin","rank":2,"score":98,"trend":"高位"},{"id":"weibo","rank":4,"score":94,"trend":"高位"},{"id":"zhihu","rank":1,"score":100,"trend":"榜首"},{"id":"baidu","rank":4,"score":94,"trend":"高位"}],
-      "keywords":["国际会晤","APEC","时政解读","信息核验"],"mathAngles":["将会议背景、公开画面和政策推测严格分层","用问题清单替代结论抢跑","用时间线标注每一条已确认信息的出处"],"hooks":["热榜都在说“历史性”，内容该从哪一步讲起？","时政热点最怕抢跑：三层信息框架怎么用？"],"recommendedFormat":{"duration":"60–120 秒","structure":"热榜现象 → 已知与未知分层 → 关注点清单"},"factStatus":"needs-review","sources":[{"name":"知乎热榜：中俄美三国元首会晤讨论","url":"https://www.zhihu.com/question/2105702944855287688","type":"platform"},{"name":"微博热搜：普京特朗普APEC会议现场画面","url":"https://s.weibo.com/weibo?q=%23%E6%99%AE%E4%BA%AC%E7%89%B9%E6%9C%97%E6%99%AEAPEC%E4%BC%9A%E8%AE%AE%E7%8E%B0%E5%9C%BA%E7%94%BB%E9%9D%A2%23","type":"platform"},{"name":"百度热搜：中俄美元首会晤","url":"https://m.baidu.com/s?word=%E4%B8%AD%E4%BF%84%E7%BE%8E%E5%85%83%E9%A6%96%E4%BC%9A%E6%99%A4%E6%98%AF%E7%9C%9F%E6%AD%A3%E7%9A%84%E5%8E%86%E5%8F%B2%E6%80%A7%E4%BA%8B%E4%BB%B6&sa=fyb_news","type":"platform"}],"updatedAt":"2026-11-19T04:03:03.000Z"
+      "id": "gold-price-risk-literacy",
+      "title": "金价跌破关口：财经内容怎样讲波动而不喊单",
+      "brief": "现货黄金与金饰价格下跌在抖音、微博和知乎同步出现。适合财经和消费创作者解释现货、零售端和个人持仓情绪的区别，而不是预测涨跌。",
+      "category": "财经与消费",
+      "momentum": "rising",
+      "urgency": "now",
+      "heat": 91,
+      "crossPlatform": 3,
+      "mathFit": 96,
+      "visualFit": 78,
+      "lifeFit": 91,
+      "questionDensity": 94,
+      "priority": 91,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 11,
+          "score": 78,
+          "trend": "在榜"
+        },
+        {
+          "id": "douyin",
+          "rank": 20,
+          "score": 60,
+          "trend": "在榜"
+        },
+        {
+          "id": "weibo",
+          "rank": 12,
+          "score": 76,
+          "trend": "在榜"
+        },
+        {
+          "id": "weibo",
+          "rank": 41,
+          "score": 30,
+          "trend": "在榜"
+        },
+        {
+          "id": "zhihu",
+          "rank": 22,
+          "score": 56,
+          "trend": "在榜"
+        }
+      ],
+      "keywords": [
+        "黄金",
+        "金价",
+        "风险提示",
+        "消费",
+        "财经"
+      ],
+      "mathAngles": [
+        "区分现货报价、金饰零售价和持仓盈亏",
+        "用区间、时间点和来源替代单点结论",
+        "不把热榜情绪写成投资建议"
+      ],
+      "hooks": [
+        "金价跌了，为什么你买到的首饰不一定同步便宜？",
+        "财经热点最重要的一句，往往不是“该不该买”。"
+      ],
+      "recommendedFormat": {
+        "duration": "60–75 秒",
+        "structure": "价格钩子 → 三个口径 → 风险边界"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "douyin 热榜：现货黄金跌破3600美元",
+          "url": "https://www.douyin.com/search/%E7%8E%B0%E8%B4%A7%E9%BB%84%E9%87%91%E8%B7%8C%E7%A0%B43600%E7%BE%8E%E5%85%83",
+          "type": "platform"
+        },
+        {
+          "name": "douyin 热榜：金饰克价年内下跌近600元",
+          "url": "https://www.douyin.com/search/%E9%87%91%E9%A5%B0%E5%85%8B%E4%BB%B7%E5%B9%B4%E5%86%85%E4%B8%8B%E8%B7%8C%E8%BF%91600%E5%85%83",
+          "type": "platform"
+        },
+        {
+          "name": "weibo 热榜：金价跌到7字头囤金人心态崩了",
+          "url": "https://s.weibo.com/weibo?q=%23%E9%87%91%E4%BB%B7%E8%B7%8C%E5%88%B07%E5%AD%97%E5%A4%B4%E5%9B%A4%E9%87%91%E4%BA%BA%E5%BF%83%E6%80%81%E5%B4%A9%E4%BA%86%23",
+          "type": "platform"
+        },
+        {
+          "name": "weibo 热榜：金价暴跌商家发声",
+          "url": "https://s.weibo.com/weibo?q=%23%E9%87%91%E4%BB%B7%E6%9A%B4%E8%B7%8C%E5%95%86%E5%AE%B6%E5%8F%91%E5%A3%B0%23",
+          "type": "platform"
+        },
+        {
+          "name": "zhihu 热榜：现货黄金跌破 3600 美元关口，这意味着什么？这轮下跌会跌到什么位置才有实质性支撑？",
+          "url": "https://www.zhihu.com/question/2107019375895238331",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-20T04:05:22.771Z",
+      "rank": 4
     },
     {
-      "id":"gold-price-and-rate-expectations","rank":5,"title":"金价与加息预期同屏：财经热点怎么避免一句话下判断","brief":"金价和利率预期同时进入热榜，适合财经创作者拆解“消息、预期、价格”之间的区别；涉及投资建议和预测的表述必须补充可靠数据源。","category":"财经与消费","momentum":"rising","urgency":"today","heat":85,"crossPlatform":2,"mathFit":94,"visualFit":72,"lifeFit":86,"questionDensity":91,"priority":88,
-      "platforms":[{"id":"douyin","rank":8,"score":86,"trend":"高位"},{"id":"weibo","rank":13,"score":76,"trend":"高位"}],
-      "keywords":["金价","美联储","利率预期","财经科普"],"mathAngles":["区分新闻标题、市场预期和可观察价格","用一张因果图解释利率、美元与黄金的常见关系","明确内容不是投资建议"],"hooks":["金价上热搜，最容易被混淆的三个词是什么？","“可能加息”为什么不等于价格必然涨跌？"],"recommendedFormat":{"duration":"45–75 秒","structure":"热榜标题 → 三个概念澄清 → 风险提示"},"factStatus":"needs-review","sources":[{"name":"抖音热榜：高盛预测金价或重返5600美元","url":"https://www.douyin.com/search/%E9%AB%98%E7%9B%9B%E9%A2%84%E6%B5%8B%E9%87%91%E4%BB%B7%E6%88%96%E9%87%8D%E8%BF%945600%E7%BE%8E%E5%85%83","type":"platform"},{"name":"微博热搜：金价","url":"https://s.weibo.com/weibo?q=%E9%87%91%E4%BB%B7","type":"platform"}],"updatedAt":"2026-11-19T04:03:03.000Z"
+      "id": "shenzhen-visitor-commerce",
+      "title": "“到深圳去”成为热词：城市流量怎样落到真实消费场景",
+      "brief": "马斯克行程、外宾体验与批发市场购物等内容同时出现，适合城市观察、零售和旅行创作者追踪国际关注如何变成可拍、可逛、可消费的场景。",
+      "category": "城市与消费",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 88,
+      "crossPlatform": 4,
+      "mathFit": 86,
+      "visualFit": 92,
+      "lifeFit": 88,
+      "questionDensity": 84,
+      "priority": 88,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 14,
+          "score": 72,
+          "trend": "在榜"
+        },
+        {
+          "id": "weibo",
+          "rank": 1,
+          "score": 98,
+          "trend": "高位"
+        },
+        {
+          "id": "weibo",
+          "rank": 34,
+          "score": 32,
+          "trend": "在榜"
+        },
+        {
+          "id": "zhihu",
+          "rank": 30,
+          "score": 40,
+          "trend": "在榜"
+        },
+        {
+          "id": "baidu",
+          "rank": 28,
+          "score": 44,
+          "trend": "在榜"
+        },
+        {
+          "id": "baidu",
+          "rank": 36,
+          "score": 30,
+          "trend": "在榜"
+        }
+      ],
+      "keywords": [
+        "深圳",
+        "城市消费",
+        "批发市场",
+        "旅行",
+        "国际关注"
+      ],
+      "mathAngles": [
+        "用一个具体街区而非抽象城市口号开场",
+        "比较游客打卡、批发采购和日常消费三种镜头",
+        "涉及人物行程时只陈述可核验的公开内容"
+      ],
+      "hooks": [
+        "热点里的深圳，最值得拍的到底是哪一条街？",
+        "城市流量怎样变成一支不空泛的消费观察？"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90 秒",
+        "structure": "热榜线索 → 实地场景 → 消费视角"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "douyin 热榜：马斯克盛赞深圳非常酷",
+          "url": "https://www.douyin.com/search/%E9%A9%AC%E6%96%AF%E5%85%8B%E7%9B%9B%E8%B5%9E%E6%B7%B1%E5%9C%B3%E9%9D%9E%E5%B8%B8%E9%85%B7",
+          "type": "platform"
+        },
+        {
+          "name": "weibo 热榜：马斯克从深圳飞到了上海",
+          "url": "https://s.weibo.com/weibo?q=%23%E9%A9%AC%E6%96%AF%E5%85%8B%E4%BB%8E%E6%B7%B1%E5%9C%B3%E9%A3%9E%E5%88%B0%E4%BA%86%E4%B8%8A%E6%B5%B7%23",
+          "type": "platform"
+        },
+        {
+          "name": "weibo 热榜：外国游客扎堆深圳批发市场扫货",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%A4%96%E5%9B%BD%E6%B8%B8%E5%AE%A2%E6%89%8E%E5%A0%86%E6%B7%B1%E5%9C%B3%E6%89%B9%E5%8F%91%E5%B8%82%E5%9C%BA%E6%89%AB%E8%B4%A7%23",
+          "type": "platform"
+        },
+        {
+          "name": "zhihu 热榜：马斯克盛赞中国，直言中美合作越多越好，并表示特斯拉会继续在中国提高产量，如何看待他这一发言？",
+          "url": "https://www.zhihu.com/question/2106751822610133209",
+          "type": "platform"
+        },
+        {
+          "name": "baidu 热榜：马斯克从深圳飞到上海",
+          "url": "https://m.baidu.com/s?word=%E9%A9%AC%E6%96%AF%E5%85%8B%E4%BB%8E%E6%B7%B1%E5%9C%B3%E9%A3%9E%E5%88%B0%E4%B8%8A%E6%B5%B7&sa=fyb_news",
+          "type": "platform"
+        },
+        {
+          "name": "baidu 热榜：APEC带火深圳服装批发市场",
+          "url": "https://m.baidu.com/s?word=APEC%E5%B8%A6%E7%81%AB%E6%B7%B1%E5%9C%B3%E6%9C%8D%E8%A3%85%E6%89%B9%E5%8F%91%E5%B8%82%E5%9C%BA&sa=fyb_news",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-20T04:05:22.771Z",
+      "rank": 5
     },
     {
-      "id":"ai-vision-counting-and-workflows","rank":6,"title":"AI连13个鸡蛋都数不清：别把“会生成”当成“会判断”","brief":"图像计数失误、工作型AI和算力讨论同时在榜，可做面向普通用户的AI能力边界内容，强调具体任务测试而非泛化结论。","category":"科技与工作","momentum":"rising","urgency":"today","heat":87,"crossPlatform":3,"mathFit":95,"visualFit":88,"lifeFit":89,"questionDensity":94,"priority":87,
-      "platforms":[{"id":"weibo","rank":30,"score":50,"trend":"在榜"},{"id":"zhihu","rank":4,"score":94,"trend":"高位"},{"id":"bilibili","rank":37,"score":38,"trend":"在榜"}],
-      "keywords":["AI生成","图像计数","AI Agent","算力","工作流"],"mathAngles":["把生成质量、视觉识别和任务可靠性拆开测试","用反例说明一次成功不能证明稳定能力","给创作者一份简单的AI工具验收清单"],"hooks":["为什么AI能画图，却可能数不清13个鸡蛋？","别问AI好不好用：先问它在哪类任务上可靠。"],"recommendedFormat":{"duration":"60–90 秒","structure":"反常识演示 → 能力拆分 → 实用测试清单"},"factStatus":"needs-review","sources":[{"name":"知乎热榜：豆包图像计数讨论","url":"https://www.zhihu.com/question/2106466938230501933","type":"platform"},{"name":"微博热搜：deepseek算力","url":"https://s.weibo.com/weibo?q=%23deepseek%E7%AE%97%E5%8A%9B%23","type":"platform"},{"name":"B站热门：AI智能体电脑体验","url":"https://www.bilibili.com/video/BV1RXsU6tESr","type":"platform"}],"updatedAt":"2026-11-19T04:03:03.000Z"
+      "id": "u17-match-preview",
+      "title": "U17首战对西班牙：赛前内容怎样不把预测当赛果",
+      "brief": "U17男足首战对阵西班牙登上抖音高位，适合体育创作者用赛制、对手特点、观赛问题和支持方式组织赛前节目，并在赛后再补战术复盘。",
+      "category": "体育",
+      "momentum": "rising",
+      "urgency": "now",
+      "heat": 84,
+      "crossPlatform": 1,
+      "mathFit": 83,
+      "visualFit": 88,
+      "lifeFit": 82,
+      "questionDensity": 86,
+      "priority": 85,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 2,
+          "score": 96,
+          "trend": "高位"
+        }
+      ],
+      "keywords": [
+        "U17",
+        "男足",
+        "赛前预告",
+        "体育内容"
+      ],
+      "mathAngles": [
+        "把赛前展望与赛后结论分开",
+        "用三项可观测指标组织观赛",
+        "避免根据热榜标题推断比赛结果"
+      ],
+      "hooks": [
+        "赛前一条球赛视频，怎样既有期待又不乱下结论？",
+        "别急着预测比分：先给观众三个看球重点。"
+      ],
+      "recommendedFormat": {
+        "duration": "45–60 秒",
+        "structure": "对阵信息 → 三个观赛点 → 赛后跟进预告"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "douyin 热榜：U17男足首战对阵西班牙",
+          "url": "https://www.douyin.com/search/U17%E7%94%B7%E8%B6%B3%E9%A6%96%E6%88%98%E5%AF%B9%E9%98%B5%E8%A5%BF%E7%8F%AD%E7%89%99",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-20T04:05:22.771Z",
+      "rank": 6
     },
     {
-      "id":"xiaohongshu-travel-shot-design","rank":7,"title":"旅行照不只靠滤镜：热门画面怎样拍出“人在现场”","brief":"小红书旅行拍照与自然景观话题集中上榜，适合旅行、摄影和生活方式创作者做姿势、构图、行程节奏的可复用内容。","category":"旅行与影像","momentum":"steady","urgency":"today","heat":80,"crossPlatform":2,"mathFit":78,"visualFit":98,"lifeFit":92,"questionDensity":76,"priority":86,
-      "platforms":[{"id":"douyin","rank":12,"score":78,"trend":"高位"},{"id":"xiaohongshu","rank":1,"score":100,"trend":"榜首"}],
-      "keywords":["旅行拍照","构图","阿勒泰","自然风景"],"mathAngles":["把人像姿势、景别和光线拆成可执行镜头表","用同一地点的远中近景建立现场感","把拍摄建议与真实旅行条件分开说明"],"hooks":["为什么“万能姿势”会一直在旅行热榜里？","不靠滤镜，怎样让一张旅行照看起来真的在现场？"],"recommendedFormat":{"duration":"30–60 秒","structure":"失败对照 → 三个机位 → 成片回放"},"factStatus":"needs-review","sources":[{"name":"小红书热榜：用万能旅行拍照姿势美美出片","url":"https://www.xiaohongshu.com/search_result?keyword=%E7%94%A8%E4%B8%87%E8%83%BD%E6%97%85%E8%A1%8C%E6%8B%8D%E7%85%A7%E5%A7%BF%E5%8A%BF%E7%BE%8E%E7%BE%8E%E5%87%BA%E7%89%87&type=51","type":"platform"},{"name":"抖音热榜：人生至少有一个冬天属于阿勒泰","url":"https://www.douyin.com/search/%E4%BA%BA%E7%94%9F%E8%87%B3%E5%B0%91%E6%9C%89%E4%B8%80%E4%B8%AA%E5%86%AC%E5%A4%A9%E5%B1%9E%E4%BA%8E%E9%98%BF%E5%8B%92%E6%B3%B0","type":"platform"}],"updatedAt":"2026-11-19T04:03:03.000Z"
+      "id": "graduate-housing-decision",
+      "title": "研究生宿舍讨论升温：把焦虑话题做成决策清单",
+      "brief": "多所高校不向2027级研究生提供宿舍的讨论位居微博前列，适合教育、求职和生活方式创作者将情绪争论转换为预算、通勤、申请节点和信息核验清单。",
+      "category": "教育与生活",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 82,
+      "crossPlatform": 1,
+      "mathFit": 94,
+      "visualFit": 67,
+      "lifeFit": 95,
+      "questionDensity": 96,
+      "priority": 86,
+      "platforms": [
+        {
+          "id": "weibo",
+          "rank": 10,
+          "score": 80,
+          "trend": "高位"
+        }
+      ],
+      "keywords": [
+        "研究生",
+        "宿舍",
+        "租房",
+        "通勤",
+        "升学"
+      ],
+      "mathAngles": [
+        "把住宿、通勤和时间成本拆成可比较项目",
+        "提醒观众回到目标院校公告逐项核验",
+        "用决策树代替泛泛焦虑"
+      ],
+      "hooks": [
+        "没有宿舍，读研预算到底该怎么提前算？",
+        "这类教育热搜，最有用的不是评论区吵架。"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90 秒",
+        "structure": "热榜问题 → 成本表 → 查询路径"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "weibo 热榜：多所高校不向2027级研究生提供宿舍",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%A4%9A%E6%89%80%E9%AB%98%E6%A0%A1%E4%B8%8D%E5%90%912027%E7%BA%A7%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8F%90%E4%BE%9B%E5%AE%BF%E8%88%8D%23",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-20T04:05:22.771Z",
+      "rank": 7
     },
     {
-      "id":"slow-down-meme-emotion-editing","rank":8,"title":"“慌啥子嘛”持续扩散：一句口头禅怎样接住情绪","brief":"同一情绪表达在抖音、微博和百度连续出现，适合情绪、音乐和文化类创作者分析模因如何借由不同场景完成二次传播。","category":"文化与情绪","momentum":"rising","urgency":"today","heat":84,"crossPlatform":3,"mathFit":87,"visualFit":85,"lifeFit":94,"questionDensity":84,"priority":85,
-      "platforms":[{"id":"douyin","rank":18,"score":66,"trend":"在榜"},{"id":"weibo","rank":47,"score":34,"trend":"在榜"},{"id":"baidu","rank":47,"score":34,"trend":"在榜"}],
-      "keywords":["慌啥子嘛","情绪表达","模因","音乐二创"],"mathAngles":["从短句、场景和配乐三层拆解二创传播","比较治愈叙事与搞笑叙事的不同剪辑节奏","避免把热榜情绪等同于群体心理结论"],"hooks":["一句“慌啥子嘛”，为什么能被反复放进不同视频？","情绪热梗的生命力，往往不在原句而在场景。"],"recommendedFormat":{"duration":"45–60 秒","structure":"热梗回放 → 三种场景迁移 → 剪辑公式"},"factStatus":"needs-review","sources":[{"name":"抖音热榜：慌啥子嘛要好好吃饭呀","url":"https://www.douyin.com/search/%E6%85%8C%E5%95%A5%E5%AD%90%E5%98%9B%E8%A6%81%E5%A5%BD%E5%A5%BD%E5%90%83%E9%A5%AD%E5%91%80","type":"platform"},{"name":"微博热搜：赵本山慌啥子嘛 春晚","url":"https://s.weibo.com/weibo?q=%E8%B5%B5%E6%9C%AC%E5%B1%B1%E6%85%8C%E5%95%A5%E5%AD%90%E5%98%9B%20%E6%98%A5%E6%99%9A","type":"platform"},{"name":"百度热搜：慌啥子嘛配雪景治愈所有浮躁","url":"https://m.baidu.com/s?word=%E6%85%8C%E5%95%A5%E5%AD%90%E5%98%9B%E9%85%8D%E9%9B%AA%E6%99%AF%E6%B2%BB%E6%84%88%E6%89%80%E6%9C%89%E6%B5%AE%E8%BA%81&sa=fyb_news","type":"platform"}],"updatedAt":"2026-11-19T04:03:03.000Z"
+      "id": "phone-product-launch-literacy",
+      "title": "从“小米18”到电池争议：新品内容如何少念参数多讲体验",
+      "brief": "小米新品与电池技术讨论分别出现在微博和B站，适合数码创作者把营销口号、规格、续航测试和使用场景拆开，避免用单一参数替代判断。",
+      "category": "科技与数码",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 80,
+      "crossPlatform": 2,
+      "mathFit": 92,
+      "visualFit": 84,
+      "lifeFit": 89,
+      "questionDensity": 87,
+      "priority": 84,
+      "platforms": [
+        {
+          "id": "weibo",
+          "rank": 2,
+          "score": 96,
+          "trend": "高位"
+        },
+        {
+          "id": "bilibili",
+          "rank": 28,
+          "score": 44,
+          "trend": "在榜"
+        }
+      ],
+      "keywords": [
+        "小米18",
+        "电池",
+        "数码评测",
+        "参数",
+        "体验"
+      ],
+      "mathAngles": [
+        "按规格、测试和日常体验三栏记录证据",
+        "说明样机、量产机与宣传材料的差异",
+        "不从标题外推产品性能结论"
+      ],
+      "hooks": [
+        "新品发布时，最容易被忽略的不是参数而是测试条件。",
+        "一块电池好不好，为什么不能只看一句“自信”？"
+      ],
+      "recommendedFormat": {
+        "duration": "60–75 秒",
+        "structure": "产品热词 → 证据分层 → 评测提纲"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "weibo 热榜：小米18",
+          "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E7%B1%B318",
+          "type": "platform"
+        },
+        {
+          "name": "bilibili 热榜：特供电池？为什么小米现在对电池如此自信？",
+          "url": "https://www.bilibili.com/video/BV1Acs86HExY",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-20T04:05:22.771Z",
+      "rank": 8
     },
     {
-      "id":"consumer-price-home-baking","rank":9,"title":"788元蛋糕能不能在家复刻：价格争议怎样做成实测内容","brief":"高价蛋糕与家庭制作题材在B站热门，适合美食、消费和实验型创作者用成本、时间、失败率和口感维度做透明对比。","category":"美食与消费","momentum":"steady","urgency":"evergreen","heat":73,"crossPlatform":1,"mathFit":91,"visualFit":90,"lifeFit":93,"questionDensity":82,"priority":82,
-      "platforms":[{"id":"bilibili","rank":39,"score":36,"trend":"在榜"}],
-      "keywords":["蛋糕","家庭复刻","成本","消费对比"],"mathAngles":["把食材、工具折旧和工时分别列账","用盲评代替单纯价格判断","把一次性投入与每份边际成本说清楚"],"hooks":["788元的蛋糕，真的能在家做得更划算吗？","消费实测最该算的不是食材，而是哪一笔？"],"recommendedFormat":{"duration":"60–90 秒","structure":"价格钩子 → 成本表 → 盲评与结论"},"factStatus":"needs-review","sources":[{"name":"B站热门：788元蛋糕家庭复刻","url":"https://www.bilibili.com/video/BV1hPsJ6BEL9","type":"platform"}],"updatedAt":"2026-11-19T04:03:03.000Z"
+      "id": "home-heating-cost-experiment",
+      "title": "地暖要不要24小时开：把家庭争论拍成一次小实验",
+      "brief": "地暖开启策略在知乎获得关注，适合家居、生活和科普创作者用室温、时长、能耗账单和舒适度记录，做出可复现的家庭实验，而非给所有户型同一答案。",
+      "category": "家居与生活",
+      "momentum": "steady",
+      "urgency": "evergreen",
+      "heat": 73,
+      "crossPlatform": 1,
+      "mathFit": 96,
+      "visualFit": 72,
+      "lifeFit": 94,
+      "questionDensity": 91,
+      "priority": 81,
+      "platforms": [
+        {
+          "id": "zhihu",
+          "rank": 10,
+          "score": 80,
+          "trend": "高位"
+        }
+      ],
+      "keywords": [
+        "地暖",
+        "能耗",
+        "家庭实验",
+        "冬季",
+        "家居"
+      ],
+      "mathAngles": [
+        "设置同一房间和同一温控的对照记录",
+        "展示能耗、室温与体感三条曲线",
+        "强调建筑保温和能源价格会改变结果"
+      ],
+      "hooks": [
+        "地暖一直开更省钱吗？先别拍结论，做一次记录。",
+        "一张能耗表，能把家居争论讲清多少？"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90 秒",
+        "structure": "争议问题 → 实验设计 → 数据边界"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "zhihu 热榜：地暖是24小时开着省钱，还是分时段开更省钱？",
+          "url": "https://www.zhihu.com/question/437934361",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-20T04:05:22.771Z",
+      "rank": 9
     },
     {
-      "id":"esports-roster-and-championship-story","rank":10,"title":"电竞热度的两端：队员变动与冠军复盘怎么讲","brief":"选手离队、冠军相关内容和赛事复盘同时出现，适合电竞创作者把“即时人事消息”与“可复看的技战术叙事”分成不同内容线。","category":"电竞与社区","momentum":"rising","urgency":"today","heat":78,"crossPlatform":2,"mathFit":84,"visualFit":91,"lifeFit":79,"questionDensity":86,"priority":81,
-      "platforms":[{"id":"douyin","rank":17,"score":68,"trend":"在榜"},{"id":"bilibili","rank":48,"score":34,"trend":"在榜"}],
-      "keywords":["电竞","EDG","BLG","选手变动","赛事复盘"],"mathAngles":["将官宣消息与战术复盘分开处理证据标准","用关键回合而非泛泛情绪组织复盘","提示观众等待俱乐部或赛事方正式信息"],"hooks":["电竞热点里，什么适合立刻讲，什么必须等等？","冠军复盘为什么比“燃剪”更能留下长尾？"],"recommendedFormat":{"duration":"60–90 秒","structure":"两类热榜信号 → 信息边界 → 一局复盘示范"},"factStatus":"needs-review","sources":[{"name":"抖音热榜：EDG官宣郑永康ZmjjKK离队","url":"https://www.douyin.com/search/EDG%E5%AE%98%E5%AE%A3%E9%83%91%E6%B0%B8%E5%BA%B7ZmjjKK%E7%A6%BB%E9%98%9F","type":"platform"},{"name":"B站热门：BLG夺冠复盘","url":"https://www.bilibili.com/video/BV158sm6sEwd","type":"platform"}],"updatedAt":"2026-11-19T04:03:03.000Z"
+      "id": "travel-photo-storytelling",
+      "title": "旅行出片不只靠姿势：把“人在现场”拍进镜头",
+      "brief": "旅行姿势、自然景观和家庭旅行叙事在抖音与小红书同时出现，适合旅行和摄影创作者比较模板动作、环境细节和同行者互动带来的不同叙事。",
+      "category": "旅行与摄影",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 79,
+      "crossPlatform": 2,
+      "mathFit": 84,
+      "visualFit": 98,
+      "lifeFit": 90,
+      "questionDensity": 80,
+      "priority": 83,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 16,
+          "score": 68,
+          "trend": "在榜"
+        },
+        {
+          "id": "xiaohongshu",
+          "rank": 1,
+          "score": 98,
+          "trend": "高位"
+        },
+        {
+          "id": "xiaohongshu",
+          "rank": 3,
+          "score": 94,
+          "trend": "高位"
+        },
+        {
+          "id": "xiaohongshu",
+          "rank": 8,
+          "score": 84,
+          "trend": "高位"
+        }
+      ],
+      "keywords": [
+        "旅行摄影",
+        "出片",
+        "家庭旅行",
+        "镜头叙事"
+      ],
+      "mathAngles": [
+        "把远景、人物与动作分成三个镜头层次",
+        "用同一地点的三种构图做对照",
+        "避免将平台热榜误说成目的地客流数据"
+      ],
+      "hooks": [
+        "为什么有些旅行照看起来像模板，有些却真的让人想去？",
+        "不换设备，只改一个镜头顺序能多出多少故事？"
+      ],
+      "recommendedFormat": {
+        "duration": "45–60 秒",
+        "structure": "对比照片 → 三层构图 → 拍摄清单"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "douyin 热榜：找到了我的本命旅游地",
+          "url": "https://www.douyin.com/search/%E6%89%BE%E5%88%B0%E4%BA%86%E6%88%91%E7%9A%84%E6%9C%AC%E5%91%BD%E6%97%85%E6%B8%B8%E5%9C%B0",
+          "type": "platform"
+        },
+        {
+          "name": "xiaohongshu 热榜：用万能旅行拍照姿势美美出片",
+          "url": "https://www.xiaohongshu.com/search_result?keyword=%E7%94%A8%E4%B8%87%E8%83%BD%E6%97%85%E8%A1%8C%E6%8B%8D%E7%85%A7%E5%A7%BF%E5%8A%BF%E7%BE%8E%E7%BE%8E%E5%87%BA%E7%89%87&type=51",
+          "type": "platform"
+        },
+        {
+          "name": "xiaohongshu 热榜：我拍到了海鸥雨",
+          "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%88%91%E6%8B%8D%E5%88%B0%E4%BA%86%E6%B5%B7%E9%B8%A5%E9%9B%A8&type=51",
+          "type": "platform"
+        },
+        {
+          "name": "xiaohongshu 热榜：我的家庭旅行更像是打副本",
+          "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%88%91%E7%9A%84%E5%AE%B6%E5%BA%AD%E6%97%85%E8%A1%8C%E6%9B%B4%E5%83%8F%E6%98%AF%E6%89%93%E5%89%AF%E6%9C%AC&type=51",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-20T04:05:22.771Z",
+      "rank": 10
     },
     {
-      "id":"health-viral-claim-check","rank":11,"title":"诺如与减重热帖：健康内容先把证据链补全","brief":"疾病提醒和快速减重故事都具备传播性，但原榜标题不足以支持健康结论。适合健康创作者做“先核查、再解释”的选题，未补权威来源前不应给出医疗建议。","category":"健康与生活","momentum":"rising","urgency":"today","heat":76,"crossPlatform":2,"mathFit":93,"visualFit":76,"lifeFit":96,"questionDensity":90,"priority":80,
-      "platforms":[{"id":"zhihu","rank":27,"score":48,"trend":"在榜"},{"id":"baidu","rank":50,"score":32,"trend":"在榜"}],
-      "keywords":["诺如病毒","减重","健康传播","医学核验"],"mathAngles":["将热榜标题、个人经历和临床建议严格区分","给出健康谣言的来源核查步骤","在缺少医学机构出处时停止下结论"],"hooks":["一个健康热搜，为什么不能直接照着讲？","健康内容的第一条规则：先找原始证据。"],"recommendedFormat":{"duration":"45–75 秒","structure":"热榜标题 → 风险边界 → 核验清单"},"factStatus":"blocked","sources":[{"name":"百度热搜：四川疾控提醒诺如病毒将流行","url":"https://m.baidu.com/s?word=%E5%9B%9B%E5%B7%9D%E7%96%BE%E6%8E%A7%E6%8F%90%E9%86%92%E8%AF%BA%E5%A6%82%E7%97%85%E6%AF%92%E5%B0%86%E6%B5%81%E8%A1%8C&sa=fyb_news","type":"platform"},{"name":"知乎热榜：糖尿病主要诱因讨论","url":"https://www.zhihu.com/question/2026074936318378840","type":"platform"}],"updatedAt":"2026-11-19T04:03:03.000Z"
+      "id": "upcycle-winter-bedding",
+      "title": "旧羽绒服改羽绒被：手作内容先算清材料和卫生边界",
+      "brief": "旧羽绒服自制羽绒被登上百度热榜，适合手作、家居和节约型生活创作者把拆解、清洗、填充量、工具成本与安全卫生提示一起讲清。",
+      "category": "手作与可持续生活",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 72,
+      "crossPlatform": 1,
+      "mathFit": 91,
+      "visualFit": 89,
+      "lifeFit": 88,
+      "questionDensity": 86,
+      "priority": 79,
+      "platforms": [
+        {
+          "id": "baidu",
+          "rank": 27,
+          "score": 46,
+          "trend": "在榜"
+        }
+      ],
+      "keywords": [
+        "旧羽绒服",
+        "羽绒被",
+        "改造",
+        "手作",
+        "可持续"
+      ],
+      "mathAngles": [
+        "按重量、损耗和工具成本列材料账",
+        "先说明清洗和过敏风险边界",
+        "用过程记录替代“一步成功”叙事"
+      ],
+      "hooks": [
+        "一件旧羽绒服，能不能真的变成一床被子？",
+        "手作改造视频里，最不该省略的是哪一步？"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90 秒",
+        "structure": "成品钩子 → 拆解流程 → 成本与安全提示"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "baidu 热榜：旧羽绒服自制羽绒被",
+          "url": "https://m.baidu.com/s?word=%E6%97%A7%E7%BE%BD%E7%BB%92%E6%9C%8D%E8%87%AA%E5%88%B6%E7%BE%BD%E7%BB%92%E8%A2%AB&sa=fyb_news",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-20T04:05:22.771Z",
+      "rank": 11
     },
     {
-      "id":"home-rules-child-exploration","rank":12,"title":"孩子在墙上涂画：家庭规则怎样不压掉探索欲","brief":"亲子规则与探索欲的讨论在知乎高位，适合亲子、教育和生活方式创作者用具体场景讨论边界，而非制造简单的“谁对谁错”。","category":"亲子与教育","momentum":"steady","urgency":"evergreen","heat":70,"crossPlatform":1,"mathFit":89,"visualFit":74,"lifeFit":94,"questionDensity":92,"priority":78,
-      "platforms":[{"id":"zhihu","rank":8,"score":86,"trend":"高位"}],
-      "keywords":["亲子教育","规则","探索欲","家庭沟通"],"mathAngles":["把地点、材料和清理成本变成可协商的边界","用“允许什么、如何允许、谁来收尾”组织对话","避免把个案经验包装成育儿定论"],"hooks":["孩子画墙，到底该先立规矩还是先保护探索欲？","好的家庭规则，不是只说不可以。"],"recommendedFormat":{"duration":"45–75 秒","structure":"冲突情境 → 双方诉求 → 可执行规则清单"},"factStatus":"needs-review","sources":[{"name":"知乎热榜：孩子涂墙与探索欲讨论","url":"https://www.zhihu.com/question/2106047742212686624","type":"platform"}],"updatedAt":"2026-11-19T04:03:03.000Z"
+      "id": "health-claim-evidence-gate",
+      "title": "心梗、慢阻肺与婴儿喂养热帖：健康内容必须先过证据门",
+      "brief": "多个健康相关标题具备高传播性，但原榜不足以支持诊疗或风险判断。适合健康创作者先演示如何找权威指南和原始通报；在补齐出处前不应给出医疗建议。",
+      "category": "健康与生活",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 77,
+      "crossPlatform": 2,
+      "mathFit": 98,
+      "visualFit": 70,
+      "lifeFit": 97,
+      "questionDensity": 96,
+      "priority": 80,
+      "platforms": [
+        {
+          "id": "baidu",
+          "rank": 12,
+          "score": 76,
+          "trend": "在榜"
+        },
+        {
+          "id": "baidu",
+          "rank": 18,
+          "score": 64,
+          "trend": "在榜"
+        },
+        {
+          "id": "baidu",
+          "rank": 38,
+          "score": 30,
+          "trend": "在榜"
+        },
+        {
+          "id": "weibo",
+          "rank": 47,
+          "score": 30,
+          "trend": "在榜"
+        }
+      ],
+      "keywords": [
+        "健康传播",
+        "心梗",
+        "慢阻肺",
+        "医学核验",
+        "谣言防护"
+      ],
+      "mathAngles": [
+        "把热榜标题、病例细节和临床建议严格区分",
+        "优先寻找卫生机构、医疗机构或指南的原始出处",
+        "缺少可靠来源时明确停止下结论"
+      ],
+      "hooks": [
+        "一条健康热搜，为什么不该直接转成“建议”？",
+        "健康内容的第一步不是解释，是先找证据。"
+      ],
+      "recommendedFormat": {
+        "duration": "45–75 秒",
+        "structure": "热榜标题 → 风险边界 → 核验清单"
+      },
+      "factStatus": "blocked",
+      "sources": [
+        {
+          "name": "baidu 热榜：20多天婴儿被喂白开水中毒肾损伤",
+          "url": "https://m.baidu.com/s?word=20%E5%A4%9A%E5%A4%A9%E5%A9%B4%E5%84%BF%E8%A2%AB%E5%96%82%E7%99%BD%E5%BC%80%E6%B0%B4%E4%B8%AD%E6%AF%92%E8%82%BE%E6%8D%9F%E4%BC%A4&sa=fyb_news",
+          "type": "platform"
+        },
+        {
+          "name": "baidu 热榜：起床后这4件事易引发心梗",
+          "url": "https://m.baidu.com/s?word=%E8%B5%B7%E5%BA%8A%E5%90%8E%E8%BF%994%E4%BB%B6%E4%BA%8B%E6%98%93%E5%BC%95%E5%8F%91%E5%BF%83%E6%A2%97&sa=fyb_news",
+          "type": "platform"
+        },
+        {
+          "name": "baidu 热榜：胃疼和牙疼也可能是心梗前兆",
+          "url": "https://m.baidu.com/s?word=%E8%83%83%E7%96%BC%E5%92%8C%E7%89%99%E7%96%BC%E4%B9%9F%E5%8F%AF%E8%83%BD%E6%98%AF%E5%BF%83%E6%A2%97%E5%89%8D%E5%85%86&sa=fyb_news",
+          "type": "platform"
+        },
+        {
+          "name": "weibo 热榜：慢阻肺治疗不再是喘了才治",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%85%A2%E9%98%BB%E8%82%BA%E6%B2%BB%E7%96%97%E4%B8%8D%E5%86%8D%E6%98%AF%E5%96%98%E4%BA%86%E6%89%8D%E6%B2%BB%23",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-20T04:05:22.771Z",
+      "rank": 12
     }
   ]
 }
