@@ -1,0 +1,404 @@
+{
+  "schemaVersion": 1,
+  "dataMode": "live",
+  "date": "2026-11-22",
+  "generatedAt": "2026-11-22T09:06:30Z",
+  "timezone": "Asia/Shanghai",
+  "summary": {
+    "topicCount": 12,
+    "urgentCount": 12,
+    "crossPlatformCount": 8,
+    "formulaReadyCount": 5
+  },
+  "sourceStatus": [
+    {"id": "douyin", "name": "抖音", "status": "fresh", "items": 49, "updatedAt": "2026-11-22T09:05:28.058Z"},
+    {"id": "weibo", "name": "微博", "status": "fresh", "items": 50, "updatedAt": "2026-11-22T09:05:28.058Z"},
+    {"id": "zhihu", "name": "知乎", "status": "partial", "items": 30, "updatedAt": "2026-11-22T09:05:28.058Z"},
+    {"id": "xiaohongshu", "name": "小红书", "status": "partial", "items": 10, "updatedAt": "2026-11-22T09:05:28.058Z"},
+    {"id": "baidu", "name": "百度", "status": "fresh", "items": 50, "updatedAt": "2026-11-22T09:05:28.058Z"},
+    {"id": "bilibili", "name": "B站", "status": "fresh", "items": 50, "updatedAt": "2026-11-22T09:05:28.058Z"}
+  ],
+  "trendHistory": {
+    "times": ["2026-11-16", "2026-11-17", "2026-11-18", "2026-11-19", "2026-11-20", "2026-11-21", "2026-11-22"],
+    "series": {
+      "douyin": [98, 100, 98, 98, 98, 96, 98],
+      "weibo": [100, 100, 100, 100, 100, 100, 100],
+      "zhihu": [60, 60, 60, 60, 60, 60, 60],
+      "xiaohongshu": [20, 20, 20, 20, 20, 20, 20],
+      "baidu": [100, 100, 100, 100, 100, 100, 100],
+      "bilibili": [100, 100, 100, 100, 100, 100, 100]
+    }
+  },
+  "topics": [
+    {
+      "id": "riemann-ai-verification-debate",
+      "rank": 1,
+      "title": "“AI 证明黎曼猜想”再上榜：怎样把热搜叙事还原成可核验证据链",
+      "brief": "知乎、微博、百度和 B 站同时出现关于黎曼猜想、AI 与形式化验证的讨论。适合从“声明、证明稿、机器检查、同行复核分别说明什么”切入，避免把热榜标题直接当成数学界定论。",
+      "category": "科学与教育",
+      "momentum": "peak",
+      "urgency": "now",
+      "heat": 98,
+      "crossPlatform": 4,
+      "mathFit": 95,
+      "visualFit": 84,
+      "lifeFit": 68,
+      "questionDensity": 99,
+      "priority": 97,
+      "platforms": [
+        {"id": "zhihu", "rank": 1, "score": 98, "trend": "高位"},
+        {"id": "baidu", "rank": 20, "score": 64, "trend": "在榜"},
+        {"id": "bilibili", "rank": 41, "score": 42, "trend": "在榜"},
+        {"id": "weibo", "rank": 50, "score": 30, "trend": "在榜"}
+      ],
+      "keywords": ["黎曼猜想", "AI", "Lean", "形式化验证", "科学传播"],
+      "mathAngles": ["用声明、原始证明、机器检查、专家复核四层证据链解释为何不能只看标题", "用时间轴展示一个重大结论从发布到被共同体接受的过程", "对照“模型生成内容”和“可复现验证”的边界"],
+      "hooks": ["“热搜说 AI 证明了黎曼猜想，数学家到底还要核验什么？”", "“一段能跑通的代码，和一个被接受的数学结论，中间差几步？”"],
+      "recommendedFormat": {"duration": "90–150 秒", "structure": "热榜截图 → 证据链分层 → 三个常见误读 → 结论边界"},
+      "factStatus": "needs-review",
+      "sources": [
+        {"name": "知乎热榜：Lean 与 Mathlib 社区联合声明相关讨论", "url": "https://www.zhihu.com/question/2107620110105932525", "type": "platform"},
+        {"name": "微博热榜：黎曼猜想证明获认证", "url": "https://s.weibo.com/weibo?q=%23%E9%BB%8E%E6%9B%BC%E7%8C%9C%E6%83%B3%E8%AF%81%E6%98%8E%E8%8E%B7%E8%AE%A4%E8%AF%81%23", "type": "platform"},
+        {"name": "百度热榜：又一道千禧难题被 Claude 证明", "url": "https://m.baidu.com/s?word=%E5%8F%88%E4%B8%80%E9%81%93%E5%8D%83%E7%A6%A7%E9%9A%BE%E9%A2%98%E8%A2%ABClaude%E8%AF%81%E6%98%8E&sa=fyb_news", "type": "platform"},
+        {"name": "B站热榜：Claude 证明了黎曼猜想？", "url": "https://www.bilibili.com/video/BV15aytzcENP", "type": "platform"}
+      ],
+      "updatedAt": "2026-11-22T09:06:30Z"
+    },
+    {
+      "id": "orchard-livestream-boundaries",
+      "rank": 2,
+      "title": "果园带货争议刷屏：流量内容怎样讲清拍摄边界与损失责任",
+      "brief": "“主播私闯果园带货”在微博多条位置和百度热榜出现。可做创作者规范、农产品损耗与当事人回应的拆解；对具体经过、责任和金额只采用可核验来源。",
+      "category": "创作者经济与法治",
+      "momentum": "peak",
+      "urgency": "now",
+      "heat": 96,
+      "crossPlatform": 2,
+      "mathFit": 86,
+      "visualFit": 82,
+      "lifeFit": 90,
+      "questionDensity": 95,
+      "priority": 94,
+      "platforms": [
+        {"id": "weibo", "rank": 1, "score": 98, "trend": "高位"},
+        {"id": "baidu", "rank": 6, "score": 90, "trend": "高位"}
+      ],
+      "keywords": ["直播带货", "果园", "拍摄边界", "农产品", "责任"],
+      "mathAngles": ["用一张流程图分开事实、当事人陈述、平台处置与法律判断", "把“围观量”与“实际损失”拆成不同尺度，避免以热度替代证据", "讨论探店和带货拍摄前的授权清单"],
+      "hooks": ["“一场带货直播冲进果园，谁该为损耗负责？”", "“热搜里的争议，怎样拍得有判断但不抢着下结论？”"],
+      "recommendedFormat": {"duration": "60–100 秒", "structure": "争议场景 → 四类待核验信息 → 拍摄授权清单 → 评论区提问"},
+      "factStatus": "needs-review",
+      "sources": [
+        {"name": "微博热榜：主播私闯果园带货糟蹋一千多斤苹果", "url": "https://s.weibo.com/weibo?q=%23%E4%B8%BB%E6%92%AD%E7%A7%81%E9%97%AF%E6%9E%9C%E5%9B%AD%E5%B8%A6%E8%B4%A7%E7%B3%9F%E8%B9%8B%E4%B8%80%E5%8D%83%E5%A4%9A%E6%96%A4%E8%8B%B9%E6%9E%9C%23", "type": "platform"},
+        {"name": "百度热榜：主播私闯果园带货糟蹋一千多斤苹果", "url": "https://m.baidu.com/s?word=%E4%B8%BB%E6%92%AD%E7%A7%81%E9%97%AF%E6%9E%9C%E5%9B%AD%E5%B8%A6%E8%B4%A7%E7%B3%9F%E8%B9%8B%E4%B8%80%E5%8D%83%E5%A4%9A%E6%96%A4%E8%8B%B9%E6%9E%9C&sa=fyb_news", "type": "platform"}
+      ],
+      "updatedAt": "2026-11-22T09:06:30Z"
+    },
+    {
+      "id": "fsd-v15-safety-storytelling",
+      "rank": 3,
+      "title": "FSD V15 实拍热议：自动驾驶内容如何少一点炫技、多一点场景边界",
+      "brief": "微博、知乎、百度和 B 站均出现 FSD V15 的界面、实拍或智能驾驶内容。适合把“界面好看”“一次演示顺利”“系统能力”分开叙述，并提示观众回到功能条件、道路环境和监管信息。",
+      "category": "科技与出行",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 93,
+      "crossPlatform": 4,
+      "mathFit": 84,
+      "visualFit": 91,
+      "lifeFit": 82,
+      "questionDensity": 91,
+      "priority": 92,
+      "platforms": [
+        {"id": "weibo", "rank": 12, "score": 76, "trend": "在榜"},
+        {"id": "zhihu", "rank": 22, "score": 56, "trend": "在榜"},
+        {"id": "baidu", "rank": 25, "score": 52, "trend": "在榜"},
+        {"id": "bilibili", "rank": 24, "score": 54, "trend": "在榜"}
+      ],
+      "keywords": ["FSD", "自动驾驶", "可视化", "道路安全", "产品演示"],
+      "mathAngles": ["用“感知—预测—决策—执行”图解释可视化界面不等于安全证明", "列出一次演示视频未能覆盖的天气、道路和人为接管变量", "把产品宣称、用户体验和独立测试并排标注来源"],
+      "hooks": ["“自动驾驶界面越像游戏，越该问哪三个安全问题？”", "“一段实拍很顺，不等于它在所有道路都可靠。”"],
+      "recommendedFormat": {"duration": "75–120 秒", "structure": "界面钩子 → 能看到什么/看不到什么 → 场景变量 → 信息来源提示"},
+      "factStatus": "needs-review",
+      "sources": [
+        {"name": "微博热榜：特斯拉 FSD 实景界面", "url": "https://s.weibo.com/weibo?q=%E7%89%B9%E6%96%AF%E6%8B%89FSD%E5%AE%9E%E6%99%AF%E7%95%8C%E9%9D%A2%E5%BE%88%E7%82%AB", "type": "platform"},
+        {"name": "知乎热榜：FSDv15 全新可视化界面讨论", "url": "https://www.zhihu.com/question/2107700250081227911", "type": "platform"},
+        {"name": "百度热榜：特斯拉 FSD V15 推送", "url": "https://m.baidu.com/s?word=%E7%89%B9%E6%96%AF%E6%8B%89FSD+V15%E6%8E%A8%E9%80%81%EF%BC%9A%E5%AE%89%E5%85%A8%E8%83%BD%E5%8A%9B%E8%B6%85%E4%BA%BA%E7%B1%BB&sa=fyb_news", "type": "platform"},
+        {"name": "B站热榜：智能驾驶挑战内容", "url": "https://www.bilibili.com/video/BV14gsQ69EP3", "type": "platform"}
+      ],
+      "updatedAt": "2026-11-22T09:06:30Z"
+    },
+    {
+      "id": "gold-price-risk-communication",
+      "rank": 4,
+      "title": "金价下跌与抢购同上榜：财经短视频怎样讲波动而不替人下单",
+      "brief": "国际金价下跌、金店顾客抢购和银行提示在抖音、百度、微博出现。适合做价格波动、风险提示与消费决策的分层内容，明确不构成投资建议。",
+      "category": "财经与消费",
+      "momentum": "peak",
+      "urgency": "now",
+      "heat": 91,
+      "crossPlatform": 3,
+      "mathFit": 78,
+      "visualFit": 80,
+      "lifeFit": 91,
+      "questionDensity": 88,
+      "priority": 90,
+      "platforms": [
+        {"id": "douyin", "rank": 9, "score": 84, "trend": "高位"},
+        {"id": "baidu", "rank": 13, "score": 74, "trend": "在榜"},
+        {"id": "weibo", "rank": 49, "score": 32, "trend": "在榜"}
+      ],
+      "keywords": ["金价", "白银", "风险提示", "消费决策", "价格波动"],
+      "mathAngles": ["用价格、点差、手续费和回收折价拆解“跌了就买”的直觉", "将行情变化、银行风险提示和个人购买目的分为三件事", "用情境表比较饰品消费、长期配置与短线投机的关注指标"],
+      "hooks": ["“金价跌了，为什么有人抢购、有人却提示风险？”", "“买一件金饰和押注金价，其实不是同一道题。”"],
+      "recommendedFormat": {"duration": "60–90 秒", "structure": "热榜现象 → 成本拆解 → 三种购买目的 → 风险提示"},
+      "factStatus": "needs-review",
+      "sources": [
+        {"name": "抖音热榜：国际金价为何持续下跌", "url": "https://www.douyin.com/search/%E5%9B%BD%E9%99%85%E9%87%91%E4%BB%B7%E4%B8%BA%E4%BD%95%E6%8C%81%E7%BB%AD%E4%B8%8B%E8%B7%8C", "type": "platform"},
+        {"name": "百度热榜：金价跌势凌厉 多家银行发紧急提示", "url": "https://m.baidu.com/s?word=%E9%87%91%E4%BB%B7%E8%B7%8C%E5%8A%BF%E5%87%8C%E5%8E%89+%E5%A4%9A%E5%AE%B6%E9%93%B6%E8%A1%8C%E5%8F%91%E7%B4%A7%E6%80%A5%E6%8F%90%E7%A4%BA&sa=fyb_news", "type": "platform"},
+        {"name": "微博热榜：金店老板称囤一吨白银亏超千万", "url": "https://s.weibo.com/weibo?q=%E9%87%91%E5%BA%97%E8%80%81%E6%9D%BF%E7%A7%B0%E5%9B%A4%E4%B8%80%E5%90%A8%E7%99%BD%E9%93%B6%E4%BA%8F%E8%B6%85%E5%8D%83%E4%B8%87", "type": "platform"}
+      ],
+      "updatedAt": "2026-11-22T09:06:30Z"
+    },
+    {
+      "id": "apec-photo-virality",
+      "rank": 5,
+      "title": "APEC 会面照片持续传播：公共议题怎样避免只做表情包复读",
+      "brief": "APEC 相关照片和深圳行回顾在抖音、微博、百度出现。可从“图片为什么易传播”“社交平台如何截取叙事”和“引用原始发布时要核对什么”入手，不延伸未经证实的外交判断。",
+      "category": "国际议题与传播",
+      "momentum": "steady",
+      "urgency": "today",
+      "heat": 89,
+      "crossPlatform": 3,
+      "mathFit": 74,
+      "visualFit": 94,
+      "lifeFit": 70,
+      "questionDensity": 84,
+      "priority": 88,
+      "platforms": [
+        {"id": "douyin", "rank": 6, "score": 90, "trend": "高位"},
+        {"id": "weibo", "rank": 10, "score": 80, "trend": "高位"},
+        {"id": "baidu", "rank": 4, "score": 92, "trend": "高位"}
+      ],
+      "keywords": ["APEC", "会议照片", "深圳", "公共传播", "图像叙事"],
+      "mathAngles": ["标注照片、原帖、二次转述和解读之间的来源层级", "讲解一张照片被截取、配文和再传播时如何改变理解", "用“已知—未知—不可据此推断”三栏约束评论"],
+      "hooks": ["“几十张会议照片为什么比长文更容易占据热榜？”", "“看见一张外交照片前，先核对这三个来源细节。”"],
+      "recommendedFormat": {"duration": "60–90 秒", "structure": "照片传播现象 → 来源检查清单 → 图像叙事拆解 → 留白结论"},
+      "factStatus": "needs-review",
+      "sources": [
+        {"name": "抖音热榜：特朗普连发三十多张 APEC 会议照片", "url": "https://www.douyin.com/search/%E7%89%B9%E6%9C%97%E6%99%AE%E8%BF%9E%E5%8F%91%E4%B8%89%E5%8D%81%E5%A4%9A%E5%BC%A0APEC%E4%BC%9A%E8%AE%AE%E7%85%A7%E7%89%87", "type": "platform"},
+        {"name": "微博热榜：特朗普晒图回味深圳行", "url": "https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E6%99%92%E5%9B%BE%E5%9B%9E%E5%91%B3%E6%B7%B1%E5%9C%B3%E8%A1%8C%23", "type": "platform"},
+        {"name": "百度热榜：特朗普连发 30 多张 APEC 照片", "url": "https://m.baidu.com/s?word=%E5%90%8E%E5%8A%B2%E5%A4%AA%E5%A4%A7+%E7%89%B9%E6%9C%97%E6%99%AE%E8%BF%9E%E5%8F%9130%E5%A4%9A%E5%BC%A0APEC%E7%85%A7%E7%89%87&sa=fyb_news", "type": "platform"}
+      ],
+      "updatedAt": "2026-11-22T09:06:30Z"
+    },
+    {
+      "id": "poetry-travel-authenticity",
+      "rank": 6,
+      "title": "“古诗词里的中国”持续上榜：旅行创作如何从滤镜回到地点与故事",
+      "brief": "小红书的古诗词旅行影像与抖音的黄山、诗词话题同日出现。适合把诗句、地点、季节和实拍方式组织为可复用的旅行内容模板，同时标明作品中的演绎与真实现场。",
+      "category": "旅行与文化",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 87,
+      "crossPlatform": 3,
+      "mathFit": 77,
+      "visualFit": 96,
+      "lifeFit": 83,
+      "questionDensity": 78,
+      "priority": 87,
+      "platforms": [
+        {"id": "xiaohongshu", "rank": 2, "score": 96, "trend": "高位"},
+        {"id": "xiaohongshu", "rank": 9, "score": 82, "trend": "在榜"},
+        {"id": "douyin", "rank": 4, "score": 92, "trend": "高位"}
+      ],
+      "keywords": ["古诗词", "旅行影像", "黄山", "河南", "文化打卡"],
+      "mathAngles": ["用诗句、地名、时令、机位四格表建立选题", "把“为了画面而摆拍”和“真实旅行体验”明确区隔", "比较同一地点在晴天、云海、日出条件下的叙事差异"],
+      "hooks": ["“古诗词旅行片为什么好看，却常常拍不出现场感？”", "“只用一首诗和一个地名，怎样做出不千篇一律的旅行视频？”"],
+      "recommendedFormat": {"duration": "45–75 秒", "structure": "诗句钩子 → 地点与镜头拆解 → 真实体验补充 → 可复用模板"},
+      "factStatus": "needs-review",
+      "sources": [
+        {"name": "小红书热榜：耗时三年拍下古诗词里的中国", "url": "https://www.xiaohongshu.com/search_result?keyword=%E8%80%97%E6%97%B6%E4%B8%89%E5%B9%B4%E6%8B%8D%E4%B8%8B%E5%8F%A4%E8%AF%97%E8%AF%8D%E9%87%8C%E7%9A%84%E4%B8%AD%E5%9B%BD&type=51", "type": "platform"},
+        {"name": "小红书热榜：原来古诗词里的河南真的存在", "url": "https://www.xiaohongshu.com/search_result?keyword=%E5%8E%9F%E6%9D%A5%E5%8F%A4%E8%AF%97%E8%AF%8D%E9%87%8C%E7%9A%84%E6%B2%B3%E5%8D%97%E7%9C%9F%E7%9A%84%E5%AD%98%E5%9C%A8&type=51", "type": "platform"},
+        {"name": "抖音热榜：黄山迎客松为何成为中国名片", "url": "https://www.douyin.com/search/%E9%BB%84%E5%B1%B1%E8%BF%8E%E5%AE%A2%E6%9D%BE%E4%B8%BA%E4%BD%95%E6%88%90%E4%B8%BA%E4%B8%AD%E5%9B%BD%E5%90%8D%E7%89%87", "type": "platform"}
+      ],
+      "updatedAt": "2026-11-22T09:06:30Z"
+    },
+    {
+      "id": "minor-snow-seasonal-content",
+      "rank": 7,
+      "title": "小雪登顶抖音：节气内容怎样从祝福模板做成有用的冬日指南",
+      "brief": "“今日小雪”“小雪吃什么”等节气话题进入抖音热榜。可从气候感受、家常饮食、衣物准备和地方习俗中任选一个真实体验展开，避免把养生说法包装成医疗结论。",
+      "category": "生活方式",
+      "momentum": "peak",
+      "urgency": "today",
+      "heat": 86,
+      "crossPlatform": 1,
+      "mathFit": 70,
+      "visualFit": 81,
+      "lifeFit": 96,
+      "questionDensity": 74,
+      "priority": 85,
+      "platforms": [
+        {"id": "douyin", "rank": 1, "score": 98, "trend": "高位"},
+        {"id": "douyin", "rank": 20, "score": 64, "trend": "在榜"}
+      ],
+      "keywords": ["小雪", "节气", "冬日饮食", "穿搭", "日常生活"],
+      "mathAngles": ["用一天的温度、湿度和体感记录代替空泛节气鸡汤", "把地方习俗、个人经验和医疗建议清楚分开", "提供“预算—时间—食材”三档家庭内容方案"],
+      "hooks": ["“小雪上热搜，除了发祝福还能拍什么？”", "“把节气视频拍得有用，只要先回答这三个日常问题。”"],
+      "recommendedFormat": {"duration": "30–60 秒", "structure": "节气画面 → 一个可执行场景 → 三档做法 → 非医疗提示"},
+      "factStatus": "needs-review",
+      "sources": [
+        {"name": "抖音热榜：今日小雪", "url": "https://www.douyin.com/search/%E4%BB%8A%E6%97%A5%E5%B0%8F%E9%9B%AA", "type": "platform"},
+        {"name": "抖音热榜：小雪吃什么", "url": "https://www.douyin.com/search/%E5%B0%8F%E9%9B%AA%E5%90%83%E4%BB%80%E4%B9%88", "type": "platform"}
+      ],
+      "updatedAt": "2026-11-22T09:06:30Z"
+    },
+    {
+      "id": "world-record-performance-story",
+      "rank": 8,
+      "title": "“破世界纪录”双榜出现：体育内容怎样把成绩讲清、把纪录讲准",
+      "brief": "“方力申破世界纪录”同时出现在微博和百度。适合做体育人物、纪录规则与成绩来源的核对模板；发布前应补齐赛事名称、纪录类别、计时方式和认证方。",
+      "category": "体育与人物",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 84,
+      "crossPlatform": 2,
+      "mathFit": 80,
+      "visualFit": 85,
+      "lifeFit": 72,
+      "questionDensity": 82,
+      "priority": 84,
+      "platforms": [
+        {"id": "weibo", "rank": 2, "score": 96, "trend": "高位"},
+        {"id": "baidu", "rank": 2, "score": 96, "trend": "高位"}
+      ],
+      "keywords": ["世界纪录", "体育", "成绩", "认证", "人物故事"],
+      "mathAngles": ["区分个人最好成绩、赛事纪录和世界纪录的定义", "以成绩单、比赛规则、认证机构为三层信息源", "用时间、距离、配速等具体单位避免只喊“破纪录”"],
+      "hooks": ["“一条‘破世界纪录’，至少要核对哪四件事？”", "“体育内容里的数字，为什么比煽情配乐更重要？”"],
+      "recommendedFormat": {"duration": "45–75 秒", "structure": "热榜标题 → 纪录类型说明 → 认证信息卡 → 人物叙事"},
+      "factStatus": "needs-review",
+      "sources": [
+        {"name": "微博热榜：方力申破世界纪录", "url": "https://s.weibo.com/weibo?q=%23%E6%96%B9%E5%8A%9B%E7%94%B3%E7%A0%B4%E4%B8%96%E7%95%8C%E7%BA%AA%E5%BD%95%23", "type": "platform"},
+        {"name": "百度热榜：方力申破世界纪录", "url": "https://m.baidu.com/s?word=%E6%96%B9%E5%8A%9B%E7%94%B3%E7%A0%B4%E4%B8%96%E7%95%8C%E7%BA%AA%E5%BD%95&sa=fyb_news", "type": "platform"}
+      ],
+      "updatedAt": "2026-11-22T09:06:30Z"
+    },
+    {
+      "id": "byd-design-dispute-explainer",
+      "rank": 9,
+      "title": "比亚迪 Ti7 设计争议进入热榜：产品对比如何避开“看着像”的草率判断",
+      "brief": "知乎与百度出现比亚迪 Ti7 相关的荷兰法院与设计争议话题。适合做汽车设计、知识产权和跨境新闻的证据框架：先找裁判文书与当事方声明，再谈相似性和商业影响。",
+      "category": "汽车与商业",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 82,
+      "crossPlatform": 2,
+      "mathFit": 84,
+      "visualFit": 86,
+      "lifeFit": 73,
+      "questionDensity": 87,
+      "priority": 82,
+      "platforms": [
+        {"id": "zhihu", "rank": 2, "score": 96, "trend": "高位"},
+        {"id": "baidu", "rank": 28, "score": 46, "trend": "在榜"}
+      ],
+      "keywords": ["比亚迪", "Ti7", "汽车设计", "知识产权", "跨境新闻"],
+      "mathAngles": ["把设计相似、侵权认定、销售禁令和舆论评价分成不同问题", "对比图只作视觉说明，不替代裁判文书或官方声明", "列出一则跨境商事新闻最需要补的原始文件"],
+      "hooks": ["“两辆车看着像，就能直接说抄袭吗？”", "“做汽车设计争议，第一张图应该是什么：对比图还是文书？”"],
+      "recommendedFormat": {"duration": "60–100 秒", "structure": "热榜问题 → 概念分层 → 来源等级 → 暂不下结论的原因"},
+      "factStatus": "needs-review",
+      "sources": [
+        {"name": "知乎热榜：比亚迪 Ti7 与路虎卫士设计争议", "url": "https://www.zhihu.com/question/2107417541236805904", "type": "platform"},
+        {"name": "百度热榜：荷兰法院禁售比亚迪 Ti7", "url": "https://m.baidu.com/s?word=%E8%8D%B7%E5%85%B0%E6%B3%95%E9%99%A2%E7%A6%81%E5%94%AE%E6%AF%94%E4%BA%9A%E8%BF%AATi7&sa=fyb_news", "type": "platform"}
+      ],
+      "updatedAt": "2026-11-22T09:06:30Z"
+    },
+    {
+      "id": "game-trailer-storytelling",
+      "rank": 10,
+      "title": "新游 PV 占据 B 站前列：游戏宣发怎样从“画面炸”讲到玩法承诺",
+      "brief": "《无限暖暖》《蓝色星原：旅谣》等游戏内容位于 B 站热门前列。适合游戏赛道从预告片的美术、角色、实机与上线信息四个层次做拆解，避免将 CG 与实际玩法混为一谈。",
+      "category": "游戏与二次元",
+      "momentum": "peak",
+      "urgency": "today",
+      "heat": 81,
+      "crossPlatform": 1,
+      "mathFit": 72,
+      "visualFit": 97,
+      "lifeFit": 74,
+      "questionDensity": 76,
+      "priority": 81,
+      "platforms": [
+        {"id": "bilibili", "rank": 1, "score": 98, "trend": "高位"},
+        {"id": "bilibili", "rank": 2, "score": 96, "trend": "高位"}
+      ],
+      "keywords": ["游戏 PV", "公测", "预告片", "实机", "二次元"],
+      "mathAngles": ["用标签明确区分 CG、PV、实机演示与媒体试玩", "用镜头表拆解角色、美术、玩法和商业化信息各出现多少", "把期待值、已确认信息和未披露信息分栏呈现"],
+      "hooks": ["“一支游戏 PV 里，真正能判断玩法的镜头有几秒？”", "“画面很强之后，玩家还该问哪三个问题？”"],
+      "recommendedFormat": {"duration": "45–90 秒", "structure": "高光镜头 → 信息分层 → 实机/CG 标识 → 期待清单"},
+      "factStatus": "needs-review",
+      "sources": [
+        {"name": "B站热榜：《无限暖暖》3.0 版本套装 PV", "url": "https://www.bilibili.com/video/BV1d7yGzsEMG", "type": "platform"},
+        {"name": "B站热榜：《蓝色星原：旅谣》公测动画短片", "url": "https://www.bilibili.com/video/BV1oRsu6XE2o", "type": "platform"}
+      ],
+      "updatedAt": "2026-11-22T09:06:30Z"
+    },
+    {
+      "id": "iphone-early-adopter-value",
+      "rank": 11,
+      "title": "首批 iPhone Duo 用户“亏麻了”讨论：消费内容怎样讲清价格与体验",
+      "brief": "首批购买 iPhone Duo 的价格讨论进入微博热榜。适合消费数码创作者用首发价、二级市场价、折旧与使用价值四项拆开讨论，不把个别个案扩展为普遍财务建议。",
+      "category": "数码与消费",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 78,
+      "crossPlatform": 1,
+      "mathFit": 76,
+      "visualFit": 76,
+      "lifeFit": 86,
+      "questionDensity": 79,
+      "priority": 78,
+      "platforms": [
+        {"id": "weibo", "rank": 19, "score": 62, "trend": "在榜"}
+      ],
+      "keywords": ["iPhone Duo", "首发", "折旧", "二手价", "数码消费"],
+      "mathAngles": ["用“到手价—转售价—使用天数”而不是单一亏损数讲体验成本", "区分品牌定价、零售促销与二手市场供需", "给出不含具体买卖建议的记录模板"],
+      "hooks": ["“手机降价后，首发用户到底亏的是钱还是预期？”", "“把数码消费算明白，别只盯着二手平台的一个报价。”"],
+      "recommendedFormat": {"duration": "45–75 秒", "structure": "热榜情绪 → 成本公式 → 两类购买目的 → 理性消费提醒"},
+      "factStatus": "needs-review",
+      "sources": [
+        {"name": "微博热榜：第一批买 iPhone Duo 的人亏麻了", "url": "https://s.weibo.com/weibo?q=%23%E7%AC%AC%E4%B8%80%E6%89%B9%E4%B9%B0iPhoneDuo%E7%9A%84%E4%BA%BA%E4%BA%8F%E9%BA%BB%E4%BA%86%23", "type": "platform"}
+      ],
+      "updatedAt": "2026-11-22T09:06:30Z"
+    },
+    {
+      "id": "down-jacket-market-explainer",
+      "rank": 12,
+      "title": "“羽绒服生意变天了”热议：换季消费内容怎样从情绪词回到供需与品质",
+      "brief": "羽绒服市场变化进入微博热榜。可做冬装赛道的选题：把流行款、价格带、保暖性能、售后与个人使用场景逐项拆开；行业结论应补充品牌、零售或监管等可靠来源。",
+      "category": "时尚与零售",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 76,
+      "crossPlatform": 1,
+      "mathFit": 73,
+      "visualFit": 82,
+      "lifeFit": 90,
+      "questionDensity": 77,
+      "priority": 77,
+      "platforms": [
+        {"id": "weibo", "rank": 8, "score": 84, "trend": "高位"}
+      ],
+      "keywords": ["羽绒服", "冬装", "零售", "保暖", "消费"],
+      "mathAngles": ["将填充物、蓬松度、充绒量和价格等标签信息用可比表呈现", "区分流行趋势、个别降价与行业趋势三种结论", "根据通勤、户外、南北方气候建立购买场景"],
+      "hooks": ["“羽绒服生意变天，到底是款式变了还是消费者算账变了？”", "“买羽绒服，标签上哪几个数字最值得看？”"],
+      "recommendedFormat": {"duration": "45–75 秒", "structure": "热榜提问 → 标签读法 → 场景选择表 → 证据来源提示"},
+      "factStatus": "needs-review",
+      "sources": [
+        {"name": "微博热榜：羽绒服生意变天了", "url": "https://s.weibo.com/weibo?q=%23%E7%BE%BD%E7%BB%92%E6%9C%8D%E7%94%9F%E6%84%8F%E5%8F%98%E5%A4%A9%E4%BA%86%23", "type": "platform"}
+      ],
+      "updatedAt": "2026-11-22T09:06:30Z"
+    }
+  ]
+}
