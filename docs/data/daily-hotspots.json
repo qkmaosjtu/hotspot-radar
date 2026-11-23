@@ -1,84 +1,872 @@
 {
   "schemaVersion": 1,
   "dataMode": "live",
-  "date": "2026-11-23",
-  "generatedAt": "2026-11-23T04:04:33.458Z",
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-23T19:59:37.391Z",
   "timezone": "Asia/Shanghai",
   "summary": {
     "topicCount": 12,
-    "urgentCount": 7,
-    "crossPlatformCount": 6,
+    "urgentCount": 3,
+    "crossPlatformCount": 4,
     "formulaReadyCount": 12
   },
   "sourceStatus": [
-    {"id":"douyin","name":"抖音","status":"fresh","items":49,"updatedAt":"2026-11-23T04:04:33.458Z"},
-    {"id":"weibo","name":"微博","status":"fresh","items":50,"updatedAt":"2026-11-23T04:04:33.458Z"},
-    {"id":"zhihu","name":"知乎","status":"partial","items":30,"updatedAt":"2026-11-23T04:04:33.458Z"},
-    {"id":"xiaohongshu","name":"小红书","status":"partial","items":10,"updatedAt":"2026-11-23T04:04:33.458Z"},
-    {"id":"baidu","name":"百度","status":"fresh","items":50,"updatedAt":"2026-11-23T04:04:33.458Z"},
-    {"id":"bilibili","name":"B站","status":"fresh","items":50,"updatedAt":"2026-11-23T04:04:33.458Z"}
+    {
+      "id": "douyin",
+      "name": "抖音",
+      "status": "fresh",
+      "items": 49,
+      "updatedAt": "2026-11-23T19:59:37.391Z"
+    },
+    {
+      "id": "weibo",
+      "name": "微博",
+      "status": "fresh",
+      "items": 50,
+      "updatedAt": "2026-11-23T19:59:37.391Z"
+    },
+    {
+      "id": "zhihu",
+      "name": "知乎",
+      "status": "partial",
+      "items": 30,
+      "updatedAt": "2026-11-23T19:59:37.391Z"
+    },
+    {
+      "id": "xiaohongshu",
+      "name": "小红书",
+      "status": "partial",
+      "items": 10,
+      "updatedAt": "2026-11-23T19:59:37.391Z"
+    },
+    {
+      "id": "baidu",
+      "name": "百度",
+      "status": "fresh",
+      "items": 50,
+      "updatedAt": "2026-11-23T19:59:37.391Z"
+    },
+    {
+      "id": "bilibili",
+      "name": "B站",
+      "status": "fresh",
+      "items": 50,
+      "updatedAt": "2026-11-23T19:59:37.391Z"
+    }
   ],
   "trendHistory": {
-    "times": ["2026-11-17","2026-11-18","2026-11-19","2026-11-20","2026-11-21","2026-11-22","2026-11-23"],
+    "times": [
+      "2026-11-18",
+      "2026-11-19",
+      "2026-11-20",
+      "2026-11-21",
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24"
+    ],
     "series": {
-      "douyin": [100,98,98,98,96,98,98],
-      "weibo": [100,100,100,100,100,100,100],
-      "zhihu": [60,60,60,60,60,60,60],
-      "xiaohongshu": [20,20,20,20,20,20,20],
-      "baidu": [100,100,100,100,100,100,100],
-      "bilibili": [100,100,100,100,100,100,100]
+      "douyin": [
+        98,
+        98,
+        98,
+        96,
+        98,
+        98,
+        100
+      ],
+      "weibo": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "zhihu": [
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        30
+      ],
+      "xiaohongshu": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        10
+      ],
+      "baidu": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "bilibili": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ]
     }
   },
   "topics": [
     {
-      "id":"riemann-ai-evidence-chain","rank":1,"title":"黎曼猜想与 AI 证明讨论升温：创作者怎样讲清“声称”到“验证”的距离","brief":"抖音连续出现“黎曼猜想是什么”“AI 是否已证明黎曼猜想”，知乎热榜也在讨论相关表述。适合解释公开声明、证明文本、形式化检查与同行复核是不同层次；当前热榜本身不构成结论证据。","category":"科学与教育","momentum":"peak","urgency":"now","heat":96,"crossPlatform":2,"mathFit":98,"visualFit":84,"lifeFit":67,"questionDensity":99,"priority":96,
-      "platforms":[{"id":"zhihu","rank":1,"score":98,"trend":"高位"},{"id":"douyin","rank":12,"score":78,"trend":"在榜"},{"id":"douyin","rank":19,"score":70,"trend":"在榜"}],
-      "keywords":["黎曼猜想","人工智能","证明","形式化验证","科学传播"],"mathAngles":["用证据链区分热榜标题、原始论证和共同体接受","用时间线解释重大数学结论的核验过程","展示机器检查和同行评议分别能回答什么问题"],"hooks":["“AI 证明了黎曼猜想？先别急，证据要过哪几关？”","“数学结论从热搜到成立，中间不是一句‘AI 说的’。”"],"recommendedFormat":{"duration":"90–150 秒","structure":"热榜钩子 → 四层证据链 → 常见误读 → 结论边界"},"factStatus":"needs-review","sources":[{"name":"知乎热榜：黎曼猜想讨论","url":"https://www.zhihu.com/question/2107618428508792525","type":"platform"},{"name":"抖音热榜：AI是否已证明黎曼猜想","url":"https://www.douyin.com/search/AI%E6%98%AF%E5%90%A6%E5%B7%B2%E8%AF%81%E6%98%8E%E9%BB%8E%E6%9B%BC%E7%8C%9C%E6%83%B3","type":"platform"}],"updatedAt":"2026-11-23T04:04:33.458Z"
+      "id": "nvidia-leadership-and-chip-market",
+      "rank": 1,
+      "title": "英伟达人事与芯片市场热议：科技财经内容如何拆开事实、预期与股价",
+      "brief": "五个平台围绕英伟达、黄仁勋与芯片市场出现多条相关热榜。适合科技、财经和职场创作者把公告事实、评论推测与市场价格分别标注；热榜本身不能替代公司公告或交易信息。",
+      "category": "科技与财经",
+      "momentum": "peak",
+      "urgency": "now",
+      "heat": 97,
+      "crossPlatform": 5,
+      "mathFit": 91,
+      "visualFit": 84,
+      "lifeFit": 82,
+      "questionDensity": 96,
+      "priority": 97,
+      "platforms": [
+        {
+          "id": "weibo",
+          "rank": 1,
+          "score": 100,
+          "trend": "高位"
+        },
+        {
+          "id": "douyin",
+          "rank": 2,
+          "score": 98.5,
+          "trend": "高位"
+        },
+        {
+          "id": "zhihu",
+          "rank": 15,
+          "score": 79,
+          "trend": "在榜"
+        },
+        {
+          "id": "baidu",
+          "rank": 2,
+          "score": 98.5,
+          "trend": "高位"
+        },
+        {
+          "id": "bilibili",
+          "rank": 16,
+          "score": 77.5,
+          "trend": "在榜"
+        }
+      ],
+      "keywords": [
+        "英伟达",
+        "黄仁勋",
+        "芯片",
+        "公司治理",
+        "市场预期"
+      ],
+      "mathAngles": [
+        "把公司公告、媒体评论、股价波动拆成三张信息卡",
+        "用时间线标明一条消息何时发布、何时被讨论",
+        "说明“讨论热度”不等于投资结论"
+      ],
+      "hooks": [
+        "“一条人事热搜，为什么同时牵动科技、财经和职场内容？”",
+        "“复职、股价、芯片：三件事别在一个标题里混讲。”"
+      ],
+      "recommendedFormat": {
+        "duration": "75–120 秒",
+        "structure": "热榜拼图 → 信息分层 → 时间线 → 风险边界"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "微博原榜：黄仁勋复职原因",
+          "url": "https://s.weibo.com/weibo?q=%23%E9%BB%84%E4%BB%81%E5%8B%8B%E5%A4%8D%E8%81%8C%E5%8E%9F%E5%9B%A0%23",
+          "type": "platform"
+        },
+        {
+          "name": "抖音原榜：英伟达恢复黄仁勋CEO职务",
+          "url": "https://www.douyin.com/search/%E8%8B%B1%E4%BC%9F%E8%BE%BE%E6%81%A2%E5%A4%8D%E9%BB%84%E4%BB%81%E5%8B%8BCEO%E8%81%8C%E5%8A%A1",
+          "type": "platform"
+        },
+        {
+          "name": "知乎原榜：NVIDIA董事会宣布即日起恢复黄仁勋的总裁、首席执行官和董事职务。如何评价该事件？",
+          "url": "https://www.zhihu.com/question/2108319925819523250",
+          "type": "platform"
+        },
+        {
+          "name": "百度原榜：英伟达董事会恢复黄仁勋CEO职务",
+          "url": "https://m.baidu.com/s?word=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E8%91%A3%E4%BA%8B%E4%BC%9A%E6%81%A2%E5%A4%8D%E9%BB%84%E4%BB%81%E5%8B%8BCEO%E8%81%8C%E5%8A%A1&sa=fyb_news",
+          "type": "platform"
+        },
+        {
+          "name": "B站原榜：黄仁勋正式回归英伟达：恢复全部职务｜显卡日报11月24日",
+          "url": "https://www.bilibili.com/video/BV1mTyXzWEdv",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-23T19:59:37.391Z"
     },
     {
-      "id":"treetree-chicken-viral-to-store","rank":2,"title":"“脆脆的”带火炸鸡：一条口头禅如何变成门店需求","brief":"许昌外卖小哥、treetree 炸鸡和门店承接在抖音、微博、百度同时出现。美食与本地生活创作者可拆解“梗—短视频—到店—供给压力”的传播链，而不替商家夸大销量或经营结果。","category":"美食与本地生活","momentum":"rising","urgency":"now","heat":94,"crossPlatform":3,"mathFit":87,"visualFit":92,"lifeFit":93,"questionDensity":90,"priority":94,
-      "platforms":[{"id":"weibo","rank":1,"score":98,"trend":"高位"},{"id":"douyin","rank":10,"score":80,"trend":"高位"},{"id":"baidu","rank":19,"score":62,"trend":"在榜"},{"id":"baidu","rank":24,"score":54,"trend":"在榜"}],
-      "keywords":["炸鸡","外卖","本地生活","流量转化","小店经营"],"mathAngles":["画出从一句口头禅到到店消费的传播漏斗","区分播放量、搜索量、到店量和复购率","用备货、排队、品控三个变量讲小店承接"],"hooks":["“一句‘脆脆的’，为什么能把外卖做成门店？”","“流量进门之后，小店真正的难题才刚开始。”"],"recommendedFormat":{"duration":"60–90 秒","structure":"热榜拼图 → 传播漏斗 → 商家承接清单 → 提醒勿夸大"},"factStatus":"needs-review","sources":[{"name":"微博热榜：许昌外卖小哥带火炸鸡","url":"https://s.weibo.com/weibo?q=%E8%AE%B8%E6%98%8C%E5%A4%96%E5%8D%96%E5%B0%8F%E5%93%A5%E4%B8%80%E5%8F%A5%E8%84%86%E8%84%86%E7%9A%84%E5%B8%A6%E7%81%AB%E7%82%B8%E9%B8%A1","type":"platform"},{"name":"百度热榜：treetree炸鸡店爆火","url":"https://m.baidu.com/s?word=treetree%E7%82%B8%E9%B8%A1%E5%BA%97%E7%88%86%E7%81%AB+%E8%80%81%E6%9D%BF%EF%BC%9A%E7%9C%9F%E5%A4%AA%E7%B4%AF&sa=fyb_news","type":"platform"}],"updatedAt":"2026-11-23T04:04:33.458Z"
+      "id": "u17-match-and-youth-football",
+      "rank": 2,
+      "title": "U17 国足关键战讨论密集：体育创作者怎样把赛况、数据与情绪分开讲",
+      "brief": "微博连续出现 U17 国足、摩洛哥与出线相关话题，知乎也有赛后讨论。适合体育创作者从赛程、比赛过程和观众情绪三层切入；比分、出线形势和伤停等信息应回查赛事官方记录。",
+      "category": "体育",
+      "momentum": "peak",
+      "urgency": "now",
+      "heat": 93,
+      "crossPlatform": 2,
+      "mathFit": 84,
+      "visualFit": 90,
+      "lifeFit": 87,
+      "questionDensity": 90,
+      "priority": 94,
+      "platforms": [
+        {
+          "id": "weibo",
+          "rank": 5,
+          "score": 94,
+          "trend": "高位"
+        },
+        {
+          "id": "weibo",
+          "rank": 19,
+          "score": 73,
+          "trend": "在榜"
+        },
+        {
+          "id": "zhihu",
+          "rank": 2,
+          "score": 98.5,
+          "trend": "高位"
+        }
+      ],
+      "keywords": [
+        "U17国足",
+        "青少年足球",
+        "比赛复盘",
+        "出线",
+        "体育内容"
+      ],
+      "mathAngles": [
+        "把赛况、技术统计和评论观点分列",
+        "用关键回合时间线替代情绪化剪辑",
+        "给预测内容标明前提与不确定性"
+      ],
+      "hooks": [
+        "“第 99 分钟之后，体育复盘最该讲什么？”",
+        "“一场关键战，怎样既保留热血又不把赛况讲错？”"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90 秒",
+        "structure": "比赛钩子 → 回合时间线 → 数据/观点分层 → 下场关注点"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "微博原榜：U17国足第99分钟被绝平",
+          "url": "https://s.weibo.com/weibo?q=U17%E5%9B%BD%E8%B6%B3%E7%AC%AC99%E5%88%86%E9%92%9F%E8%A2%AB%E7%BB%9D%E5%B9%B3",
+          "type": "platform"
+        },
+        {
+          "name": "微博原榜：U17国足战摩洛哥争出线",
+          "url": "https://s.weibo.com/weibo?q=U17%E5%9B%BD%E8%B6%B3%E6%88%98%E6%91%A9%E6%B4%9B%E5%93%A5%E4%BA%89%E5%87%BA%E7%BA%BF",
+          "type": "platform"
+        },
+        {
+          "name": "知乎原榜：U17 世界杯小组赛中国 U17 男足 vs 摩洛哥，怎样评价本场比赛？",
+          "url": "https://www.zhihu.com/question/2108346189238067728",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-23T19:59:37.391Z"
     },
     {
-      "id":"civil-service-admit-card-guide","rank":3,"title":"国考准考证开放打印：信息服务内容怎样做到有用又不误导","brief":"“2027 国考今起可打印准考证”位列抖音第一。考试、教育和职场创作者可做打印前检查清单、证件与考场信息核对流程；具体时间和要求应以招录机关公告为准。","category":"教育与职场","momentum":"peak","urgency":"now","heat":92,"crossPlatform":1,"mathFit":85,"visualFit":72,"lifeFit":95,"questionDensity":88,"priority":92,
-      "platforms":[{"id":"douyin","rank":1,"score":98,"trend":"高位"}],"keywords":["国考","准考证","考试服务","职场","信息核对"],"mathAngles":["将打印、证件、路线和入场要求做成核对清单","用时间线避免把截止时间和考试时间混淆","说明信息来源的优先级"],"hooks":["“准考证打印，不是点下载就结束：这四项最容易漏。”","“考试信息视频怎样既帮人又不制造错过焦虑？”"],"recommendedFormat":{"duration":"45–70 秒","structure":"热点提醒 → 四项核对 → 官方入口提示 → 截止时间复查"},"factStatus":"needs-review","sources":[{"name":"抖音热榜：2027国考今起可打印准考证","url":"https://www.douyin.com/search/2027%E5%9B%BD%E8%80%83%E4%BB%8A%E8%B5%B7%E5%8F%AF%E6%89%93%E5%8D%B0%E5%87%86%E8%80%83%E8%AF%81","type":"platform"}],"updatedAt":"2026-11-23T04:04:33.458Z"
+      "id": "riemann-rebuttal-paper-context",
+      "rank": 3,
+      "title": "黎曼猜想反驳论文上榜：知识创作者怎样处理“数学证明无效”的标题",
+      "brief": "知乎榜首出现关于黎曼猜想反驳论文的讨论。适合知识、教育与科学传播创作者说明论文、反驳、同行检验和定论不是同一层级；在读取原文或可靠解释前，不应把热榜标题写成数学结论。",
+      "category": "科学与教育",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 88,
+      "crossPlatform": 1,
+      "mathFit": 99,
+      "visualFit": 70,
+      "lifeFit": 70,
+      "questionDensity": 99,
+      "priority": 91,
+      "platforms": [
+        {
+          "id": "zhihu",
+          "rank": 1,
+          "score": 100,
+          "trend": "高位"
+        }
+      ],
+      "keywords": [
+        "黎曼猜想",
+        "论文",
+        "反驳",
+        "同行评议",
+        "科学传播"
+      ],
+      "mathAngles": [
+        "用证据链区分标题、论文、审稿与学界共识",
+        "解释“发现问题”与“命题被解决”的差异",
+        "用版本与引用关系展示论证演进"
+      ],
+      "hooks": [
+        "“看到‘证明无效’，你该先找哪一篇原文？”",
+        "“数学热点最容易被一句标题压扁的四层证据。”"
+      ],
+      "recommendedFormat": {
+        "duration": "90–150 秒",
+        "structure": "标题钩子 → 证据链 → 常见误读 → 结论边界"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "知乎原榜：怎么看 Nielsen 发布《黎曼猜想证明无效》的反驳论文？",
+          "url": "https://www.zhihu.com/question/2108116147598054620",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-23T19:59:37.391Z"
     },
     {
-      "id":"gold-price-volatility-explainer","rank":4,"title":"黄金重返高位与“超卖”同场出现：财经内容怎样讲波动而不替人下单","brief":"抖音的现货黄金价格与百度的金银价格、超卖讨论同时在榜。可用“现货报价、零售首饰、交易情绪、个人风险承受力”四层解释，避免把热榜语言写成投资建议。","category":"财经与消费","momentum":"peak","urgency":"now","heat":90,"crossPlatform":2,"mathFit":88,"visualFit":79,"lifeFit":90,"questionDensity":89,"priority":90,
-      "platforms":[{"id":"douyin","rank":6,"score":88,"trend":"高位"},{"id":"baidu","rank":12,"score":70,"trend":"在榜"},{"id":"baidu","rank":15,"score":64,"trend":"在榜"}],"keywords":["黄金","金价","波动","风险提示","消费决策"],"mathAngles":["将现货、零售与回购价格放在不同坐标系","演示百分比涨跌和绝对价格不能混用","用风险问题替代买卖指令"],"hooks":["“金价涨了，为什么你看到的首饰价不一定同步？”","“‘超卖’是结论，还是一个需要解释的指标？”"],"recommendedFormat":{"duration":"60–90 秒","structure":"两个热榜标题 → 价格分层 → 指标边界 → 风险提示"},"factStatus":"needs-review","sources":[{"name":"抖音热榜：现货黄金重返3600美元","url":"https://www.douyin.com/search/%E7%8E%B0%E8%B4%A7%E9%BB%84%E9%87%91%E9%87%8D%E8%BF%943600%E7%BE%8E%E5%85%83","type":"platform"},{"name":"百度热榜：华尔街称黄金已跌入超卖区域","url":"https://m.baidu.com/s?word=%E5%8D%8E%E5%B0%94%E8%A1%97%EF%BC%9A%E9%BB%84%E9%87%91%E5%B7%B2%E8%B7%8C%E5%85%A5%E8%B6%85%E5%8D%96%E5%8C%BA%E5%9F%9F&sa=fyb_news","type":"platform"}],"updatedAt":"2026-11-23T04:04:33.458Z"
+      "id": "treetree-fried-chicken-demand-chain",
+      "rank": 4,
+      "title": "炸鸡与骑手话题同场出现：本地生活创作者可讲流量如何变成供给压力",
+      "brief": "微博与知乎均有 treetree 炸鸡、骑手或门店承接相关讨论。美食与本地生活创作者可分析传播、搜索、到店和复购之间的链路，避免将单条热榜直接写成销量或经营事实。",
+      "category": "美食与本地生活",
+      "momentum": "rising",
+      "urgency": "now",
+      "heat": 86,
+      "crossPlatform": 2,
+      "mathFit": 88,
+      "visualFit": 93,
+      "lifeFit": 95,
+      "questionDensity": 91,
+      "priority": 90,
+      "platforms": [
+        {
+          "id": "weibo",
+          "rank": 45,
+          "score": 34,
+          "trend": "在榜"
+        },
+        {
+          "id": "zhihu",
+          "rank": 4,
+          "score": 95.5,
+          "trend": "高位"
+        }
+      ],
+      "keywords": [
+        "炸鸡",
+        "本地生活",
+        "外卖骑手",
+        "传播链路",
+        "小店经营"
+      ],
+      "mathAngles": [
+        "区分播放、搜索、到店与复购四个指标",
+        "把备货、排队、品控画成供给侧清单",
+        "明确故事热度不等于营业数据"
+      ],
+      "hooks": [
+        "“一条口头禅，怎么穿过算法变成门店排队？”",
+        "“流量涌进来以后，小店先卡在哪一环？”"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90 秒",
+        "structure": "热榜拼图 → 传播漏斗 → 供给压力 → 消费者提示"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "微博原榜：treetree炸鸡一天出油三四桶",
+          "url": "https://s.weibo.com/weibo?q=%23treetree%E7%82%B8%E9%B8%A1%E4%B8%80%E5%A4%A9%E5%87%BA%E6%B2%B9%E4%B8%89%E5%9B%9B%E6%A1%B6%23",
+          "type": "platform"
+        },
+        {
+          "name": "知乎原榜：骑手一句「treetree的」带火披萨店炸鸡，老板直言爆单做不过来，为啥此类视频能迅速调起大众购买欲？",
+          "url": "https://www.zhihu.com/question/2108166891873072954",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-23T19:59:37.391Z"
     },
     {
-      "id":"stair-climbing-luggage-product-claims","rank":5,"title":"“行李箱自己上楼”双榜出现：产品演示怎样讲清能力边界","brief":"微博和百度均出现行李箱上楼话题。数码、出行和消费赛道可从楼梯材质、坡度、负重、续航、遥控或自主能力等变量拆解演示，避免单个视频替代全场景性能结论。","category":"数码与消费","momentum":"rising","urgency":"today","heat":87,"crossPlatform":2,"mathFit":86,"visualFit":91,"lifeFit":86,"questionDensity":88,"priority":87,
-      "platforms":[{"id":"weibo","rank":10,"score":80,"trend":"在榜"},{"id":"baidu","rank":21,"score":58,"trend":"在榜"}],"keywords":["智能行李箱","爬楼","产品演示","出行","辅助设备"],"mathAngles":["列出坡度、台阶高度、重量和续航四个测试变量","区分演示条件和日常可靠性","把安全、噪声和售后问题列成体验清单"],"hooks":["“行李箱会爬楼，先别只看酷：它在哪些楼梯才成立？”","“一条产品演示视频，漏掉了哪些真实使用条件？”"],"recommendedFormat":{"duration":"45–75 秒","structure":"演示钩子 → 条件拆解 → 用户场景 → 购买前问题"},"factStatus":"needs-review","sources":[{"name":"微博热榜：行李箱也能自己上楼了","url":"https://s.weibo.com/weibo?q=%23%E8%A1%8C%E6%9D%8E%E7%AE%B1%E4%B9%9F%E8%83%BD%E8%87%AA%E5%B7%B1%E4%B8%8A%E6%A5%BC%E4%BA%86%23","type":"platform"},{"name":"百度热榜：行李箱也能自己上楼了","url":"https://m.baidu.com/s?word=%E8%A1%8C%E6%9D%8E%E7%AE%B1%E4%B9%9F%E8%83%BD%E8%87%AA%E5%B7%B1%E4%B8%8A%E6%A5%BC%E4%BA%86&sa=fyb_news","type":"platform"}],"updatedAt":"2026-11-23T04:04:33.458Z"
+      "id": "winter-break-and-ice-snow-consumption",
+      "rank": 5,
+      "title": "“雪假”带动冰雪消费上榜：旅行与商业内容怎样找回真实场景",
+      "brief": "抖音原榜出现“雪假撬动冰雪经济”话题。旅行、亲子、商业与城市内容可把出行周期、目的地承载、预算和安全准备拆开讲；热榜标题中的经济效果仍需地方或行业数据复核。",
+      "category": "旅行与消费",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 80,
+      "crossPlatform": 1,
+      "mathFit": 82,
+      "visualFit": 95,
+      "lifeFit": 89,
+      "questionDensity": 83,
+      "priority": 84,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 3,
+          "score": 97,
+          "trend": "高位"
+        }
+      ],
+      "keywords": [
+        "雪假",
+        "冰雪旅游",
+        "冬季消费",
+        "亲子出行",
+        "目的地"
+      ],
+      "mathAngles": [
+        "用预算、时间、交通和装备做出行决策表",
+        "区分客流故事与可验证的经营数据",
+        "加入天气、道路与安全提示"
+      ],
+      "hooks": [
+        "“雪假不只是放假：一趟冰雪旅行的钱和时间花在哪？”",
+        "“冰雪热度来了，普通人怎么判断值不值得出发？”"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90 秒",
+        "structure": "热榜钩子 → 场景拆解 → 预算表 → 安全与核验"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "抖音原榜：雪假撬动冰雪经济点燃消费引擎",
+          "url": "https://www.douyin.com/search/%E9%9B%AA%E5%81%87%E6%92%AC%E5%8A%A8%E5%86%B0%E9%9B%AA%E7%BB%8F%E6%B5%8E%E7%82%B9%E7%87%83%E6%B6%88%E8%B4%B9%E5%BC%95%E6%93%8E",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-23T19:59:37.391Z"
     },
     {
-      "id":"blood-pressure-headline-context","rank":6,"title":"“130/80 不再正常”上榜：健康内容如何避免一句话改写医学建议","brief":"百度热榜出现血压阈值相关标题。健康创作应先找到指南的发布机构、适用人群、测量方法和原文表述；不宜据单条热榜向观众给出诊断或用药建议。","category":"健康与生活","momentum":"rising","urgency":"today","heat":85,"crossPlatform":1,"mathFit":93,"visualFit":68,"lifeFit":97,"questionDensity":94,"priority":86,
-      "platforms":[{"id":"baidu","rank":2,"score":96,"trend":"高位"}],"keywords":["血压","健康科普","医学指南","测量","风险沟通"],"mathAngles":["解释单次读数、连续测量和诊断标准不是同一件事","用来源卡标明指南版本和适用范围","把风险提示与个体诊疗边界分开"],"hooks":["“130/80 到底意味着什么？先看谁说的、适用于谁。”","“健康热搜最怕的不是不懂术语，而是跳过原始指南。”"],"recommendedFormat":{"duration":"60–90 秒","structure":"热榜标题 → 需要核对的四项 → 测量边界 → 就医提示"},"factStatus":"needs-review","sources":[{"name":"百度热榜：130/80不再列为正常血压","url":"https://m.baidu.com/s?word=130%2F80%E4%B8%8D%E5%86%8D%E5%88%97%E4%B8%BA%E2%80%9C%E6%AD%A3%E5%B8%B8%E8%A1%80%E5%8E%8B%E2%80%9D&sa=fyb_news","type":"platform"}],"updatedAt":"2026-11-23T04:04:33.458Z"
+      "id": "two-capitals-fifteen-days-adaptation",
+      "rank": 6,
+      "title": "《两京十五日》多平台讨论：文化内容如何从剧情热评走向历史与改编边界",
+      "brief": "抖音、知乎和百度都出现《两京十五日》相关讨论。读书、影视与历史创作者可将原著、影视改编、剧情评价和史实考据分开呈现，避免用观众评论代替历史结论。",
+      "category": "文化与影视",
+      "momentum": "peak",
+      "urgency": "today",
+      "heat": 82,
+      "crossPlatform": 3,
+      "mathFit": 86,
+      "visualFit": 94,
+      "lifeFit": 80,
+      "questionDensity": 87,
+      "priority": 85,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 23,
+          "score": 67,
+          "trend": "在榜"
+        },
+        {
+          "id": "zhihu",
+          "rank": 5,
+          "score": 94,
+          "trend": "在榜"
+        },
+        {
+          "id": "baidu",
+          "rank": 42,
+          "score": 38.5,
+          "trend": "在榜"
+        }
+      ],
+      "keywords": [
+        "两京十五日",
+        "影视改编",
+        "历史背景",
+        "原著",
+        "剧情讨论"
+      ],
+      "mathAngles": [
+        "给原著、改编和史实使用不同颜色标签",
+        "用角色/事件时间轴避免混淆",
+        "列出可回查的史料与创作设定"
+      ],
+      "hooks": [
+        "“一部剧的历史背景，和它的剧情设定是一回事吗？”",
+        "“从热评聊《两京十五日》，如何不把改编当史实？”"
+      ],
+      "recommendedFormat": {
+        "duration": "75–120 秒",
+        "structure": "热榜观点 → 三层信息卡 → 一个场景拆解 → 延伸阅读"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "抖音原榜：两京十五日背后的历史背景",
+          "url": "https://www.douyin.com/search/%E4%B8%A4%E4%BA%AC%E5%8D%81%E4%BA%94%E6%97%A5%E8%83%8C%E5%90%8E%E7%9A%84%E5%8E%86%E5%8F%B2%E8%83%8C%E6%99%AF",
+          "type": "platform"
+        },
+        {
+          "name": "知乎原榜：如何评价马伯庸的小说《两京十五日》？",
+          "url": "https://www.zhihu.com/question/405078987",
+          "type": "platform"
+        },
+        {
+          "name": "百度原榜：《两京十五日》真正问题在这两场戏里",
+          "url": "https://m.baidu.com/s?word=%E3%80%8A%E4%B8%A4%E4%BA%AC%E5%8D%81%E4%BA%94%E6%97%A5%E3%80%8B%E7%9C%9F%E6%AD%A3%E9%97%AE%E9%A2%98%E5%9C%A8%E8%BF%99%E4%B8%A4%E5%9C%BA%E6%88%8F%E9%87%8C&sa=fyb_news",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-23T19:59:37.391Z"
     },
     {
-      "id":"two-year-old-kindergarten-policy","rank":7,"title":"“幼儿园招 2 岁孩子”登顶：育儿信息怎样把政策、园所与家庭选择讲分开","brief":"百度热榜出现低龄入园话题。亲子、教育和城市生活创作者可拆解托育与幼儿园的概念、当地园所条件、师幼比和家庭照护选择；具体资格和政策需回到所在地主管部门。","category":"亲子与教育","momentum":"peak","urgency":"today","heat":84,"crossPlatform":1,"mathFit":86,"visualFit":74,"lifeFit":96,"questionDensity":93,"priority":85,
-      "platforms":[{"id":"baidu","rank":1,"score":98,"trend":"高位"}],"keywords":["幼儿园","托育","2岁入园","亲子","教育政策"],"mathAngles":["把年龄、照护时长、师幼比和费用拆成可比较字段","区分新闻标题与本地招生条件","以家庭需求清单代替统一答案"],"hooks":["“2 岁能不能上幼儿园？先别只问年龄。”","“家长真正要比的，是园所条件还是一条热搜？”"],"recommendedFormat":{"duration":"60–90 秒","structure":"热榜问题 → 概念区分 → 本地核验清单 → 家庭决策维度"},"factStatus":"needs-review","sources":[{"name":"百度热榜：幼儿园要招2岁孩子了","url":"https://m.baidu.com/s?word=%E5%B9%BC%E5%84%BF%E5%9B%AD%E8%A6%81%E6%8B%9B2%E5%B2%81%E5%AD%A9%E5%AD%90%E4%BA%86&sa=fyb_news","type":"platform"}],"updatedAt":"2026-11-23T04:04:33.458Z"
+      "id": "eighty-yuan-eight-bowls-food-story",
+      "rank": 7,
+      "title": "“80 元八碗”美食话题：探店内容怎样兼顾爽感、价格与当地语境",
+      "brief": "抖音原榜出现“荥阳花 80 元吃八碗”话题。美食与城市生活创作者可以做菜单、分量、排队和本地消费场景的实测型内容；价格、份量与门店情况需以到店信息为准。",
+      "category": "美食与城市生活",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 72,
+      "crossPlatform": 1,
+      "mathFit": 75,
+      "visualFit": 97,
+      "lifeFit": 91,
+      "questionDensity": 79,
+      "priority": 77,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 11,
+          "score": 85,
+          "trend": "高位"
+        }
+      ],
+      "keywords": [
+        "荥阳",
+        "八碗",
+        "探店",
+        "性价比",
+        "城市美食"
+      ],
+      "mathAngles": [
+        "把单价、份量、人数与附加消费分开计算",
+        "把个人口味与可比较体验分开",
+        "提示价格随门店和时段变化"
+      ],
+      "hooks": [
+        "“80 元八碗，到底是大胃王爽感还是一顿饭的真实账单？”",
+        "“探店视频怎样拍，才不会只剩下夸张的分量？”"
+      ],
+      "recommendedFormat": {
+        "duration": "45–75 秒",
+        "structure": "视觉钩子 → 菜单/账单 → 场景体验 → 复核提示"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "抖音原榜：荥阳花80元吃八碗太顶了",
+          "url": "https://www.douyin.com/search/%E8%8D%A5%E9%98%B3%E8%8A%B180%E5%85%83%E5%90%83%E5%85%AB%E7%A2%97%E5%A4%AA%E9%A1%B6%E4%BA%86",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-23T19:59:37.391Z"
     },
     {
-      "id":"ai-battery-vitamin-c-claim-check","rank":8,"title":"“AI 给电池加维生素 C”吸睛：科技内容如何把比喻还原成实验问题","brief":"百度热榜出现 AI 与电池材料的强传播标题。科技创作者可把比喻翻译为材料、添加剂、实验条件和论文/机构来源四项，而不是把标题本身当作技术落地证明。","category":"科技与产业","momentum":"rising","urgency":"today","heat":81,"crossPlatform":1,"mathFit":94,"visualFit":82,"lifeFit":76,"questionDensity":95,"priority":83,
-      "platforms":[{"id":"baidu","rank":26,"score":50,"trend":"在榜"}],"keywords":["人工智能","电池","材料科学","添加剂","科研传播"],"mathAngles":["将拟人化标题翻译成可检索的技术对象","列出实验条件、性能指标和对照组","区分提出假设、实验室结果与量产应用"],"hooks":["“给电池加维生素 C，到底是科普比喻还是一个可复现实验？”","“科技标题很像魔法时，先找哪三个变量？”"],"recommendedFormat":{"duration":"60–100 秒","structure":"标题钩子 → 术语翻译 → 实验问题 → 来源等级"},"factStatus":"needs-review","sources":[{"name":"百度热榜：AI提出给电池加维生素C","url":"https://m.baidu.com/s?word=AI%E6%8F%90%E5%87%BA%E7%BB%99%E7%94%B5%E6%B1%A0%E5%8A%A0%E7%BB%B4%E7%94%9F%E7%B4%A0C&sa=fyb_news","type":"platform"}],"updatedAt":"2026-11-23T04:04:33.458Z"
+      "id": "car-wash-shop-business-contradiction",
+      "rank": 8,
+      "title": "车更多、洗车店却难做：商业创作者可用“需求不等于利润”解释反差",
+      "brief": "知乎原榜提出汽车增多而洗车店仍难经营的问题。商业、职场和本地生活创作者可从客单价、人工、租金、复购与竞争密度解释这一反差；未获得经营样本前，应避免给出具体行业结论。",
+      "category": "商业与职场",
+      "momentum": "steady",
+      "urgency": "evergreen",
+      "heat": 70,
+      "crossPlatform": 1,
+      "mathFit": 94,
+      "visualFit": 76,
+      "lifeFit": 89,
+      "questionDensity": 96,
+      "priority": 82,
+      "platforms": [
+        {
+          "id": "zhihu",
+          "rank": 3,
+          "score": 97,
+          "trend": "高位"
+        }
+      ],
+      "keywords": [
+        "洗车店",
+        "小微经营",
+        "客单价",
+        "复购",
+        "商业模型"
+      ],
+      "mathAngles": [
+        "用营收、成本、利润三层避免混算",
+        "比较客流量和高峰时段利用率",
+        "列出要向经营者核实的数据"
+      ],
+      "hooks": [
+        "“车越来越多，为什么洗车店不一定更赚钱？”",
+        "“需求变大，不等于生意变好：小店账本怎么读？”"
+      ],
+      "recommendedFormat": {
+        "duration": "75–105 秒",
+        "structure": "问题钩子 → 小店账本 → 场景变量 → 采访提纲"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "知乎原榜：汽车明显在增多，为啥有的洗车店却干不下去了？",
+          "url": "https://www.zhihu.com/question/541903869",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-23T19:59:37.391Z"
     },
     {
-      "id":"smart-wearables-consumption-space","rank":9,"title":"智能穿戴“打开消费新空间”：产品赛道怎样从概念走到真实场景","brief":"百度热榜聚焦智能穿戴与消费。数码和商业创作者可比较健康、运动、支付、通信、无障碍等具体场景，说明使用频率、隐私和后续服务比泛泛“新空间”更值得观察。","category":"数码与商业","momentum":"steady","urgency":"today","heat":79,"crossPlatform":1,"mathFit":84,"visualFit":85,"lifeFit":83,"questionDensity":82,"priority":80,
-      "platforms":[{"id":"baidu","rank":3,"score":94,"trend":"高位"}],"keywords":["智能穿戴","消费","健康数据","隐私","产品体验"],"mathAngles":["用场景频率而不是参数堆砌评估产品价值","列出采集哪些数据、存储在哪里、谁能访问","对比一次性硬件价格和持续服务成本"],"hooks":["“智能穿戴的新空间，到底是手腕上多了什么，还是生活里少了什么？”","“一块新设备值不值，看参数前先看使用频率。”"],"recommendedFormat":{"duration":"45–75 秒","structure":"热榜提问 → 三个使用场景 → 数据边界 → 消费提醒"},"factStatus":"needs-review","sources":[{"name":"百度热榜：智能穿戴打开消费新空间","url":"https://m.baidu.com/s?word=%E6%99%BA%E8%83%BD%E7%A9%BF%E6%88%B4%E6%89%93%E5%BC%80%E6%B6%88%E8%B4%B9%E6%96%B0%E7%A9%BA%E9%97%B4&sa=fyb_news","type":"platform"}],"updatedAt":"2026-11-23T04:04:33.458Z"
+      "id": "delivery-ebike-pain-point-review",
+      "rank": 9,
+      "title": "外卖骑手电摩话题：数码评测怎样从“10 分钟补能”回到真实工况",
+      "brief": "知乎原榜出现面向外卖骑手的电摩产品讨论。数码、出行和职业观察创作者可围绕续航、补能、载重、维修、安全与成本做工况评测；产品参数和实际表现须以官方资料及实测为准。",
+      "category": "数码与出行",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 69,
+      "crossPlatform": 1,
+      "mathFit": 90,
+      "visualFit": 88,
+      "lifeFit": 90,
+      "questionDensity": 92,
+      "priority": 80,
+      "platforms": [
+        {
+          "id": "zhihu",
+          "rank": 7,
+          "score": 91,
+          "trend": "高位"
+        }
+      ],
+      "keywords": [
+        "外卖骑手",
+        "电摩",
+        "补能",
+        "续航",
+        "产品评测"
+      ],
+      "mathAngles": [
+        "把标称续航与载重实测分开",
+        "把补能时间换算成完整配送时段",
+        "用总拥有成本而非单一售价比较"
+      ],
+      "hooks": [
+        "“10 分钟补能，对骑手的一天到底改变了什么？”",
+        "“测电摩别只看参数：配送工况还要看哪五项？”"
+      ],
+      "recommendedFormat": {
+        "duration": "60–100 秒",
+        "structure": "热榜提问 → 工况测试表 → 成本比较 → 使用边界"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "知乎原榜：张雪跨界做外卖骑手电摩，万元定价 10 分钟补能，这款产品踩中真实痛点了吗？能打动外卖骑手吗？",
+          "url": "https://www.zhihu.com/question/2108134885441396854",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-23T19:59:37.391Z"
     },
     {
-      "id":"gta6-performance-and-story-content","rank":10,"title":"GTA 6 内容多点在榜：游戏创作者怎样把性能、叙事与实机信息分层","brief":"知乎出现 GTA 6 角色与结局讨论，B 站则有性能测试和 NPC 内容。游戏赛道可把官方信息、实机测试、剧情讨论和二创演绎标清类型，避免用单一视频代表所有平台表现。","category":"游戏与二次元","momentum":"peak","urgency":"today","heat":78,"crossPlatform":2,"mathFit":83,"visualFit":97,"lifeFit":78,"questionDensity":85,"priority":81,
-      "platforms":[{"id":"bilibili","rank":7,"score":86,"trend":"在榜"},{"id":"bilibili","rank":44,"score":45,"trend":"在榜"},{"id":"zhihu","rank":19,"score":55,"trend":"在榜"},{"id":"zhihu","rank":21,"score":52,"trend":"在榜"}],"keywords":["GTA6","游戏性能","叙事","NPC","实机测试"],"mathAngles":["区分帧率测试、主观体验和剧情评价的证据类型","把平台、画质模式和测试场景标在同一张卡片","明确官方公开信息与玩家推测的边界"],"hooks":["“GTA 6 一条性能视频，能代表所有主机和场景吗？”","“游戏讨论最容易混在一起的四种信息，怎么拆？”"],"recommendedFormat":{"duration":"60–90 秒","structure":"热榜拼图 → 信息类型分层 → 测试变量 → 玩家讨论入口"},"factStatus":"needs-review","sources":[{"name":"B站热门：GTA6性能要求高吗","url":"https://www.bilibili.com/video/BV1pDyjzEEsJ","type":"platform"},{"name":"知乎热榜：GTA6女性主角塑造","url":"https://www.zhihu.com/question/2106875464644149915","type":"platform"}],"updatedAt":"2026-11-23T04:04:33.458Z"
+      "id": "elder-child-service-policy-explainer",
+      "rank": 10,
+      "title": "“一老一小”服务方案公布：公共议题内容应把文件、服务与家庭体验分开",
+      "brief": "抖音原榜出现“一老一小”服务实施方案话题。公共服务、亲子和养老内容创作者可先定位文件原文，再将服务对象、办理入口、地区差异与家庭体验分开说明；具体资格要以当地主管部门为准。",
+      "category": "公共服务与家庭",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 74,
+      "crossPlatform": 1,
+      "mathFit": 89,
+      "visualFit": 69,
+      "lifeFit": 96,
+      "questionDensity": 90,
+      "priority": 83,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 12,
+          "score": 83.5,
+          "trend": "高位"
+        }
+      ],
+      "keywords": [
+        "一老一小",
+        "养老",
+        "托育",
+        "公共服务",
+        "政策解读"
+      ],
+      "mathAngles": [
+        "先展示文件来源与发布时间",
+        "把适用对象、服务内容和本地入口做成清单",
+        "避免把一地试点泛化为全国资格"
+      ],
+      "hooks": [
+        "“一老一小服务，到底哪些是文件里的，哪些要看你所在城市？”",
+        "“政策解读视频怎样既有用又不替观众下结论？”"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90 秒",
+        "structure": "热榜提示 → 文件定位 → 本地清单 → 核验入口"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "抖音原榜：“一老一小”服务实施方案公布",
+          "url": "https://www.douyin.com/search/%E2%80%9C%E4%B8%80%E8%80%81%E4%B8%80%E5%B0%8F%E2%80%9D%E6%9C%8D%E5%8A%A1%E5%AE%9E%E6%96%BD%E6%96%B9%E6%A1%88%E5%85%AC%E5%B8%83",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-23T19:59:37.391Z"
     },
     {
-      "id":"poetry-travel-location-storytelling","rank":11,"title":"“古诗词里的中国”持续流行：旅行内容如何从滤镜走到地点故事","brief":"小红书的古诗词中国、河南取景内容与抖音的黄山迎客松话题同在榜。旅行与文化创作者可将诗词出处、地理位置、拍摄季节和保护规则分开讲，让“出片”之外也有可核验的在地信息。","category":"旅行与文化","momentum":"steady","urgency":"evergreen","heat":76,"crossPlatform":2,"mathFit":86,"visualFit":98,"lifeFit":85,"questionDensity":77,"priority":79,
-      "platforms":[{"id":"xiaohongshu","rank":2,"score":96,"trend":"高位"},{"id":"xiaohongshu","rank":9,"score":76,"trend":"在榜"},{"id":"douyin","rank":2,"score":94,"trend":"高位"}],"keywords":["古诗词","旅行","黄山","河南","文化内容"],"mathAngles":["把诗句、地点、镜头和季节做成四格信息卡","标记需要查证的历史出处与地理事实","在美景叙事中加入文明旅游和保护规则"],"hooks":["“古诗词里的中国，怎么拍才不只是一层滤镜？”","“一段旅行视频，如何让观众既想去又知道为什么？”"],"recommendedFormat":{"duration":"60–100 秒","structure":"诗句/风景对照 → 地点信息卡 → 拍摄时机 → 保护提示"},"factStatus":"needs-review","sources":[{"name":"小红书热榜：耗时三年拍下古诗词里的中国","url":"https://www.xiaohongshu.com/search_result?keyword=%E8%80%97%E6%97%B6%E4%B8%89%E5%B9%B4%E6%8B%8D%E4%B8%8B%E5%8F%A4%E8%AF%97%E8%AF%8D%E9%87%8C%E7%9A%84%E4%B8%AD%E5%9B%BD&type=51","type":"platform"},{"name":"抖音热榜：黄山迎客松为何成为中国名片","url":"https://www.douyin.com/search/%E9%BB%84%E5%B1%B1%E8%BF%8E%E5%AE%A2%E6%9D%BE%E4%B8%BA%E4%BD%95%E6%88%90%E4%B8%BA%E4%B8%AD%E5%9B%BD%E5%90%8D%E7%89%87","type":"platform"}],"updatedAt":"2026-11-23T04:04:33.458Z"
+      "id": "brain-computer-interface-medical-headline",
+      "rank": 11,
+      "title": "脑机接口医疗标题上榜：健康科技内容如何防止“希望”变成过度承诺",
+      "brief": "抖音原榜出现脑机接口与瘫痪患者相关标题。医疗科技创作者可解释研究、临床试验、可及性与个体治疗的差异；任何疗效或适用范围必须回到注册信息、论文和医疗机构来源。",
+      "category": "健康与科技",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 76,
+      "crossPlatform": 1,
+      "mathFit": 97,
+      "visualFit": 85,
+      "lifeFit": 86,
+      "questionDensity": 98,
+      "priority": 86,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 25,
+          "score": 64,
+          "trend": "高位"
+        }
+      ],
+      "keywords": [
+        "脑机接口",
+        "医疗科技",
+        "临床试验",
+        "康复",
+        "健康传播"
+      ],
+      "mathAngles": [
+        "区分研究演示、试验结果与常规医疗",
+        "说明样本量、随访期和适用人群的必要性",
+        "把希望叙事和疗效承诺严格分开"
+      ],
+      "hooks": [
+        "“脑机接口带来希望时，最该追问的三个医学问题。”",
+        "“一条医疗科技热搜，如何不把研究进展讲成普遍疗法？”"
+      ],
+      "recommendedFormat": {
+        "duration": "75–120 秒",
+        "structure": "热榜标题 → 证据层级 → 三个追问 → 就医边界"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "抖音原榜：脑机接口为瘫痪患者重启希望",
+          "url": "https://www.douyin.com/search/%E8%84%91%E6%9C%BA%E6%8E%A5%E5%8F%A3%E4%B8%BA%E7%98%AB%E7%97%AA%E6%82%A3%E8%80%85%E9%87%8D%E5%90%AF%E5%B8%8C%E6%9C%9B",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-23T19:59:37.391Z"
     },
     {
-      "id":"national-animation-release-brief","rank":12,"title":"国创动画发布会回顾在前列：宣发内容怎样区分已公布与待确认","brief":"B 站热门出现 2026—2027 国创动画作品发布会全程回顾。动漫赛道可把作品列表、播出档期、制作信息和预告片素材分层标注，尤其避免将发布会展示直接等同为最终上线承诺。","category":"动漫与娱乐","momentum":"steady","urgency":"today","heat":73,"crossPlatform":1,"mathFit":80,"visualFit":94,"lifeFit":72,"questionDensity":76,"priority":75,
-      "platforms":[{"id":"bilibili","rank":4,"score":92,"trend":"高位"}],"keywords":["国创动画","发布会","预告片","档期","动漫"],"mathAngles":["用表格区分已官宣、预告展示与未公布信息","给每条信息标注来源与发布日期","将粉丝期待与制作进度分开呈现"],"hooks":["“发布会信息很多，哪些是确定上线，哪些只是首次亮相？”","“做动画盘点，最重要的不是堆作品，而是标清状态。”"],"recommendedFormat":{"duration":"60–90 秒","structure":"发布会高光 → 信息表格 → 状态标注 → 追更建议"},"factStatus":"needs-review","sources":[{"name":"B站热门：2026-2027国创动画作品发布会全程回顾","url":"https://www.bilibili.com/video/BV17pWu6QEkp","type":"platform"}],"updatedAt":"2026-11-23T04:04:33.458Z"
+      "id": "national-animation-release-roundup",
+      "rank": 12,
+      "title": "国创动画发布会回顾在前列：动漫创作者如何做一份可追踪的信息盘点",
+      "brief": "B站热门出现国创动画发布会全程回顾与相关作品内容。动漫创作者可把已播、已定档、预告展示和粉丝推测分为不同状态，避免将发布会片段直接讲成最终上线承诺。",
+      "category": "动漫与娱乐",
+      "momentum": "steady",
+      "urgency": "today",
+      "heat": 75,
+      "crossPlatform": 1,
+      "mathFit": 78,
+      "visualFit": 96,
+      "lifeFit": 75,
+      "questionDensity": 81,
+      "priority": 79,
+      "platforms": [
+        {
+          "id": "bilibili",
+          "rank": 4,
+          "score": 95.5,
+          "trend": "高位"
+        },
+        {
+          "id": "bilibili",
+          "rank": 10,
+          "score": 86.5,
+          "trend": "在榜"
+        }
+      ],
+      "keywords": [
+        "国创动画",
+        "发布会",
+        "灵笼",
+        "定档",
+        "动漫盘点"
+      ],
+      "mathAngles": [
+        "用状态表区分已官宣、预告和未确认",
+        "记录每条信息的发布账号与日期",
+        "把角色/剧情猜测与官方物料分开"
+      ],
+      "hooks": [
+        "“发布会一口气放出这么多动画，哪些信息已经确定？”",
+        "“做动漫盘点，怎样不把预告当成定档？”"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90 秒",
+        "structure": "高光剪辑 → 状态表 → 作品分组 → 追更提醒"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "B站原榜：2026-2027国创动画作品发布会 全程回顾",
+          "url": "https://www.bilibili.com/video/BV17pWu6QEkp",
+          "type": "platform"
+        },
+        {
+          "name": "B站原榜：【灵笼:落子无悔】纵入存亡之局，亦落无悔之子【PV】",
+          "url": "https://www.bilibili.com/video/BV1M6sm6mE9b",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-23T19:59:37.391Z"
     }
   ]
 }
