@@ -1,0 +1,991 @@
+{
+  "schemaVersion": 1,
+  "dataMode": "live",
+  "date": "2026-11-25",
+  "generatedAt": "2026-11-24T19:57:19.976Z",
+  "timezone": "Asia/Shanghai",
+  "summary": {
+    "topicCount": 12,
+    "urgentCount": 4,
+    "crossPlatformCount": 9,
+    "formulaReadyCount": 12
+  },
+  "sourceStatus": [
+    {
+      "id": "douyin",
+      "name": "抖音",
+      "status": "fresh",
+      "items": 48,
+      "updatedAt": "2026-11-24T19:57:19.976Z"
+    },
+    {
+      "id": "weibo",
+      "name": "微博",
+      "status": "fresh",
+      "items": 50,
+      "updatedAt": "2026-11-24T19:57:19.976Z"
+    },
+    {
+      "id": "zhihu",
+      "name": "知乎",
+      "status": "partial",
+      "items": 30,
+      "updatedAt": "2026-11-24T19:57:19.976Z"
+    },
+    {
+      "id": "xiaohongshu",
+      "name": "小红书",
+      "status": "partial",
+      "items": 10,
+      "updatedAt": "2026-11-24T19:57:19.976Z"
+    },
+    {
+      "id": "baidu",
+      "name": "百度",
+      "status": "fresh",
+      "items": 50,
+      "updatedAt": "2026-11-24T19:57:19.976Z"
+    },
+    {
+      "id": "bilibili",
+      "name": "B站",
+      "status": "fresh",
+      "items": 50,
+      "updatedAt": "2026-11-24T19:57:19.976Z"
+    }
+  ],
+  "trendHistory": {
+    "times": [
+      "2026-11-19",
+      "2026-11-20",
+      "2026-11-21",
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-25"
+    ],
+    "series": {
+      "douyin": [
+        98,
+        98,
+        96,
+        98,
+        98,
+        100,
+        96
+      ],
+      "weibo": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "zhihu": [
+        60,
+        60,
+        60,
+        60,
+        60,
+        30,
+        30
+      ],
+      "xiaohongshu": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        10,
+        10
+      ],
+      "baidu": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "bilibili": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ]
+    }
+  },
+  "topics": [
+    {
+      "id": "shenzhou-24-spaceflight",
+      "rank": 1,
+      "title": "神舟二十四号相关内容多平台在榜：航天创作者可讲“名单、任务与公众期待”三层信息",
+      "brief": "抖音、微博与百度均出现神舟二十四号或登月相关条目，适合用任务流程图、人物采访和问题清单拆解，不把热榜标题当作正式任务公告。",
+      "category": "航天与科学",
+      "momentum": "peak",
+      "urgency": "now",
+      "heat": 94,
+      "crossPlatform": 4,
+      "mathFit": 88,
+      "visualFit": 93,
+      "lifeFit": 72,
+      "questionDensity": 90,
+      "priority": 93,
+      "platforms": [
+        {
+          "id": "weibo",
+          "rank": 3,
+          "score": 96.5,
+          "trend": "高位"
+        },
+        {
+          "id": "douyin",
+          "rank": 4,
+          "score": 95,
+          "trend": "高位"
+        },
+        {
+          "id": "baidu",
+          "rank": 3,
+          "score": 96.5,
+          "trend": "高位"
+        },
+        {
+          "id": "bilibili",
+          "rank": 33,
+          "score": 51.5,
+          "trend": "在榜"
+        }
+      ],
+      "keywords": [
+        "神舟二十四号",
+        "航天",
+        "乘组",
+        "任务"
+      ],
+      "mathAngles": [
+        "用时间线区分已发布信息、媒体转述与待证实内容",
+        "把一次任务拆成发射、在轨、返回三段讲清楚"
+      ],
+      "hooks": [
+        "热榜都在说神24，创作者最该先核对哪三件事？",
+        "一张流程图看懂航天任务信息到底来自哪里"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90 秒",
+        "structure": "热榜切入 → 信息分层 → 任务流程图 → 资料来源提示"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "微博热榜：神24出征续写航天荣光",
+          "url": "https://s.weibo.com/weibo?q=%23%E7%A5%9E24%E5%87%BA%E5%BE%81%E7%BB%AD%E5%86%99%E8%88%AA%E5%A4%A9%E8%8D%A3%E5%85%89%23",
+          "type": "platform"
+        },
+        {
+          "name": "抖音热榜：神二十四乘组名单公布",
+          "url": "https://www.douyin.com/search/%E7%A5%9E%E4%BA%8C%E5%8D%81%E5%9B%9B%E4%B9%98%E7%BB%84%E5%90%8D%E5%8D%95%E5%85%AC%E5%B8%83",
+          "type": "platform"
+        },
+        {
+          "name": "百度热榜：中国人登月又近一步",
+          "url": "https://m.baidu.com/s?word=%E4%B8%AD%E5%9B%BD%E4%BA%BA%E7%99%BB%E6%9C%88%E5%8F%88%E8%BF%91%E4%B8%80%E6%AD%A5&sa=fyb_news",
+          "type": "platform"
+        },
+        {
+          "name": "B站热榜：【完整版】巴铁航天员秀中文",
+          "url": "https://www.bilibili.com/video/BV1uvyZz6Exf",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-24T19:57:19.976Z"
+    },
+    {
+      "id": "nvidia-leadership-market-discussion",
+      "rank": 2,
+      "title": "黄仁勋与英伟达讨论跨平台出现：科技财经内容应分开讲人事、产品与市场情绪",
+      "brief": "多个平台围绕黄仁勋、英伟达和股市条目集中讨论；可做“标题中的说法—可查公告—市场反应”三栏，不把热榜叙事直接等同于公司事实。",
+      "category": "科技与财经",
+      "momentum": "peak",
+      "urgency": "now",
+      "heat": 93,
+      "crossPlatform": 5,
+      "mathFit": 92,
+      "visualFit": 79,
+      "lifeFit": 76,
+      "questionDensity": 94,
+      "priority": 92,
+      "platforms": [
+        {
+          "id": "weibo",
+          "rank": 4,
+          "score": 95,
+          "trend": "高位"
+        },
+        {
+          "id": "douyin",
+          "rank": 24,
+          "score": 65,
+          "trend": "在榜"
+        },
+        {
+          "id": "zhihu",
+          "rank": 2,
+          "score": 98,
+          "trend": "高位"
+        },
+        {
+          "id": "baidu",
+          "rank": 7,
+          "score": 90.5,
+          "trend": "高位"
+        },
+        {
+          "id": "bilibili",
+          "rank": 18,
+          "score": 74,
+          "trend": "在榜"
+        }
+      ],
+      "keywords": [
+        "英伟达",
+        "黄仁勋",
+        "科技股",
+        "市场情绪"
+      ],
+      "mathAngles": [
+        "用事件、预期、价格三条线避免把相关性当因果",
+        "演示财报、估值与股价是不同口径"
+      ],
+      "hooks": [
+        "一条英伟达热搜，为什么不能直接讲成一条财经结论？",
+        "科技股大话题怎么避开“一个标题讲完全部”的陷阱"
+      ],
+      "recommendedFormat": {
+        "duration": "75–120 秒",
+        "structure": "热榜截图 → 三层事实表 → 市场情绪示意 → 风险提示"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "微博热榜：黄仁勋回归最大受害者出现",
+          "url": "https://s.weibo.com/weibo?q=%23%E9%BB%84%E4%BB%81%E5%8B%8B%E5%9B%9E%E5%BD%92%E6%9C%80%E5%A4%A7%E5%8F%97%E5%AE%B3%E8%80%85%E5%87%BA%E7%8E%B0%23",
+          "type": "platform"
+        },
+        {
+          "name": "抖音热榜：黄仁勋这次回归价值几何",
+          "url": "https://www.douyin.com/search/%E9%BB%84%E4%BB%81%E5%8B%8B%E8%BF%99%E6%AC%A1%E5%9B%9E%E5%BD%92%E4%BB%B7%E5%80%BC%E5%87%A0%E4%BD%95",
+          "type": "platform"
+        },
+        {
+          "name": "知乎热榜：特朗普称黄仁勋是「国家瑰宝」，若在美遇不公可去中国，黄仁勋未来若来华可能有哪些选择？",
+          "url": "https://www.zhihu.com/question/2108601916930225865",
+          "type": "platform"
+        },
+        {
+          "name": "百度热榜：外交部回应“黄仁勋重回英伟达”",
+          "url": "https://m.baidu.com/s?word=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E2%80%9C%E9%BB%84%E4%BB%81%E5%8B%8B%E9%87%8D%E5%9B%9E%E8%8B%B1%E4%BC%9F%E8%BE%BE%E2%80%9D&sa=fyb_news",
+          "type": "platform"
+        },
+        {
+          "name": "B站热榜：黄仁勋找到了他的接班人，oh，原来是他自己",
+          "url": "https://www.bilibili.com/video/BV1XKyfzEECR",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-24T19:57:19.976Z"
+    },
+    {
+      "id": "public-event-source-first",
+      "rank": 3,
+      "title": "陈吉宁相关消息占据多榜前列：公共事件内容应先等权威通报再做解读",
+      "brief": "抖音、微博和百度出现相近公共事件标题，但本数据未接入权威通报原文；适合做信息核验方法，不应据此扩写事件细节或下结论。",
+      "category": "公共议题与媒介素养",
+      "momentum": "peak",
+      "urgency": "now",
+      "heat": 91,
+      "crossPlatform": 3,
+      "mathFit": 90,
+      "visualFit": 62,
+      "lifeFit": 83,
+      "questionDensity": 96,
+      "priority": 90,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 1,
+          "score": 99.5,
+          "trend": "高位"
+        },
+        {
+          "id": "weibo",
+          "rank": 10,
+          "score": 86,
+          "trend": "高位"
+        },
+        {
+          "id": "baidu",
+          "rank": 1,
+          "score": 99.5,
+          "trend": "高位"
+        }
+      ],
+      "keywords": [
+        "公共事件",
+        "权威通报",
+        "信息核验",
+        "热榜"
+      ],
+      "mathAngles": [
+        "区分同源转发与独立证据",
+        "展示新闻信息的来源层级和核验顺序"
+      ],
+      "hooks": [
+        "热榜第一条公共事件，为什么越快越要少说？",
+        "没有通报原文时，创作者能做什么、不能做什么？"
+      ],
+      "recommendedFormat": {
+        "duration": "45–60 秒",
+        "structure": "热榜现象 → 核验清单 → 权威来源等待提示"
+      },
+      "factStatus": "blocked",
+      "sources": [
+        {
+          "name": "抖音热榜：上海市委书记陈吉宁被查",
+          "url": "https://www.douyin.com/search/%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%A7%94%E4%B9%A6%E8%AE%B0%E9%99%88%E5%90%89%E5%AE%81%E8%A2%AB%E6%9F%A5",
+          "type": "platform"
+        },
+        {
+          "name": "微博热榜：陈吉宁被查上海表态",
+          "url": "https://s.weibo.com/weibo?q=%23%E9%99%88%E5%90%89%E5%AE%81%E8%A2%AB%E6%9F%A5%E4%B8%8A%E6%B5%B7%E8%A1%A8%E6%80%81%23",
+          "type": "platform"
+        },
+        {
+          "name": "百度热榜：上海市委书记陈吉宁被查",
+          "url": "https://m.baidu.com/s?word=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%A7%94%E4%B9%A6%E8%AE%B0%E9%99%88%E5%90%89%E5%AE%81%E8%A2%AB%E6%9F%A5&sa=fyb_news",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-24T19:57:19.976Z"
+    },
+    {
+      "id": "variety-show-cast-rumor",
+      "rank": 4,
+      "title": "《王牌对王牌》第十季阵容讨论居前：娱乐账号可把“官宣、爆料、期待”拆开讲",
+      "brief": "微博同一节目出现阵容与常驻相关话题，适合做已官宣信息卡、未证实传闻卡和观众期待投票，避免把“曝”字标题改写成事实。",
+      "category": "综艺与娱乐",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 85,
+      "crossPlatform": 1,
+      "mathFit": 68,
+      "visualFit": 88,
+      "lifeFit": 73,
+      "questionDensity": 72,
+      "priority": 84,
+      "platforms": [
+        {
+          "id": "weibo",
+          "rank": 2,
+          "score": 98,
+          "trend": "高位"
+        },
+        {
+          "id": "weibo",
+          "rank": 5,
+          "score": 93.5,
+          "trend": "高位"
+        }
+      ],
+      "keywords": [
+        "综艺",
+        "阵容",
+        "官宣",
+        "爆料"
+      ],
+      "mathAngles": [
+        "用信息状态标签代替模糊断言",
+        "用时间轴比较官宣节点和讨论峰值"
+      ],
+      "hooks": [
+        "阵容热搜怎么做，才不把“曝”做成造谣？",
+        "娱乐账号的三色信息卡：官宣、传闻、期待"
+      ],
+      "recommendedFormat": {
+        "duration": "45–75 秒",
+        "structure": "热榜引子 → 信息三分法 → 互动投票"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "微博热榜：王牌对王牌第十季阵容",
+          "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E7%89%8C%E5%AF%B9%E7%8E%8B%E7%89%8C%E7%AC%AC%E5%8D%81%E5%AD%A3%E9%98%B5%E5%AE%B9%23",
+          "type": "platform"
+        },
+        {
+          "name": "微博热榜：曝王牌对王牌10新增常驻王一博",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9D%E7%8E%8B%E7%89%8C%E5%AF%B9%E7%8E%8B%E7%89%8C10%E6%96%B0%E5%A2%9E%E5%B8%B8%E9%A9%BB%E7%8E%8B%E4%B8%80%E5%8D%9A%23",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-24T19:57:19.976Z"
+    },
+    {
+      "id": "chinese-food-global-attention",
+      "rank": 5,
+      "title": "“一道中国菜”登双榜：美食创作者可从菜品故事走向地方饮食语境",
+      "brief": "微博与百度均出现关于中国菜的同题条目。若未核到当事场景和菜名，先做地方饮食、翻译误差或“如何介绍一道菜”的通用内容，而非补写细节。",
+      "category": "美食与文化",
+      "momentum": "peak",
+      "urgency": "today",
+      "heat": 86,
+      "crossPlatform": 2,
+      "mathFit": 66,
+      "visualFit": 92,
+      "lifeFit": 91,
+      "questionDensity": 70,
+      "priority": 86,
+      "platforms": [
+        {
+          "id": "weibo",
+          "rank": 1,
+          "score": 99.5,
+          "trend": "高位"
+        },
+        {
+          "id": "baidu",
+          "rank": 12,
+          "score": 83,
+          "trend": "高位"
+        }
+      ],
+      "keywords": [
+        "中国菜",
+        "美食文化",
+        "地方风味",
+        "国际传播"
+      ],
+      "mathAngles": [
+        "从一道菜的食材、工序、地域三层讲故事",
+        "比较直译菜名与真实饮食语境的差别"
+      ],
+      "hooks": [
+        "一条中国菜热搜，别急着猜菜名：先把故事讲对",
+        "把“外国人爱吃中国菜”做成不空泛的一分钟"
+      ],
+      "recommendedFormat": {
+        "duration": "60 秒",
+        "structure": "热榜切入 → 菜品语境 → 家常替代做法或地图"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "微博热榜：特朗普对一道中国菜念念不忘",
+          "url": "https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E5%AF%B9%E4%B8%80%E9%81%93%E4%B8%AD%E5%9B%BD%E8%8F%9C%E5%BF%B5%E5%BF%B5%E4%B8%8D%E5%BF%98%23",
+          "type": "platform"
+        },
+        {
+          "name": "百度热榜：特朗普对一道中国菜念念不忘",
+          "url": "https://m.baidu.com/s?word=%E7%89%B9%E6%9C%97%E6%99%AE%E5%AF%B9%E4%B8%80%E9%81%93%E4%B8%AD%E5%9B%BD%E8%8F%9C%E5%BF%B5%E5%BF%B5%E4%B8%8D%E5%BF%98&sa=fyb_news",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-24T19:57:19.976Z"
+    },
+    {
+      "id": "winter-outfit-decision",
+      "rank": 6,
+      "title": "秋冬穿搭连续占据抖音热榜：生活方式账号可做“场景化决策”而不是单品堆砌",
+      "brief": "普通人秋冬穿搭、羽绒服配色和入冬选择同时在抖音榜单出现，适合按通勤、通风、清洗频率与预算制作可复用选择表。",
+      "category": "时尚与生活方式",
+      "momentum": "steady",
+      "urgency": "today",
+      "heat": 82,
+      "crossPlatform": 1,
+      "mathFit": 74,
+      "visualFit": 96,
+      "lifeFit": 96,
+      "questionDensity": 78,
+      "priority": 85,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 8,
+          "score": 89,
+          "trend": "高位"
+        },
+        {
+          "id": "douyin",
+          "rank": 9,
+          "score": 87.5,
+          "trend": "高位"
+        },
+        {
+          "id": "douyin",
+          "rank": 19,
+          "score": 72.5,
+          "trend": "在榜"
+        }
+      ],
+      "keywords": [
+        "秋冬穿搭",
+        "羽绒服",
+        "通勤",
+        "配色"
+      ],
+      "mathAngles": [
+        "用温度、活动量、预算做穿搭决策矩阵",
+        "把配色争论转化为光线与打理成本的选择"
+      ],
+      "hooks": [
+        "羽绒服选浅色还是黑色？先回答这四个生活问题",
+        "穿搭不是单品题，是一张通勤场景表"
+      ],
+      "recommendedFormat": {
+        "duration": "45–60 秒",
+        "structure": "三条热榜 → 场景矩阵 → 选项建议 → 评论区征集"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "抖音热榜：普通人秋冬有效穿搭",
+          "url": "https://www.douyin.com/search/%E6%99%AE%E9%80%9A%E4%BA%BA%E7%A7%8B%E5%86%AC%E6%9C%89%E6%95%88%E7%A9%BF%E6%90%AD",
+          "type": "platform"
+        },
+        {
+          "name": "抖音热榜：羽绒服你喜欢浅色还是黑色",
+          "url": "https://www.douyin.com/search/%E7%BE%BD%E7%BB%92%E6%9C%8D%E4%BD%A0%E5%96%9C%E6%AC%A2%E6%B5%85%E8%89%B2%E8%BF%98%E6%98%AF%E9%BB%91%E8%89%B2",
+          "type": "platform"
+        },
+        {
+          "name": "抖音热榜：请选择你的入冬穿搭",
+          "url": "https://www.douyin.com/search/%E8%AF%B7%E9%80%89%E6%8B%A9%E4%BD%A0%E7%9A%84%E5%85%A5%E5%86%AC%E7%A9%BF%E6%90%AD",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-24T19:57:19.976Z"
+    },
+    {
+      "id": "northeast-bathing-industry",
+      "rank": 7,
+      "title": "“东北洗浴很卷吗”跨三榜出现：本地生活内容可讲服务体验与商业模型",
+      "brief": "同一话题在抖音、微博和百度出现，适合采访消费者和经营者，拆解套餐、停留时长、翻台与季节性；不要仅用“卷”概括行业。",
+      "category": "本地生活与商业",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 84,
+      "crossPlatform": 3,
+      "mathFit": 87,
+      "visualFit": 87,
+      "lifeFit": 93,
+      "questionDensity": 86,
+      "priority": 88,
+      "platforms": [
+        {
+          "id": "douyin",
+          "rank": 32,
+          "score": 53,
+          "trend": "在榜"
+        },
+        {
+          "id": "weibo",
+          "rank": 41,
+          "score": 39.5,
+          "trend": "在榜"
+        },
+        {
+          "id": "baidu",
+          "rank": 8,
+          "score": 89,
+          "trend": "高位"
+        }
+      ],
+      "keywords": [
+        "东北洗浴",
+        "本地生活",
+        "服务业",
+        "消费体验"
+      ],
+      "mathAngles": [
+        "用客单价、停留时长、复购率解释服务业竞争",
+        "把“体验升级”拆成可观察的服务节点"
+      ],
+      "hooks": [
+        "洗浴为什么能上热榜？不是“卷”一个字能解释的",
+        "一间洗浴中心的一天，客流和体验如何互相拉扯？"
+      ],
+      "recommendedFormat": {
+        "duration": "75–90 秒",
+        "structure": "热榜街访 → 消费者旅程 → 简单经营模型 → 本地观察"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "抖音热榜：东北的洗浴已经这么卷了吗",
+          "url": "https://www.douyin.com/search/%E4%B8%9C%E5%8C%97%E7%9A%84%E6%B4%97%E6%B5%B4%E5%B7%B2%E7%BB%8F%E8%BF%99%E4%B9%88%E5%8D%B7%E4%BA%86%E5%90%97",
+          "type": "platform"
+        },
+        {
+          "name": "微博热榜：东北的洗浴已经这么卷了吗",
+          "url": "https://s.weibo.com/weibo?q=%E4%B8%9C%E5%8C%97%E7%9A%84%E6%B4%97%E6%B5%B4%E5%B7%B2%E7%BB%8F%E8%BF%99%E4%B9%88%E5%8D%B7%E4%BA%86%E5%90%97",
+          "type": "platform"
+        },
+        {
+          "name": "百度热榜：东北的洗浴已经这么卷了吗",
+          "url": "https://m.baidu.com/s?word=%E4%B8%9C%E5%8C%97%E7%9A%84%E6%B4%97%E6%B5%B4%E5%B7%B2%E7%BB%8F%E8%BF%99%E4%B9%88%E5%8D%B7%E4%BA%86%E5%90%97&sa=fyb_news",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-24T19:57:19.976Z"
+    },
+    {
+      "id": "ai-short-drama-debate",
+      "rank": 8,
+      "title": "AI 短剧讨论升温：影视创作者可比较制作效率、叙事质量与标注责任",
+      "brief": "知乎出现 AI 短剧讨论，B站热门榜也有多条 AI 影视内容；可用案例对比镜头、角色一致性和版权标注，而非仅以“爆火”判断内容价值。",
+      "category": "AI与影视",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 83,
+      "crossPlatform": 2,
+      "mathFit": 88,
+      "visualFit": 95,
+      "lifeFit": 74,
+      "questionDensity": 91,
+      "priority": 89,
+      "platforms": [
+        {
+          "id": "zhihu",
+          "rank": 4,
+          "score": 95,
+          "trend": "高位"
+        },
+        {
+          "id": "bilibili",
+          "rank": 9,
+          "score": 87.5,
+          "trend": "在榜"
+        },
+        {
+          "id": "bilibili",
+          "rank": 15,
+          "score": 78.5,
+          "trend": "在榜"
+        }
+      ],
+      "keywords": [
+        "AI短剧",
+        "AI影视",
+        "叙事",
+        "创作工具"
+      ],
+      "mathAngles": [
+        "建立镜头一致性、角色连贯性、信息透明度三维评价表",
+        "比较制作速度与可控性，不把效率等同于质量"
+      ],
+      "hooks": [
+        "AI短剧火了，观众真正买单的是效率还是故事？",
+        "一分钟看懂 AI 影视最该标注的三件事"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90 秒",
+        "structure": "热榜切入 → 样本对比 → 评价维度 → 透明标注提示"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "知乎热榜：AI 短剧《丑狐》爆火后引发大量讨论，它能戳中观众的核心原因是什么？",
+          "url": "https://www.zhihu.com/question/2108451365806776772",
+          "type": "platform"
+        },
+        {
+          "name": "B站热榜：153分钟超长大合集！【末日来临，我从吃丧尸开始成神！】第1季+第2季完整版【AI全民制作人】",
+          "url": "https://www.bilibili.com/video/BV16nyXzyEuQ",
+          "type": "platform"
+        },
+        {
+          "name": "B站热榜：对质",
+          "url": "https://www.bilibili.com/video/BV1szyHzwEg9",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-24T19:57:19.976Z"
+    },
+    {
+      "id": "consumer-brand-sales",
+      "rank": 9,
+      "title": "旺仔牛奶销售讨论双榜出现：消费内容应把情绪记忆、渠道变化与销量证据分开",
+      "brief": "微博和百度均出现同题条目。适合用“品牌记忆为什么强、现实销售该看什么数据”做消费观察；未拿到公司披露或可靠统计前，不应断言销量变化原因。",
+      "category": "消费与品牌",
+      "momentum": "rising",
+      "urgency": "today",
+      "heat": 81,
+      "crossPlatform": 2,
+      "mathFit": 84,
+      "visualFit": 76,
+      "lifeFit": 92,
+      "questionDensity": 83,
+      "priority": 84,
+      "platforms": [
+        {
+          "id": "weibo",
+          "rank": 9,
+          "score": 87.5,
+          "trend": "高位"
+        },
+        {
+          "id": "baidu",
+          "rank": 16,
+          "score": 77,
+          "trend": "在榜"
+        }
+      ],
+      "keywords": [
+        "旺仔牛奶",
+        "消费品牌",
+        "销量",
+        "渠道"
+      ],
+      "mathAngles": [
+        "区分情绪热度、搜索热度和实际销售口径",
+        "用货架、价格、渠道三个可观察变量做街头调查"
+      ],
+      "hooks": [
+        "童年品牌上热搜，销量到底该看什么？",
+        "别把热搜当财报：一条消费讨论的证据清单"
+      ],
+      "recommendedFormat": {
+        "duration": "60 秒",
+        "structure": "热榜切入 → 三种数据口径 → 线下观察 → 待核来源"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "微博热榜：旺仔牛奶更不好卖了",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%97%BA%E4%BB%94%E7%89%9B%E5%A5%B6%E6%9B%B4%E4%B8%8D%E5%A5%BD%E5%8D%96%E4%BA%86%23",
+          "type": "platform"
+        },
+        {
+          "name": "百度热榜：旺仔牛奶更不好卖了",
+          "url": "https://m.baidu.com/s?word=%E6%97%BA%E4%BB%94%E7%89%9B%E5%A5%B6%E6%9B%B4%E4%B8%8D%E5%A5%BD%E5%8D%96%E4%BA%86&sa=fyb_news",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-24T19:57:19.976Z"
+    },
+    {
+      "id": "anthropic-market-volatility",
+      "rank": 10,
+      "title": "Anthropic 市场价格讨论跨榜出现：AI财经内容应先核实交易状态与数据来源",
+      "brief": "微博和百度出现 Anthropic 价格变动相关条目，但热榜标题不足以确认公司交易状态、市场类型或具体价格。可做“金融标题如何查证”的方法内容。",
+      "category": "AI与金融",
+      "momentum": "peak",
+      "urgency": "now",
+      "heat": 82,
+      "crossPlatform": 2,
+      "mathFit": 93,
+      "visualFit": 71,
+      "lifeFit": 69,
+      "questionDensity": 95,
+      "priority": 87,
+      "platforms": [
+        {
+          "id": "weibo",
+          "rank": 47,
+          "score": 30.5,
+          "trend": "在榜"
+        },
+        {
+          "id": "weibo",
+          "rank": 49,
+          "score": 27.5,
+          "trend": "在榜"
+        },
+        {
+          "id": "baidu",
+          "rank": 21,
+          "score": 69.5,
+          "trend": "在榜"
+        },
+        {
+          "id": "baidu",
+          "rank": 41,
+          "score": 39.5,
+          "trend": "在榜"
+        }
+      ],
+      "keywords": [
+        "Anthropic",
+        "AI公司",
+        "市场价格",
+        "金融核验"
+      ],
+      "mathAngles": [
+        "区分上市、私募、二级转让和盘前等不同交易语境",
+        "把百分比跌幅换回起点、终点和数据源"
+      ],
+      "hooks": [
+        "看到“AI 公司破发”，先别转：你至少要问哪四件事？",
+        "财经标题里的“价格”到底可能是哪一种价格？"
+      ],
+      "recommendedFormat": {
+        "duration": "60–75 秒",
+        "structure": "热榜标题 → 交易状态流程图 → 数据源核验 → 结论边界"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "微博热榜：Anthropic破发",
+          "url": "https://s.weibo.com/weibo?q=%23Anthropic%E7%A0%B4%E5%8F%91%23",
+          "type": "platform"
+        },
+        {
+          "name": "微博热榜：Anthropic盘前价格跌破发行价",
+          "url": "https://s.weibo.com/weibo?q=%23Anthropic%E7%9B%98%E5%89%8D%E4%BB%B7%E6%A0%BC%E8%B7%8C%E7%A0%B4%E5%8F%91%E8%A1%8C%E4%BB%B7%23",
+          "type": "platform"
+        },
+        {
+          "name": "百度热榜：Anthropic跌幅扩大至8.5%",
+          "url": "https://m.baidu.com/s?word=Anthropic%E8%B7%8C%E5%B9%85%E6%89%A9%E5%A4%A7%E8%87%B38.5%25&sa=fyb_news",
+          "type": "platform"
+        },
+        {
+          "name": "百度热榜：Anthropic上市5天即破发",
+          "url": "https://m.baidu.com/s?word=Anthropic%E4%B8%8A%E5%B8%825%E5%A4%A9%E5%8D%B3%E7%A0%B4%E5%8F%91&sa=fyb_news",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-24T19:57:19.976Z"
+    },
+    {
+      "id": "game-freedom-design",
+      "rank": 11,
+      "title": "“游戏自由度太高”登 B 站榜首：游戏创作者可讨论自由、引导与挫败感的平衡",
+      "brief": "B站榜首直接提出高自由度的反面，适合结合任务提示、失败成本和玩家目标设计做拆解，邀请观众给出具体游戏例子。",
+      "category": "游戏与设计",
+      "momentum": "peak",
+      "urgency": "today",
+      "heat": 80,
+      "crossPlatform": 1,
+      "mathFit": 86,
+      "visualFit": 89,
+      "lifeFit": 71,
+      "questionDensity": 92,
+      "priority": 85,
+      "platforms": [
+        {
+          "id": "bilibili",
+          "rank": 1,
+          "score": 99.5,
+          "trend": "高位"
+        }
+      ],
+      "keywords": [
+        "游戏自由度",
+        "关卡设计",
+        "玩家体验",
+        "引导"
+      ],
+      "mathAngles": [
+        "以选择数量、反馈速度、失败成本三轴讨论自由度",
+        "对比沙盒和线性关卡的认知负担"
+      ],
+      "hooks": [
+        "自由度越高越好吗？玩家真正缺的可能不是地图",
+        "把“开放世界累了”讲成一个可视化设计问题"
+      ],
+      "recommendedFormat": {
+        "duration": "60–90 秒",
+        "structure": "榜首观点 → 设计三轴 → 两类关卡对比 → 观众案例"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "B站热榜：游戏自由度太高也不是什么好事",
+          "url": "https://www.bilibili.com/video/BV1NzyHzwEKB",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-24T19:57:19.976Z"
+    },
+    {
+      "id": "poetry-travel-visual-story",
+      "rank": 12,
+      "title": "古诗词与旅行影像双话题上榜：文旅创作者可做“诗句—地点—镜头”可验证叙事",
+      "brief": "小红书有古诗词拍摄和河南相关话题，抖音也有昭苏美景内容。可将诗句出处、取景地点和季节条件明确标注，避免把意境营销成史实。",
+      "category": "旅行与人文",
+      "momentum": "steady",
+      "urgency": "today",
+      "heat": 76,
+      "crossPlatform": 2,
+      "mathFit": 76,
+      "visualFit": 98,
+      "lifeFit": 85,
+      "questionDensity": 76,
+      "priority": 83,
+      "platforms": [
+        {
+          "id": "xiaohongshu",
+          "rank": 2,
+          "score": 98,
+          "trend": "高位"
+        },
+        {
+          "id": "xiaohongshu",
+          "rank": 9,
+          "score": 87.5,
+          "trend": "在榜"
+        },
+        {
+          "id": "douyin",
+          "rank": 20,
+          "score": 71,
+          "trend": "在榜"
+        }
+      ],
+      "keywords": [
+        "古诗词",
+        "旅行摄影",
+        "文旅",
+        "取景"
+      ],
+      "mathAngles": [
+        "为诗句、地点、季节建立可核对的三栏脚本",
+        "用地图和镜头方向让意境内容可复现"
+      ],
+      "hooks": [
+        "古诗词里的景，真的能拍到吗？",
+        "文旅短片最动人的镜头，也该标清它在哪里"
+      ],
+      "recommendedFormat": {
+        "duration": "45–75 秒",
+        "structure": "诗句钩子 → 地图定位 → 实景镜头 → 出处与季节注记"
+      },
+      "factStatus": "needs-review",
+      "sources": [
+        {
+          "name": "小红书热榜：耗时三年拍下古诗词里的中国",
+          "url": "https://www.xiaohongshu.com/search_result?keyword=%E8%80%97%E6%97%B6%E4%B8%89%E5%B9%B4%E6%8B%8D%E4%B8%8B%E5%8F%A4%E8%AF%97%E8%AF%8D%E9%87%8C%E7%9A%84%E4%B8%AD%E5%9B%BD&type=51",
+          "type": "platform"
+        },
+        {
+          "name": "小红书热榜：原来古诗词里的河南真的存在",
+          "url": "https://www.xiaohongshu.com/search_result?keyword=%E5%8E%9F%E6%9D%A5%E5%8F%A4%E8%AF%97%E8%AF%8D%E9%87%8C%E7%9A%84%E6%B2%B3%E5%8D%97%E7%9C%9F%E7%9A%84%E5%AD%98%E5%9C%A8&type=51",
+          "type": "platform"
+        },
+        {
+          "name": "抖音热榜：李要得说天山南北昭苏最美",
+          "url": "https://www.douyin.com/search/%E6%9D%8E%E8%A6%81%E5%BE%97%E8%AF%B4%E5%A4%A9%E5%B1%B1%E5%8D%97%E5%8C%97%E6%98%AD%E8%8B%8F%E6%9C%80%E7%BE%8E",
+          "type": "platform"
+        }
+      ],
+      "updatedAt": "2026-11-24T19:57:19.976Z"
+    }
+  ]
+}
